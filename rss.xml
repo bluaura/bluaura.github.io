@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>한국 증시 브리핑 (2026.08.04)</title>
+      <link>https://bluaura.github.io/posts/2026-08-04-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-kr-market.html</guid>
+      <description>KOSPI 6,358.95(+1.62%) · KOSDAQ 780.72(+5.88%). 코스닥 사상 첫 3거래일 연속 매수 사이드카, 반도체 제외 전 업종 순환매 반등</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>투자노트를 시작하며</title>
       <link>https://bluaura.github.io/posts/2026-08-04-hello.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-hello.html</guid>
