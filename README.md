@@ -23,3 +23,16 @@ git add -A && git commit -m "post: 제목" && git push
 ```
 
 push 후 30초~1분이면 사이트에 반영됩니다.
+
+## 자동 발행 (publish.py)
+
+```bash
+export GITHUB_TOKEN=github_pat_...     # Drive: 00_Daily/github-blog-token-b64.txt (base64)
+python3 publish.py \
+  --title "제목" --tags "태그1,태그2" --summary "한 줄 요약" \
+  --slug 2026-08-08-catalyst-calendar \
+  --body /tmp/body.html
+```
+
+`--body` 는 본문 조각 HTML만 (템플릿 `tools/template.html` 이 헤더·푸터·면책조항을 붙임).
+사용 가능한 클래스: `.stats/.stat`, `.table-wrap`, `.callout`, `.num`, `.up`, `.down`, `blockquote`.
