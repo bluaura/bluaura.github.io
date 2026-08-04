@@ -100,9 +100,25 @@ def robust_push():
     if not tok:
         sys.exit("GITHUB_TOKEN 이 없어 폴백 push 불가.")
     url = f"https://bluaura:{tok}@github.com/bluaura/bluaura.github.io.git"
+
+    # 샌드박스 git 프록시(origin)는 실제 github.com 보다 뒤처진 미러를 줄 수 있다.
+    # 위쪽의 `pull --rebase origin main` 만으로는 최신 커밋을 못 받아서
+    # 직접 push 가 non-fast-forward 로 거절된다. github.com 에서 직접 fetch 한
+    # 뒤 그 위로 rebase 해야 한다.
+    noproxy = ["-c", "http.proxy=", "-c", "https.proxy="]
+    f = subprocess.run(
+        ["git", *noproxy, "fetch", "-q", url, "main"],
+        cwd=ROOT, capture_output=True, text=True,
+    )
+    if f.returncode == 0:
+        subprocess.run(
+            ["git", "-c", "user.name=bluaura", "-c", "user.email=bluaura@gmail.com",
+             "rebase", "-q", "FETCH_HEAD"],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+
     r2 = subprocess.run(
-        ["git", "-c", "http.proxy=", "-c", "https.proxy=",
-         "push", "-q", url, "HEAD:main"],
+        ["git", *noproxy, "push", "-q", url, "HEAD:main"],
         cwd=ROOT, capture_output=True, text=True,
     )
     if r2.returncode != 0:
