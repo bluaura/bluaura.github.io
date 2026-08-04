@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.04)</title>
+      <link>https://bluaura.github.io/posts/2026-08-04-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-us-market.html</guid>
+      <description>S&amp;P 500 7,601.41(+1.49%) · NASDAQ 25,913.90(+2.13%) · Dow 53,178.41(+1.32%, 사상 최고 종가). 이란 타격 보류로 유가 5% 급락, Amazon 시총 3조 달러 첫 돌파, Palantir 매출 +93% 서프라이즈</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.08.04)</title>
       <link>https://bluaura.github.io/posts/2026-08-04-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-macro.html</guid>
