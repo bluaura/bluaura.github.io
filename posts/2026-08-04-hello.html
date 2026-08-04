@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>투자노트를 시작하며 · 블루오라 투자노트</title>
+<meta name="description" content="시장 브리핑, 섹터 로테이션, 개별 종목 심층 분석과 실적 리뷰를 기록으로 남깁니다.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="투자노트를 시작하며">
+<meta property="og:description" content="시장 브리핑, 섹터 로테이션, 개별 종목 심층 분석과 실적 리뷰를 기록으로 남깁니다.">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>투자노트를 시작하며</h1>
+    <p class="sub"><span class="tag">공지</span> &nbsp;2026-08-04</p>
+  </div>
+
+  <article class="article-body">
+
+    <p>시장을 매일 들여다보면서도 정작 판단의 근거는 머릿속에만 남고 흩어졌습니다. 지나고 나면 내가 왜 그 종목을 샀는지, 어떤 전제가 틀렸는지 복기할 방법이 없었습니다. 그래서 기록을 남기기로 했습니다.</p>
+
+    <h2>여기에 올라올 것들</h2>
+
+    <ul>
+      <li><strong>시장 브리핑</strong> — 코스피·코스닥·나스닥의 당일 등락과 그 원인</li>
+      <li><strong>섹터 분석</strong> — 현재 주도 섹터와 향후 3개월 로테이션 시나리오</li>
+      <li><strong>종목 심층 분석</strong> — 재무 지표, 모멘텀, 리스크, 애널리스트 목표주가 수렴</li>
+      <li><strong>실적 리뷰</strong> — 분기 실적과 어닝콜 해부, 컨센서스 대비 서프라이즈 판정</li>
+      <li><strong>투자 thesis 추적</strong> — Bull/Base/Bear 시나리오와 무효화 트리거 점검</li>
+      <li><strong>매크로 브리핑</strong> — CPI·FOMC·고용지표가 시장에 미치는 영향</li>
+    </ul>
+
+    <h2>기록의 원칙</h2>
+
+    <blockquote>결론보다 근거를, 전망보다 검증 가능한 조건을 남긴다.</blockquote>
+
+    <p>"오를 것 같다"는 기록으로서 가치가 없습니다. <strong>어떤 숫자가 어떻게 되면 이 판단이 틀린 것인지</strong>를 함께 적어두는 것이 목표입니다. 그래야 나중에 복기가 됩니다.</p>
+
+    <h3>표기 예시</h3>
+
+    <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>구분</th><th class="num">현재</th><th class="num">목표</th><th class="num">괴리율</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>예시 종목 A</td><td class="num">128,500</td><td class="num">160,000</td><td class="num up">+24.5%</td></tr>
+        <tr><td>예시 종목 B</td><td class="num">72,300</td><td class="num">65,000</td><td class="num down">−10.1%</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <p>표·차트·지표 타일은 이렇게 렌더링됩니다. 상승은 빨강, 하락은 파랑으로 국내 표기 관행을 따릅니다.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="label">KOSPI</div><div class="value">—</div><div class="delta up">—</div></div>
+      <div class="stat"><div class="label">KOSDAQ</div><div class="value">—</div><div class="delta down">—</div></div>
+      <div class="stat"><div class="label">NASDAQ</div><div class="value">—</div><div class="delta up">—</div></div>
+      <div class="stat"><div class="label">USD/KRW</div><div class="value">—</div><div class="delta">—</div></div>
+    </div>
+
+    <div class="disclaimer">
+      이 블로그의 모든 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>

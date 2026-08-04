@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>블루오라 투자노트</title>
+  <link>https://bluaura.github.io</link>
+  <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
+  <language>ko</language>
+    <item>
+      <title>투자노트를 시작하며</title>
+      <link>https://bluaura.github.io/posts/2026-08-04-hello.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-hello.html</guid>
+      <description>시장 브리핑, 섹터 로테이션, 개별 종목 심층 분석과 실적 리뷰를 기록으로 남깁니다. 이 블로그가 어떻게 굴러가는지 정리했습니다.</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+</channel></rss>
