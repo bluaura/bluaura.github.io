@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.08.04) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. EU AI Act 투명성 의무 8월 2일 발효, Alibaba Qwen3.8-Max와 MIT 라이선스 DeepSeek-V4-Flash 공개, OpenAI GPT-5.6 Luna API 가격 80% 인하">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.08.04)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. EU AI Act 투명성 의무 8월 2일 발효, Alibaba Qwen3.8-Max와 MIT 라이선스 DeepSeek-V4-Flash 공개, OpenAI GPT-5.6 Luna API 가격 80% 인하">
+<meta property="article:published_time" content="2026-08-04">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.08.04)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-08-04</p>
+  </div>
+
+  <article class="article-body">
+<p>수집 기간: <strong>2026-07-28 ~ 2026-08-04</strong> (KST 기준 최근 7일)</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델·업데이트</div><div class="value">7건</div></div>
+  <div class="stat"><div class="label">최대 인프라 투자</div><div class="value">2,500억달러</div></div>
+  <div class="stat"><div class="label">EU AI Act 발효</div><div class="value">8월 2일</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+
+<div class="callout">
+  <p><strong>1. EU AI Act 투명성 의무가 실제로 발효됐다.</strong> 8월 2일부터 European Commission의 AI Office가 국가 감독기관과 함께 집행을 시작했다. general-purpose AI 모델 제공자와 AI 생성 콘텐츠 표기 의무가 적용 대상이며, EU 시장에 서비스를 내놓는 앱 개발자에게는 더 이상 유예 기간이 없는 실무 이슈다.</p>
+  <p><strong>2. 중국 모델이 프런티어를 따라붙었다.</strong> Alibaba가 2.4조 파라미터 MoE인 Qwen3.8-Max를, DeepSeek이 MIT 라이선스 오픈소스 DeepSeek-V4-Flash-0731을 같은 주에 내놨다. 벤치마크 기준으로 Anthropic·OpenAI 최신 모델과 비교 가능한 수준이라는 평가가 나온다.</p>
+  <p><strong>3. 자율 AI 에이전트의 첫 실제 사이버 침해가 문서화됐다.</strong> Hugging Face가 공개한 포렌식 리포트는 사람의 지시 없이 4.5일간 17,600회 이상 행동한 에이전트 공격을 기록했다. 에이전트를 프로덕션에 붙이는 모든 팀의 위협 모델이 바뀌는 사건이다.</p>
+</div>
+
+<h2>모델 출시·업데이트 (7건)</h2>
+
+<h3>1. Alibaba, Qwen3.8-Max 공개 — 2.4조 파라미터 MoE, 1M 컨텍스트</h3>
+<p>Alibaba Cloud가 Qwen 계열 최대 모델인 Qwen3.8-Max를 발표했다. 총 2.4조 파라미터 규모의 Mixture-of-Experts 구조에 1M 토큰 컨텍스트 윈도를 지원한다. Bloomberg는 벤치마크 점수가 Anthropic 최신 모델과 견줄 수준이라고 전했으며, open-weights 공개에 앞서 API로 먼저 개방됐다.</p>
+<p>출처: <a href="https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release">South China Morning Post</a>, <a href="https://siliconangle.com/2026/08/03/alibaba-debuts-qwen3-8-max-model-2-4t-parameters/">SiliconANGLE</a> (2026-08-03)</p>
+
+<h3>2. DeepSeek, DeepSeek-V4-Flash-0731을 MIT 라이선스로 오픈소스화</h3>
+<p>DeepSeek이 프로덕션급 V4-Flash의 0731 빌드를 공개했다. agentic 태스크와 코딩 성능이 크게 개선됐고, MIT 라이선스로 배포되어 상업적 활용 제약이 사실상 없다. Hugging Face에 가중치가 올라와 있어 자체 호스팅이 가능하다.</p>
+<p>출처: <a href="https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/">MarkTechPost</a>, <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">Hugging Face</a> (2026-07-31)</p>
+
+<h3>3. Thinking Machines, Inkling-Small 오픈 웨이트 공개 — SWE-Bench Verified 80.2%</h3>
+<p>총 276B / 활성 12B 파라미터의 MoE 모델로, 코딩 태스크에서 같은 회사의 975B 모델을 앞섰다. SWE-Bench Verified 80.2%를 기록했고 가격은 100만 토큰당 입력 $0.30 / 출력 $1.20이다. 활성 파라미터가 작아 온프레미스·엣지 배포 여지가 크다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-28)</p>
+
+<h3>4. OpenAI, GPT-5.6 API 가격 인하 — Luna 80% 인하</h3>
+<p>OpenAI가 GPT-5.6 계열 API 가격을 조정했다. Luna는 80%, Terra는 20% 인하됐다. 회사는 모델이 직접 작성한 최적화로 서빙 비용 20%, 토큰 생성 효율 15%를 개선해 인하 여력이 생겼다고 설명했다. API 기반 서비스의 단가 구조를 다시 계산해볼 만한 폭이다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-30)</p>
+
+<h3>5. OpenAI, GPT-Transcribe / GPT-Live-Transcribe 출시</h3>
+<p>신규 음성 인식 모델로 단어 오류율(WER) 8.98%를 기록해 Whisper-1의 15.21% 대비 큰 폭으로 개선됐다. 키워드·언어 힌트를 넣는 context-aware 전사를 지원하며 가격은 시간당 배치 $0.27, 실시간 $1.02다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-28)</p>
+
+<h3>6. xAI, Grok Voice Think Fast 2.0 공개</h3>
+<p>Speech-to-Speech Quality Index 82.9점, 첫 오디오까지 0.70초의 저지연 음성 모델이다. 분당 $0.08로 책정됐고 Starlink 고객 지원에 실제 배포됐다. 실시간 음성 UX를 붙이려는 앱에 현실적인 선택지가 하나 더 늘었다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-28)</p>
+
+<h3>7. Google DeepMind, Lyria 3.5 음악 생성 모델 공개</h3>
+<p>BPM과 키를 지정해 3분 길이의 완결된 곡을 생성한다. Gemini를 통해 립싱크 뮤직비디오까지 만들 수 있으며 Flow Music iOS 앱에서 무료로 제공된다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-29)</p>
+
+<h2>정책·규제 (5건)</h2>
+
+<h3>8. EU AI Act 투명성 의무 발효, AI Office 집행 개시</h3>
+<p>8월 2일부터 European Commission이 국가 감독기관과 함께 AI Act 집행을 시작했다. 동시에 새 투명성 규칙이 적용된다. general-purpose AI 모델 제공자의 문서화 의무, AI 생성·조작 콘텐츠 표기 의무가 핵심이며, EU 이용자를 대상으로 하는 서비스는 국적과 무관하게 적용 대상이다.</p>
+<p>출처: <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714">European Commission</a> (2026-08-02)</p>
+
+<h3>9. EU, AI Act 일부 규칙 변경 및 기한 연장 확정</h3>
+<p>Digital Omnibus 논의 과정에서 EU가 고위험(high-risk) AI 관련 일부 의무의 적용 시점을 늦추고 규칙을 조정하기로 했다. 8월 2일 발효분과 이후 단계가 분리되면서, 어떤 의무가 지금 적용되고 어떤 것이 유예됐는지 구분이 실무상 중요해졌다.</p>
+<p>출처: <a href="https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines">Latham &amp; Watkins</a> (2026-07)</p>
+
+<h3>10. 미국, 주(州) AI 법에 대한 연방 심사 행정명령</h3>
+<p>White House가 주 단위 AI 입법을 연방 차원에서 검토·견제하는 내용의 Executive Order에 서명했다. 주별로 파편화된 규제를 연방 정책 프레임워크로 묶으려는 시도로, 캘리포니아·콜로라도 등 자체 AI 법을 둔 주와의 충돌 소지가 남아 있다.</p>
+<p>출처: <a href="https://www.whitecase.com/insight-alert/state-ai-laws-under-federal-scrutiny-key-takeaways-executive-order-establishing">White &amp; Case</a>, <a href="https://www.paulhastings.com/insights/client-alerts/president-trump-signs-executive-order-challenging-state-ai-laws">Paul Hastings</a></p>
+
+<h3>11. 한국 AI 기본법 시행령 개정 — 2026년 하반기가 분수령</h3>
+<p>국내 AI 기본법이 시행에 들어간 가운데 시행령 개정 논의가 진행 중이다. 고영향 AI 판정 기준, 생성물 표시 의무, 해외 사업자의 국내대리인 지정 등이 쟁점이며, EU AI Act의 새 국면과 맞물려 국내외 규제가 동시에 조여지는 구도다.</p>
+<p>출처: <a href="https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=223727">법률신문</a></p>
+
+<h3>12. Trump Media 실시간 게시물 API 출시, 민주당 상원의원 SEC 조사 요청</h3>
+<p>Trump Media가 시장에 영향을 주는 게시물을 실시간으로 제공하는 유료 데이터 API를 내놨다. 민주당 상원의원들은 정보 비대칭과 내부자 거래 소지를 이유로 SEC 조사를 요청했다. AI 트레이딩 봇에 공급되는 데이터의 공정성 문제로 확장될 사안이다.</p>
+<p>출처: <a href="https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026">BuildFastWithAI</a> (2026-08-01)</p>
+
+<h2>산업 동향·기업 (6건)</h2>
+
+<h3>13. Nvidia, OpenAI 인프라에 2,500억 달러 투입 계획</h3>
+<p>Nvidia가 OpenAI의 데이터센터 확장을 뒷받침하기 위해 2,500억 달러 규모의 투자를 추진하는 것으로 보도됐다. 앞서 발표된 10GW 규모 파트너십의 연장선으로, 칩 공급사가 최대 고객의 자본조달까지 떠안는 순환 구조에 대한 우려도 함께 제기된다.</p>
+<p>출처: <a href="https://www.aljazeera.com/economy/2026/7/27/nvidia-plans-250bn-push-to-bolster-openais-infrastructure-ambitions">Al Jazeera</a> (2026-07-27)</p>
+
+<h3>14. Model Context Protocol 2026-07-28 스펙 공개 — 완전 stateless 아키텍처</h3>
+<p>MCP 새 스펙이 완전 무상태(stateless) 구조를 도입해 서버리스 배포가 가능해졌다. SDK 월간 다운로드는 3월 9,700만에서 5억으로 늘었다. 툴 연동 레이어를 Lambda·Cloud Run 같은 환경에 그대로 올릴 수 있게 된 점이 실무적으로 가장 크다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-28)</p>
+
+<h3>15. Hugging Face, 첫 자율 AI 에이전트 침해 포렌식 리포트 공개</h3>
+<p>사람의 개입 없이 4.5일 동안 17,600회 이상의 행동을 수행한 에이전트 기반 사이버 공격을 문서화했다. 자체 호스팅된 GLM 5.2가 노출된 시크릿을 기존 대비 4배 더 찾아냈다는 내용도 포함됐다. Hugging Face CEO는 AI가 자율적으로 동작할 때의 개발자 책임 문제를 공개적으로 제기했다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-28)</p>
+
+<h3>16. 프런티어 랩 직원 1,273명, 국제 속도 조절 공개서한 서명</h3>
+<p>Pacing the Frontier Coalition 명의로 프런티어 AI 연구소 소속 직원 1,273명이 국제적 개발 속도 조절 수단을 요구하는 공개서한에 서명했다. Ilya Sutskever, Dario Amodei, Shane Legg, John Schulman 등이 이름을 올렸다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-28)</p>
+
+<h3>17. Palantir 2분기 매출 19.4억 달러, 미국 상업 부문 149% 성장</h3>
+<p>Palantir가 시장 예상치 18억 달러를 웃도는 19.4억 달러 매출을 발표했다. 미국 상업 부문이 전년 대비 149% 성장하며 기업용 AI 도입이 실제 매출로 전환되고 있음을 보여줬다.</p>
+<p>출처: <a href="https://llm-stats.com/ai-news">LLM Stats AI News</a> (2026-08-03)</p>
+
+<h3>18. 중국, 8주 만에 최첨단 AI 모델 5개 연속 공개</h3>
+<p>Alibaba, DeepSeek, Moonshot 등 중국 기업이 8주 사이 최첨단급 모델 5종을 잇달아 내놨다. 연내 미국을 따라잡겠다는 목표가 공공연히 거론되는 상황으로, 오픈 웨이트 전략이 확산 속도를 끌어올리고 있다.</p>
+<p>출처: <a href="https://edaily.co.kr/News/Read?mediaCodeNo=257&amp;newsId=06464886645544040">이데일리</a></p>
+
+<h2>투자·M&amp;A (4건)</h2>
+
+<h3>19. Valar Atomics, 10억 달러 Series B</h3>
+<p>AI 데이터센터 전력 문제를 겨냥한 소형 원자로 스타트업이 Sequoia, Atreides, Point72로부터 10억 달러를 조달했다. 이번 주 최대 규모 라운드로, 자금이 모델이 아니라 전력·하드웨어 쪽으로 흐르는 흐름을 상징한다.</p>
+<p>출처: <a href="https://techstartups.com/2026/08/03/venture-capital-startup-funding-roundup-august-3-2026-atreides-battery-ventures-nea-sequoia-point72-more/">Tech Startups</a> (2026-08-03)</p>
+
+<h3>20. OLIX Computing, 3.12억 달러 Series B</h3>
+<p>AI 전용 컴퓨팅 인프라 기업으로, Arm과 Hudson River Trading이 참여했다. 반도체 IP 기업이 직접 전략적 투자자로 들어온 점이 특징이다.</p>
+<p>출처: <a href="https://techstartups.com/2026/08/03/venture-capital-startup-funding-roundup-august-3-2026-atreides-battery-ventures-nea-sequoia-point72-more/">Tech Startups</a> (2026-08-03)</p>
+
+<h3>21. Horizon3.ai, 2.5억 달러 Series E</h3>
+<p>자율 침투 테스트(autonomous pentest) 기업이 NEA와 NightDragon 주도로 2.5억 달러를 유치했다. AI 에이전트발 공격이 현실화되면서 방어 측 자동화에도 자금이 몰리고 있다.</p>
+<p>출처: <a href="https://techstartups.com/2026/08/03/venture-capital-startup-funding-roundup-august-3-2026-atreides-battery-ventures-nea-sequoia-point72-more/">Tech Startups</a> (2026-08-03)</p>
+
+<h3>22. P-1 AI, 5,000만 달러 Series A</h3>
+<p>엔지니어링 설계 자동화를 표방하는 P-1 AI가 NEA와 Founders Fund로부터 5,000만 달러를 조달했다. 도메인 특화 AI 에이전트 영역의 초기 라운드 규모가 계속 커지는 추세다.</p>
+<p>출처: <a href="https://techstartups.com/2026/08/03/venture-capital-startup-funding-roundup-august-3-2026-atreides-battery-ventures-nea-sequoia-point72-more/">Tech Startups</a> (2026-08-03)</p>
+
+<h2>연구·기술 (4건)</h2>
+
+<h3>23. OpenAI Astra, 미해결 수학 문제 10개 증명 — 비용 약 2,000달러</h3>
+<p>OpenAI가 차기 주력 모델 Astra를 공개하면서, 이 모델이 non-sofic group 관련 등 기존에 풀리지 않았던 수학 문제 10개를 해결했다고 발표했다. 총 연산 비용은 약 2,000달러 수준으로 알려졌다. 증명 검증 가능성이 있는 수학 영역에서 모델이 실제 새 지식을 만들어낸 사례로 평가된다.</p>
+<p>출처: <a href="https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups">The Next Web</a>, <a href="https://qz.com/openai-astra-model-math-problems-lean-proofs-080326">Quartz</a> (2026-08-03)</p>
+
+<h3>24. AI가 연구용 소프트웨어를 현대화해 최대 60배 속도 개선</h3>
+<p>OpenAI와 학계 공동 연구에서 AI가 기존 연구용 코드베이스를 자동으로 현대화해 최대 60배 실행 속도 향상을 얻었다. 다만 결과물의 과학적 타당성 자체는 시스템이 검증하지 못한다는 한계가 명시됐다. 레거시 코드 마이그레이션에 곧바로 대응되는 결과다.</p>
+<p>출처: <a href="https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026">BuildFastWithAI</a> (2026-08)</p>
+
+<h3>25. Epoch AI, AI 칩 배치량 9개월마다 2배 전망</h3>
+<p>Epoch AI 분석에 따르면 전 세계 AI 칩 배치량이 약 9개월마다 두 배로 늘고 있다. New York Times가 인용 보도했으며, 전력·부지·냉각이 다음 병목이 될 것이라는 전망과 맞물린다.</p>
+<p>출처: <a href="https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026">BuildFastWithAI</a> (2026-08-01)</p>
+
+<h3>26. Pangram 4, AI 텍스트 탐지 오탐률 24,000분의 1</h3>
+<p>Pangram Labs가 사람이 쓴 텍스트에 대한 오탐률을 24,000분의 1까지 낮춘 탐지 모델을 공개했다. 13종의 humanizer 우회 도구에 대해 98.8% 탐지율을 보였고, 이미지 탐지는 99.5% 정확도로 리서치 프리뷰 단계다.</p>
+<p>출처: <a href="https://thursdai.news/releases/2026-07">ThursdAI Release Log</a> (2026-07-28)</p>
+
+<h2>한국 AI 소식 (4건)</h2>
+
+<h3>27. 삼성전자·SK하이닉스, FMS 2026에서 포스트 HBM 주도권 대결</h3>
+<p>8월 4~6일 미국에서 열리는 FMS 2026에서 삼성전자는 셀·트랜지스터 구조를 재설계한 3D DRAM 기반 3D Memory Innovation 전략을, SK하이닉스는 HBM과 SSD 사이를 메우는 HBF(High Bandwidth Flash) 첫 표준 규격을 공개한다. SK하이닉스는 전력 대비 성능이 2.5배 개선된 375단 4D NAND도 함께 선보인다.</p>
+<p>출처: <a href="https://www.fnnews.com/news/202608041809464222">파이낸셜뉴스</a> (2026-08-04)</p>
+
+<h3>28. SK하이닉스, 40조원대 후반 설비투자로 HBM 방어전</h3>
+<p>UBS가 내년 삼성전자가 HBM4로 시장 1위를 탈환할 것으로 전망(삼성 41% vs SK하이닉스 39%)하자, SK하이닉스가 청주 M15X 양산을 앞당기고 용인 1기 팹 확대에 나섰다. 올해 점유율은 SK하이닉스 48%로 1위이며, 빅테크 메모리 수요 충족률은 60% 수준으로 최소 3년간 공급 부족이 이어질 것으로 분석된다.</p>
+<p>출처: <a href="https://biz.newdaily.co.kr/site/data/html/2026/08/03/2026080300216.html">뉴데일리</a> (2026-08-03)</p>
+
+<h3>29. 네이버 8.7%·SK텔레콤 12.4% 급등 — AI 팩토리와 독자 모델 기대</h3>
+<p>8월 4일 장중 네이버는 Nvidia·Brookfield와 추진하는 200MW 규모 AI 팩토리 투자·조달 구조가 부각되며 최고 11.57% 올랐고, SK텔레콤은 정부 독자 AI 파운데이션 모델 2차 평가를 앞두고 매수세가 몰리며 최고 13.90% 급등했다.</p>
+<p>출처: <a href="https://www.fnnews.com/news/202608041103430206">파이낸셜뉴스</a> (2026-08-04)</p>
+
+<h3>30. 정부 독자 AI 파운데이션 모델 2단계 — LG·SKT·업스테이지 진출</h3>
+<p>정부의 독자 AI 파운데이션 모델 사업 1차 평가에서 LG, SK텔레콤, 업스테이지가 통과했고 네이버·카카오·NC는 패자부활전에 불참했다. 국내 대표 플랫폼 기업이 국책 모델 경쟁에서 빠지면서 한국 AI 생태계의 축이 통신·제조 대기업 쪽으로 이동하는 모습이다.</p>
+<p>출처: <a href="https://www.inthenews.co.kr/news/article.html?no=81999">인더뉴스</a>, <a href="https://www.newstheai.com/news/articleView.html?idxno=10649">더에이아이</a></p>
+
+<h2>트렌드 종합</h2>
+
+<blockquote>
+<p>이번 주 흐름은 세 축으로 정리된다. 첫째, <strong>규제가 문서에서 집행으로 넘어갔다.</strong> EU AI Act 투명성 의무 발효와 미국의 주 AI 법 연방 심사 행정명령, 한국 AI 기본법 시행령 개정이 같은 주에 겹쳤다. 둘째, <strong>중국 오픈 웨이트 모델이 가격·성능 양쪽에서 압박을 걸고 있다.</strong> Qwen3.8-Max와 MIT 라이선스 DeepSeek-V4-Flash가 나온 직후 OpenAI가 GPT-5.6 Luna 가격을 80% 내린 것은 우연으로 보기 어렵다. 셋째, <strong>돈은 모델이 아니라 전력과 하드웨어로 간다.</strong> Nvidia의 2,500억 달러 OpenAI 인프라 계획, 소형 원자로 스타트업 Valar Atomics의 10억 달러 라운드, 9개월마다 두 배로 늘어나는 칩 배치량이 같은 이야기를 하고 있다.</p>
+</blockquote>
+
+<div class="callout warn">
+<p><strong>리스크 체크.</strong> Hugging Face가 문서화한 자율 에이전트 침해 사건은 4.5일간 사람의 지시 없이 17,600회 넘게 행동했다. 에이전트에 자격증명과 네트워크 접근을 주는 순간 이건 가정이 아니라 실제 위협 모델이 된다. 여기에 프런티어 랩 직원 1,273명이 개발 속도 조절을 요구하는 공개서한에 서명한 것, Nvidia가 최대 고객의 자본조달까지 떠안는 순환 구조 논란까지 겹치면서 이번 주는 AI 산업이 자체 리스크를 공개적으로 인정한 주이기도 하다.</p>
+</div>
+
+<h2>개발자 관점 시사점</h2>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr><th>영역</th><th>이번 주 변화</th><th>대응</th></tr>
+</thead>
+<tbody>
+<tr><td>API 비용</td><td>GPT-5.6 Luna 80% 인하, Terra 20% 인하</td><td>기존 단가 기준 원가 계산 재검토. Luna 급으로 다운그레이드 가능한 경로 재평가</td></tr>
+<tr><td>오픈소스 모델</td><td>DeepSeek-V4-Flash MIT 라이선스, Inkling-Small 오픈 웨이트(활성 12B)</td><td>라이선스 제약 없는 자체 호스팅 옵션 확보. 활성 파라미터 12B면 단일 GPU 서빙 검토 가능</td></tr>
+<tr><td>툴 연동</td><td>MCP 2026-07-28 스펙, 완전 stateless</td><td>MCP 서버를 서버리스로 이전 검토. SDK 다운로드 5억 돌파로 사실상 표준화</td></tr>
+<tr><td>음성 기능</td><td>GPT-Transcribe WER 8.98%, Grok Voice 지연 0.70초·분당 $0.08</td><td>Whisper 기반 파이프라인 교체 시 정확도 40% 이상 개선 여지</td></tr>
+<tr><td>규제 대응</td><td>EU AI Act 투명성 의무 8월 2일 발효</td><td>EU 이용자 대상 앱은 AI 생성 콘텐츠 표기, GPAI 모델 사용 고지 즉시 점검</td></tr>
+<tr><td>보안</td><td>자율 에이전트 침해 사례 문서화, 자율 pentest 기업에 2.5억 달러 유입</td><td>에이전트에 부여한 토큰·권한 범위 감사. 시크릿 스캐닝 상시화</td></tr>
+<tr><td>레거시 코드</td><td>AI 코드 현대화로 최대 60배 속도 개선 사례</td><td>성능 병목 있는 레거시 모듈에 에이전트 마이그레이션 시범 적용. 단 검증은 사람 몫</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>가장 실질적인 한 줄: <strong>이번 주는 API 단가와 오픈소스 라이선스가 동시에 유리해진 주다.</strong> 원가 구조를 다시 짜기 좋은 타이밍이고, 대신 EU 서비스라면 8월 2일자 표기 의무를 먼저 막아두는 게 순서다.</p>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>

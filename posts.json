@@ -7,6 +7,17 @@
   },
   "posts": [
     {
+      "slug": "2026-08-04-ai-weekly",
+      "title": "AI 주간 브리핑 (2026.08.04)",
+      "date": "2026-08-04",
+      "tags": [
+        "AI",
+        "주간브리핑",
+        "테크"
+      ],
+      "summary": "이번 주 AI 업계 주요 소식 30건. EU AI Act 투명성 의무 8월 2일 발효, Alibaba Qwen3.8-Max와 MIT 라이선스 DeepSeek-V4-Flash 공개, OpenAI GPT-5.6 Luna API 가격 80% 인하"
+    },
+    {
       "slug": "2026-08-04-us-market",
       "title": "미국 증시 브리핑 (2026.08.04)",
       "date": "2026-08-04",
