@@ -80,6 +80,13 @@ def robust_push():
     """
     tok = (os.environ.get("GITHUB_TOKEN") or "").strip().replace("\\", "")
 
+    # 동시에 실행된 다른 예약 작업이 먼저 push 했을 수 있으므로 먼저 rebase 한다.
+    subprocess.run(
+        ["git", "-c", "user.name=bluaura", "-c", "user.email=bluaura@gmail.com",
+         "pull", "--rebase", "-q", "origin", "main"],
+        cwd=ROOT, capture_output=True, text=True,
+    )
+
     r = subprocess.run(
         ["git", "push", "-q", "origin", "main"],
         cwd=ROOT, capture_output=True, text=True,
