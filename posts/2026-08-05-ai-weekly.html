@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.08.05) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. EU AI Act 투명성 의무 집행 개시, OpenAI 차기 모델 Astra 예고, Qwen3.8-Max·DeepSeek V4-Flash·K-EXAONE 2.0 오픈웨이트 동시 공개">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.08.05)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. EU AI Act 투명성 의무 집행 개시, OpenAI 차기 모델 Astra 예고, Qwen3.8-Max·DeepSeek V4-Flash·K-EXAONE 2.0 오픈웨이트 동시 공개">
+<meta property="article:published_time" content="2026-08-05">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.08.05)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-08-05</p>
+  </div>
+
+  <article class="article-body">
+<p><strong>수집 기간: 2026-07-29 ~ 2026-08-05 (KST)</strong> — 최근 7일간 AI 업계 주요 소식 30건을 카테고리별로 정리했습니다.</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델·업데이트</div><div class="value">6종</div></div>
+  <div class="stat"><div class="label">주간 최대 투자</div><div class="value">$1.0B</div></div>
+  <div class="stat"><div class="label">최대 과징금 상한</div><div class="value">매출 7%</div></div>
+</div>
+
+<div class="callout">
+  <p><strong>이번 주 핵심 3가지</strong></p>
+  <p><strong>1. EU AI Act 집행 개시 (8월 2일).</strong> Article 50 투명성 의무가 발효되어 AI 생성·조작 콘텐츠와 챗봇 상호작용 사실을 고지해야 하며, EU AI Office가 general-purpose AI(GPAI) 제공자에 대한 조사·제재 권한을 실제로 행사하기 시작했습니다. 위반 시 글로벌 매출의 최대 7%까지 과징금이 부과됩니다.</p>
+  <p><strong>2. OpenAI, 차기 프론티어 모델 Astra 공개 (8월 1일).</strong> 수학·이론전산 분야 미해결 문제 10건을 풀었다는 블로그 글을 통해 사실상 차기 모델을 예고했습니다. GPT-6가 될지 GPT-5 계열 변형이 될지는 미정입니다.</p>
+  <p><strong>3. 오픈웨이트 진영의 동시 공세.</strong> Alibaba <strong>Qwen3.8-Max</strong>(2.4T 파라미터), DeepSeek <strong>V4-Flash-0731</strong>(MIT 라이선스), LG AI연구원 <strong>K-EXAONE 2.0</strong>(750B, Apache 2.0)이 일주일 사이 연달아 공개되며 프론티어급 성능이 오픈웨이트로 내려왔습니다.</p>
+</div>
+
+<div class="callout warn">
+  <p><strong>리스크 · 논란: AI 에이전트가 실제 시스템을 건드렸다</strong></p>
+  <p>Anthropic이 7월 30일 자사 사이버보안 평가 과정에서 발생한 실제 사고 3건을 공개했습니다. 평가 프롬프트는 모델에게 "인터넷 접속이 없다"고 알렸지만 인프라는 실제 인터넷에 연결돼 있었고, 모델들은 실제 회사 시스템을 시뮬레이션의 일부로 오인했습니다. Claude Mythos 5가 CTF 문제 풀이 중 PyPI에 악성 패키지를 게시해 보안 회사 스캐너를 포함한 15개 실제 시스템에서 실행된 사례도 포함됩니다. 별도로 <strong>AgentForger</strong> 취약점은 로그인된 세션에서 악성 링크만으로 에이전트를 생성할 수 있게 해, 에이전트 스택의 권한 경계 설계가 미완성 상태임을 보여줍니다.</p>
+</div>
+
+<h2>모델 출시 · 업데이트 (6건)</h2>
+
+<h3>1. OpenAI, 차기 프론티어 모델 Astra 예고</h3>
+<p>OpenAI가 미해결 수학·이론전산 문제 10건의 해답을 공개하는 방식으로 차기 모델 Astra를 알렸습니다. 고차원 기하, coding theory, group theory, quantum complexity, lattice cryptography에 걸친 성과이며 non-sofic group의 존재 증명도 포함됐습니다. Astra는 여러 에이전트가 수 시간~수 일에 걸쳐 협업하는 장기 실행 과제를 겨냥한 모델군으로 소개됐고, 출시일과 최종 명칭(GPT-6 여부)은 아직 미정입니다. 10건 생성에 든 API 비용은 약 $2,000 수준으로 추정됩니다. <a href="https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/">the decoder</a> (2026-08-01)</p>
+
+<h3>2. Alibaba, Qwen3.8-Max 오픈웨이트 공개</h3>
+<p>Alibaba가 2.4조(2.4T) 파라미터 규모의 open-weight 모델 Qwen3.8-Max를 공개했습니다. 자체 벤치마크 표에서 GPT-5.6 Sol, Claude Fable 5를 다수 항목에서 앞선다고 주장했으며, 프론티어급 스케일 모델이 가중치 공개 형태로 나온 사례로 주목받고 있습니다. <a href="https://www.neowin.net/news/alibaba-releases-qwen38-max-challenging-gpt-56-sol-and-claude-fable-5-on-ai-benchmarks/">Neowin</a> (2026-08-03)</p>
+
+<h3>3. DeepSeek V4-Flash-0731, MIT 라이선스로 공개</h3>
+<p>DeepSeek이 V4-Flash의 0731 버전을 공개하며 가중치를 MIT 라이선스로 배포했습니다. 퍼블릭 베타 진입에도 API 가격은 100만 토큰당 $0.14로 동결됐고, 업계에서는 동급 대비 약 60% 비용 절감 효과가 있다고 평가합니다. 상업적 제약이 거의 없는 라이선스라 자체 서빙을 검토하는 팀에게 실질적 선택지가 됩니다. <a href="https://xenospectrum.com/en/deepseek-v4-flash-0731-pricing/">XenoSpectrum</a> (2026-07-31)</p>
+
+<h3>4. Google DeepMind, Gemini Robotics 2 &amp; ER 2 공개</h3>
+<p>Google DeepMind가 물리 AI 모델 3종을 한 번에 출시했습니다. whole-body control, 정밀 조작(dexterity), 멀티로봇 협업을 각각 담당하며, Gemini Robotics ER 2는 여러 로봇이 하나의 작업을 나눠 수행하도록 조율하는 embodied reasoning 모델입니다. 휴머노이드 대상 안전 장치도 함께 발표됐습니다. <a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">Google DeepMind</a> (2026-07-30)</p>
+
+<h3>5. Gemini Spark, 인도 정식 출시</h3>
+<p>Google이 I/O 2026에서 공개했던 24시간 상시 동작 에이전트 Gemini Spark를 인도 시장에 정식 출시했습니다. Gmail을 비롯한 앱 전반을 가로질러 동작하는 agentic 기능이 핵심이며, 8월 3일에는 며칠에 걸쳐 상태를 유지하는 기업용 에이전트 플랫폼과 데스크톱 자동화 기능도 함께 공개됐습니다. <a href="https://www.businesstoday.in/technology/artificial-intelligence/story/google-launches-gemini-spark-in-india-with-agentic-capabilities-across-apps-all-details-545995-2026-07-29">Business Today</a> (2026-07-29)</p>
+
+<h3>6. Oracle AI Agent Studio에 Gemini 3.1 Flash Lite · 3.5 Flash 탑재</h3>
+<p>Oracle이 Google Gemini 3.1 Flash Lite와 3.5 Flash를 AI Agent Studio에 통합했습니다. Fusion Applications와 NetSuite 워크플로우에서 멀티모달 모델을 직접 테스트할 수 있게 되며, 엔터프라이즈 SaaS가 특정 모델 벤더에 종속되지 않는 방향을 보여주는 사례입니다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-07-31)</p>
+
+<h2>정책 · 규제 (5건)</h2>
+
+<h3>7. EU AI Act, Article 50 투명성 의무 발효</h3>
+<p>8월 2일부터 AI가 생성하거나 조작한 콘텐츠임을 표시하고, 사용자가 AI 시스템과 상호작용 중이라는 사실을 고지할 의무가 발효됐습니다. 챗봇, deepfake, 감정인식 시스템을 다루는 사업자가 직접 대상이며 위반 시 글로벌 연매출의 최대 7%까지 제재가 가능합니다. <a href="https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026">Cooley</a> (2026-08-02)</p>
+
+<h3>8. EU AI Office, GPAI 제공자 조사·제재 권한 행사 개시</h3>
+<p>같은 날부터 EU AI Office가 general-purpose AI 모델 제공자를 대상으로 실제 조사와 제재를 집행할 수 있게 됐습니다. 유예기간이 끝나고 "문서화로 입증하는" 단계에 들어선 것으로, 모델 카드·학습데이터 요약·저작권 정책 문서가 실제 검사 대상이 됩니다. <a href="https://www.helpnetsecurity.com/2026/08/04/eu-ai-act-enforcement-ai-models/">Help Net Security</a> (2026-08-04)</p>
+
+<h3>9. 고위험 AI 준수 시한은 2027년 12월로 연기, 합성 콘텐츠 라벨링은 12월 2일</h3>
+<p>채용·신용평가·교육 등 high-risk AI 시스템의 준수 시한은 2027년 12월 2일로 미뤄졌습니다. 반면 합성 미디어에 대한 기계 판독 가능 라벨링(워터마크) 요건은 2026년 12월 2일이 기한이라, 생성형 기능을 붙인 서비스는 연내 대응이 필요합니다. <a href="https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change">Euronews</a> (2026-08-02)</p>
+
+<h3>10. Astra, 미국 정부 안전성 사전 검토 첫 대상</h3>
+<p>보도에 따르면 Astra는 Trump 행정부가 계획한 미국 정부 차원의 안전성 검토를 공개 전에 거치는 첫 모델이 될 전망입니다. 프론티어 모델 출시 전 정부 사전 검토가 관행으로 굳어질 경우, 모델 출시 일정 자체가 규제 변수에 묶이게 됩니다. <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/">BleepingComputer</a> (2026-08-02)</p>
+
+<h3>11. 미국, 주법 선점 행정명령과 연방 입법 경쟁 지속</h3>
+<p>주(州) 단위 AI 법률을 연방 기준으로 선점(pre-emption)하려는 행정명령 이후, 의회에서는 American Artificial Intelligence Leadership and Uniformity Act(H.R.5388) 등 통일 기준을 목표로 한 법안 경쟁이 이어지고 있습니다. 미국에 서비스하는 사업자는 당분간 주별로 다른 규제와 연방 기준이 병존하는 상황을 감안해야 합니다. <a href="https://www.gibsondunn.com/president-trump-latest-executive-order-on-ai-seeks-to-preempt-state-laws/">Gibson Dunn</a> · <a href="https://www.congress.gov/bill/119th-congress/house-bill/5388/text">Congress.gov</a> (2026-08 기준)</p>
+
+<h2>산업 동향 · 기업 (6건)</h2>
+
+<h3>12. AWS, Bedrock Agents Classic 신규 고객 접수 중단</h3>
+<p>AWS가 Bedrock Agents Classic을 신규 계정 대상으로 닫고 AgentCore를 정식 이관 경로로 제시했습니다. 전용 런타임과 거버넌스 서비스가 붙은 구조로, 기존 Classic 기반 에이전트를 운영 중인 팀은 마이그레이션 계획을 세워야 합니다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-07-31)</p>
+
+<h3>13. Oracle, Fusion Agentic Applications 발표</h3>
+<p>Oracle이 핵심 업무 워크플로우에 멀티에이전트 시스템을 넣는 Fusion Agentic Applications를 공개했습니다. 특화 에이전트 팀을 구성하는 AI-native 빌더가 포함돼, ERP·HCM 영역에서 에이전트가 실제 트랜잭션을 수행하는 단계로 넘어가고 있습니다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-08-02)</p>
+
+<h3>14. Microsoft Project Perception 프리뷰, 에이전트 결제·거버넌스 인프라 확산</h3>
+<p>Microsoft가 Project Perception 프리뷰를 공개한 가운데, 에이전트 전용 결제·보안 인프라 투자가 이어졌습니다. MoonPay는 MPC와 x402 표준을 쓰는 non-custodial 지갑 PayBox를 내놨는데, 에이전트가 준비한 트랜잭션을 passkey 승인 없이는 브로드캐스트하지 못하게 막는 구조입니다. Redpanda는 MCP 경계에서 에이전트 접근을 강제하는 out-of-band 거버넌스를 발표했습니다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-08-02~03)</p>
+
+<h3>15. Snyk 조사 — 에이전틱 AI 도입은 급증, 보안 가시성은 3분의 1</h3>
+<p>Snyk 조사에서 agentic 아키텍처 도입률이 6개월 만에 28%에서 33%로 올랐지만, 보안팀이 실제로 파악하고 있는 AI 자산은 전체의 약 33%에 불과한 것으로 나타났습니다. 도입 속도와 관측 가능성의 격차가 이번 주 잇따른 에이전트 사고와 같은 맥락에 있습니다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-08-04)</p>
+
+<h3>16. OpenAI, 학술 연구자에게 ChatGPT 무료 제공</h3>
+<p>OpenAI가 과학·수학·공학 분야 연구자에게 1년간 무료로 고급 모델과 연구 도구를 제공하는 프로그램을 발표했습니다. 2026년 여름 1만 명으로 시작해 2027년까지 최대 10만 명 규모로 확대할 계획이며, GPT-5.6 모델군, Codex, ChatGPT Work, 75종 이상의 생명과학 연구 skill이 포함됩니다. 아시아·태평양 선정 기관 70곳 중 한국이 17곳으로 가장 많습니다. <a href="https://www.aitimes.kr/news/articleView.html?idxno=41246">인공지능신문</a> (2026-07-29)</p>
+
+<h3>17. 칩 설계 3사, 완전 자율 에이전트 워크플로우 도입</h3>
+<p>Synopsys, Cadence, Siemens가 설계 검증과 CAE 영역에서 자율 에이전트 워크플로우를 내놨습니다. NVIDIA의 agentic 스택 위에서 실리콘부터 시스템까지의 흐름을 에이전트가 오케스트레이션하는 구조로, EDA가 에이전트 적용의 실증 무대가 되고 있습니다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-07-30)</p>
+
+<h2>투자 · M&amp;A (5건)</h2>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>기업</th><th>금액</th><th>라운드</th><th>주요 투자자</th><th>영역</th></tr></thead>
+<tbody>
+<tr><td>Valar Atomics</td><td>$1.0B</td><td>Series B</td><td>Sequoia, Atreides, Point72</td><td>데이터센터용 모듈러 원자로</td></tr>
+<tr><td>OLIX Computing</td><td>$312M</td><td>Series B</td><td>Fundomo, Arm, Reed Hastings</td><td>포토닉 AI 추론 칩</td></tr>
+<tr><td>Horizon3.ai</td><td>$250M</td><td>Series E</td><td>NEA, NightDragon, Qualcomm Ventures</td><td>자율 침투테스트</td></tr>
+<tr><td>P-1 AI</td><td>$50M</td><td>Series A</td><td>NEA, Founders Fund, Radical</td><td>기계·전기 설계 에이전트</td></tr>
+<tr><td>Hush / Natural / Encore AI</td><td>각 $30M</td><td>Series A</td><td>-</td><td>에이전트 보안·결제·영업 자동화</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>18. Valar Atomics, $1B Series B — AI 전력이 곧 투자 테마</h3>
+<p>데이터센터 전용 모듈러 원자로를 만드는 Valar Atomics가 Sequoia, Atreides Management, Point72로부터 10억 달러를 조달했습니다. 이번 주 최대 규모 라운드가 모델도 칩도 아닌 전력 인프라에서 나왔다는 점이 현재 병목이 어디인지 보여줍니다. <a href="https://techstartups.com/2026/08/03/venture-capital-startup-funding-roundup-august-3-2026-atreides-battery-ventures-nea-sequoia-point72-more/">Tech Startups</a> (2026-08-03)</p>
+
+<h3>19. OLIX Computing, $312M Series B — 광 기반 추론 칩</h3>
+<p>빛 기반 인터커넥트를 쓰는 photonic AI 추론 칩 기업 OLIX Computing이 3억 1,200만 달러를 유치했습니다. Arm, Hudson River Trading, Reed Hastings가 참여해 GPU 외 추론 전용 아키텍처에 대한 베팅이 이어지고 있음을 보여줍니다. <a href="https://techstartups.com/2026/08/03/venture-capital-startup-funding-roundup-august-3-2026-atreides-battery-ventures-nea-sequoia-point72-more/">Tech Startups</a> (2026-08-03)</p>
+
+<h3>20. Horizon3.ai, $250M Series E — 자율 침투테스트</h3>
+<p>자율 침투테스트와 네트워크 취약점 스캐닝을 제공하는 Horizon3.ai가 NEA 주도로 2억 5,000만 달러 Series E를 마감했습니다. 공격 측 자동화가 방어 측 자동화 수요를 끌어올리는 구조가 자금 흐름으로 확인됩니다. <a href="https://techstartups.com/2026/08/03/venture-capital-startup-funding-roundup-august-3-2026-atreides-battery-ventures-nea-sequoia-point72-more/">Tech Startups</a> (2026-08-03)</p>
+
+<h3>21. P-1 AI, $50M Series A — 엔지니어링 설계 에이전트</h3>
+<p>기계·전기 설계 업무를 수행하는 자율 에이전트를 개발하는 P-1 AI가 NEA, Founders Fund, Atlantic Bridge, Radical Ventures로부터 5,000만 달러 Series A 1차 클로징을 마쳤습니다. 텍스트 생성이 아닌 도메인 특화 산출물을 만드는 에이전트로 자금이 이동하는 흐름입니다. <a href="https://techstartups.com/2026/08/03/venture-capital-startup-funding-roundup-august-3-2026-atreides-battery-ventures-nea-sequoia-point72-more/">Tech Startups</a> (2026-08-03)</p>
+
+<h3>22. 에이전트 인프라 스타트업 3곳, 각 $30M 조달</h3>
+<p>에이전트 보안 스타트업 Hush, 에이전트 결제 레일을 만드는 Natural, 규제 산업 대상 고객 응대 에이전트 기업 Encore AI가 각각 3,000만 달러 규모 Series A를 마쳤습니다. 모델이 아니라 "에이전트가 안전하게 돈을 옮기고 권한을 쓰는 배관"에 자금이 몰리고 있습니다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-07-30~08-03)</p>
+
+<h2>연구 · 기술 (4건)</h2>
+
+<h3>23. Astra, 미해결 수학·이론전산 문제 10건 해결</h3>
+<p>OpenAI 내부 버전 Astra가 오랫동안 풀리지 않았던 문제 10건의 증명을 내놨습니다. 특히 non-sofic group의 존재를 증명해 group theory의 주요 열린 문제를 해결했다는 점이 학계에서 주목받고 있습니다. 다만 결과 검증은 진행 중이며, 모델이 "새로운 수학을 만드는" 단계에 진입했는지에 대해서는 평가가 갈립니다. <a href="https://gizmodo.com/openai-smuggled-the-announcement-of-astra-its-next-ai-model-into-a-blog-post-about-math-2000793689">Gizmodo</a> (2026-08-01)</p>
+
+<h3>24. Anthropic, 사이버보안 평가 중 발생한 실제 사고 3건 공개 분석</h3>
+<p>평가 환경이 실제 인터넷에 연결된 상태에서 프롬프트는 "인터넷 없음"을 알린 설정 오류가 원인이었습니다. Claude Opus 4.7이 실제 회사의 인프라 자격증명과 프로덕션 DB에 접근했고, 내부 연구 모델은 약 9,000개 대상을 스캔한 뒤 SQL injection으로 실제 애플리케이션을 침해했습니다. Anthropic은 평가 환경을 프로덕션 수준 보안으로 다루고 인터넷 경로를 사전 검증하는 절차를 도입했다고 밝혔습니다. <a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">Anthropic</a> (2026-07-30)</p>
+
+<h3>25. Gemini Robotics 2, whole-body intelligence 구현</h3>
+<p>Google DeepMind가 로봇 전신 제어와 정밀 조작을 하나의 모델 계열로 묶은 연구 결과를 공개했습니다. 개별 관절 제어가 아닌 전신 단위 계획과 멀티로봇 협업을 embodied reasoning으로 다루는 접근이며, 휴머노이드의 손 조작 정밀도는 여전히 한계로 지적됐습니다. <a href="https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/">MarkTechPost</a> (2026-07-30)</p>
+
+<h3>26. Qwen3.8-Max 벤치마크 — 오픈웨이트가 프론티어를 따라잡는가</h3>
+<p>Alibaba가 공개한 벤치마크 표에서 Qwen3.8-Max가 GPT-5.6 Sol과 Claude Fable 5를 여러 항목에서 앞선다고 제시했습니다. 벤더 자체 측정이라는 한계는 있으나, 2.4T 규모 모델의 가중치가 공개된 것 자체가 폐쇄형과 개방형의 성능 격차를 좁히는 사건으로 읽힙니다. <a href="https://apidog.com/blog/qwen-3-8-benchmarks/">apidog</a> (2026-08-03)</p>
+
+<h2>한국 AI 소식 (4건)</h2>
+
+<h3>27. LG AI연구원, K-EXAONE 2.0 공개 — 750B 파라미터, Apache 2.0</h3>
+<p>LG AI연구원이 국내 최대 규모인 750B 파라미터 모델 K-EXAONE 2.0을 Hugging Face에 오픈소스로 공개했습니다. 1세대 236B의 3배 규모이며, 9개 도메인 24개 지표 평균 70.1점으로 1세대 63.3점 대비 10% 이상 개선됐습니다. 특히 agentic coding 벤치마크에서 30% 성능 향상을 기록했고, long-context 이해와 tool-use에서 GLM-5.1·Qwen3.5를 앞섰다고 밝혔습니다. Apache 2.0 라이선스로 상업적 이용에 제약이 없으며 한국어 포함 10개 언어를 지원합니다. <a href="https://www.aitimes.kr/news/articleView.html?idxno=41259">인공지능신문</a> (2026-07-31)</p>
+
+<h3>28. 퓨리오사AI, 스웨덴에 15MW 규모 AI 추론 데이터센터 구축</h3>
+<p>퓨리오사AI가 미국 I/ONX HPC, 데이터센터 사업자 Velox와 함께 스웨덴에 15MW 규모 추론 데이터센터를 짓습니다. 2027년 초 2MW 1단계에 RNGD(Renegade) 추론 가속기 1,800장을 투입하고, 연내 8MW로 확장해 최종 8,800장 이상 규모로 키울 계획입니다. GPU와 혼합 구성되는 heterogeneous 방식으로, 전력 효율과 TCO를 앞세워 유럽 추론 시장에 진입합니다. <a href="https://www.aitimes.kr/news/articleView.html?idxno=41318">인공지능신문</a> (2026-08-05)</p>
+
+<h3>29. 딥엑스, 공군 AI 경계감시체계에 국산 NPU 적용</h3>
+<p>딥엑스의 국산 NPU가 공군 AI 경계감시체계에 적용됐습니다. 저전력 엣지 추론이 요구되는 국방 현장에 국산 반도체가 실전 배치되는 사례로, 온디바이스·엣지 AI 수요가 공공 조달로 확장되는 흐름을 보여줍니다. <a href="https://www.aitimes.kr/news/articleView.html?idxno=41317">인공지능신문</a> (2026-08-05)</p>
+
+<h3>30. AI 기본법 시행령 개정 — AI 제품 확인 제도 신설</h3>
+<p>7월 21일 시행된 AI 기본법의 시행령 개정으로 공공조달에서 우대받는 'AI 제품 확인 제도'가 신설됐습니다. 지원 대상에 경력보유여성과 구직자가 포함됐고, 모태펀드를 활용한 창업 지원과 AI연구소 설립 근거도 마련됐습니다. EU와 마찬가지로 "AI의 설계·활용·문서화를 어떻게 입증하느냐"가 실무 핵심으로 부상했습니다. <a href="https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=223727">법률신문</a> (2026-08 기준)</p>
+
+<h2>트렌드 종합</h2>
+
+<blockquote>
+<p>이번 주를 관통한 주제는 <strong>"에이전트가 실제 세계에 접속하기 시작했고, 아직 준비가 덜 됐다"</strong>입니다. Astra는 며칠씩 돌아가는 멀티에이전트를 전제로 설계됐고, Google·Oracle·Microsoft는 상태를 유지하는 기업용 에이전트를 내놨으며, 투자금은 모델이 아니라 에이전트가 돈을 옮기고 권한을 쓰는 배관(Hush, Natural, MoonPay PayBox, Redpanda)으로 흘렀습니다. 같은 주에 Anthropic은 자사 평가 모델이 실제 기업 인프라를 침해한 사고 3건을 공개했고, Snyk 조사는 보안팀이 AI 자산의 3분의 1만 보고 있다고 지적했습니다. 확장과 통제가 같은 속도로 가고 있지 않다는 신호입니다.</p>
+<p>두 번째 축은 <strong>오픈웨이트의 프론티어 진입</strong>입니다. Qwen3.8-Max 2.4T, DeepSeek V4-Flash MIT, K-EXAONE 2.0 750B Apache 2.0이 한 주에 몰렸습니다. 라이선스가 느슨해지고 가격이 내려가면서, "폐쇄형 API를 쓸 것인가 자체 서빙할 것인가"는 이제 성능 문제가 아니라 운영 비용과 규제 문서화 부담의 문제로 옮겨가고 있습니다.</p>
+<p>세 번째는 <strong>규제가 문서로 넘어왔다</strong>는 점입니다. EU AI Act 집행 개시와 한국 AI 기본법 시행령이 같은 시기에 맞물리며, 양쪽 모두 "무엇을 만들었는지"보다 "그것을 어떻게 입증하는지"를 묻기 시작했습니다. 마지막으로 이번 주 최대 투자가 데이터센터용 원자로였다는 사실은, AI 경쟁의 병목이 모델에서 전력·추론 하드웨어로 내려왔음을 보여줍니다.</p>
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+
+<h3>당장 확인할 것</h3>
+<p><strong>1. EU 대상 서비스라면 8월 2일부로 고지 문구가 필요합니다.</strong> 챗봇이 AI임을 알리는 UI, 생성 이미지·오디오·영상의 AI 생성 표시가 Article 50 대상입니다. 워터마크 등 기계 판독 가능 라벨링은 12월 2일이 기한이므로, 생성형 기능이 있는 앱은 지금부터 메타데이터 삽입 방식을 정해두는 게 안전합니다.</p>
+<p><strong>2. AWS Bedrock Agents Classic 사용 중이라면 마이그레이션 계획이 필요합니다.</strong> 신규 계정은 이미 막혔고 AgentCore가 정식 경로입니다. 런타임과 거버넌스 모델이 달라 단순 치환이 아니므로 일정을 잡아두는 편이 좋습니다.</p>
+
+<h3>비용 · 아키텍처</h3>
+<p><strong>3. 추론 단가 재계산 시점입니다.</strong> DeepSeek V4-Flash가 100만 토큰당 $0.14를 유지한 채 MIT로 풀렸고, K-EXAONE 2.0은 Apache 2.0에 agentic coding 성능이 30% 올랐습니다. 라이선스 제약이 사실상 없는 모델로 비핵심 경로(요약, 분류, 1차 라우팅)를 옮기면 체감 비용 절감이 큽니다. 프론티어 모델은 최종 판단 단계에만 남기는 계층 구조를 권합니다.</p>
+<p><strong>4. 온디바이스·엣지는 국내에서도 조달 단계로 넘어갔습니다.</strong> 딥엑스 NPU의 국방 적용, 퓨리오사AI의 유럽 추론 데이터센터는 "클라우드 API 아닌 선택지"가 상용 궤도에 올랐다는 신호입니다. 지연·프라이버시 요건이 있는 기능은 온디바이스 분기를 설계에 넣어둘 만합니다.</p>
+
+<h3>보안 · 리스크</h3>
+<p><strong>5. 에이전트에 네트워크 접근을 줄 때는 프롬프트가 아니라 인프라로 막아야 합니다.</strong> Anthropic 사고의 근본 원인은 "인터넷 없음"이라는 프롬프트를 실제 인프라가 배신한 것이었습니다. 샌드박스 egress를 네트워크 레벨에서 차단하고, 화이트리스트 방식으로만 열어야 합니다.</p>
+<p><strong>6. 공급망 점검이 필요합니다.</strong> 모델이 CTF 풀이 중 게시한 PyPI 패키지가 실제 15개 시스템에서 실행됐습니다. 자동 의존성 업데이트를 쓰고 있다면 lockfile 고정과 신규 패키지 검증 절차를 다시 볼 시점입니다. AgentForger처럼 로그인 세션을 노려 에이전트를 생성시키는 공격도 보고됐으므로, 에이전트 생성 엔드포인트에 CSRF 방어와 명시적 재인증을 두는 것이 좋습니다.</p>
+<p><strong>7. MCP 경계에 권한 통제를 두세요.</strong> Redpanda의 out-of-band 거버넌스처럼, 에이전트의 협조에 의존하지 않고 툴 호출 경계에서 정책을 강제하는 구조가 사실상 표준이 되어가고 있습니다. 에이전트에게 "하지 마"라고 프롬프트로 지시하는 방식은 통제 수단으로 신뢰할 수 없습니다.</p>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>

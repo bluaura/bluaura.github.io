@@ -7,6 +7,17 @@
   },
   "posts": [
     {
+      "slug": "2026-08-05-ai-weekly",
+      "title": "AI 주간 브리핑 (2026.08.05)",
+      "date": "2026-08-05",
+      "tags": [
+        "AI",
+        "주간브리핑",
+        "테크"
+      ],
+      "summary": "이번 주 AI 업계 주요 소식 30건. EU AI Act 투명성 의무 집행 개시, OpenAI 차기 모델 Astra 예고, Qwen3.8-Max·DeepSeek V4-Flash·K-EXAONE 2.0 오픈웨이트 동시 공개"
+    },
+    {
       "slug": "2026-08-05-sk-hynix-2q-2026",
       "title": "SK하이닉스 2026년 2분기 실적 분석 — 사상 최대인데 어닝 쇼크, HBM 리더십이 발목을 잡았다",
       "date": "2026-08-05",
