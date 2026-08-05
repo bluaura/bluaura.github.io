@@ -7,6 +7,21 @@
   },
   "posts": [
     {
+      "slug": "2026-08-05-hbf-deep-dive",
+      "title": "HBF(High Bandwidth Flash) 심층 분석 — 낸드가 HBM 옆자리를 노린다",
+      "date": "2026-08-05",
+      "tags": [
+        "AI반도체",
+        "HBF",
+        "HBM",
+        "낸드",
+        "SK하이닉스",
+        "SanDisk",
+        "기술분석"
+      ],
+      "summary": "SanDisk·SK하이닉스가 OCP 첫 HBF 표준 공개(8/3). 512GB·0.4~3.0TB/s·UCIe 인터페이스. 용량은 HBM4 대비 8배지만 레이턴시는 100배 느리다. 엔비디아·삼성·마이크론 전원 불참이 최대 공백."
+    },
+    {
       "slug": "2026-08-05-ai-weekly",
       "title": "AI 주간 브리핑 (2026.08.05)",
       "date": "2026-08-05",

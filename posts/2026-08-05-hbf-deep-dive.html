@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HBF(High Bandwidth Flash) 심층 분석 — 낸드가 HBM 옆자리를 노린다 · 블루오라 투자노트</title>
+<meta name="description" content="SanDisk·SK하이닉스가 OCP 첫 HBF 표준 공개(8/3). 512GB·0.4~3.0TB/s·UCIe 인터페이스. 용량은 HBM4 대비 8배지만 레이턴시는 100배 느리다. 엔비디아·삼성·마이크론 전원 불참이 최대 공백.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HBF(High Bandwidth Flash) 심층 분석 — 낸드가 HBM 옆자리를 노린다">
+<meta property="og:description" content="SanDisk·SK하이닉스가 OCP 첫 HBF 표준 공개(8/3). 512GB·0.4~3.0TB/s·UCIe 인터페이스. 용량은 HBM4 대비 8배지만 레이턴시는 100배 느리다. 엔비디아·삼성·마이크론 전원 불참이 최대 공백.">
+<meta property="article:published_time" content="2026-08-05">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>HBF(High Bandwidth Flash) 심층 분석 — 낸드가 HBM 옆자리를 노린다</h1>
+    <p class="sub"><span class="tag">AI반도체</span><span class="tag">HBF</span><span class="tag">HBM</span><span class="tag">낸드</span><span class="tag">SK하이닉스</span><span class="tag">SanDisk</span><span class="tag">기술분석</span> &nbsp;2026-08-05</p>
+  </div>
+
+  <article class="article-body">
+<div class="stats">
+  <div class="stat">
+    <div class="label">HBF 최대 용량</div>
+    <div class="value">512GB</div>
+    <div class="delta up">HBM4 대비 8배</div>
+  </div>
+  <div class="stat">
+    <div class="label">대역폭 (3등급)</div>
+    <div class="value">0.4~3.0TB/s</div>
+    <div class="delta up">HBM4 1스택 2TB/s 초과</div>
+  </div>
+  <div class="stat">
+    <div class="label">레이턴시</div>
+    <div class="value">약 10μs</div>
+    <div class="delta down">HBM 대비 100배 이상 느림</div>
+  </div>
+  <div class="stat">
+    <div class="label">컨소시엄 참여</div>
+    <div class="value">4곳</div>
+    <div class="delta down">엔비디아·삼성·마이크론 불참</div>
+  </div>
+</div>
+
+<blockquote>
+2026년 8월 3일 SanDisk와 SK하이닉스가 Open Compute Project를 통해 업계 첫 HBF(High Bandwidth Flash) 기술 표준을 공개했다.
+낸드를 HBM처럼 쌓아 AI 추론용 메모리 계층을 하나 더 만들겠다는 시도다.
+기술 서사는 설득력 있고 표준화 속도도 예상보다 빨랐지만, 정작 최대 수요처인 엔비디아·AMD·삼성·마이크론이 전부 빠져 있다.
+</blockquote>
+
+<h2>1. HBF는 일반 낸드와 무엇이 다른가</h2>
+
+<p>일반 NAND 다이 하나의 대역폭은 약 4.8GB/s다. SSD는 이를 8~16채널로 묶어 PCIe로 내보낸다.
+즉 낸드의 대역폭 한계는 셀 자체가 아니라 <strong>인터페이스와 채널 수</strong>에서 온다. HBF는 여기를 파고든다.</p>
+
+<h3>핵심 발상 — 어레이를 수천 개로 쪼갠다</h3>
+
+<p>SanDisk의 표현을 그대로 옮기면 "거대한 어레이를 아주 많은 수의 어레이로 쪼개서 각각을 병렬로 액세스한다"다.
+기존 낸드의 block/page/plane 계층을 넘어 <strong>수천 개의 독립 서브어레이</strong>로 분할하고, 각 서브어레이가 자체 read 채널을 갖는다.
+개별 읽기는 여전히 마이크로초 단위로 느리지만, 수천 개를 동시에 돌려 총대역폭을 만드는 구조다.
+패키징만으로 기존 PCIe 5.0 NVMe 낸드 대비 약 100배 대역폭이 나온다는 주장이다.</p>
+
+<h3>CBA — 이걸 가능하게 한 물리적 전제조건</h3>
+
+<p>CBA(CMOS directly Bonded to Array)는 3D 낸드 셀 어레이 웨이퍼와, 선단 로직 공정으로 별도 제조한 주변회로 웨이퍼를 직접 본딩하는 방식이다.
+기존 낸드는 주변회로가 셀 어레이와 같은 공정에 묶여 있어 로직 성능이 낸드 공정에 종속된다.</p>
+
+<p>왜 중요한가. 서브어레이를 수천 개로 쪼개면 센스앰프·디코더·I/O 회로가 폭증한다.
+CBA 없이는 이 회로 오버헤드를 감당할 다이 면적과 전력이 나오지 않는다.
+<strong>CBA는 병렬 서브어레이 분할의 인에이블러</strong>이며, HBF 서사의 기술적 출발점이다.</p>
+
+<h3>물리 구조</h3>
+
+<ul>
+  <li>16개 코어 다이 + 베이스 로직 다이 구성, TSV로 적층 다이를 컨트롤러에 연결</li>
+  <li>OCP 표준은 8단(8-Hi)과 16단(16-Hi) 두 가지를 정의</li>
+  <li>일반 3D 낸드가 아닌 <strong>전용 HBF 코어 다이</strong>를 사용 (SanDisk BiCS 기반, 332 active layers)</li>
+  <li>HBM4와 동일한 풋프린트·스택 높이·전력 프로파일을 목표</li>
+  <li>낸드 다이는 DRAM보다 얇고 층수가 많아 적층 시 휨(warpage) 제어가 난제 — SanDisk가 독자 기술을 강조하는 지점</li>
+</ul>
+
+<p>참고로 다이 간 적층이 마이크로범프인지 하이브리드 본딩인지, 채널·의사채널 수가 몇 개인지는 <span class="tag">미공개</span>다.</p>
+
+<h2>2. HBM 대비 실제 스펙 — 무엇을 얻고 무엇을 잃는가</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th>항목</th>
+      <th>HBM4 (1스택)</th>
+      <th>HBF</th>
+      <th>판정</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>용량</td><td class="num">64GB</td><td class="num">512GB</td><td class="up">HBF 8배 우위</td></tr>
+    <tr><td>대역폭</td><td class="num">약 2TB/s</td><td class="num">0.4~3.0TB/s</td><td class="up">최상위 등급은 HBF 우위</td></tr>
+    <tr><td>레이턴시</td><td class="num">약 100ns</td><td class="num">약 10μs</td><td class="down">HBM 100~1000배 우위</td></tr>
+    <tr><td>쓰기 수명</td><td>사실상 무한</td><td class="num">약 10만회 P/E</td><td class="down">HBF 치명적 제약</td></tr>
+    <tr><td>최소 읽기 단위</td><td class="num">64B</td><td class="num">128B</td><td class="down">HBF 불리</td></tr>
+    <tr><td>리프레시 전력</td><td>필요</td><td>불필요 (비휘발성)</td><td class="up">HBF 우위</td></tr>
+    <tr><td>단위 가격</td><td class="num">$15.5~16.7/GB</td><td class="num">$1~2/GB (역산 추정)</td><td class="up">HBF 우위</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>가격 항목은 부연이 필요하다. 엔터프라이즈 낸드는 $0.18/GB인데 HBF 역산치는 $1~2/GB로 5~11배 비싸다.
+TSV·CBA·16단 적층·인터포저 패키징 프리미엄이 붙기 때문이다.
+따라서 "낸드 가격으로 HBM 용량"이 아니라 <strong>"HBM 가격으로 HBM 대비 8~16배 용량"</strong>이 정확한 표현이다.
+밀도의 근원은 물리다. 낸드는 5~15Gb/mm², DRAM은 0.2~0.3Gb/mm²로 20~50배 차이가 난다.</p>
+
+<div class="callout warn">
+  <strong>표준 문서에 없는 것</strong> — 실측 레이턴시, 쓰기 내구성 스펙, ECC 오버헤드, 열 방출 경로, TSV 본딩 방법론.
+  SanDisk도 SK하이닉스도 지금까지 이 숫자들을 한 번도 공개한 적이 없다.
+  현재 유통되는 성능 수치는 전부 벤더 주장이며 제3자 실리콘 벤치마크는 존재하지 않는다.
+</div>
+
+<h2>3. 인터페이스 전환 — 가장 덜 보도된 변화</h2>
+
+<p>이 지점이 이번 표준에서 가장 중요한 전략적 변경인데 상대적으로 조명받지 못했다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>시점</th><th>인터페이스 전략</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025년 2월 ~ 2026년 초</td>
+      <td>"HBM4 PHY 레벨 호환, 기존 인터포저 인프라 재사용 가능" (단 drop-in replacement는 아니라고 명시)</td>
+    </tr>
+    <tr>
+      <td><strong>2026년 8월 OCP 표준</strong></td>
+      <td><strong>UCIe 채택</strong> (64 lanes, 최대 64GT/s). SanDisk는 이를 "xPU-HBF 인터페이스"로 호칭</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>HBM 전용 PHY에 묶이면 GPU 벤더 한 곳에 종속되지만, UCIe는 칩렛 생태계 표준이라 커스텀 ASIC·NPU도 붙일 수 있다.
+<strong>HBM 인터포저 재사용이라는 초기 세일즈 포인트를 버리고 이종 프로세서 유연성을 택한 전략 변경</strong>이며,
+엔비디아·AMD 미참여 상황과 묶어서 읽어야 할 신호다.</p>
+
+<p>표준화 창구가 JEDEC이 아니라 OCP인 것도 같은 맥락이다. SanDisk는 OCP의 목표 지향적 워크스트림이 실시간 반복을 가능하게 한다고 설명했다.
+실제로 2026년 2월 25일 워크스트림 개시 후 <strong>6개월 만에 첫 규격이 나왔다.</strong> 다만 JEDEC 표준이 아니라는 점은 메모리 업계 정통성 측면의 약점이기도 하다.</p>
+
+<h2>4. 포지션 — 대체재가 아니라 새 계층, 그러나 슬롯은 가져간다</h2>
+
+<p>공식 표현은 "공존(coexist)"이다. SK하이닉스는 HBF를 "HBM과 SSD 사이에 놓이는 새로운 메모리 계층"으로 규정했고,
+SanDisk CTO Alper Ilkbahar는 "HBM의 drop-in replacement가 될 수 없다"고 명시적으로 선을 그었다.</p>
+
+<h3>제안된 메모리 계층</h3>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>계층</th><th>담당 데이터</th><th>이유</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>HBM</td><td>KV캐시, activation, attention</td><td>토큰마다 갱신되는 쓰기 집약 데이터</td></tr>
+    <tr><td><strong>HBF</strong></td><td><strong>모델 가중치, MoE expert</strong></td><td><strong>추론 중 절대 쓰이지 않는 읽기 전용 데이터</strong></td></tr>
+    <tr><td>SSD</td><td>콜드 스토리지</td><td>대용량 저빈도</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>HBF가 추론에 맞는 기술적 근거는 세 가지다.
+첫째, <strong>사전학습 가중치는 frozen</strong>이라 낸드의 쓰기 약점이 노출되지 않는다.
+둘째, 디코드 단계의 메모리 액세스 패턴이 결정론적이라 <strong>프리페치로 마이크로초 레이턴시를 파이프라인에 숨길 수 있다.</strong>
+셋째, 순차적 대용량 스트리밍이라 128B granularity 제약이 문제되지 않는다.</p>
+
+<p>MoE에서 특히 유리하다. 토큰마다 전체 파라미터 중 극히 일부 expert만 활성화되므로,
+거대하지만 대부분 idle인 expert 가중치를 고용량 저비용 계층에 두는 것이 구조적으로 합리적이다.</p>
+
+<h3>그런데 패키지 레벨에서는 실제로 HBM을 치환한다</h3>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>구성</th><th>스택 배치</th><th class="num">총 용량</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>현행 AI GPU</td><td>HBM 8스택</td><td class="num">192GB</td></tr>
+    <tr><td>하이브리드</td><td>HBM + HBF 혼합</td><td class="num up">3TB</td></tr>
+    <tr><td>HBF 전량</td><td>HBF 8스택</td><td class="num up">4TB</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>동일 인터포저 위에서 HBM 스택을 HBF로 치환하는 것이 명시적 설계 시나리오다.
+GPT-4급 1.8조 파라미터 모델(FP16 기준 3.6TB)을 단일 GPU 패키지에 전량 탑재할 수 있다는 뜻이다.
+<strong>"HBM을 죽인다"가 아니라 "HBM 슬롯의 일부를 가져간다"가 정확한 표현</strong>이고, 이것이 카니발라이제이션 리스크의 실체다.</p>
+
+<h3>못 하는 것</h3>
+
+<ul>
+  <li><strong>AI 학습</strong> — 가중치 업데이트는 대량 반복 쓰기. P/E 사이클 즉시 소진</li>
+  <li><strong>KV캐시 저장</strong> — 벤더 마케팅에는 등장하지만 KV캐시는 디코딩 스텝마다 append되는 write-heavy 구조다. 기술적으로는 읽기 전용으로 재사용되는 prefix 캐시에 한정된다고 보는 것이 맞다</li>
+  <li><strong>레이턴시 민감 워크로드</strong> — 프리페치 불가능한 랜덤 액세스에서 무력</li>
+  <li><strong>범용 DRAM 대체</strong> — per-bit 레이턴시가 DRAM에 근접 불가</li>
+</ul>
+
+<h2>5. 상용화 타임라인</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>시점</th><th>마일스톤</th><th>상태</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2025-02-11</td><td>SanDisk Investor Day에서 HBF 최초 공개</td><td><span class="tag">완료</span></td></tr>
+    <tr><td>2025-07-24</td><td>기술자문위 결성 (의장: UC버클리 David Patterson, RISC 공동창시자)</td><td><span class="tag">완료</span></td></tr>
+    <tr><td>2025-08-06</td><td>SanDisk·SK하이닉스 표준화 MOU</td><td><span class="tag">완료</span></td></tr>
+    <tr><td>2026-02-25</td><td>OCP 전용 워크스트림 개시</td><td><span class="tag">완료</span></td></tr>
+    <tr><td><strong>2026-08-03</strong></td><td><strong>OCP 첫 기술 표준 규격 공개</strong></td><td><span class="tag">완료</span></td></tr>
+    <tr><td>2026 하반기</td><td>첫 HBF 샘플, 낸드 실리콘, 파일럿 라인 가동 (일본 유력)</td><td><span class="tag">예정</span></td></tr>
+    <tr><td>2027 초~중</td><td>컨트롤러 포함 완전 시스템 솔루션, 첫 AI 추론 디바이스</td><td><span class="tag">예정</span></td></tr>
+    <tr><td>2028년 이후</td><td>본격 상용화 (일부 전망은 2030년)</td><td><span class="tag">전망</span></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>6. 최대 공백 — 엔비디아가 없다</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>구분</th><th>기업</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="up">참여</td><td>SanDisk, SK하이닉스, Google, Tenstorrent</td></tr>
+    <tr><td class="down">불참</td><td>엔비디아, AMD, 인텔, 브로드컴, 마벨, 퀄컴, 마이크론, 삼성전자, Western Digital</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Jensen Huang이나 엔비디아가 HBF를 공개적으로 언급한 사례는 <strong>확인되지 않는다.</strong>
+더 중요한 것은 엔비디아가 같은 문제를 다른 방식으로 풀고 있다는 점이다.
+2026년 1월 발표한 <strong>CMX(Context Memory Storage Platform)</strong>는 BlueField-4 스토리지 프로세서에 NVMe SSD를 붙여
+LLM 추론의 KV캐시 전용 컨텍스트 계층을 만드는 구조다. 파트너사만 15곳 이상이다.</p>
+
+<p>즉 "GPU 옆에 플래시를 쌓는" HBF 방식과 "DPU 뒤에 SSD를 붙이는" 엔비디아 방식이 정면으로 갈린다.
+SK하이닉스·키옥시아가 엔비디아와 개발 중인 100M IOPS SSD가 CMX에 통합되면 HBF의 필요성 자체가 약해질 수 있다.</p>
+
+<h3>경쟁 노선이 이미 3갈래로 갈렸다</h3>
+
+<ul>
+  <li><strong>삼성전자</strong> — 컨소시엄 불참. FMS 2026에서 zHBM(가속기 위에 HBM 수직 적층, HBM5 대비 성능 최대 8배 주장)과 zNAND-O, 400단 V10 낸드를 독자 공개</li>
+  <li><strong>키옥시아</strong> — PCIe 6.0 데이지체인 방식(5TB, 64GB/s). 대역폭을 포기하고 용량과 표준성을 택함. GPU에서 더 먼 콜드 스토리지 계층 포지션</li>
+  <li><strong>엔비디아</strong> — CMX + BlueField-4 + NVMe SSD</li>
+</ul>
+
+<div class="callout warn">
+  <strong>Optane 선례</strong> — 인텔 Optane은 기술 성능이 우수했지만 어정쩡한 가격-성능 포지션과 밀도 스케일링 열위로 실패했고,
+  결정타는 유일한 볼륨 파트너였던 마이크론의 이탈이었다.
+  HBF도 현재 SanDisk와 SK하이닉스 <strong>2개 벤더 생태계</strong>다. 구조적으로 동일한 취약성을 안고 있다.
+</div>
+
+<h2>7. 시장 반응 — 랠리는 있었지만 귀인은 애매하다</h2>
+
+<p>발표는 8월 3일 미 증시 마감 후였으므로 온전한 반응일은 8월 4일이다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>종목</th><th class="num">8/4 등락</th><th>비고</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SanDisk (SNDK)</td><td class="num up">+10.8~11.5%</td><td>종가 $1,427.62</td></tr>
+    <tr><td>Micron (MU)</td><td class="num up">+6~8%</td><td>HBF 무관</td></tr>
+    <tr><td>SK하이닉스 (SKHY, 나스닥)</td><td class="num up">+3.7~4%</td><td>—</td></tr>
+    <tr><td><strong>SK하이닉스 (000660, 국내)</strong></td><td class="num up">+0.64%</td><td><strong>사실상 무반응</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>냉정하게 볼 지점이 셋 있다.</p>
+
+<p><strong>첫째, 섹터 베타가 상당 부분을 설명한다.</strong> 같은 날 마이크론이 +6~8%였다.
+HBF 순수 초과수익은 SNDK의 대(對)마이크론 스프레드 +3~5%p 수준으로 보는 것이 합리적이고,
+정작 표준을 공동 주도한 SK하이닉스 국내 주식은 발표 당일 +0.64%에 그쳤다.</p>
+
+<p><strong>둘째, 7월 대폭락 위에 얹힌 반등이다.</strong>
+SK하이닉스는 7월 6일 고점 249.7만원에서 7월 29일 저점 124.6만원까지 50% 빠졌고, 7월 13일 하루 -15.4%를 기록했다.
+SNDK도 6월 25일 $2,335에서 7월 24일 $1,436까지 38% 하락했다.
+그러다 7월 31일 코스피가 사상 최대 +17.91% 폭등하며 SK하이닉스가 첫 상한가(+29.95%)를 쳤다. 극단적 변동성 구간이다.</p>
+
+<p><strong>셋째, 이것이 가장 중요하다. HBF를 직접 근거로 목표주가를 변경한 애널리스트가 확인되지 않는다.</strong>
+8월 3~4일 RBC(Outperform 신규 $200), Stifel(Buy $240), William Blair, UBS($204)의 SK하이닉스 커버리지 개시는 전부 메모리 사이클과 HBM4 논리다.
+Goldman의 SNDK $2,200, Mizuho $1,825, BofA $2,500도 근거는 낸드 가격 사이클과 420억 달러 규모 장기공급계약(LTA)이지 HBF가 아니다.
+Mizuho만 HBF를 "시장이 아직 반영하지 않은 촉매"로 정성 언급했을 뿐 금액은 제시하지 않았다.</p>
+
+<h2>8. 매출 전망 — 신뢰 가능한 추정치가 존재하지 않는다</h2>
+
+<p>Morgan Stanley, Goldman, Citi, Mizuho, BofA와 국내 증권사 리포트를 확인한 결과,
+<strong>HBF 시장 규모를 달러 단위로 추정한 리서치는 단 한 건도 확인되지 않았다.</strong>
+SanDisk도 SK하이닉스도 HBF TAM을 공식 제시한 적이 없다. 여기서 숫자를 만들어내는 것은 근거가 없다.</p>
+
+<p>존재하는 것은 정성적 장기 전망뿐이다. KAIST 김정호 교수가 "2038년경 HBF 시장이 HBM을 넘어설 것"이라고 전망했으나 개인 견해이며 정량 모델은 없다.</p>
+
+<h3>비교 기준선 <span class="tag">확정</span></h3>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>시장</th><th class="num">2026년</th><th class="num">2027년</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>HBM</td><td class="num">546억 달러 (YoY +58%)</td><td class="num">—</td></tr>
+    <tr><td>NAND 전체</td><td class="num">1,473억 달러</td><td class="num">1,757억 달러 (+19.3%)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="callout">
+  <strong>2026~2027년 실적 기여는 사실상 0이다.</strong>
+  현 시점 HBF는 완전한 pre-revenue 서사이며, SNDK의 시가총액을 지탱하는 것은 HBF가 아니라
+  420억 달러 규모 장기공급계약과 낸드 사이클 피크 이익이다.
+</div>
+
+<h2>정리</h2>
+
+<p><strong>기술 관점</strong> — HBF의 핵심 혁신은 낸드 셀이 아니라 <strong>어레이 분할 + CBA 본딩</strong>이라는 구조 설계다.
+"느린 것을 수천 개 병렬로 돌려 빠르게 만든다"는 접근이며, 이는 레이턴시가 아니라 대역폭이 병목인 워크로드에서만 성립한다.
+AI 추론의 가중치 스트리밍이 정확히 그 조건을 만족한다. 반대로 학습·KV캐시·레이턴시 민감 작업에는 원리적으로 적용 불가다.</p>
+
+<p><strong>구조 관점</strong> — HBF는 HBM의 대항마가 아니라 HBM과 SSD 사이의 새 계층이다.
+다만 동일 패키지에서 HBM 스택을 물리적으로 치환하는 설계이므로, 추론 세그먼트에서 HBM의 단가·물량 협상력을 약화시킬 잠재력은 있다.
+SK하이닉스는 HBM과 낸드를 모두 보유해 어느 쪽이 이겨도 헤지되지만, 자체 HBM이 없는 SanDisk는 일방적으로 노출돼 있다.</p>
+
+<p><strong>확인할 변곡점 4가지</strong></p>
+
+<ol>
+  <li><strong>2026년 하반기 샘플의 실측 레이턴시·내구성</strong> — 끝까지 공개되지 않으면 그 자체가 신호다</li>
+  <li><strong>엔비디아 또는 AMD의 컨소시엄 합류</strong> — 없으면 Google·Tenstorrent 커스텀 실리콘 니치에 갇힌다</li>
+  <li><strong>삼성·마이크론의 선택</strong> — 합류할지, 경쟁 표준을 낼지, 무시할지</li>
+  <li><strong>2026년 8월 13일 SanDisk Investor Day</strong> — HBF TAM과 로드맵 첫 공식 수치가 나올 가능성이 가장 높은 자리</li>
+</ol>
+
+<p>표준화 속도(워크스트림 개시 6개월 만에 규격 공개)는 인상적이다.
+그러나 표준은 blueprint이지 제품이 아니다. 실물 실리콘, 수율, 가격, 그리고 무엇보다 <strong>고객</strong>이 아직 검증되지 않았다.
+Blocks &amp; Files의 정리가 가장 정확하다 — 업계 표준이 있고 엔비디아가 채택하면 미래가 있다. 둘 중 하나라도 없으면 고전한다.
+조건 1은 8월 3일 충족됐고, 조건 2는 여전히 미충족이다.</p>
+
+<h2>주요 출처</h2>
+
+<ul>
+  <li><a href="https://www.sandisk.com/company/newsroom/press-releases/2026/2026-08-03-Sandisk-and-sk-hynix-advance-global-standardization-of-hbf">SanDisk — HBF OCP 첫 표준 규격 발표 (2026.8.3)</a></li>
+  <li><a href="https://news.skhynix.co.kr/hbf-at-fms-2026/">SK하이닉스 뉴스룸 — HBF 첫 표준 규격 공개 / FMS 2026</a></li>
+  <li><a href="https://www.tomshardware.com/pc-components/ssds/sandisk-and-sk-hynix-unveil-hbf-spec-up-to-16-hi-nand-stacks-3-tb-s-bandwidth-ucie">Tom's Hardware — HBF 스펙 및 미참여 기업 리스트</a></li>
+  <li><a href="https://semiengineering.com/flash-getting-stacked-high-bandwidth-version/">SemiEngineering — 공개 스펙의 구조적 공백</a></li>
+  <li><a href="https://www.chipstrat.com/p/high-bandwidth-flash-the-full-report">Chipstrat — High Bandwidth Flash 심층 분석</a></li>
+  <li><a href="https://spectrum.ieee.org/high-bandwidth-flash">IEEE Spectrum — HBF 기술 개관</a></li>
+  <li><a href="https://xenospectrum.com/en/sandisk-hbf-optane-standardization/">XenoSpectrum — Optane 선례 비교</a></li>
+  <li><a href="https://www.storagereview.com/news/high-bandwidth-flash-gets-its-first-open-spec-512gb-stacks-and-up-to-3-0tb-s">StorageReview — 첫 오픈 스펙 상세</a></li>
+  <li><a href="https://www.sedaily.com/article/20075661">서울경제 — SK하이닉스 차세대 낸드 HBF 표준 선점</a></li>
+  <li><a href="https://www.etnews.com/20260804000263">전자신문 — SK하이닉스·샌디스크 HBF 첫 표준규격 공개</a></li>
+  <li><a href="https://biz.heraldcorp.com/article/10829955">헤럴드경제 — HBM 이어 HBF도 선점</a></li>
+  <li><a href="https://247wallst.com/investing/2026/08/04/sandisk-jumps-8-micron-gains-6-sk-hynix-climbs-4-as-wall-street-hikes-price-targets-on-ai-memory-boom/">24/7 Wall St. — 8/4 메모리주 반응</a></li>
+</ul>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
