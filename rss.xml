@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.07)</title>
+      <link>https://bluaura.github.io/posts/2026-08-07-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-07-us-market.html</guid>
+      <description>S&amp;P 500 7,709.96(-0.18%) · NASDAQ 26,348.35(-0.06%) · Dow 53,885.10(-0.85%). 실적은 상회했는데 주가는 급락 — Datadog·HubSpot·AppLovin·SanDisk 두 자릿수 하락, AI가 SaaS 마진을 잠식하기 시작했다.</description>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.06)</title>
       <link>https://bluaura.github.io/posts/2026-08-06-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-06-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-04-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-kr-market.html</guid>
       <description>KOSPI 6,358.95(+1.62%) · KOSDAQ 780.72(+5.88%). 코스닥 사상 첫 3거래일 연속 매수 사이드카, 반도체 제외 전 업종 순환매 반등</description>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>투자노트를 시작하며 — 이 블로그가 다루는 것</title>
-      <link>https://bluaura.github.io/posts/2026-08-04-hello.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-hello.html</guid>
-      <description>투자 판단을 돕기 위한 리서치 기록입니다. 시장·매크로·섹터·종목·실적 분석을 1차 출처 기준으로 정리하고, 판단이 틀렸다는 걸 알 수 있는 조건까지 함께 남깁니다.</description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
