@@ -143,7 +143,10 @@ body {
 }
 
 /* ---------- article ---------- */
-.article { padding: 48px 0 40px; }
+/* main 요소에 .wrap 과 .article 이 함께 붙으므로 padding 단축 속성을 쓰면
+   .wrap 의 좌우 여백(0 20px)이 덮여 모바일에서 본문이 화면 끝에 붙는다.
+   반드시 상하 padding 만 개별 지정한다. */
+.article { padding-top: 48px; padding-bottom: 40px; }
 .article-head { border-bottom: 1px solid var(--border); padding-bottom: 26px; margin-bottom: 34px; }
 .article-head h1 {
   margin: 12px 0 10px; font-size: 32px; font-weight: 800;
@@ -227,9 +230,20 @@ body {
 @media (max-width: 640px) {
   .hero { padding: 40px 0 26px; }
   .hero h1 { font-size: 27px; }
+  .article { padding-top: 32px; padding-bottom: 32px; }
   .article-head h1 { font-size: 25px; }
   .article-body { font-size: 16px; }
   .card { padding: 17px 18px; }
   .card h2 { font-size: 17.5px; }
   .nav a { display: none; }
+
+  /* 표는 좌우 여백까지 꽉 채워 쓰되, 스크롤 가능하다는 것이 보이도록 한다 */
+  .table-wrap {
+    margin-left: -4px; margin-right: -4px;
+    padding-left: 4px; padding-right: 4px;
+  }
+  .article-body table { font-size: 13.5px; }
+  .article-body th, .article-body td { padding: 9px 11px; }
+  .stats { grid-template-columns: repeat(auto-fit, minmax(132px, 1fr)); gap: 10px; }
+  .callout, .stat { padding: 14px 15px; }
 }
