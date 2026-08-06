@@ -68,6 +68,13 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.08.06)</title>
+      <link>https://bluaura.github.io/posts/2026-08-06-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-06-kr-market.html</guid>
+      <description>KOSPI 6,296.38(-4.58%) · KOSDAQ 801.67(+0.26%). 샌디스크 가이던스 실망에 반도체 급락, 외국인 3.3조 순매도 — 코스닥은 5거래일 연속 상승으로 800선 회복</description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>2026년 지수 전망 총정리 — 미국은 올리고 한국은 내렸다</title>
       <link>https://bluaura.github.io/posts/2026-08-06-index-targets.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-06-index-targets.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-04-catalyst-calendar.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-catalyst-calendar.html</guid>
       <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 주간 브리핑 (2026.08.04)</title>
-      <link>https://bluaura.github.io/posts/2026-08-04-ai-weekly.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-04-ai-weekly.html</guid>
-      <description>이번 주 AI 업계 주요 소식 30건. EU AI Act 투명성 의무 8월 2일 발효, Alibaba Qwen3.8-Max와 MIT 라이선스 DeepSeek-V4-Flash 공개, OpenAI GPT-5.6 Luna API 가격 80% 인하</description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
