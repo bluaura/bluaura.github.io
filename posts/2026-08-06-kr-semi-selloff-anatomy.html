@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Situational Awareness 사태 해부 — 한국 반도체 폭락의 진짜 원인은 무엇이었나 · 블루오라 투자노트</title>
+<meta name="description" content="SEC 13F 원본 검증: SA는 반도체에 롱이 아니라 숏(풋 62%)이었고 한국 익스포저는 KRX 일평균 거래대금의 0.2일치. 진짜 원인은 섹터 동조화와 국내 레버리지 ETF 16조원의 소각이다.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Situational Awareness 사태 해부 — 한국 반도체 폭락의 진짜 원인은 무엇이었나">
+<meta property="og:description" content="SEC 13F 원본 검증: SA는 반도체에 롱이 아니라 숏(풋 62%)이었고 한국 익스포저는 KRX 일평균 거래대금의 0.2일치. 진짜 원인은 섹터 동조화와 국내 레버리지 ETF 16조원의 소각이다.">
+<meta property="article:published_time" content="2026-08-06">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>Situational Awareness 사태 해부 — 한국 반도체 폭락의 진짜 원인은 무엇이었나</h1>
+    <p class="sub"><span class="tag">한국증시</span><span class="tag">반도체</span><span class="tag">코스피</span><span class="tag">삼성전자</span><span class="tag">SK하이닉스</span><span class="tag">시장분석</span> &nbsp;2026-08-06</p>
+  </div>
+
+  <article class="article-body">
+<div class="stats">
+  <div class="stat"><div class="label">KOSPI 7월</div><div class="value">−22.19%</div><div class="delta down">2008년 10월 이후 최악</div></div>
+  <div class="stat"><div class="label">VKOSPI (8/5)</div><div class="value">78.6</div><div class="delta down">평상시(18~20)의 약 4배</div></div>
+  <div class="stat"><div class="label">VIX (8/5)</div><div class="value">15.6</div><div class="delta up">6월(16.5)보다 낮음</div></div>
+  <div class="stat"><div class="label">한국 ERP</div><div class="value">+14.7%p</div><div class="delta up">미국은 +0.47%p</div></div>
+</div>
+
+<blockquote>
+7월 한국 증시 폭락의 원인으로 널리 알려진 것은 "미국 AI 헤지펀드 Situational Awareness의 4배 레버리지 강제청산"이다.
+SEC EDGAR의 13F 원본과 SK하이닉스 424B4를 직접 뜯어본 결과, 이 서사는 사실과 다르다.
+<strong>SA는 반도체에 롱이 아니라 숏이었고</strong>, 한국 익스포저는 KRX 원주가 아니라 7월 10일 상장한 나스닥 ADR이었으며,
+그 규모는 KRX 일평균 거래대금의 0.2일치 수준이었다.
+실제 원인은 <strong>글로벌 반도체 섹터 동조화 + 국내 레버리지 ETF 16조원의 소각</strong>이다.
+</blockquote>
+
+<h2>1. 타임라인 — 원인 불명 구간과 규명일</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>날짜</th><th>사건</th></tr></thead>
+  <tbody>
+    <tr><td>6.22</td><td>SOX 사상 최고 14,634.72. KOSPI 종가 최고 9,114.55, SK하이닉스 종가 최고 291.9만원. 하락의 기산점</td></tr>
+    <tr><td>7.2</td><td>Meta의 잉여 AI 컴퓨팅 판매 발표. KOSPI <span class="down">−7.89%</span>, 삼성전자 −9.06%, SK하이닉스 −14.57%</td></tr>
+    <tr><td><strong>7.10</strong></td><td><strong>SK하이닉스 나스닥 ADR(SKHY) 신규 상장.</strong> 공모가 $149 × 177,900,000 ADS = 약 40조원 조달. 이후 ADR 프리미엄이 최고 51~52%까지 벌어지며 "KRX 원주 매도 → ADR 매수" 차익거래 발생</td></tr>
+    <tr><td>7.13</td><td>KOSPI <span class="down">−8.95%</span>, 올해 7번째 서킷브레이커</td></tr>
+    <tr><td>7.17</td><td>SOX 고점 대비 −20% 돌파, 베어마켓 진입</td></tr>
+    <tr><td>7.27</td><td>중국 DUV 노광장비 양산 보도 + CXMT 상하이 상장 첫날 <span class="up">+466%</span>. 순수 펀더멘털 악재</td></tr>
+    <tr><td>7.28~29</td><td>KOSPI <span class="down">−10.84%</span> → 사상 첫 이틀 연속 서킷브레이커. 반도체 시총 1조 달러 증발. <strong>원인은 여전히 불명</strong></td></tr>
+    <tr><td><strong>7.30</strong></td><td><strong>원인 규명일.</strong> SA가 공개 포트폴리오 전체(롱+숏)를 시타델에 단일 블록으로 매각. 매각된 공개주식 북 약 $160억, 딜 이후 잔여 AUM 약 $100억</td></tr>
+    <tr><td>7.31</td><td>투자자 서한 유출: 7월 <span class="down">−67%</span>. KOSPI <span class="up">+17.91%</span> 역대 최대 일간 상승. SK하이닉스 상한가 +29.95%(17년 만), 삼성전자 +26.81%</td></tr>
+    <tr><td>8.5</td><td>KOSPI +3.76%. 미국은 S&amp;P·다우 사상 최고</td></tr>
+    <tr><td>8.6</td><td>AMD 가이던스 실망 여파로 KOSPI <span class="down">−4.16%</span>(6,323.49), 매도 사이드카 발동</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>주목할 점은 <strong>서킷브레이커 3회(7/7·7/13·7/28)가 전부 SA 청산일(7/30) 이전</strong>이라는 것이다. 그리고 청산 다음 날 KOSPI는 사상 최대 폭으로 올랐다. 원인이 결과보다 뒤에 온다.</p>
+
+<h2>2. 통념의 반전 — SA는 반도체 롱이 아니라 숏이었다</h2>
+
+<p>SEC EDGAR에서 Situational Awareness LP의 13F 원본(accession 0002045724-26-000008, 기준일 2026-03-31)을 직접 파싱했다. 총 $13.68B / 42엔트리의 구성은 이렇다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>구분</th><th class="num">금액</th><th class="num">비중</th></tr></thead>
+  <tbody>
+    <tr><td><strong>반도체 풋 (숏)</strong></td><td class="num"><strong>$8.459B</strong></td><td class="num"><strong>61.9%</strong></td></tr>
+    <tr><td>보통주 롱 (26종목)</td><td class="num">$3.856B</td><td class="num">28.2%</td></tr>
+    <tr><td>콜옵션</td><td class="num">$1.362B</td><td class="num">10.0%</td></tr>
+    <tr><td>└ 그중 반도체 개별 롱</td><td class="num">$0.049B</td><td class="num">롱북의 1.3%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>롱북 상위 5종목이 76.5%를 차지하는데, <strong>반도체가 아니다.</strong> Bloom Energy 22.8%(전력), SanDisk 18.8%, CoreWeave 14.4%(네오클라우드), IREN 10.4%, Core Scientific 10.1%(비트코인 마이너). AI 인프라의 전방에 걸려 있었지 칩 제조사에 걸려 있지 않았다.</p>
+
+<p>반도체 개별 롱은 이 수준이다 — AMD $20.2M, Intel $8.9M, TSM $7.6M, ASML $6.1M, 마이크론 $5.9M, 엔비디아 $0.5M. 합쳐서 롱북의 1.3%다.</p>
+
+<p>반대로 <strong>풋(숏)은 전부 반도체</strong>였다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>기초자산</th><th class="num">명목가</th><th>기초자산</th><th class="num">명목가</th></tr></thead>
+  <tbody>
+    <tr><td>SMH (반도체 ETF)</td><td class="num">$2,042.7M</td><td>AMD</td><td class="num">$969.2M</td></tr>
+    <tr><td>NVDA</td><td class="num">$1,568.3M</td><td>MU (마이크론)</td><td class="num">$583.7M</td></tr>
+    <tr><td>ORCL</td><td class="num">$1,072.9M</td><td>TSM</td><td class="num">$535.1M</td></tr>
+    <tr><td>AVGO</td><td class="num">$1,006.2M</td><td>ASML</td><td class="num">$494.1M</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="callout warn">
+  <strong>왜 중요한가</strong> — 강제청산 시 풋 되감기는 반도체에 <strong>매수</strong> 압력으로 작용한다.
+  "SA 청산 = 반도체 매도 폭탄"이라는 인과 자체가 공시 자료와 충돌한다.
+  참고로 Q4 2025에는 풋북이 $8.9M이었다. 한 분기 만에 950배 폭증한 것이고, 그동안 롱북은 $3.91B → $3.86B로 거의 그대로였다.
+  <br><br>
+  단서 — 13F 기준일은 3/31이다. 4~7월에 포지션이 바뀌었을 수 있고(SK하이닉스 ADR은 7/10 매수), 풋은 헤지 목적일 수 있어 순포지션으로 단정할 수 없다. 그럼에도 "반도체 롱에 4배 레버리지"라는 서사와는 명백히 다르다.
+</div>
+
+<h2>3. SK하이닉스 ADR — 통로의 물리적 상한이 2.5%다</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>항목</th><th>내용</th></tr></thead>
+  <tbody>
+    <tr><td>상장</td><td>2026년 7월 10일 나스닥, 티커 SKHY (스폰서드 Level III, 예탁은행 Citibank)</td></tr>
+    <tr><td>규모</td><td>공모가 $149.00 × 177,900,000 ADS = <strong>$265억(약 40조원)</strong></td></tr>
+    <tr><td>ADR 비율</td><td>ADS 1주 = 보통주 0.1주</td></tr>
+    <tr><td><strong>KRX 원주 대비 비중</strong></td><td><strong>2.50%</strong> (보통주 1,779만주)</td></tr>
+    <tr><td><strong>전환 한도</strong></td><td><strong>2.5%가 상한이며 7/10 공모로 100% 소진.</strong> 추가 전환은 기존 보유자가 자발적으로 소각해 한도를 비워줘야만 가능(수 주 이상 소요). 한도 증액은 이사회+규제 승인+SEC 등록 = 사실상 신규 공모급 절차</td></tr>
+    <tr><td>시중 낭설</td><td>"ADR 25% 전환 가능"은 사실무근. F-6 등록 17.79억 ADS는 소각 후 재발행용 버퍼이지 전환 한도가 아니다</td></tr>
+    <tr><td>ADR 프리미엄</td><td>상장일 +2.9% → 최고 51~52% → 현재 24~33%. TSMC 통상 16~20%를 크게 상회 — 차익거래가 물리적으로 막혀 있다는 증거</td></tr>
+    <tr><td>SA 배정액</td><td>코너스톤 3사(Baillie Gifford·Coatue·SA) 합산 희망 $70억 → 실제 배정 약 $50억. <strong>SA 개별 금액은 비공개</strong></td></tr>
+    <tr><td>비교</td><td>TSMC ADR은 발행주식의 약 20%. SK하이닉스는 그 <strong>1/8 규모</strong></td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="callout warn">
+  <strong>널리 퍼진 오독 하나</strong> — 일부 영문 매체가 <strong>코너스톤 3사 합산 희망액 $70억을 SA 단독 금액으로 오독</strong>했고,
+  이것이 재인용되며 "SA = 한국 폭락 주범" 서사의 근원이 됐다.
+  실제는 3사 합산 희망 $70억 → 배정 $50억이며 SA 몫은 공개된 적이 없다.
+  <br><br>
+  덧붙여 <strong>SK하이닉스는 그 어떤 13F에도 영원히 나타나지 않는다.</strong>
+  Q1(3/31)·Q2(6/30) 기준일이 상장(7/10) 이전이고, Q3(9/30) 이전인 7/30에 전량 매각했기 때문이다.
+</div>
+
+<h3>규모 산술 — KRX 유동성 대비 0.2일치</h3>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>항목</th><th class="num">금액</th><th>비고</th></tr></thead>
+  <tbody>
+    <tr><td>SA 한국 익스포저 추정 상한</td><td class="num">약 $17억 ≈ 2.4조원</td><td>$50억 3등분 가정 — <strong>순수 추정, 근거 없음</strong></td></tr>
+    <tr><td>7월 외국인 삼성전자 순매도</td><td class="num">6.74조 / 5조</td><td>머니레시피 / 금감원 집계</td></tr>
+    <tr><td>7월 외국인 SK하이닉스 순매도</td><td class="num">9.14조 / 6.3조</td><td>머니레시피 / 금감원 집계</td></tr>
+    <tr><td>SK하이닉스 일평균 거래대금 (7/27~31)</td><td class="num">13.62조원</td><td>주간 68.1조 ÷ 5</td></tr>
+    <tr><td><strong>SA 추정 물량 ÷ 일평균 거래대금</strong></td><td class="num"><strong>약 0.18일치</strong></td><td>ADR 프로그램 전체(40조)조차 KRX 약 3일치</td></tr>
+    <tr><td>SK하이닉스 대차잔고 (7/7)</td><td class="num">30.5조원</td><td>한 달 +9조. ADR보다 훨씬 크고 탄력적인 실제 경로</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>외국인의 실제 경로는 ① KRX 원주 직접 매매 ② 대차·공매도 ③ 프라임브로커 TRS/스왑이다. ADR은 상한이 꽉 차 있어 대규모 진입·청산 통로가 되지 못한다.</p>
+
+<h2>4. 낙폭 사다리 — SA 보유 여부와 어긋난다</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>자산</th><th>SA 포지션</th><th class="num">전고점 → 7월 저점</th></tr></thead>
+  <tbody>
+    <tr><td>SOX (미국 반도체지수)</td><td>—</td><td class="num down">−28.6%</td></tr>
+    <tr><td>마이크론</td><td>풋(숏) $583.7M</td><td class="num down">−36.0%</td></tr>
+    <tr><td>KOSPI</td><td>—</td><td class="num down">−38.6%</td></tr>
+    <tr><td><strong>삼성전자</strong></td><td><strong>보유 근거 없음</strong></td><td class="num down"><strong>−42.9%</strong></td></tr>
+    <tr><td>SK하이닉스</td><td>나스닥 ADR 코너스톤</td><td class="num down">−54.7%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>모두 종가 기준이다. SOX 14,634.72(6/22)→10,447.50(7/29), 마이크론은 6/30 종가 $1,154.29→$739.00(7/29) 기준이며 6월 고점 대비로는 −37% 내외. KOSPI 9,114.55(6/22)→5,593.56(7/30). 삼성전자 362,500(6/18)→207,000(7/30). SK하이닉스 2,919,000(6/22)→1,322,000(7/30).</p>
+
+<blockquote>
+SA가 전혀 안 들고 있던 <strong>삼성전자(−42.9%)</strong>가, SA가 풋을 걸었던 <strong>마이크론(−36.0%)</strong>보다 7%p 더 빠졌다.
+한국 자산이 미국 자산보다 일괄적으로 더 빠졌지, SA 보유 종목이 더 빠진 게 아니다.
+</blockquote>
+
+<h3>판정 — 직접 청산이 아니라 섹터 동조화</h3>
+
+<ul>
+  <li><strong>타이밍이 인과를 뒤집는다.</strong> 서킷브레이커 3회가 전부 SA 청산 이전이고, 청산 다음 날 +17.91% 폭등했다.</li>
+  <li><strong>물량이 산술적으로 안 맞는다.</strong> SA 한국 익스포저 추정 상한 2.4조원 vs 7월 외국인 삼전+하닉 순매도 11.3~15.9조원. 그것도 KRX 원주가 아닌 나스닥 ADR이다.</li>
+  <li><strong>수급의 성격이 '섹터 트레이드'다.</strong> 7월 반도체 업종 외국인 순매도(−14.68조)가 <strong>KOSPI 전체 순매도(−13.03조)보다 크다.</strong> 비반도체는 순매수였고, 한미반도체는 외국인 순매수 2위(+3,694억)였다.</li>
+  <li><strong>상관관계 증거가 직접 지지한다.</strong> S&amp;P500–KOSPI 상관계수는 2월 0.5 → 7월 <strong>0.025</strong>로 소멸했는데, 미래에셋증권은 "필라델피아반도체지수와 비교하면 사실상 동일한 흐름"이라고 명시했다. KOSPI는 미국 <em>시장</em>과 디커플링하면서 미국 <em>반도체</em>와는 동조했다.</li>
+</ul>
+
+<h2>5. 그럼 한국의 초과 낙폭은 무엇이 만들었나</h2>
+
+<div class="stats">
+  <div class="stat"><div class="label">레버리지 ETF 순자산</div><div class="value">−10.3조</div><div class="delta down">16조(6월말) → 5.68조(7/30)</div></div>
+  <div class="stat"><div class="label">1개월 평균 수익률</div><div class="value">−47.1%</div><div class="delta down">SK하이닉스 레버리지는 −80% 육박</div></div>
+  <div class="stat"><div class="label">마진콜 계좌</div><div class="value">120만</div><div class="delta down">성인 인구의 3.2%</div></div>
+  <div class="stat"><div class="label">삼전+하닉 KOSPI 비중</div><div class="value">50.02%</div><div class="delta down">지수 낙폭의 80.2% 기여</div></div>
+</div>
+
+<p>국내 단일종목 레버리지 ETF는 5월 27일 상장 4.9조 → 6월말 <strong>16조</strong> → 7월 30일 5.68조로 한 달 만에 피크의 1/3로 축소됐다. 소각된 약 <strong>10.3조원</strong>은 SA의 한국 익스포저 추정치(2.4조)의 약 <strong>4배</strong>다. 개인은 5/27~6/22에만 8.9조원을 순매수했고 매매회전율은 105.3%였다.</p>
+
+<p>여기에 지수 구조가 승수로 작용했다. 삼성전자+SK하이닉스가 KOSPI 시총의 50.02%(KOSPI200 내 60.7%)이고, 7월 지수 낙폭 2,358.8p 중 1,892p(80.2%)를 이 둘이 설명했다. 그리고 7월 10일 ADR 상장 이후 "KRX 원주 매도 → 프리미엄 붙은 ADR 매수" 차익거래가 원주 수급을 추가로 압박했다.</p>
+
+<div class="callout">
+  <strong>Fortune 기사의 원래 논지</strong> — "The Kospi selloff and Situational Awareness tell a similar story"는
+  인과가 아니라 <strong>유비(analogy)</strong>를 주장한 기사다. 핵심은 Saxo의 Charu Chanana 코멘트다.
+  "강한 확신 + 과도한 집중 + 레버리지가 결합되면 일시적 조정도 강제매도와 큰 손실로 번진다."
+  즉 SA의 4배 레버리지와 한국 개인의 레버리지 ETF는 <strong>같은 함정의 두 사례</strong>이지, 전자가 후자를 무너뜨렸다는 주장이 아니다.
+</div>
+
+<h2>6. 반등 강도 — 회복률 서열이 말해주는 것</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>자산</th><th class="num">낙폭 회복률</th><th class="num">전고점 대비 현재</th></tr></thead>
+  <tbody>
+    <tr><td>S&amp;P 500</td><td class="num up">100%+ (신고가)</td><td class="num up">+2.2%</td></tr>
+    <tr><td>NASDAQ 100</td><td class="num">87.2%</td><td class="num down">−1.1%</td></tr>
+    <tr><td>SOX</td><td class="num">37.3%</td><td class="num down">−18.0%</td></tr>
+    <tr><td>KOSPI</td><td class="num down">28.5%</td><td class="num down">−27.6%</td></tr>
+    <tr><td>삼성전자</td><td class="num down">25.1%</td><td class="num down">−32.1%</td></tr>
+    <tr><td>SK하이닉스</td><td class="num down">21.7%</td><td class="num down">−42.9%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>회복률 = (현재 − 저점) ÷ (전고점 − 저점), 8월 5일 종가 기준. NASDAQ 100은 6월 전고점 미확인으로 7월 고점(7/10) 기준이라 실제 회복률은 이보다 낮을 가능성이 있다. 8월 6일 한국 급락을 반영하면 KOSPI 20.7%, 삼성전자 15.8%, SK하이닉스 12.5%로 더 내려간다.</p>
+
+<blockquote>
+이 서열은 국적 순서가 아니라 <strong>AI·반도체 노출도 순서</strong>와 정확히 일치한다.
+한국이 꼴찌인 이유는 그 자산군에 가장 순수하게 노출돼 있기 때문이다.
+</blockquote>
+
+<h2>7. 투자심리 훼손 지표</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>지표</th><th class="num">2026년 최고</th><th class="num">7월 최고</th><th class="num">현재 (8/5)</th></tr></thead>
+  <tbody>
+    <tr><td>VIX (미국)</td><td class="num">35.3 (3/9)</td><td class="num">20.7 (7/29)</td><td class="num up">15.6</td></tr>
+    <tr><td>VKOSPI (한국)</td><td class="num">98.0 (6/29)</td><td class="num">86.2 (7/30)</td><td class="num down">78.6</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>미국의 VIX는 6월(16.45)보다도 낮은 15.57이다. 지수 레벨에서 미국 시장은 이 사태를 이미 잊었다. 반면 <strong>VKOSPI는 78.6으로 평상시(18~20)의 약 4배</strong>에 머물러 있다. 원인이 밝혀진 지 일주일이 지났는데도다.</p>
+
+<p>다만 미국도 <strong>지수는 평온하지만 반도체만 홀로 폭발적</strong>이다. 7월 28일 기준 SMH 1개월 내재변동성 59%(1년 최고), <strong>SMH − SPX IV 스프레드 44%p로 사상 최대</strong>(역사적 평균 대비 5표준편차 초과). 7월 SOX는 22거래일 전부 장중 2% 이상 움직였고 절반 가까이 4%± 로 마감했다.</p>
+
+<h3>자금 이탈</h3>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>지표</th><th class="num">변화</th><th>비고</th></tr></thead>
+  <tbody>
+    <tr><td>채권 순매수 (전년동기比)</td><td class="num down">−41.4%</td><td>7/1~8/3 40.2조 (전년 68.5조)</td></tr>
+    <tr><td>개인 거래대금 비중</td><td class="num down">−35.2%</td><td>48.19%(1월) → 31.23%(7월)</td></tr>
+    <tr><td>일평균 거래대금</td><td class="num down">−33.0%</td><td>약 100조(5~6월) → 67조(7월)</td></tr>
+    <tr><td>투자자예탁금</td><td class="num down">−25.5%</td><td>139.7조(6/4) → 104.1조(7월말)</td></tr>
+    <tr><td>신용융자잔고</td><td class="num down">−14.3%</td><td>38.48조(6/19) → 32.99조(7/29)</td></tr>
+    <tr><td>5대은행 정기예금</td><td class="num up">+24.9조</td><td>잔액 974.3조. 요구불예금은 −52.4조</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>7월 29일 하루 반대매매는 611.3억원으로 전일 대비 +340%(7월 30일에는 1,038억원), 미수금 대비 반대매매 비중은 1.3% → 5.0%로 급등했다. 다만 HSBC는 "강제 반대매매가 발생한 신용계좌는 전체의 2%에 불과"하다고 지적했다. 물리적 청산 규모보다 <strong>레버리지 상품의 기계적 매도 + 얇아진 거래대금</strong>의 조합이 가격을 밀어냈다는 뜻이다.</p>
+
+<h2>8. 리스크 프리미엄 — 한미가 정반대다</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>항목</th><th class="num">한국</th><th class="num">미국</th></tr></thead>
+  <tbody>
+    <tr><td>12M forward PER</td><td class="num">5.3배(한투) / 4.74배(대신)</td><td class="num">19.6배 (S&amp;P500)</td></tr>
+    <tr><td>Earnings Yield</td><td class="num">18.87 ~ 21.10%</td><td class="num">5.10%</td></tr>
+    <tr><td>10년 국채</td><td class="num">4.150%</td><td class="num">4.63%</td></tr>
+    <tr><td><strong>ERP (EY − 10Y)</strong></td><td class="num up"><strong>+14.72 ~ +16.95%p</strong></td><td class="num down"><strong>+0.47%p</strong></td></tr>
+    <tr><td>역사적 위치</td><td>2019년 일드갭(7.5~10%p)의 약 1.5~2배 — 최고권</td><td>닷컴버블 이후 최저권</td></tr>
+    <tr><td>다음 회의 프라이싱</td><td>8월 매파적 동결 전망</td><td class="num down">9월 <strong>인상</strong> 32~53% (인하 아님)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="callout warn">
+  <strong>그런데 왜 한국 자금은 예금으로 갈까</strong> — 지표상 한국 주식은 채권 대비 ERP +15%p로 압도적으로 매력적인데,
+  실제로는 투자자예탁금 −35.6조, 정기예금 +25조의 역머니무브가 진행 중이다. 지표와 행동이 정면으로 어긋난다.
+  <br><br>
+  가능한 해석은 하나뿐이다. <strong>시장이 분모의 E(forward EPS)를 믿지 않는다.</strong>
+  forward PER 4.7배는 "저평가"의 신호가 아니라 <strong>"peak earnings에 붙은 낮은 PER"</strong>,
+  즉 사이클주가 이익 정점에서 늘 보이는 전형적 패턴일 수 있다. 이 상태에서 ERP 지표는 사실상 무의미해진다.
+</div>
+
+<h2>9. 기술주 기피인가 — 아니다, '누가' 사느냐가 바뀌었다</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>자금은 사상 최대로 들어왔다</th><th>그런데 기관은 아직 안 돌아왔다</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>SOXX 7월 순유입 <strong>$69.2억</strong> — 상장 이래 최대 월간. 같은 달 SOXX는 −22.1%</td>
+      <td>UBS: 반도체 롱 크라우딩 여전히 장기추세 대비 <strong>+1표준편차</strong></td>
+    </tr>
+    <tr>
+      <td>7/8 하루 SOXX +$54.3억 (사상 최대 1일 유입)</td>
+      <td>ORTEX: 공매도 잔고 <strong>3년 최고</strong></td>
+    </tr>
+    <tr>
+      <td>7월 마지막 주 반도체 ETF 개인 유입 $120억 = 전체 ETF 유입의 25%</td>
+      <td>SMH − SPX IV 스프레드 44%p — 사상 최대, 원인 규명 후에도 거의 후퇴 안 함</td>
+    </tr>
+    <tr>
+      <td>8/1 마감 주 SMH·SOXX·SOXL이 전체 ETF 주간 유입 1·2·3위 독식 — 사상 최초</td>
+      <td>Goldman 고베타 모멘텀 바스켓 6월 고점 대비 −1/3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<blockquote>
+SA 사태가 만든 것은 기피(avoidance)가 아니라 <strong>불신(distrust)</strong>이다.
+자금은 사상 최대로 들어왔지만 주체는 개인이고, 옵션시장은 여전히 반도체가 지수보다 훨씬 크게 움직일 것으로 가격에 반영하고 있다.
+개인 매수는 반등을 만들 수 있지만 <strong>추세를 만들지는 못한다.</strong>
+</blockquote>
+
+<h2>10. 삼성전자·SK하이닉스 — 이익은 느는데 주가는 안 오른다</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>지표</th><th class="num">삼성전자</th><th class="num">SK하이닉스</th><th>방향</th></tr></thead>
+  <tbody>
+    <tr><td>2Q26 영업이익</td><td class="num">89.5조 <span class="up">(컨센 +5.2% 상회)</span></td><td class="num">60.5조 <span class="down">(컨센 −6.5%)</span></td><td>서프라이즈 / 쇼크</td></tr>
+    <tr><td>3Q26 OP 컨센 (3개월 전 대비)</td><td class="num up">+26.30%</td><td class="num up">+9.65%</td><td><span class="tag">상향</span></td></tr>
+    <tr><td>2027E 영업이익</td><td class="num">498.6조</td><td class="num">386.1조</td><td><span class="tag">피크</span></td></tr>
+    <tr><td>2028E 영업이익</td><td class="num down">469.2조 (−5.9%)</td><td class="num down">383.1조 (−0.8%)</td><td><span class="tag">감익 반영</span></td></tr>
+    <tr><td>목표주가 리포트 (지난달)</td><td class="num" colspan="2">하향 <strong>580건</strong> vs 상향 351건</td><td><span class="tag">15개월 만의 역전</span></td></tr>
+    <tr><td>12M forward PER (7/21)</td><td class="num">4.42배</td><td class="num">4.73배</td><td>역사적 저점권</td></tr>
+    <tr><td>PBR (2026.1 기준)</td><td class="num">2.58배 (6년 평균 1.54)</td><td class="num">7.12배 (평균 1.84)</td><td>역사적 고점권</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>De-rating의 본질은 PER로 볼 것인가 PBR로 볼 것인가의 논쟁이다.</strong></p>
+
+<ul>
+  <li><strong>PER 진영 (SK증권 한동희)</strong> — "메모리 기업의 주가 고점 논리는 PER로 평가받아야 한다." AI 투자 경쟁으로 메모리 수요의 변동성이 축소되고 지속기간이 장기화됐으므로, 사이클주에 적용하던 할인을 걷어내야 한다.</li>
+  <li><strong>PBR 진영 (LS증권 황산해)</strong> — 낮은 PER은 저평가가 아니라 "이익 수준의 지속가능성을 시장이 검증하는 기간"이다. 메모리는 여전히 사이클 산업이다.</li>
+  <li><strong>절충 (LS증권 정유성)</strong> — HBM(장기계약 기반)은 PER로, 범용메모리는 PBR로 나눠 봐야 한다.</li>
+</ul>
+
+<p>이 논쟁이 끝나기 전까지 멀티플은 재확장되지 않는다. 그리고 이 논쟁은 이익 서프라이즈로는 안 끝난다. 한 사이클을 온전히 지나며 "감익 폭이 과거보다 얕다"는 것이 실증돼야 끝난다.</p>
+
+<h2>11. 회복 트리거 캘린더</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>시점</th><th>이벤트</th><th>왜 중요한가</th></tr></thead>
+  <tbody>
+    <tr><td><strong>8/26</strong></td><td><strong>엔비디아 FY27 2Q 실적</strong></td><td>최대 분수령. AI 수요의 원천이 훼손됐는지 여기서 판가름. HBM 수요의 상단을 결정</td></tr>
+    <tr><td>매월 말</td><td>D램·낸드 고정거래가격</td><td>7월 DDR4 8Gb $24.00(+14.3% MoM, 2016년 6월 이후 최고). UBS는 3Q DDR 계약가 +32% 전망</td></tr>
+    <tr><td>9/15~16</td><td>FOMC</td><td>인하가 아니라 <strong>인상이 32~53% 프라이싱</strong>. Core PCE 3.0%→3.4% 가속</td></tr>
+    <tr><td>9월 하순</td><td>마이크론 FY26 4Q <span class="tag">날짜 미확정</span></td><td>"삼전닉스 풍향계". 메모리 3사 중 가장 먼저 다음 분기 가이던스 제시</td></tr>
+    <tr><td>10월</td><td>삼성 3Q(컨센 113.98조) · SK하이닉스 3Q(컨센 78.67조) <span class="tag">날짜 미확정</span></td><td>상향된 컨센을 실제로 맞추는지. 미달하면 de-rating 논리가 승리</td></tr>
+    <tr><td>하반기~</td><td><strong>2027년 HBM 물량·가격 계약 확정</strong></td><td>진짜 재평가 트리거. HBM4 가격 2배 전망이 계약으로 확정되면 "이익의 지속가능성" 논쟁이 실증적으로 해소</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>12. 리스크 관리 — 롤링 밸류에이션 트랩</h2>
+
+<div class="callout warn">
+  <strong>"회복이 시작될 때쯤 forward PER이 꺾이지 않을까"는 우려가 아니라 산수다.</strong>
+  <br><br>
+  12M forward PER은 <strong>롤링 창</strong>이다. 지금(2026.8) 창은 26년 하반기 + 27년 상반기 — 컨센서스상 이익 피크 구간이다.
+  시간이 흘러 2027년 상반기가 되면 창은 27년 하반기 + 28년 상반기로 이동한다.
+  그런데 컨센서스는 이미 <strong>2028년 감익</strong>을 반영하고 있다(삼성 −5.9%, SK하이닉스 −0.8%).
+  <br><br>
+  결과 — <strong>주가가 그대로여도 시간만 흐르면 forward PER이 자동으로 올라간다.</strong>
+  "싸니까 기다린다"는 논리는 시간이 갈수록 약해지는 논리다.
+  더 큰 문제는 2028E −5.9%가 극도로 낙관적인 가정이라는 점이다. 과거 메모리 다운사이클의 감익 폭은 통상 −50~−80%였다.
+</div>
+
+<h3>전고점 회복이 요구하는 숫자</h3>
+
+<p>삼성전자 362,500원 회복 = 8월 6일 약 23.2만원에서 <strong>+56%</strong>. SK하이닉스 2,919,000원 회복 = 약 152만원에서 <strong>+92%</strong>. 이익만으로는 불가능하고 <strong>멀티플 재확장(fwd PER 4.4배 → 7~8배)이 필수</strong>다. 그런데 지금 시장은 그 멀티플을 깎고 있다.</p>
+
+<p>그리고 이번 검증에서 드러난 사실이 하나 더 있다. <strong>6월 고점을 만든 한계 매수자는 미국 헤지펀드가 아니라 국내 레버리지 자금이었다.</strong> 이 자금은 −47~−80% 손실을 보고 16조 → 5.68조로 소각됐고, 규제로 되돌아올 수 없다 — 기본예탁금 1,000만원 → 3,000만원(7/31 조기시행), 8월 19일부터 현금만 인정(대용증권 불가), 11월 매매수량 단위 1좌 → 20좌, 단일종목 레버리지 ETF 신규 출시 중단.</p>
+
+<blockquote>
+외국인 헤지펀드는 조건이 맞으면 언제든 돌아올 수 있지만, <strong>규제로 막힌 국내 레버리지 수요는 구조적으로 돌아오지 않는다.</strong>
+"전고점 대비 많이 빠졌으니 돌아올 것"이라는 앵커링은, 그 전고점을 만든 매수 주체가 제도적으로 사라진 조건에서는 위험한 기준점이다.
+</blockquote>
+
+<h3>Thesis-breaker</h3>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>트리거</th><th>현재 상태</th><th>의미</th></tr></thead>
+  <tbody>
+    <tr><td>D램 고정거래가 2개월 연속 MoM 하락</td><td class="up">7월 +14.3% (상승 중)</td><td>사이클 전환 확정. 이익 컨센 전면 하향</td></tr>
+    <tr><td>2027 HBM 계약가가 기대(2배) 미달</td><td>협상 진행 중</td><td>재평가 트리거 소멸. de-rating 고착</td></tr>
+    <tr><td>하이퍼스케일러 CapEx 가이던스 하향</td><td class="up">전원 상향 중 ($7,250억, +77%)</td><td>AI 수요 원천 훼손</td></tr>
+    <tr><td>2027E 영업이익 컨센 하향 전환</td><td class="up">상향 중</td><td>롤링 트랩 발동. PER 자동 상승</td></tr>
+    <tr><td>VKOSPI 재차 90 이상</td><td>78.6 (8/5)</td><td>레버리지 잔재 추가 청산 진행</td></tr>
+    <tr><td>9월 FOMC 인상</td><td class="down">32~53% 프라이싱</td><td>고멀티플 자산 추가 압박</td></tr>
+    <tr><td>중국 CXMT·YMTC 양산 캐파 가시화</td><td class="down">CXMT 상장 +466%, DUV 국산화</td><td>구조적 공급과잉. 사이클 논리 자체가 바뀜</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>정리</h2>
+
+<p><strong>단기 관전 포인트</strong> — 8월 26일 엔비디아 FY27 2Q 실적, 8월 말 D램 고정거래가격 발표, 9월 15~16일 FOMC(인상 32~53% 프라이싱). VKOSPI가 78에서 40 이하로 내려오는지가 심리 정상화의 1차 신호다.</p>
+
+<p><strong>중기 관전 포인트</strong> — 10월 삼성전자·SK하이닉스 3분기 실적이 상향된 컨센서스를 맞추는지, 그리고 2027년 HBM 물량·가격 계약이 확정되는지. 디레버리징은 90% 끝났지만(JPMorgan), 멀티플 재확장에는 "이익의 지속가능성"에 대한 실증이 필요하다. 현실적 시간축은 4Q26~1H27이다.</p>
+
+<p><strong>기록해 둘 것</strong> — 이번 사태에서 가장 널리 퍼진 서사(미국 헤지펀드의 4배 레버리지가 한국 반도체를 무너뜨렸다)는 1차 자료로 검증되지 않았다. 2차 가공 매체의 오독이 재인용되며 만들어진 서사였다. 시장 사건의 원인을 추적할 때는 SEC EDGAR 같은 1차 공시로 내려가는 것이 결국 가장 빠르다.</p>
+
+<h2>참고 자료</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>구분</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>1차 공시</td><td><a href="https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/salp13fq1xml.xml">SEC 13F Q1 2026 원본</a> · <a href="https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm">SEC 424B4 SK hynix ADR</a> · <a href="https://depositaryreceipts.citi.com/adr/common/file.aspx?idf=7931">Citi 예탁은행 발표</a> · <a href="https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_073126.pdf">FactSet Earnings Insight</a> · <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&amp;field_tdr_date_value_month=202608">US Treasury</a></td></tr>
+    <tr><td>기업 IR</td><td><a href="https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-2026%EB%85%84-2%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C">삼성전자 뉴스룸</a> · <a href="https://news.skhynix.co.kr/q2-2026-business-results/">SK하이닉스 뉴스룸</a></td></tr>
+    <tr><td>해외 언론</td><td><a href="https://fortune.com/2026/08/02/wall-street-ai-trade-chip-stocks-volatility-sox-selloff/">Fortune</a> · <a href="https://www.aol.com/articles/kospi-selloff-situational-awareness-tell-083210000.html">Fortune/AOL</a> · <a href="https://wtvbam.com/2026/07/31/situational-awareness-portfolio-sinks-67-in-july-on-ai-stock-rout-letter-shows/">Reuters</a> · <a href="https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/">TechCrunch</a> · <a href="https://blockspace.media/insight/situational-awareness-unwinds-ai-trades-liquidity-2026/">Blockspace</a> · <a href="https://spotgamma.com/situational-awareness-unwind-margin-call-ai/">SpotGamma</a></td></tr>
+    <tr><td>국내 언론</td><td><a href="https://www.hankyung.com/article/202607305980i">한국경제 — 레버리지 ETF</a> · <a href="https://biz.heraldcorp.com/article/10811043">헤럴드경제 — 한미 상관계수</a> · <a href="https://biz.heraldcorp.com/article/10829019">헤럴드경제 — 마진콜</a> · <a href="https://www.mt.co.kr/stock/2026/07/31/2026073114355560595">머니투데이</a> · <a href="https://www.sedaily.com/article/20069178">서울경제 — ADR 전환한도</a> · <a href="https://marketin.edaily.co.kr/News/ReadE?newsId=05418566645519440">이데일리 — ADR 차익거래</a> · <a href="https://www.fnnews.com/news/202608031552421526">파이낸셜뉴스</a> · <a href="https://www.etoday.co.kr/news/view/2609824">이투데이</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>본문의 "SA 한국 익스포저 약 2.4조원"은 코너스톤 3사 균등배분 가정에 따른 <strong>추정치</strong>로, SA 개별 배정액은 공개된 적이 없다. 13F 기준일은 2026년 3월 31일이므로 4~7월 포지션 변동은 반영되지 않으며, 풋은 헤지 목적일 수 있어 순포지션으로 단정할 수 없다. 7월 외국인 수급은 집계 기관에 따라 수치가 달라 병기했다. 8월 6일 삼성전자·SK하이닉스 종가는 장중 등락률 기반 추정치다.</p>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
