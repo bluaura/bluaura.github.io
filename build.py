@@ -70,16 +70,6 @@ btn&&btn.addEventListener('click',function(){{
 
 
 def build_index() -> str:
-    tags: list[str] = []
-    for p in posts:
-        for t in p.get("tags", []):
-            if t not in tags:
-                tags.append(t)
-
-    chips = '<button class="chip active" data-tag="*">전체</button>' + "".join(
-        f'<button class="chip" data-tag="{E(t)}">{E(t)}</button>' for t in tags
-    )
-
     cards = []
     for p in posts:
         tag_html = "".join(f'<span class="tag">{E(t)}</span>' for t in p.get("tags", []))
@@ -100,8 +90,8 @@ def build_index() -> str:
 
 <div class="wrap">
   <div class="toolbar">
-    <div class="chips">{chips}</div>
-    <input class="search" id="q" type="search" placeholder="제목·태그 검색" autocomplete="off">
+    <input class="search" id="q" type="search" placeholder="제목·태그·요약 검색 (예: 반도체, PLTR, 매크로)" autocomplete="off">
+    <span class="count" id="count">{len(posts)}편</span>
   </div>
   <div class="posts" id="list">
 {chr(10).join(cards)}
@@ -111,25 +101,23 @@ def build_index() -> str:
 
 <script>
 (function(){{
-  var chips=[].slice.call(document.querySelectorAll('.chip')),
-      cards=[].slice.call(document.querySelectorAll('.card')),
+  var cards=[].slice.call(document.querySelectorAll('.card')),
       q=document.getElementById('q'),
       empty=document.getElementById('empty'),
-      tag='*';
+      count=document.getElementById('count'),
+      total=cards.length;
   function apply(){{
-    var kw=(q.value||'').trim().toLowerCase(),shown=0;
+    var kw=(q.value||'').trim().toLowerCase(),
+        terms=kw?kw.split(/\\s+/):[],
+        shown=0;
     cards.forEach(function(c){{
-      var okT=tag==='*'||(c.dataset.tags||'').split('|').indexOf(tag)>-1,
-          okQ=!kw||(c.dataset.search||'').indexOf(kw)>-1,
-          ok=okT&&okQ;
+      var hay=c.dataset.search||'',
+          ok=terms.every(function(t){{return hay.indexOf(t)>-1}});
       c.style.display=ok?'':'none'; if(ok)shown++;
     }});
     empty.style.display=shown?'none':'';
+    count.textContent=terms.length?shown+' / '+total+'편':total+'편';
   }}
-  chips.forEach(function(b){{b.addEventListener('click',function(){{
-    chips.forEach(function(x){{x.classList.remove('active')}});
-    b.classList.add('active'); tag=b.dataset.tag; apply();
-  }})}});
   q.addEventListener('input',apply);
 }})();
 </script>

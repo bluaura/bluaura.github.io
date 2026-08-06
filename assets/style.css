@@ -95,23 +95,17 @@ body {
 }
 .hero p { margin: 0; color: var(--text-dim); font-size: 16px; }
 
-/* ---------- filters ---------- */
+/* ---------- search ---------- */
 .toolbar {
-  display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
-  padding: 24px 0 6px;
+  display: flex; gap: 12px; align-items: center;
+  padding: 26px 0 6px;
 }
-.chips { display: flex; flex-wrap: wrap; gap: 7px; }
-.chip {
-  border: 1px solid var(--border); background: var(--bg-card); color: var(--text-dim);
-  font-size: 13px; font-weight: 500; padding: 6px 13px; border-radius: 999px;
-  cursor: pointer; font-family: inherit; transition: .15s;
-}
-.chip:hover { color: var(--text); border-color: var(--text-faint); }
-.chip.active {
-  background: var(--accent); border-color: var(--accent); color: #fff;
+.count {
+  font-size: 13px; color: var(--text-faint); white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
 .search {
-  flex: 1; min-width: 180px;
+  flex: 1; min-width: 0;
   border: 1px solid var(--border); background: var(--bg-card); color: var(--text);
   border-radius: 10px; padding: 9px 13px; font-size: 14px; font-family: inherit;
   outline: none;
