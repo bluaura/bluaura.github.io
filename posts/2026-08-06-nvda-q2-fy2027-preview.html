@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[리뷰+프리뷰] NVIDIA (NVDA) — FY2027 Q1 결산 및 Q2 프리뷰 (D-21) · 블루오라 투자노트</title>
+<meta name="description" content="NVIDIA FY2027 Q1 확정 실적 해부와 8월 26일 발표 예정인 Q2 사전 점검. GAAP 순이익이 non-GAAP을 넘어선 이유, 세그먼트 재분류가 가린 것, 그리고 이번 발표의 진짜 판정 항목이 왜 Q3 가이던스인지.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[리뷰+프리뷰] NVIDIA (NVDA) — FY2027 Q1 결산 및 Q2 프리뷰 (D-21)">
+<meta property="og:description" content="NVIDIA FY2027 Q1 확정 실적 해부와 8월 26일 발표 예정인 Q2 사전 점검. GAAP 순이익이 non-GAAP을 넘어선 이유, 세그먼트 재분류가 가린 것, 그리고 이번 발표의 진짜 판정 항목이 왜 Q3 가이던스인지.">
+<meta property="article:published_time" content="2026-08-06">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>[리뷰+프리뷰] NVIDIA (NVDA) — FY2027 Q1 결산 및 Q2 프리뷰 (D-21)</h1>
+    <p class="sub"><span class="tag">미국증시</span><span class="tag">종목분석</span><span class="tag">실적분석</span><span class="tag">NVDA</span> &nbsp;2026-08-06</p>
+  </div>
+
+  <article class="article-body">
+<p>NVIDIA가 8월 26일(현지시간, 한국시간 8월 27일 새벽 6시) FY2027 2분기 실적을 발표한다. 지금은 직전 확정 실적(5월 20일 발표)에서 약 11주가 지났고 다음 발표까지 21일 남은 <strong>하이브리드 구간</strong>이다. 그래서 이 글은 확정 실적 결산과 다가올 실적 사전 점검을 반반으로 담았다.</p>
+
+<div class="callout">
+<p><strong>리포트 모드: 하이브리드</strong></p>
+<p>확정 실적 — FY2027 Q1 (2026-05-20 발표, D+78)<br>
+다음 실적 — FY2027 Q2 (2026-08-26 예정, <strong>D-21</strong>)</p>
+<p><strong>회계연도 환산:</strong> NVIDIA FY2027 Q2 = 캘린더 2026년 4월 말 ~ 7월 26일 분기. 회사 표기가 캘린더보다 1년 앞선다.</p>
+</div>
+
+<div class="stats">
+<div class="stat"><div class="label">현재가 (8/5 종가)</div><div class="value">$219.22</div><div class="delta up">+3.43%</div></div>
+<div class="stat"><div class="label">다음 실적까지</div><div class="value">D-21</div><div class="delta">8/26 장 마감 후</div></div>
+<div class="stat"><div class="label">시가총액</div><div class="value">$5.31T</div><div class="delta">Fwd PER 21.2배</div></div>
+<div class="stat"><div class="label">평균 목표주가</div><div class="value">$302.83</div><div class="delta up">+38.1%</div></div>
+</div>
+
+<h2>1. 확정 실적 — FY2027 Q1은 진짜 서프라이즈였다</h2>
+
+<p><span class="tag">확정</span> 2026년 5월 20일 발표분이다.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>지표</th><th class="num">컨센서스</th><th class="num">실제</th><th class="num">서프라이즈</th></tr></thead>
+<tbody>
+<tr><td>매출</td><td class="num">$79.19B</td><td class="num">$81.6B</td><td class="num"><span class="up">+3.0%</span></td></tr>
+<tr><td>non-GAAP EPS</td><td class="num">$1.77</td><td class="num">$1.87</td><td class="num"><span class="up">+5.7%</span></td></tr>
+<tr><td>GAAP EPS</td><td class="num">&mdash;</td><td class="num">$2.39</td><td class="num"><span class="up">YoY +214%</span></td></tr>
+<tr><td>Q2 가이던스</td><td class="num">&mdash;</td><td class="num">$91.0B &plusmn;2%</td><td class="num"><span class="up">상향</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<p>매출과 EPS 모두 서프라이즈 기준(&plusmn;3%)을 넘겼고, 판정을 뒤집을 수 있는 가이던스도 상향이었다. 그런데도 발표 직후 시장 반응은 엇갈렸다. PSR 21배 종목은 "이번 분기 잘함"으로 오르지 않고 "다음 4분기도 잘함"을 증명해야 오르기 때문이다.</p>
+
+<h3>세그먼트 성장률 — 하이라이트는 네트워킹과 ACIE</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>구분</th><th class="num">금액</th><th class="num">YoY</th><th class="num">QoQ</th></tr></thead>
+<tbody>
+<tr><td>총매출</td><td class="num">$81.6B</td><td class="num"><span class="up">+85%</span></td><td class="num"><span class="up">+20%</span></td></tr>
+<tr><td>데이터센터</td><td class="num">$75.2B</td><td class="num"><span class="up">+92%</span></td><td class="num"><span class="up">+21%</span></td></tr>
+<tr><td>&nbsp;&nbsp;Hyperscale</td><td class="num">$37.9B</td><td class="num"><span class="up">+115%</span></td><td class="num"><span class="up">+12%</span></td></tr>
+<tr><td>&nbsp;&nbsp;ACIE (AI클라우드·기업·주권AI)</td><td class="num">$37.4B</td><td class="num"><span class="up">+74%</span></td><td class="num"><span class="up">+31%</span></td></tr>
+<tr><td>Graphics</td><td class="num">$7.1B</td><td class="num"><span class="up">+58%</span></td><td class="num">&mdash;</td></tr>
+<tr><td>Edge computing</td><td class="num">$6.4B</td><td class="num"><span class="up">+29%</span></td><td class="num">&mdash;</td></tr>
+<tr><td>DC 내 네트워킹</td><td class="num">약 $15B</td><td class="num"><span class="up">3배</span></td><td class="num">&mdash;</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>읽는 법 세 가지다.</p>
+
+<p><strong>규모가 커지는데 성장률이 유지된다.</strong> 매출 기반이 $68.1B(Q4)에서 $81.6B로 커졌는데도 QoQ +20%를 냈다. 절대 증가액 $13.5B는 전 분기 증가분($12.3B)보다 크다. 감속 조짐이 아직 숫자에 없다.</p>
+
+<p><strong>ACIE의 QoQ +31%가 Hyperscale의 +12%를 크게 앞섰다.</strong> 하이퍼스케일러 4사 의존도가 낮아지고 주권 AI·기업 고객으로 저변이 넓어지고 있다는 뜻이다. 집중도 리스크는 완화되지만, 이 고객군은 하이퍼스케일러보다 자금 조달 체력이 약해 금리·크레딧 환경에 민감하다.</p>
+
+<p><strong>네트워킹 3배가 조용한 하이라이트다.</strong> 컴퓨팅 +77%보다 훨씬 빠르다. NVLink·Spectrum-X가 붙어 팔리면서 GPU 한 장당 청구액이 올라가는 구조 — 단가 인상형 성장이라 마진에 유리하다.</p>
+
+<h3>함정 하나: GAAP 순이익이 non-GAAP을 넘었다</h3>
+
+<div class="callout warn">
+<p><strong>GAAP 순이익 $58.3B &gt; non-GAAP 순이익 $45.5B.</strong> 일반적으로 non-GAAP이 주식보상비용을 제외해 더 크다. 뒤집혔다는 건 GAAP에 <strong>영업 외 이익이 크게 섞였다</strong>는 뜻이다.</p>
+</div>
+
+<p>NVIDIA는 CoreWeave, Nebius, xAI, OpenAI 등에 대규모 지분 투자를 하고 있고, 이들의 미실현 평가이익이 GAAP 순이익에 반영된다. 알파벳과 아마존이 같은 분기에 각각 지분 평가이익으로 EPS가 부풀려진 것과 동일한 구조다.</p>
+
+<p>따라서 이번 분기의 진짜 수익력 지표는 GAAP EPS $2.39가 아니라 <strong>non-GAAP EPS $1.87</strong>이다. 언론이 인용한 "GAAP EPS YoY +214%"는 사업 성장이 아니라 보유 지분 가격 상승을 상당 부분 포함한다. 이 구조는 대칭이라 AI 스타트업 밸류에이션이 꺾이면 GAAP 순이익도 급감한다.</p>
+
+<p>마진도 마찬가지다. non-GAAP 총이익률 75.0%는 전년 대비 +14.2%p인데, 상승분의 큰 몫은 전년 동기 Blackwell 초기 램프업 비용과 재고 평가손이 사라진 기저효과다. <strong>이 +14%p는 반복되지 않는다.</strong> Q2부터는 75% 전후 횡보가 정상 경로이고 회사 가이던스도 그렇게 말한다.</p>
+
+<h3>선행지표 — 총 공급 확보액 $145B</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>지표</th><th class="num">값</th><th>해석</th></tr></thead>
+<tbody>
+<tr><td>총 공급 확보액 (재고+구매약정+선급금)</td><td class="num">$145B</td><td>매출의 1.8분기치</td></tr>
+<tr><td>누적 매출 전망</td><td class="num">$1조</td><td>2027년 말까지 Blackwell+Rubin</td></tr>
+<tr><td>Vera Rubin 양산</td><td class="num">Q3 FY2027</td><td>추론 성능 Blackwell 대비 35배</td></tr>
+<tr><td>중국 DC 컴퓨팅</td><td class="num">가이던스 제외</td><td>H200 승인에도 수입 불확실</td></tr>
+<tr><td>FCF</td><td class="num">$49B</td><td>기록 경신</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>RPO가 없는 하드웨어 기업에서 <strong>$145B 공급 확보가 사실상의 백로그 대용</strong>이다. 회사가 실수요를 확신하지 않으면 걸 수 없는 금액이고, "AI 수요가 폭발한다"는 말과 자본배분이 일치하는지 검증하는 항목이기도 하다. NVIDIA는 실제로 늘렸다.</p>
+
+<h2>2. 어닝콜 표현 diff — Q1 FY2027 vs Q4 FY2026</h2>
+
+<p><span class="tag">확정</span> 두 분기 트랜스크립트를 모두 확보해 문장 단위로 대조했다.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>항목</th><th>Q4 FY2026 (2월)</th><th>Q1 FY2027 (5월)</th><th>해석</th></tr></thead>
+<tbody>
+<tr><td>수익 기회 규모</td><td>"$500B 수익 기회"</td><td>"2027년 말까지 누적 $1조"</td><td><span class="up">2배 확대</span></td></tr>
+<tr><td>공급 확보</td><td>정성 표현</td><td>"총 $145B" 구체 숫자</td><td><span class="up">자신감</span></td></tr>
+<tr><td>중국</td><td>"소량 승인, 매출 기여 없음"</td><td>"가이던스에서 전면 제외"</td><td><span class="down">강경화</span></td></tr>
+<tr><td>세그먼트</td><td>Gaming / ProViz / Auto / DC</td><td>Hyperscale / ACIE / Edge / Graphics</td><td>재분류</td></tr>
+<tr><td>형용사 강도</td><td>record, unmatched, extraordinary</td><td>동일 강도 유지</td><td>약화 없음</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>표현 약화 신호(strong에서 solid로, accelerating에서 continuing으로, expect에서 hope로)는 이번 분기에 나타나지 않았다. 오히려 정성 표현이 정량 숫자로 바뀌는 방향인데, 이건 보통 숫자가 좋아졌을 때 나오는 변화다.</p>
+
+<h3>다만 세그먼트가 재분류됐다</h3>
+
+<div class="callout warn">
+<p>Q1 FY2027부터 <strong>Gaming / Professional Visualization / Automotive 구분이 사라졌다.</strong> 대신 Hyperscale / ACIE / Edge computing / Graphics 4분류가 도입됐다.</p>
+</div>
+
+<p>"회사가 새로 만든 지표를 발표하기 시작했는가"는 기존 지표 악화의 전형적 신호다. 다만 해석은 양면적이다.</p>
+
+<p>데이터센터가 전체의 92%를 차지하는 상황에서 Gaming, ProViz, Auto를 나열하는 건 실효성이 없고, AI 고객 유형별 분해가 투자자에게 더 유용하다는 선의의 해석이 가능하다. 반면 Automotive는 자율주행 파트너십 확대에도 매출이 기대에 못 미쳤고 Gaming은 GPU 공급이 AI로 전용되며 위축됐다. <strong>부진한 두 부문이 큰 통에 섞여 개별 추적이 불가능해졌다</strong>는 경계도 성립한다.</p>
+
+<p>새 분류에서 Graphics(+58%)와 Edge(+29%)가 여전히 성장 중이라 은폐로 단정할 수는 없다. 다만 <strong>Automotive 단독 수치를 Q2 콜에서 다시 공개하는지</strong>는 반드시 확인해야 한다. 계속 안 나오면 그 사업은 접힌 것으로 본다.</p>
+
+<h3>경영진 약속 채점 — 4개 중 3개 이행</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>지난 분기 약속</th><th>결과</th><th>채점</th></tr></thead>
+<tbody>
+<tr><td>Q1 매출 $78B &plusmn;2%</td><td>실제 $81.6B (상단 +2.6% 초과)</td><td><span class="up">이행</span></td></tr>
+<tr><td>non-GAAP 총이익률 약 75%</td><td>실제 75.0%</td><td><span class="up">이행</span></td></tr>
+<tr><td>"$500B 수익 기회"</td><td>$1조로 상향 재언급</td><td><span class="up">이행 (상향)</span></td></tr>
+<tr><td>중국 소량 승인 물량 매출화</td><td>기여 없음, 전면 제외로 후퇴</td><td><span class="down">미달</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<p>중국을 제외하면 경영진이 건 숫자는 전부 지켰다. 밸류에이션 프리미엄을 정당화하는 실적 추적 기록으로는 상위권이다. 중국 항목도 <strong>조용히 철회한 게 아니라 공개적으로 철회</strong>했다는 점에서 정직한 후퇴로 평가한다.</p>
+
+<h2>3. 다가올 실적 — FY2027 Q2 프리뷰</h2>
+
+<p><span class="tag">예정</span> 2026-08-26 발표 예정. 아래 수치는 모두 가이던스, 컨센서스, 자체 추정이며 확정 실적이 아니다.</p>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>항목</th><th class="num">Q1 실적 (확정)</th><th class="num">Q2 가이던스</th><th class="num">컨센서스</th></tr></thead>
+<tbody>
+<tr><td>매출</td><td class="num">$81.6B</td><td class="num">$91.0B &plusmn;2%</td><td class="num">$91B</td></tr>
+<tr><td>non-GAAP 총이익률</td><td class="num">75.0%</td><td class="num">75.0% (&plusmn;50bp)</td><td class="num">&mdash;</td></tr>
+<tr><td>non-GAAP EPS</td><td class="num">$1.87</td><td class="num">미제시</td><td class="num">$2.01</td></tr>
+<tr><td>non-GAAP 영업비용</td><td class="num">&mdash;</td><td class="num">$8.3B</td><td class="num">&mdash;</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>컨센서스가 11주 동안 한 발도 안 움직였다</h3>
+
+<p>5월 20일 발표 직후 Q2 매출 컨센서스는 약 $91B이었고, 8월 5일 현재도 약 $91B다. <strong>가이던스 중앙값과 정확히 같다.</strong></p>
+
+<p>애널리스트들이 자체 판단을 포기하고 회사 가이던스를 그대로 옮겨 적고 있다는 뜻이다. 두 가지를 시사한다. 아무도 앞서 가지 않았으므로 서프라이즈 여지가 크다는 것, 그리고 동시에 시장이 이 종목의 실제 착지점을 모른다는 자백이라는 것.</p>
+
+<h3>자체 추정 — 가이던스를 그대로 쓰지 않는다</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>분기</th><th class="num">가이던스·컨센 중앙값</th><th class="num">실제</th><th class="num">초과율</th></tr></thead>
+<tbody>
+<tr><td>Q1 FY2027</td><td class="num">$78B</td><td class="num">$81.6B</td><td class="num"><span class="up">+4.6%</span></td></tr>
+<tr><td>Q4 FY2026</td><td class="num">$65.56B</td><td class="num">$68.1B</td><td class="num"><span class="up">+3.9%</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<blockquote>
+<p>가이던스 $91.0B에 최근 초과율 3~5%를 적용하면 실제 착지 <strong>$93.7~95.6B</strong>. 중간값 $94.6B 기준 QoQ +16%, YoY 약 +104%. EPS는 $2.07~2.11 수준. (자체 추정)</p>
+</blockquote>
+
+<p>다만 <strong>다음 분기부터 베이스가 급격히 커진다.</strong> Q3 FY2026이 이미 AI 붐 한복판이었기 때문에 YoY 성장률의 자연 둔화는 Q3부터 시작된다. 이번 콜에서 Q3 가이던스가 결정적인 이유다.</p>
+
+<h3>시나리오</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>시나리오</th><th>조건</th><th>주가 방향</th></tr></thead>
+<tbody>
+<tr><td><strong>Bull</strong></td><td>Q2 $95B 이상 + Q3 가이던스 $108B 이상(YoY 90%대) + 공급 $160B 이상</td><td><span class="up">+8~12%, 신고가 시도</span></td></tr>
+<tr><td><strong>Base</strong></td><td>Q2 $93~95B + Q3 가이던스 $103~107B + 마진 75% 유지</td><td>−2 ~ +4%, 박스 지속</td></tr>
+<tr><td><strong>Bear</strong></td><td>Q2 $91B 이하 또는 Q3 가이던스 $100B 미만 또는 마진 74% 하회</td><td><span class="down">−10~15%, 200일선 테스트</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Base 시나리오가 왜 상승을 담보하지 않는가. 시장은 이미 <strong>Q3 매출 성장률 81%를 컨센서스에 반영</strong>해 두었다. "Q2를 잘하고 Q3를 81% 성장으로 가이드"하면 그건 이미 가격에 있다. 주가를 움직이려면 Q3 가이던스가 90%대 성장, 매출 환산 약 $108B 이상을 가리켜야 한다.</p>
+
+<h2>4. 발표 전 체크리스트 — 30초 판정용</h2>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>#</th><th>확인 항목</th><th class="num">합격선</th><th>불합격 시 의미</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Q2 매출</td><td class="num">$93B 이상</td><td>$91~93B는 비트 패턴 소멸, 첫 감속 신호</td></tr>
+<tr><td>2</td><td><strong>Q3 가이던스</strong> (최우선)</td><td class="num">$105B 이상</td><td>$100B 미만이면 피크아웃 서사 확정</td></tr>
+<tr><td>3</td><td>non-GAAP 총이익률</td><td class="num">74.5% 이상</td><td>Rubin 램프업 비용 또는 가격 경쟁 시작</td></tr>
+<tr><td>4</td><td>총 공급 확보액</td><td class="num">$145B 초과</td><td>감소는 회사 스스로 수요를 덜 믿는다는 뜻</td></tr>
+<tr><td>5</td><td>"$1조 누적 매출" 문구</td><td class="num">재확인 유지</td><td>언급 없으면 조용한 철회</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>어닝콜에서 들어야 할 문장</h3>
+
+<ul>
+<li><strong>"Vera Rubin이 이번 분기 양산에 들어갔다"</strong> — 유지되면 로드맵 정상, 지연 언급 시 Q3~Q4 매출 이연</li>
+<li><strong>"2027년 말까지 $1조"</strong> — 반복되면 유지, 사라지거나 "$500B 이상"으로 바뀌면 철회</li>
+<li><strong>Automotive 단독 수치 재공개 여부</strong> — 다시 안 나오면 실질적 포기</li>
+<li><strong>중국 관련 표현</strong> — "제외한다"가 "일부 재개됐다"로 완화되면 순수 업사이드</li>
+<li><strong>네트워킹 성장률</strong> — Q1의 "3배"에 준하는 숫자가 나오는지. 단가 인상형 성장의 엔진</li>
+</ul>
+
+<h3>이미 반영된 것 vs 아직 안 된 것</h3>
+
+<p><strong>이미 반영 (충족해도 안 오름)</strong> — Q2 매출 $91B와 EPS $2.01, Q3 성장률 81%, 총이익률 75% 유지, 하이퍼스케일러 capex 상향 뉴스.</p>
+
+<p><strong>잠재 업사이드</strong> — Q3 가이던스가 YoY 90%대를 가리킬 때, 중국 H200 물량(약 $5B 추정)이 가이던스에 복귀할 때, 총 공급 확보액이 $160B 이상으로 점프할 때, Vera Rubin 초기 수주가 구체 금액으로 공개될 때.</p>
+
+<p><strong>잠재 다운사이드</strong> — Q3 가이던스 $100B 미만, 순환 출자 구조 해명 요구가 콜에서 반복될 때, 총이익률 74% 하회, 커스텀 칩(TPU, Trainium, MTIA) 관련 방어적 발언 증가.</p>
+
+<h3>옵션 시장이 보는 예상 변동폭</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>구분</th><th class="num">값</th></tr></thead>
+<tbody>
+<tr><td>이번 실적 예상 변동폭</td><td class="num">약 &plusmn;6%</td></tr>
+<tr><td>최근 2년 평균 실제 변동폭</td><td class="num">&plusmn;5.4%</td></tr>
+<tr><td>10년 평균 실제 변동폭</td><td class="num">&plusmn;8.3%</td></tr>
+<tr><td>95퍼센타일 극단 변동폭</td><td class="num">&plusmn;20.1%</td></tr>
+<tr><td>실제가 예상 밴드를 넘긴 비율</td><td class="num">약 25%</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>시장은 이번을 최근 2년 평균보다 약간 크게 보되 10년 평균보다는 작게 본다. "평소보다 조금 더 흔들리되 역사적 대형 이벤트는 아니다"는 가격이다.</p>
+
+<p>실무적 함의가 있다. NVDA는 <strong>실제 변동폭이 예상 밴드 안에 머무는 경우가 75%</strong>다. 스트래들 매수는 통계적으로 불리하다. 반대로 극단 꼬리(&plusmn;20%)가 존재하므로 대규모 포지션의 테일 헤지는 여전히 유효하다.</p>
+
+<p>$219.22 기준 &plusmn;6%는 <strong>$206~232</strong>다. 공교롭게 하단이 50일선, 상단이 52주 고점($236.54) 바로 아래다. 옵션 시장은 기술적 박스를 깨지 않는 수준을 가격에 반영하고 있다.</p>
+
+<h2>5. 증권사 컨센서스 — 스프레드 2.78배</h2>
+
+<div class="callout warn">
+<p>아래 목표주가는 <strong>전부 실적 발표 전 수치</strong>다. 8/26 발표 후 24~48시간 내 대규모 조정이 예상된다.</p>
+</div>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>증권사</th><th>애널리스트</th><th>의견</th><th class="num">목표주가</th><th>날짜</th></tr></thead>
+<tbody>
+<tr><td>Bernstein</td><td>Varun Govindaraj</td><td>매수</td><td class="num">$315</td><td>2026-08-03</td></tr>
+<tr><td>Wells Fargo</td><td>Aaron Rakers</td><td>매수</td><td class="num">$315</td><td>2026-07-31</td></tr>
+<tr><td>Bank of America</td><td>Vivek Arya</td><td>매수</td><td class="num">정보 없음</td><td>2026-08-03</td></tr>
+<tr><td>Bernstein</td><td>Stacy Rasgon</td><td>매수</td><td class="num">정보 없음</td><td>2026-08</td></tr>
+<tr><td>Morgan Stanley</td><td>정보 없음</td><td>정보 없음</td><td class="num">정보 없음</td><td>&mdash;</td></tr>
+<tr><td>Goldman Sachs</td><td>정보 없음</td><td>정보 없음</td><td class="num">정보 없음</td><td>&mdash;</td></tr>
+<tr><td>JPMorgan</td><td>정보 없음</td><td>정보 없음</td><td class="num">정보 없음</td><td>&mdash;</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="stats">
+<div class="stat"><div class="label">평균 목표주가</div><div class="value">$302.83</div><div class="delta up">+38.1%</div></div>
+<div class="stat"><div class="label">최고 / 최저</div><div class="value">$500 / $180</div><div class="delta">스프레드 2.78배</div></div>
+<div class="stat"><div class="label">커버리지</div><div class="value">61명</div><div class="delta">Strong Buy 48</div></div>
+<div class="stat"><div class="label">Forward PER</div><div class="value">21.2배</div><div class="delta">S&amp;P500 평균 수준</div></div>
+</div>
+
+<p><strong>스프레드 2.78배는 시장 합의 실패다.</strong> 최저 $180(현재가 −18%)과 최고 $500(현재가 +128%)이 공존한다. 같은 회사를 보고 한쪽은 "이미 비싸다", 다른 쪽은 "2배 더 간다"고 말한다. AI capex가 구조적 성장인가 순환적 붐인가에 대해 시장이 합의하지 못했다는 직접 증거다. 집계처마다 평균이 $302~314로 흩어지는 것도 같은 이유다.</p>
+
+<h3>강세론</h3>
+
+<p>Motley Fool의 Keithen Drury는 Forward PER 21.1배가 S&amp;P500 평균과 같은데 성장률은 96%라는 점을 든다. Q3 가이던스가 90%대로 나오면 그건 가격에 없으므로 즉각 상승한다는 논리다. Wells Fargo의 Aaron Rakers와 Bernstein의 Varun Govindaraj는 각 $315를 유지하며 하이퍼스케일러 지출 상향과 2027년 지출 확대를 근거로 든다.</p>
+
+<h3>약세론</h3>
+
+<div class="callout warn">
+<p><strong>Michael Burry의 순환 출자 지적.</strong> NVIDIA 수요의 상당 부분이 순환적이며, OpenAI 데이터센터 관련 약 $2,500억 규모 부채를 NVIDIA가 사실상 백스톱하고 있다는 것. 비유하자면 "가게가 자기 물건 살 돈을 빌려주고 그 판매를 매출로 계상하는 구조"다.</p>
+</div>
+
+<p>주목할 점은 <strong>강세론자인 Bernstein의 Stacy Rasgon이 매수 의견을 유지하면서도 동일한 우려를 독립적으로 제기</strong>했다는 사실이다. 강세론자가 같은 지점을 짚었다는 것 자체가 이 리스크의 무게를 보여준다.</p>
+
+<p>그 외 중국 약 $5B 매출 정책 리스크, 최근 3개월 내부자 순매도 약 $4.1억, 구글·아마존·메타의 커스텀 칩 경쟁, 30배 초과 후행 PER의 오차 허용폭 부족이 거론된다.</p>
+
+<h2>6. 시장 반응과 기술적 위치</h2>
+
+<h3>Q1 발표 직후 — 출처가 충돌한다</h3>
+
+<p>CNBC는 "실적은 강했지만 주가는 하락(slides)"으로 보도했고, Investing.com은 시간외 <span class="up">+1.37%</span>로 집계했다. 정면으로 어긋난다. 시간외 거래는 유동성이 얇고 헤드라인 알고리즘이 지배하므로 발표 후 몇 분 사이 방향이 뒤집히면 매체마다 다른 시점을 캡처하게 된다. 어느 쪽도 단독 채택하지 않고 둘 다 병기한다.</p>
+
+<p>더 신뢰할 만한 사후 판정은 그 이후의 경로다. 주가는 4월 말~5월 초 $240 부근 고점 이후 조정으로 들어갔다. <strong>실적은 서프라이즈였으나 주가는 그것을 상승으로 환산하지 못했다.</strong></p>
+
+<h3>발표 후 현재까지</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>시점</th><th>사건</th><th class="num">주가</th></tr></thead>
+<tbody>
+<tr><td>4월말~5월초</td><td>Q1 기대감 고점</td><td class="num">$240 부근</td></tr>
+<tr><td>5/20</td><td>Q1 FY2027 발표</td><td class="num">시간외 혼조</td></tr>
+<tr><td>6~7월</td><td>여름 박스권, $208~209 반복 저항</td><td class="num">$200~209</td></tr>
+<tr><td>7월</td><td>반도체 섹터 시총 $1조 증발</td><td class="num"><span class="down">조정</span></td></tr>
+<tr><td>8/4</td><td>박스 하단 근처</td><td class="num">$206.68 <span class="down">−0.91%</span></td></tr>
+<tr><td>8/5</td><td>SpaceX, AI 인프라 NVIDIA 독점 사용 발표</td><td class="num">$219.22 <span class="up">+3.43%</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<p>이틀 사이 $206.68에서 $219.22로 <strong>+6.1% 급등</strong>했다. 촉매는 실적이 아니라 SpaceX 뉴스다. 실적 발표 3주 전에 뉴스 모멘텀으로 박스 상단을 뚫은 상태에서 이벤트를 맞는다. <strong>기대치가 발표 직전에 올라간 구간에서의 실적 발표는 대체로 불리하다.</strong></p>
+
+<h3>기술적 위치와 수급</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>지표</th><th class="num">값</th><th class="num">현재가 대비</th></tr></thead>
+<tbody>
+<tr><td>50일 이동평균</td><td class="num">$205.76</td><td class="num">+6.5% 위</td></tr>
+<tr><td>200일 이동평균</td><td class="num">$193.59</td><td class="num">+13.2% 위</td></tr>
+<tr><td>52주 고점</td><td class="num">$236.54</td><td class="num">−7.3%</td></tr>
+<tr><td>52주 저점</td><td class="num">$164.07</td><td class="num">+33.6%</td></tr>
+<tr><td>공매도 비율</td><td class="num">float의 1.39%</td><td class="num">매우 낮음</td></tr>
+<tr><td>기관 지분율</td><td class="num">69.59%</td><td class="num">&mdash;</td></tr>
+<tr><td>내부자 거래 (3개월)</td><td class="num">약 $4.1억 순매도</td><td class="num">&mdash;</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>이동평균은 출처별 편차가 있다. Vantage Markets는 8/4 기준 50일 $200.71, 200일 $202.44로 집계했다.</p>
+
+<p><strong>공매도 1.39%는 의미 있는 숫자다.</strong> 하락에 베팅한 자금이 거의 없다는 뜻이고, 이는 곧 실적이 좋아도 숏커버로 증폭될 상승 여력이 없다는 뜻이다. 반대로 실적이 나쁘면 완충 없이 그대로 매도세를 맞는다. <strong>비대칭이 하방으로 기울어 있다.</strong></p>
+
+<h2>7. 이 실적에서 얻는 다른 종목 정보</h2>
+
+<p><strong>SK하이닉스·삼성전자</strong> — 데이터센터 $75.2B와 총 공급 확보 $145B은 HBM 수요의 직접 선행 지표다. Vera Rubin이 Q3 양산이면 HBM4 물량 협상이 지금 진행 중이라는 뜻이고, 두 회사의 Q3 HBM 가이던스에 반영된다.</p>
+
+<p><strong>TSMC</strong> — CoWoS 패키징이 NVIDIA 출하의 실질 상한이다. $145B을 걸었다는 건 TSMC 캐파를 그만큼 선점했다는 뜻이다.</p>
+
+<p><strong>네트워킹 3배</strong> — 광트랜시버·스위치 ASIC 업체(Credo, Astera Labs, Marvell 등)의 전방 수요가 GPU보다 빠르게 늘고 있다는 신호다.</p>
+
+<p><strong>발표 순서</strong> — NVIDIA는 빅테크 중 마지막에 발표한다. 알파벳·아마존·MS·메타의 7월 말 실적이 이미 NVIDIA의 프리뷰였고 4사 모두 capex 상향을 말했다. 반대로 <strong>NVIDIA 콜은 SK하이닉스·삼성전자·TSMC·AMD의 다음 분기 프리뷰가 된다.</strong> 특히 AMD(MI400)는 NVIDIA가 가격·마진을 어떤 톤으로 말하는지가 경쟁 강도의 직접 지표다.</p>
+
+<h2>8. 종합 판단</h2>
+
+<p>Q1 FY2027은 진짜 서프라이즈였다. 매출 +3.0%, EPS +5.7%, 가이던스 큰 폭 상향, 경영진 약속 4개 중 3개 이행. 총 공급 확보 $145B은 이 리포트에서 가장 신뢰할 만한 단일 데이터다.</p>
+
+<p><strong>그런데 그 서프라이즈가 주가를 올리지 못했다.</strong> 5/20 이후 11주 동안 주가는 $240 부근에서 $206~219로 내려앉았다. PSR 21배 종목의 규칙이 그대로 작동했다. 이번 분기 실적은 후행 정보이고 시장은 다음 4분기를 묻는다.</p>
+
+<p><strong>그래서 8/26의 진짜 질문은 Q2가 아니라 Q3 가이던스다.</strong> Q2 매출이 $95B로 나와도 Q3 가이던스가 $100B 언저리면 주가는 빠진다. 반대로 Q2가 $92B로 평범해도 Q3가 $108B를 가리키면 오른다. 판정 항목은 매출 두 번째 줄에 있다.</p>
+
+<p>밸류에이션은 방어선이자 함정이다. Forward PER 21.2배는 100% 성장 기업에 붙는 배수치고는 낮고, 이것이 강세론의 핵심 근거다. 다만 이 21.2배는 <strong>컨센서스 FY2027 EPS $8.79가 실현된다는 전제</strong> 위에 있다. 그 전제가 흔들리면 후행 PER 32.5배가 실체가 된다.</p>
+
+<p>가장 무거운 리스크는 회계가 아니라 구조다. 고객의 자금 조달을 백스톱하고 그 판매를 매출로 계상하는 구조는 숫자로 반박되지 않는다. AI 자산 가격이 오르는 동안에는 GAAP 순이익을 부풀리고, 꺾이는 순간 양방향으로 타격한다. <strong>매출과 지분 평가이익이 같은 사이클에 묶여 있다는 것이 이 종목의 진짜 베타다.</strong></p>
+
+<h3>thesis-breaker</h3>
+
+<ul>
+<li><strong>Q3 가이던스 매출 $100B 미만</strong> — 성장 곡선 피크아웃 확정, 프리미엄 배수 정당성 소멸</li>
+<li><strong>총 공급 확보액이 $145B 아래로 감소</strong> — 회사 스스로 수요를 덜 믿는다는 뜻. 가장 강력한 조기 경보</li>
+<li><strong>non-GAAP 총이익률 2개 분기 연속 74% 하회</strong> — 가격 경쟁 개시 또는 Rubin 원가 구조 악화</li>
+<li><strong>"2027년 말까지 $1조" 문구가 콜에서 사라짐</strong> — 조용한 철회, 즉시 재검토</li>
+<li><strong>Graphics·Edge computing까지 개별 공시 중단</strong> — 재분류가 은폐 목적이었다는 확증</li>
+<li><strong>GAAP 순이익이 non-GAAP을 큰 폭 하회로 역전</strong> — 지분 평가손 발생, AI 자산 사이클 전환 신호</li>
+</ul>
+
+<h3>실전 대응</h3>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>상황</th><th>대응</th></tr></thead>
+<tbody>
+<tr><td>발표 전 신규 진입</td><td>전량 진입 비권장. 예상 변동폭 &plusmn;6%는 곧 다운사이드 6%다. 목표 비중의 1/3만 발표 전, 나머지는 Q3 가이던스 확인 후</td></tr>
+<tr><td>보유 중</td><td>홀드가 기본. 근거는 약속 이행률 3/4, 공급 확보 $145B, 비트 패턴 일관성. 비중 과도 시 발표 전 일부 익절로 정상화</td></tr>
+<tr><td>발표 후 진입 대기</td><td>조건부. Q3 가이던스 $105B 이상 <strong>그리고</strong> 공급 확보 유지·증가 <strong>그리고</strong> 마진 74.5% 이상. 3개 모두 충족 시 갭업이어도 진입 정당</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>단기·중기 관전 포인트</h3>
+
+<p><strong>단기 (1~2주)</strong> — 8/26 직전 옵션 IV 추이(&plusmn;6%에서 확대되면 이벤트 리스크 재평가), TSMC 7월 월간 매출(8월 중순), $208~209 지지 유지 여부, 미·중 H200 수입 허가 보도.</p>
+
+<p><strong>중기 (1~2분기)</strong> — Vera Rubin 양산 일정 준수, 하이퍼스케일러 capex 상향분의 실제 주문 전환율, ACIE 성장률 지속성과 이 고객군의 자금 조달 환경, 커스텀 칩 점유율 잠식 속도, AI 인프라 순환 출자 구조에 대한 시장·규제 시선.</p>
+
+<div class="callout">
+<p>이 자료는 투자 참고용이며, 최종 투자 판단은 본인에게 있습니다. 본 글의 미발표 분기 관련 수치는 모두 회사 가이던스, 시장 컨센서스, 자체 추정이며 확정 실적이 아닙니다. 확인되지 않은 항목은 "정보 없음" 또는 "미확인"으로 표기했습니다.</p>
+</div>
+
+<h2>Sources</h2>
+
+<ul>
+<li><a href="https://www.stocktitan.net/news/NVDA/nvidia-sets-conference-call-for-second-quarter-financial-t2wo8k69dark.html">NVIDIA Sets Aug. 26 Fiscal Q2 Earnings Call — StockTitan</a></li>
+<li><a href="https://www.financecalendar.com/event/nvda-earnings-august-2026/">NVDA Earnings August 2026: Date, Time &amp; What to Expect — Finance Calendar</a></li>
+<li><a href="https://earnings-watcher.com/wiki/nvda-earnings-options">NVIDIA (NVDA) Earnings Date &amp; Expected Move — EarningsWatcher</a></li>
+<li><a href="https://www.barchart.com/stocks/quotes/nvda/expected-move">NVDA Expected Move — Barchart</a></li>
+<li><a href="https://stockanalysis.com/stocks/nvda/">NVIDIA (NVDA) Stock Price &amp; Overview — StockAnalysis</a></li>
+<li><a href="https://www.vantagemarkets.com/market-analysis/nvda-stock-monthly-outlook-analysis-nvidia/">NVDA Stock Analysis August 2026: Price Action &amp; Outlook — Vantage Markets</a></li>
+<li><a href="https://finance.yahoo.com/markets/stocks/articles/36-analysts-share-nvidia-stock-101344754.html">36 Analysts Share Their NVIDIA Stock Forecast Before August Earnings — Yahoo Finance</a></li>
+<li><a href="https://www.fool.com/investing/2026/08/02/prediction-nvidia-stock-will-skyrocket-on-aug-26/">Prediction: Nvidia Stock Will Skyrocket on Aug. 26 — The Motley Fool</a></li>
+<li><a href="https://financebuzz.com/news/nvidia-earnings-analyst-ratings-risks">Why Analysts Are Betting on a Blockbuster Nvidia Earnings Report — FinanceBuzz</a></li>
+</ul>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
