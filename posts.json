@@ -7,6 +7,19 @@
   },
   "posts": [
     {
+      "slug": "2026-08-07-cpu-sector-intel-vs-amd",
+      "title": "CPU 섹터 해부 — Intel vs AMD, 그리고 제3세력 ARM",
+      "date": "2026-08-07",
+      "tags": [
+        "미국증시",
+        "종목분석",
+        "섹터",
+        "AMD",
+        "INTC"
+      ],
+      "summary": "AMD 서버 매출 점유율 46.2% 사상 최고, DC 매출은 $6.7B로 Intel($6.3B) 역전. ARM은 서버 출하 13%의 제3세력. 대장주는 AMD, 모멘텀은 Intel(+394%) — 비중 전략까지."
+    },
+    {
       "slug": "2026-08-07-amd-q2-2026",
       "title": "[리뷰] AMD FY2026 Q2 — 주가는 내렸는데 목표주가는 왜 오르나",
       "date": "2026-08-07",

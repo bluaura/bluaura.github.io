@@ -47,6 +47,13 @@
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>CPU 섹터 해부 — Intel vs AMD, 그리고 제3세력 ARM</title>
+      <link>https://bluaura.github.io/posts/2026-08-07-cpu-sector-intel-vs-amd.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-07-cpu-sector-intel-vs-amd.html</guid>
+      <description>AMD 서버 매출 점유율 46.2% 사상 최고, DC 매출은 $6.7B로 Intel($6.3B) 역전. ARM은 서버 출하 13%의 제3세력. 대장주는 AMD, 모멘텀은 Intel(+394%) — 비중 전략까지.</description>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>[리뷰] AMD FY2026 Q2 — 주가는 내렸는데 목표주가는 왜 오르나</title>
       <link>https://bluaura.github.io/posts/2026-08-07-amd-q2-2026.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-07-amd-q2-2026.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-05-hbf-deep-dive.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-05-hbf-deep-dive.html</guid>
       <description>SanDisk·SK하이닉스가 OCP 첫 HBF 표준 공개(8/3). 512GB·0.4~3.0TB/s·UCIe 인터페이스. 용량은 HBM4 대비 8배지만 레이턴시는 100배 느리다. 엔비디아·삼성·마이크론 전원 불참이 최대 공백.</description>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>알파벳(GOOGL) 2026년 2분기 실적 분석 — 클라우드 82%, 그리고 사상 첫 잉여현금흐름 적자</title>
-      <link>https://bluaura.github.io/posts/2026-08-05-googl-q2-2026.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-05-googl-q2-2026.html</guid>
-      <description>매출 $119.8B(+24%), 클라우드 +82%, 백로그 $514B. 그러나 헤드라인 EPS $9.11 중 $6.26이 장부상 평가익이고 캐펙스 $205B 상향으로 잉여현금흐름이 -$5.9B로 첫 적자 전환. 자사주 매입은 $0였다.</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
