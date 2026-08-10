@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.10)</title>
+      <link>https://bluaura.github.io/posts/2026-08-10-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-10-us-market.html</guid>
+      <description>S&amp;P 500 7,757.64(+0.62%) · NASDAQ 26,690.62(+1.30%). 7월 고용 -23,000명 쇼크가 9월 인상론을 눌러 사상 최고 종가 — 그러나 BofA Bull&amp;Bear 9.7로 2021년 이후 첫 매도 신호.</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.08.10)</title>
       <link>https://bluaura.github.io/posts/2026-08-10-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-10-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-05-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-05-macro.html</guid>
       <description>오늘 밤 ADP 민간고용·ISM 서비스업 동시 발표. 연준 9월 인상 확률 64%, 한국 7월 CPI 2.8%로 둔화했지만 근원물가는 31개월래 최고 2.6% — 한미 동시 긴축 국면.</description>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.08.05)</title>
-      <link>https://bluaura.github.io/posts/2026-08-05-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-05-kr-market.html</guid>
-      <description>KOSPI 6,598.26(+3.76%) · KOSDAQ 799.59(+2.42%). 호르무즈 해협 개방 협상 진전과 미국 반도체 랠리에 외국인 1.4조 순매수, 전업종 동반 상승</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
