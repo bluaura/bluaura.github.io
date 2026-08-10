@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>한국 증시 브리핑 (2026.08.10)</title>
+      <link>https://bluaura.github.io/posts/2026-08-10-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-10-kr-market.html</guid>
+      <description>KOSPI 6,299.66(+0.65%) · KOSDAQ 854.47(+6.97%). 반도체 대형주에서 이탈한 자금이 코스닥 바이오·소부장으로 몰리며 매수 사이드카 발동, 외국인은 코스피 1.5조 순매도.</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.07)</title>
       <link>https://bluaura.github.io/posts/2026-08-07-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-07-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-05-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-05-kr-market.html</guid>
       <description>KOSPI 6,598.26(+3.76%) · KOSDAQ 799.59(+2.42%). 호르무즈 해협 개방 협상 진전과 미국 반도체 랠리에 외국인 1.4조 순매수, 전업종 동반 상승</description>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>효성중공업 2026년 2분기 실적 분석 — 수주 목표 12조 상향, 그런데 마진 개선은 착시였다</title>
-      <link>https://bluaura.github.io/posts/2026-08-05-hyosung-heavy-2q-2026.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-05-hyosung-heavy-2q-2026.html</guid>
-      <description>영업이익 2,643억원 분기 사상 최대, 연간 수주 목표 8.4조에서 12조로 43% 상향. 다만 1분기 이연분 400억을 보정하면 영업이익률은 14.0%에서 13.3%로 오히려 하락했고, 데이터센터 수주 비중은 아직 1.8%다.</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
