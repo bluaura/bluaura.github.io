@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.13)</title>
+      <link>https://bluaura.github.io/posts/2026-08-13-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-us-market.html</guid>
+      <description>S&amp;P 500 7,748.50(+0.26%) · NASDAQ 26,588.49(+0.54%). 7월 CPI 3.4% 예상 부합 속 AI 인프라주 급등, 메가캡 빅테크는 동반 하락</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.12)</title>
       <link>https://bluaura.github.io/posts/2026-08-12-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-12-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-06-spcx-q2-2026.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-06-spcx-q2-2026.html</guid>
       <description>매출 $7.81B(+92%)로 컨센 상회, EPS −$0.09로 서프라이즈. 그런데 정식 가이던스 부재와 캐펙스 $18.4B, 8/6 락업 9.1억 주 해제가 겹치며 −13.6%. 경영진 약속 11개를 채점표로 정리했다.</description>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>SanDisk(SNDK) FY2026 Q4 실적 분석 — 마진 84.6%인데 왜 빠졌나</title>
-      <link>https://bluaura.github.io/posts/2026-08-06-sndk-q4-fy2026.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-06-sndk-q4-fy2026.html</guid>
-      <description>매출 $8.97B(+372%), 총마진 84.6%로 가이던스 상단 초과. 그런데 Q1 가이던스 $10.55B가 컨센 $10.82~11.16B를 밑돌아 시간외 하락. NBM 계약은 $42B→$93.9B로 두 배. 사라진 지표는 비트 출하량이다.</description>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
