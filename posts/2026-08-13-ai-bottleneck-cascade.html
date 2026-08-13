@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 인프라 병목의 연쇄: 투자 회고(2022–2026)와 다음 병목 · 블루오라 투자노트</title>
+<meta name="description" content="GPU→패키징→전력→메모리로 12~18개월마다 병목이 이동했고, 챔피언도 매년 교체됐다(VRT +252%→VST +258%→WDC +283%). NVIDIA 순이익 27배, SK하이닉스 −7.7조→+47.2조. 다음 병목 1순위는 전력, 최대 리스크는 크레딧.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 인프라 병목의 연쇄: 투자 회고(2022–2026)와 다음 병목">
+<meta property="og:description" content="GPU→패키징→전력→메모리로 12~18개월마다 병목이 이동했고, 챔피언도 매년 교체됐다(VRT +252%→VST +258%→WDC +283%). NVIDIA 순이익 27배, SK하이닉스 −7.7조→+47.2조. 다음 병목 1순위는 전력, 최대 리스크는 크레딧.">
+<meta property="article:published_time" content="2026-08-13">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 인프라 병목의 연쇄: 투자 회고(2022–2026)와 다음 병목</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">반도체</span><span class="tag">전력기기</span><span class="tag">투자전략</span><span class="tag">매크로</span> &nbsp;2026-08-13</p>
+  </div>
+
+  <article class="article-body">
+<div class="stats">
+  <div class="stat"><div class="label">NVIDIA 순이익 (FY23→FY26)</div><div class="value">27배</div><div class="delta up">$4.4B → $120.1B</div></div>
+  <div class="stat"><div class="label">SK하이닉스 영업이익 (2023→2025)</div><div class="value">−7.7조→47.2조</div><div class="delta up">삼성전자 연간 이익 사상 첫 추월</div></div>
+  <div class="stat"><div class="label">HD현대일렉트릭 주가 (3년)</div><div class="value">27배</div><div class="delta up">2023.5 → 2026.5 · 전체 상장사 9위</div></div>
+  <div class="stat"><div class="label">병목 이동 주기</div><div class="value">12~18개월</div><div class="delta">GPU→패키징→전력→메모리→터빈</div></div>
+</div>
+
+<blockquote>2022년 11월 이후 AI 인프라 투자의 역사는 "병목의 릴레이"다. 초과이익은 언제나 그 시점의 결박 제약을 쥔 층위에 쌓였고, 챔피언은 매년 바뀌었다 — 2023년 GPU·냉각(NVDA +239%, Vertiv +252%), 2024년 전력(Vistra +258%로 S&amp;P 1위), 2025년 메모리·스토리지(WDC +283%, SK하이닉스 +270%), 2026년 터빈·전력기기 백로그. 갈아탈 신호는 매번 공개 정보였다: 가이던스 쇼크, "완판" 공시, 리드타임 연장, 경영진의 병목 발언. 다음 병목의 컨센서스 1위는 전력(2030년까지), 조건부 최대 리스크는 자본시장이다.</blockquote>
+
+<h2>1. "병목 릴레이"라는 렌즈</h2>
+<p>시스템의 산출량은 가장 좁은 관이 결정한다. AI 데이터센터는 GPU, 패키징, 메모리, 네트워크, 전력, 냉각, 자본이 직렬로 연결된 시스템이고, 지난 4년간 초과이익은 언제나 "지금 가장 좁은 관"을 쥔 기업에 쌓였다. 이론적 근거도 있다. Cohen &amp; Frazzini(Journal of Finance 2008)는 투자자가 고객-공급자 사슬을 따라 전파되는 충격에 과소반응하며, 고객사 뉴스로 공급사를 사는 단순 전략이 연 18%대 초과수익을 냈음을 보였다. 이유는 관심의 한계 — 사슬의 다음 고리는 다른 섹터, 다른 나라에 있기 때문이다. 2023~26년의 AI 트레이드는 이 논문을 몇 달 단위 시차로 재연했다.</p>
+
+<h2>2. 마스터 타임라인: 병목이 드러난 날짜들</h2>
+
+<div class="table-wrap"><table>
+<thead><tr><th>날짜</th><th>사건</th><th>의미</th></tr></thead>
+<tbody>
+<tr><td class="num">2022-11-30</td><td>ChatGPT 출시</td><td>훈련 컴퓨트 확보 경쟁 개시. NVDA는 직전 해 −50% 바닥에서 출발</td></tr>
+<tr><td class="num">2023-04</td><td>H100 이베이 웃돈 $40,000+</td><td>정가 $25~30K, 추정 제조원가 ~$3,300 — 약 10배 마크업</td></tr>
+<tr><td class="num">2023-05-24</td><td><strong>NVIDIA 가이던스 쇼크</strong></td><td>가이던스 $11B vs 컨센 $7.2B. 다음날 <span class="up">+24%</span>, 시총 $1조 접근. 병목이 회계 숫자가 된 날</td></tr>
+<tr><td class="num">2023 중반</td><td>CoWoS 패키징이 진짜 병목으로 판명</td><td>H100 리드타임 36~52주. TSMC 긴급 증설, "부족 1.5년 지속"</td></tr>
+<tr><td class="num">2024-02-21</td><td>SK하이닉스 "2024년 HBM 완판"</td><td>3월 마이크론도 완판 선언. 메모리 병목의 공식화</td></tr>
+<tr><td class="num">2024-01~04</td><td>"에너지가 병목" 발언 릴레이</td><td>알트먼(다보스)→머스크("변압기 다음은 전기")→저커버그("1번 병목은 에너지")</td></tr>
+<tr><td class="num">2024-04</td><td>Goldman 4단계 노트 + "Generational Growth"</td><td>유틸리티를 2단계로 공식 지목. 그리드 투자 $720B 추정</td></tr>
+<tr><td class="num">2024-07-30</td><td><strong>PJM 용량 경매 9.3배 폭등</strong></td><td>$28.92 → $269.92/MW-day. 전력 부족이 가격으로 확인된 날</td></tr>
+<tr><td class="num">2024-09-12</td><td><strong>OpenAI o1 출시 — 최대 변곡점</strong></td><td>추론 시간 컴퓨트 도입. 수요가 훈련(단발)→추론(사용량 연동)으로 구조 전환. 젠슨 황 "100배의 컴퓨트"</td></tr>
+<tr><td class="num">2024-09-20</td><td>MSFT-컨스텔레이션 스리마일섬 재가동 PPA</td><td>835MW·20년. "전력이 결박 제약" 컨센서스의 상징</td></tr>
+<tr><td class="num">2025-01-27</td><td><strong>DeepSeek 쇼크</strong></td><td>NVDA <span class="down">−17% (−$589B, 사상 최대 일일 손실)</span>. 그러나 5개월 만에 신고가 회복 — 사이클 최고의 매수 기회로 판명</td></tr>
+<tr><td class="num">2025 상반기</td><td>에이전트 원년</td><td>Claude Code·MCP·Codex. 구글 처리 토큰 월 9.7조(2024.4)→480조(2025.5, 50배)→3,200조(2026.5)</td></tr>
+<tr><td class="num">2025-09~10</td><td>커스텀 ASIC·순환 거래 클러스터</td><td>브로드컴 $10B OpenAI 수주(+9%), NVIDIA-OpenAI $100B LOI, AMD 6GW, 오라클 ~$300B, 삼성·SK Stargate LOI(DRAM 40%)</td></tr>
+<tr><td class="num">2025-10-29</td><td><strong>SK하이닉스 "2026년 전량 완판"</strong></td><td>DRAM·NAND·HBM 전부. Q4부터 범용 메모리 계약가 분기 +80~90% 슈퍼사이클</td></tr>
+<tr><td class="num">2026-01-28</td><td>SK하이닉스, 삼성 연간 이익 첫 추월</td><td>영업이익 47.2조 vs 43.6조. 6월 KOSPI 시총 1위 등극(25년 만의 교체)</td></tr>
+</tbody>
+</table></div>
+
+<h2>3. 단계별 복기: 단가 → 이익 → 주가</h2>
+
+<h3>1단계 — GPU (2023)</h3>
+<p>특징은 <strong>칩 판매가는 유지되고 렌탈가만 무너졌다</strong>는 것. H100 구매가는 내내 $25~40K를 유지했지만 클라우드 렌탈은 ~$8/시간(2023)에서 ~$2(2024 말)로 붕괴 — 희소성 지대가 임대업자에서 제조사로 이동했고, NVIDIA가 이익을 독식한 구조적 이유다. NVIDIA 순이익은 FY2023 $4.4B → FY2024 $29.8B → FY2025 $72.9B → FY2026 $120.1B, 총마진은 57%→75%. 주가 +239%(2023)·+171%(2024)는 <strong>멀티플이 아니라 이익이 만든 것</strong>이다 — 선행 P/E는 내내 25~45배 밴드였고 현재 22배까지 내려왔다. 파생주에서는 Vertiv가 2023년 +252%로 NVIDIA를 앞섰고(냉각·전원), 한미반도체는 SK하이닉스 TC본더 준독점으로 급등(장중 +500% 보도), 영업이익이 2023년 346억→2024년 2,554억으로 ~7배 뛰었다.</p>
+
+<h3>2단계 — 전력 (2024~)</h3>
+<p>발현 순서가 교과서적이다: <strong>경영진 발언(1~4월) → 셀사이드 프레임워크(4월 Goldman) → 시장가격(7월 PJM 9.3배) → 장기계약(9월 스리마일섬)</strong>. 이 시퀀스는 다음 병목 조기 포착에 그대로 재사용할 수 있다. 단가 증거: 대형 변압기 가격 +60~80%(2020년 대비), 리드타임 50주→최대 4년; 가스터빈 신규 예약가 인상, GE Vernova 백로그 80GW(2025 말)→116GW(2026 Q2), 2029년까지 매진. 주가·이익: Vistra 2024년 +258%로 S&amp;P 1위(단, 선행 5~7배→25배의 멀티플 재평가가 주역), GE Vernova는 2024년 4월 스핀오프 후 ~9배. 한국은 HD현대일렉트릭이 대표 — 영업이익 1,330억(2022)→6,690억(2024, +112%), ROIC 1%→57%, 주가 3년 27배. 효성중공업 영업이익 +106%(2025), 두산에너빌리티 수주잔고 24.1조·체코 원전 ~26조, 한국 전력기기·전선 수주잔고 합계 50조+.</p>
+
+<h3>3단계 — 메모리·스토리지 (2025~26)</h3>
+<p>이론적 근거는 "메모리 월"(Gholami et al., IEEE Micro 2024): 연산은 2년마다 3배 늘었지만 DRAM 대역폭은 1.6배 — LLM 추론은 메모리 바운드다. o1(2024.9)과 에이전트가 수요를 추론으로 옮기자 희소성이 HBM에 축적됐다. HBM 탑재량도 H100 80GB→B200 192GB→Rubin Ultra ~1TB(2027)로 폭증. "완판" 공시가 이어졌고(2024.2 "올해 완판"→2025.10.29 "2026년 DRAM·NAND·HBM 전량 완판"), HBM의 웨이퍼 잠식+Stargate 선매(월 90만 장=전 세계 DRAM의 40%)로 범용 메모리까지 분기 +80~90% 폭등, 서버 모듈 $450→$900+. JPMorgan 추정 2024→2026년 말 메모리 비용 최대 ~400% 상승. 결과: 2025년 S&amp;P 최상위가 전부 이 층이었다 — WDC +283%, STX +226%, MU +222%. SK하이닉스는 영업이익 −7.7조(2023)→47.2조(2025)로 삼성을 사상 처음 추월했고 2026년 6월 KOSPI 시총 1위에 올랐다(이후 고점 대비 ~45% 조정, P/E 6.6배). 삼성전자는 HBM3E 퀄 18개월 지연이 2024년 −32%의 핵심 원인이었고, 2025년 9월 퀄 통과와 HBM4 3사 동시 진입으로 +119% 회복했다.</p>
+
+<h2>4. 회고: 최적 로테이션</h2>
+
+<div class="table-wrap"><table>
+<thead><tr><th>연도</th><th>지배 병목</th><th>그 해의 챔피언</th><th>진입 신호 (당시 공개 정보)</th></tr></thead>
+<tbody>
+<tr><td class="num">2023</td><td>GPU + 1차 파생(냉각·본더)</td><td class="num"><span class="up">VRT +252% · NVDA +239% · 한미반도체 수 배</span></td><td>5.24 가이던스 쇼크 — 이후 진입해도 늦지 않았음</td></tr>
+<tr><td class="num">2024</td><td>전력·전기화 + ASIC</td><td class="num"><span class="up">VST +258% · HD현대일렉 +~330% · GEV +160% · AVGO +108%</span></td><td>1~4월 경영진 발언 → 4월 Goldman 노트</td></tr>
+<tr><td class="num">2025</td><td>메모리·스토리지</td><td class="num"><span class="up">WDC +283% · SK하이닉스 +270% · STX +226% · MU +222%</span> · KOSPI +75%(역대 2위)</td><td>2024.9 o1 + 연중 "HBM 완판" 공시 — 신호와 주가 사이 6개월+ 간격</td></tr>
+<tr><td class="num">2026 YTD</td><td>터빈·전력기기 백로그 + HBM4</td><td class="num"><span class="up">GEV(누적 ~9배) · MU +208%</span></td><td>2025.12 GEV "2029년까지 매진"</td></tr>
+</tbody>
+</table></div>
+
+<p>사후적 최적 경로: 2023년 초 NVIDIA+Vertiv(+한미반도체) → 2024년 초 전력으로 절반 로테이션(NVIDIA 코어 유지) → 2024년 말~2025년 초 메모리로 이동하되 <strong>DeepSeek 급락(2025.1.27)을 매수 기회로 사용</strong> → 2025년 말 일부를 스토리지·전력 장비(GEV)로. 핵심은 각 로테이션의 근거가 사후 통찰이 아니라 당시 공개된 신호였다는 점이다.</p>
+
+<div class="callout">
+<p><strong>재사용 가능한 규칙 5가지</strong> — ① 병목은 공개 정보로 예고된다(완판 공시·리드타임·경영진 발언이 주가보다 6~12개월 선행). ② 발현 시퀀스는 반복된다: 발언→프레임워크→시장가격→장기계약→어닝. ③ 희소성 지대는 공급 탄력성이 가장 낮은 층에 귀속된다(렌탈가는 무너져도 칩·변압기·터빈 가격은 유지·인상). ④ 챔피언은 매년 바뀐다 — 용량 증설이 도착하는 순간 그 층의 주가는 정점(한미반도체 2024.7, 전력 3사 2026.5). ⑤ 쇼크는 로테이션의 창이다(DeepSeek −$589B는 5개월 만에 복구).</p>
+</div>
+
+<div class="callout warn">
+<p><strong>실패 사례 3종</strong> — 지배구조(SMCI: 힌덴버그→감사인 사임→고점 대비 −85% 왕복), 본업 이탈(이수페타시스: 병목 수혜 한복판의 무관한 인수용 5,500억 증자 → −30%), 크라우딩(2026년 한국 전력 3사 고점 대비 ~40%, SK하이닉스 ~45% 조정 — 논제가 맞아도 진입 시점이 수익률을 지배). 장비주 사이클성도 추가: 한미반도체는 고객 증설 완료 직후 2026 Q1 영업이익 −88%를 맞고 HBM4 재발주로 회복했다.</p>
+</div>
+
+<h2>5. 다음 병목: 2026~2030 후보 랭킹</h2>
+
+<div class="table-wrap"><table>
+<thead><tr><th>순위</th><th>후보</th><th>결박 시기</th><th>추정용 기초 수치</th><th>대표 기업</th></tr></thead>
+<tbody>
+<tr><td class="num">1</td><td><strong>전력 — 발전설비·그리드</strong> <span class="tag">컨센서스 1위</span></td><td class="num">2026~2030+</td><td>DC 전력 415→945TWh(2030, IEA) · 미 그리드 투자 ~$700B(GS) · 터빈 슬롯 2029~30 매진 · 변압기 리드타임 4년 · 상호접속 대기 2,600GW</td><td>GEV·Eaton · 두산에너빌리티(SMR 공장 20기/년)·HD현대일렉·효성중·LS일렉·대한전선</td></tr>
+<tr><td class="num">2</td><td><strong>HBM4·첨단 패키징</strong></td><td class="num">지금~2027</td><td>HBM $34B(2025)→$60~100B(2027-28) · CoWoS 수요 연 100만 장(2026) · 균형 도달은 삼성 HBM4 퀄이 스윙 변수</td><td>TSMC·Micron·ASML · SK하이닉스(NVIDIA HBM4 ~2/3)·삼성전자·한미반도체</td></tr>
+<tr><td class="num">3</td><td><strong>자본·크레딧</strong> <span class="tag">조건부</span></td><td class="num">상시 잠재</td><td>2025 AI DC 파이낸싱 $126B(IG 채권 $88B 최대) · SPV $120B · Burry 감가상각 과소계상 주장($176B) · 유일하게 "수요 절벽"을 만들 수 있는 후보</td><td>관찰: 네오클라우드 크레딧 스프레드, 10-K 내용연수 변경</td></tr>
+<tr><td class="num">4</td><td>인력·구리 등 물리 제약</td><td class="num">2027~2030s</td><td>미 DC 인력 공백 ~34만 명(전기공) · 구리 2040년 1,000만 톤 부족(S&amp;P) · 광산 리드타임 17년</td><td>Quanta·EMCOR · LS MnM·풍산(간접)</td></tr>
+<tr><td class="num">5</td><td>데이터·알고리즘</td><td class="num">2026~2032</td><td>공개 텍스트 소진 2026~2032(Epoch AI) — 단, 컴퓨트 수요를 깎지 않고 RL·추론으로 이동시켜 HBM·전력에 오히려 우호적</td><td>RL 환경 스타트업(비상장)</td></tr>
+</tbody>
+</table></div>
+
+<p>TAM 기초치: 글로벌 DC 캐펙스 연 $1.6조(2030, Omdia) · 액체냉각 $5~6B(2024)→$28~40B+(2033, CAGR 25~35%) · 미국 전력수요 증가율 직전 10년 ~0%→연 2.4% 구조 전환. 반론도 명시한다: (a) 토큰 매출 실망 시 감가상각 절벽+크레딧 긴축이 전력 병목이 결박되기 전에 수요를 파괴(버블 수축), (b) 추론 단가 2년 −95%의 마진 압박, (c) GEV 스스로 "터빈이 빌드아웃을 막고 있지 않다"고 발언 — 병목 수사의 일부는 벤더 마케팅, (d) 컨센서스 1위 병목은 이미 상당 부분 가격에 반영.</p>
+
+<h2>정리</h2>
+<p><strong>복기:</strong> 수혜는 GPU(2023) → 패키징·냉각·네트워킹(2023~24) → 전력(2024~) → 메모리·스토리지(2025~26) → 터빈·그리드 장비(2026~)로 정확히 넓어져 왔다. 각 단계마다 단가 인상(웃돈 $40K, PJM 9.3배, 변압기 +60~80%, DRAM 분기 +80~90%)이 먼저 확인되고 순이익 폭발(NVIDIA 27배, SK하이닉스 −7.7조→+47.2조)이 뒤따랐다. <strong>전망:</strong> 컨센서스 다음 병목은 전력이며 공급 탄력성이 가장 낮아 수명도 길다(2030+). 그러나 지난 4년의 교훈은 컨센서스 1위가 아니라 "애널리스트 커버리지가 아직 얇은 다음 고리"에서 초과수익이 났다는 것 — HBM4 커스텀 베이스 다이, 1.6T 옵틱스, 전기공·시공, 구리, 그리고 자본 병목의 헤지가 그 후보다.</p>
+
+<h2>주요 출처</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>구분</th><th>문헌·자료</th></tr></thead>
+<tbody>
+<tr><td>이론</td><td>Cohen &amp; Frazzini "Economic Links and Predictable Returns"(JoF 2008) · Acemoglu 외 "Network Origins of Aggregate Fluctuations"(Econometrica 2012) · <a href="https://arxiv.org/abs/2403.14123">Gholami 외 "AI and Memory Wall"(IEEE Micro 2024)</a></td></tr>
+<tr><td>애널리스트</td><td><a href="https://www.goldmansachs.com/insights/goldman-sachs-research/generational-growth-ai-data-centers-and-the-coming-us-power-demand-surge">Goldman "Generational Growth"(2024.4)</a> · Goldman 4단계 노트(Kostin, 2024.4.16) · <a href="https://www.morganstanley.com/insights/articles/powering-ai-energy-market-outlook-2026">Morgan Stanley "Powering AI"</a> · <a href="https://www.jpmorgan.com/insights/global-research/artificial-intelligence/dram-memory-shortage-from-ai">JPMorgan DRAM 쇼티지</a></td></tr>
+<tr><td>산업 데이터</td><td><a href="https://www.iea.org/reports/energy-and-ai/executive-summary">IEA "Energy and AI"(2025)</a> · <a href="https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/073024-pjm-power-capacity-auction-clears-at-record-high-price-of-26992mw-day-for-most-of-footprint">S&amp;P PJM 경매</a> · <a href="https://www.woodmac.com/news/opinion/supply-shortages-and-an-inflexible-market-give-rise-to-high-power-transformer-lead-times/">Wood Mackenzie 변압기</a> · <a href="https://counterpointresearch.com/en/insights/Memory-Prices-Surge-Up-to-90-From-Q4-2025">Counterpoint 메모리 가격</a> · <a href="https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data">Epoch AI</a></td></tr>
+<tr><td>사건·실적</td><td><a href="https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html">CNBC DeepSeek 쇼크</a> · <a href="https://www.cnbc.com/2024/09/20/constellation-energy-to-restart-three-mile-island-and-sell-the-power-to-microsoft.html">CNBC 스리마일섬 PPA</a> · <a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">NVIDIA FY2026 실적</a> · <a href="https://zdnet.co.kr/view/?no=20260128163319">ZDNet SK하이닉스 2025 실적</a> · <a href="https://www.fntimes.com/html/view.php?ud=202605121633103259a837df6494_18">FN Times HD현대일렉 27배</a> · <a href="https://www.kedglobal.com/korean-chipmakers/newsView/ked202606220007">KED KOSPI 시총 1위 교체</a> · <a href="https://openai.com/index/announcing-the-stargate-project/">OpenAI Stargate</a></td></tr>
+</tbody>
+</table></div>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
