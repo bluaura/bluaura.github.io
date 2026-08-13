@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.08.14)</title>
+      <link>https://bluaura.github.io/posts/2026-08-14-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-14-macro.html</guid>
+      <description>미국 7월 PPI 헤드라인 0.0%(M/M)로 예상 +0.2% 하회, 전년비 5.5%→4.7% 급락. 9월 FOMC 인상 확률 54%→40%로 후퇴하며 러셀2000 사상 최고·코스피 +3.56%. 오늘 밤 21:30 7월 소매판매(예상 +0.3%)가 이번 주 분수령. 한국은 반도체 수출 +155%, 8/27 금통위 동결 우세.</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.13)</title>
       <link>https://bluaura.github.io/posts/2026-08-13-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-07-sector-memory.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-07-sector-memory.html</guid>
       <description>AMZN 캐펙스 $2,200억 증액 원인은 메모리 가격, 2028 캐파는 이미 예약. 그런데 MU는 선행 P/E 5배 — 2028 수요는 확정, 가격은 미확정이다. 재평가 트리거 정리.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>팔란티어(PLTR) 포지션 판단 — 어닝 서프라이즈 이후 비중 확대인가, 축소 기회인가</title>
-      <link>https://bluaura.github.io/posts/2026-08-07-pltr-position.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-07-pltr-position.html</guid>
-      <description>Q2 매출 +93%, 가이던스 $8.15B 상향에 목표가 줄상향. 그러나 P/S 43배와 10월 앤트로픽 IPO 수급 변수. 매수 래더는 $145~150 / $128~135 / $110~120.</description>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
