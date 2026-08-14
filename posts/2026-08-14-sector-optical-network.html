@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NVIDIA 광네트워크 밸류체인 — 세부 영역 Top 5와 진입 전략 · 블루오라 투자노트</title>
+<meta name="description" content="NVIDIA가 광통신 공급망에 직접 꽂은 돈 72억 달러. 그런데 8/11~12 어닝 비트 직후 LITE −5.6%, COHR −8.0%. 밸류체인 5개 영역을 차등 평가하고 3분할 진입안을 정리했다.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NVIDIA 광네트워크 밸류체인 — 세부 영역 Top 5와 진입 전략">
+<meta property="og:description" content="NVIDIA가 광통신 공급망에 직접 꽂은 돈 72억 달러. 그런데 8/11~12 어닝 비트 직후 LITE −5.6%, COHR −8.0%. 밸류체인 5개 영역을 차등 평가하고 3분할 진입안을 정리했다.">
+<meta property="article:published_time" content="2026-08-14">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>NVIDIA 광네트워크 밸류체인 — 세부 영역 Top 5와 진입 전략</h1>
+    <p class="sub"><span class="tag">섹터</span><span class="tag">투자전략</span><span class="tag">광통신</span><span class="tag">CPO</span><span class="tag">NVIDIA</span> &nbsp;2026-08-14</p>
+  </div>
+
+  <article class="article-body">
+<div class="stats">
+  <div class="stat">
+    <div class="label">NVIDIA 광학 직접 투자</div>
+    <div class="value">72억 달러</div>
+    <div class="delta">Coherent 20 + Lumentum 20 + Corning 32</div>
+  </div>
+  <div class="stat">
+    <div class="label">Lumentum (LITE)</div>
+    <div class="value">$880.41</div>
+    <div class="delta down">−5.58% · 고점 대비 −19%</div>
+  </div>
+  <div class="stat">
+    <div class="label">Coherent (COHR)</div>
+    <div class="value">$327.23</div>
+    <div class="delta down">−7.99% · 고점 대비 −26%</div>
+  </div>
+  <div class="stat">
+    <div class="label">CPO 이론 수율</div>
+    <div class="value">19.4%</div>
+    <div class="delta down">광엔진 32개 직렬 · 0.95³²</div>
+  </div>
+</div>
+
+<blockquote>
+수요는 진짜다. NVIDIA가 자기 돈 72억 달러를 광통신 공급망에 직접 꽂았고 CPO 스위치는 이미 양산에 들어갔다.
+문제는 주가가 그 사실을 이미 안다는 것이다. 8월 11~12일 Lumentum과 Coherent가 나란히 컨센서스를 이겼는데
+그 다음 날 각각 5.6%, 8.0% 빠졌다. 좋은 뉴스가 더 이상 주가를 올리지 못하는 구간이다.
+</blockquote>
+
+<p>2026년 3월 GTC 키노트에서 젠슨 황이 광학을 전면에 내세운 뒤, NVIDIA의 광통신 밸류체인은
+반년 만에 시장에서 가장 뜨거운 테마가 됐다. 실제로 어떤 회사들이 여기에 들어가 있고,
+지금 진입해도 되는지를 밸류체인 5개 세부 영역으로 나눠 정리한다.</p>
+
+<h2>NVIDIA 광통신 공급망 지도</h2>
+
+<p>GTC 2026에서 공개된 NVIDIA Photonics 생태계에 이름이 올라간 기업들이다.
+레이어별로 역할이 명확히 갈린다는 점이 중요하다. CPO는 광통신 부품을 없애는 것이 아니라
+레이어를 <strong>분해(unbundle)</strong>하기 때문이다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>레이어</th><th>기업</th><th>역할</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>외부 레이저 광원</td><td>Lumentum, Coherent</td><td>200G 레이저, InP·VCSEL · NVIDIA 각 20억 달러 투자</td></tr>
+    <tr><td>실리콘포토닉스 제조</td><td>TSMC (COUPE)</td><td>광엔진 파운드리 + 3D 패키징</td></tr>
+    <tr><td>패키징·조립</td><td>Fabrinet, Foxconn, SPIL</td><td>서브미크론 광섬유 정렬·조립</td></tr>
+    <tr><td>광섬유·케이블</td><td>Corning, Sumitomo</td><td>최대 32억 달러 · 미국 공장 3곳 신설</td></tr>
+    <tr><td>커넥터</td><td>SENKO, TFC, Browave</td><td>광 커넥터·수동 부품</td></tr>
+    <tr><td>광모듈</td><td>Innolight, Eoptolink</td><td>플러거블 트랜시버</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>제품 라인업</h3>
+
+<ul>
+  <li><strong>Quantum-X Photonics</strong> (InfiniBand) — 144포트 × 800G, 풀듀플렉스 115.2Tb/s, 4,460억 트랜지스터. 2026년 초 출시</li>
+  <li><strong>Spectrum-X Photonics</strong> (이더넷) — 128~512포트 × 800G, 102.4~409.6Tb/s, 모듈당 광엔진 32개. <strong>5월 31일 양산 진입</strong>, CoreWeave·Lambda·Oracle이 초기 고객</li>
+  <li><strong>1.6T 실리콘포토닉스 칩</strong> — 마이크로 링 모듈레이터(MRM) 기반</li>
+</ul>
+
+<div class="callout">
+  <strong>자주 오해되는 지점</strong><br>
+  NVIDIA의 광학 투자는 scale-out·scale-across 이더넷 패브릭(랙 간, 사이트 간)에 적용된다.
+  랙 내부 scale-up 연결은 <strong>여전히 구리 기반</strong>이다. "모든 배선이 광으로 바뀐다"는 서사는 과장이다.
+</div>
+
+<h2>세부 영역 Top 5</h2>
+
+<h3>1위 — 레이저 광원 · 외부광원(ELS) <span class="tag">중위험</span></h3>
+
+<p>CPO는 레이저를 칩 밖으로 빼내는 구조라 외부광원 수요가 오히려 늘어난다.
+NVIDIA가 3월 2일 Coherent와 Lumentum에 각각 20억 달러를 직접 넣은 이유가 여기 있다.
+투자 구조는 성장 지분 + 수십억 달러 규모 부품 구매 약정 + 미래 캐파 접근권 + 미국 신공장 자금 지원의 복합 형태다.</p>
+
+<p>Lumentum은 VCSEL·EEL·PIC 전문 순수 플레이로 200G 레이저 전용 팹을 신설하고,
+Coherent는 멀티모드 트랜시버 지배력에 더해 InP 6인치 웨이퍼 캐파를 공격적으로 늘리고 있다.
+<strong>플러거블이 남든 CPO로 가든 레이저는 양쪽 다 팔린다</strong>는 것이 이 영역의 핵심이다.
+전망 강도 92점, 5개 영역 중 최상위.</p>
+
+<h3>2위 — 광패키징 · 정밀조립 <span class="tag">중저위험</span></h3>
+
+<p>CPO의 실제 병목은 서브미크론 광섬유 정렬과 3D 적층이다.
+기술 방식이 CPO든 NPO든 플러거블이든 누군가는 조립해야 하므로 <strong>기술 노선 리스크가 가장 낮다.</strong>
+Fabrinet 선행 PER 34.5배로 5개 영역 중 밸류에이션도 가장 온건하다.
+8월 17일 FY26 4분기 실적이 1차 검증대다. 전망 강도 80점.</p>
+
+<h3>3위 — 광섬유 · 커넥터 인프라 <span class="tag">중위험</span></h3>
+
+<p>5월 6일 NVIDIA가 미국 내 광섬유 공장 3곳 신설을 걸고 Corning에 최대 32억 달러를 투입했다.
+광섬유는 구리 대비 속도가 빠르고 전력 소비가 5~20배 낮아, 구리를 빛으로 바꾸는 물량 자체는 확정 수요다.
+Corning은 2026년 2분기 매출 +17%, EPS +30%를 기록했다.
+다만 국내 광섬유주는 PBR 36배대까지 올라와 미국 원본보다 위험하다. 전망 강도 70점.</p>
+
+<h3>4위 — CPO 스위치 · 실리콘포토닉스 IC <span class="tag">중위험</span></h3>
+
+<p>Spectrum-X Photonics는 200G SerDes 기반 최초의 CPO 이더넷 스위치로 이미 양산에 들어갔다.
+다만 광네트워크 순수 노출이 아니다. NVIDIA·Broadcom·Marvell 같은 대형주에 묻혀 희석되고,
+Credo의 AEC(액티브 전기 케이블) 같은 전기 배선은 CPO와 제로섬 관계라 영역 내부에서도 승부가 갈린다.
+전망 강도 66점.</p>
+
+<h3>5위 — 플러거블 1.6T 광트랜시버 <span class="tag">고위험</span></h3>
+
+<p>단기 수요는 가장 뜨겁지만 <strong>CPO가 정확히 대체하려는 자리</strong>다. 자기잠식 시계가 켜져 있어
+6~12개월 트레이딩은 되어도 장기 코어로는 부적합하다.
+국내 접근이 가장 쉬운 영역이 하필 위험도가 가장 높다는 점이 함정이다.
+AAOI 베타는 3.79로 시장 대비 3.8배 변동한다. 전망 강도 54점.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th class="num">순위</th><th>영역</th><th>포지션 시장</th><th>위험도</th><th class="num">전망</th><th>키 포인트</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="num">1</td><td>레이저 광원·ELS</td><td>나스닥·NYSE</td><td>중</td><td class="num">92</td><td>NVIDIA 40억 달러 직접 투자, 양쪽 수혜</td></tr>
+    <tr><td class="num">2</td><td>광패키징·정밀조립</td><td>나스닥·NYSE</td><td>중저</td><td class="num">80</td><td>기술 노선 무관, 밸류에이션 가장 온건</td></tr>
+    <tr><td class="num">3</td><td>광섬유·커넥터</td><td>NYSE·코스피</td><td>중</td><td class="num">70</td><td>Corning 32억 달러, 전환 물량 확정</td></tr>
+    <tr><td class="num">4</td><td>CPO 스위치·SiPh</td><td>나스닥</td><td>중</td><td class="num">66</td><td>양산 진입, 그러나 대형주 희석</td></tr>
+    <tr><td class="num">5</td><td>플러거블 1.6T</td><td>나스닥·코스닥</td><td>고</td><td class="num">54</td><td>단기 수요 최고, CPO 자기잠식 대상</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="callout warn">
+  <strong>영역 간 상충 구조</strong> — CPO 스위치(4위)가 성공할수록 플러거블(5위)이 깎인다.
+  반대로 레이저(1위)·패키징(2위)·광섬유(3위)는 어느 쪽이 이겨도 물량이 지나간다.
+  4위와 5위를 동시에 담으면 수익이 서로 상쇄된다.
+</div>
+
+<h2>현재 주가 — 조정 중이지만 저점 대비로는 여전히 4~8배</h2>
+
+<p>2026년 8월 13일 미국 종가 기준이다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>종목</th><th class="num">주가</th><th>52주 밴드</th><th class="num">고점 대비</th><th class="num">선행 PER</th><th class="num">목표가</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Lumentum (LITE)</td><td class="num">$880</td><td>$111–$1,086</td><td class="num down">−19%</td><td class="num">40.7배</td><td class="num up">$1,148 (+30%)</td></tr>
+    <tr><td>Coherent (COHR)</td><td class="num">$327</td><td>$84–$440</td><td class="num down">−26%</td><td class="num">35.4배</td><td class="num up">$411 (+26%)</td></tr>
+    <tr><td>Fabrinet (FN)</td><td class="num">$566</td><td>$272–$749</td><td class="num down">−24%</td><td class="num">34.5배</td><td class="num up">$732 (+29%)</td></tr>
+    <tr><td>Credo (CRDO)</td><td class="num">$266</td><td>$86–$309</td><td class="num down">−14%</td><td class="num">43.4배</td><td class="num">$279 (+5%)</td></tr>
+    <tr><td>Corning (GLW)</td><td class="num">$159</td><td>$63–$272</td><td class="num down">−42%</td><td class="num">42.8배</td><td class="num up">$191 (+21%)</td></tr>
+    <tr><td>AAOI</td><td class="num">$130</td><td>$18.5–$234</td><td class="num down">−44%</td><td class="num">52.4배</td><td class="num up">$163 (+26%)</td></tr>
+    <tr><td>오이솔루션</td><td class="num">2.1만원</td><td>고점 5.79만원</td><td class="num down">−63%</td><td class="num">적자 탈출</td><td class="num up">6만원 (하나증권)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>전 종목이 고점 대비 20~60% 조정 중이다. 하지만 52주 저점 대비로는 여전히 4~8배 위에 있다.
+"많이 빠졌다"와 "싸다"는 다른 말이다.</p>
+
+<h2>시장 반응 — 어닝을 이겼는데 주가가 빠졌다</h2>
+
+<p>시간순으로 보면 흐름이 명확하다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>날짜</th><th>이벤트</th><th>반응</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>3/2</td><td>NVIDIA, Coherent·Lumentum에 각 20억 달러</td><td class="up">섹터 재평가 시작</td></tr>
+    <tr><td>3/17</td><td>GTC 키노트 · 2030년 DC capex 1조 달러 제시</td><td class="up">테마 확산</td></tr>
+    <tr><td>3/30</td><td>1.6T 수요 급증에도 광통신주 하락</td><td class="down">첫 경고 신호</td></tr>
+    <tr><td>5/6</td><td>NVIDIA·Corning 최대 32억 달러</td><td class="up">광섬유로 확산</td></tr>
+    <tr><td>5/31</td><td>Spectrum-X Photonics 양산 진입</td><td class="up">기술 리스크 일부 해소</td></tr>
+    <tr><td>6/9</td><td>SemiAnalysis CPO 지연 보고서</td><td class="down">AAOI −17%, COHR −11%, LITE −8%</td></tr>
+    <tr><td>7월</td><td>LITE 러셀 지수 제외 · 기계적 매도</td><td class="down">섹터 15~20% 조정</td></tr>
+    <tr><td>8/10</td><td>실적 앞두고 포지션 정리</td><td class="down">COHR −12%, LITE −7%</td></tr>
+    <tr><td>8/11~12</td><td>양사 모두 어닝 비트 · LITE EPS $3.23 (컨센 $2.97)</td><td class="up">서프라이즈</td></tr>
+    <tr><td>8/13</td><td>그럼에도 하락</td><td class="down">LITE −5.6%, COHR −8.0%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>8월 10일 기준 TTM PER은 Coherent 160배, Lumentum 146배였다. YTD 수익률은 각각 +105%, +142%.
+풋콜 비율도 COHR 1.19, LITE 1.54로 방어적이었다.
+<strong>펀더멘털이 아니라 포지셔닝이 무거워서 나오는 움직임이고, 이런 국면은 보통 몇 개월 더 이어진다.</strong></p>
+
+<p>7월 조정 당시 JPMorgan은 "채널 체크 결과 CPO 채택은 정상 궤도"라며 Overweight를 유지했고,
+Barclays는 Lumentum을 Overweight로 상향, Citi는 upside catalyst watch에 올렸다. 월가는 여전히 매수 쪽이다.</p>
+
+<h2>반대 의견 — SemiAnalysis의 수율 논쟁</h2>
+
+<p>한 방향 자료만 보는 것은 위험하므로 약세 논리를 그대로 옮긴다.
+6월 9일 SemiAnalysis는 기관 전용 보고서에서 CPO 대량 상용화가 <strong>2028~2029년으로 밀린다</strong>고 주장했다.</p>
+
+<div class="callout warn">
+  <strong>핵심 논거 — 수율 수식</strong><br>
+  광엔진 개당 수율 95%, 스위치당 32개 필요 → 0.95³² = <strong>약 19.4%</strong>.
+  5대 중 4대가 폐기된다는 계산이다. CPO는 ASIC 기판에 광엔진을 솔더링하므로 리워크 경로가 없다.
+  220~260℃ 재용융을 ASIC 몇 mm 옆에서 시도하면 인접 부품이 손상되고 서브미크론 광섬유 정렬이 파괴된다.
+  시스템 테스트에서 삽입 손실도 3.5dB를 넘었다.
+</div>
+
+<p>그래서 업계는 <strong>NPO(near-packaged optics)</strong>로 헤지 중이다.
+Broadcom이 OFC 2026에서 3.2T VCSEL 기반 NPO 제품군을 냈고,
+NVIDIA의 Quantum-X조차 CPO로 마케팅되지만 실제로는 탈착 가능한 광 서브어셈블리 구조다.
+커넥터·광학 6개사가 Open CPX MSA를 만들어 소켓형 광엔진 인터페이스를 표준화했다.</p>
+
+<p>반박도 있다. 저 수식은 학습곡선·비닝·리던던시를 무시하고 초기 수율을 고정한 계산이라 방법론적 결함이 있다.
+그리고 고출력 레이저 발주가 약 1억 개 수준으로 급증하고 라인이 풀북 상태인데,
+2029년까지 지연된다면 기업들이 이 정도 자본을 미리 태울 이유가 없다.</p>
+
+<p>국내 쪽 반대 의견도 있다. 한 증권사 관계자는 "광통신이 미래 기술이라도 코스닥에서 성장주 테마로
+내세우기엔 변동성이 크다"며 5G 초기에 오히려 주가가 빠졌던 사례를 들었다.
+국내 광통신주 PBR은 대한광통신 36.72배, 파이버프로 16.24배, RF머트리얼즈 14.81배로
+코스닥 평균 2.75배와 비교가 되지 않는다.</p>
+
+<h2>국내 투자자 접근 경로</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>영역</th><th>국내 직접 접근</th><th>비고</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>레이저 광원·ELS</td><td><strong>확인 못 함</strong></td><td>오이솔루션이 InP LD칩 내재화(국내 유일)로 부분 노출. 순수 플레이 아님</td></tr>
+    <tr><td>광패키징·정밀조립</td><td><strong>확인 못 함</strong></td><td>Fabrinet은 태국·미국 기반. 국내 대응 기업 미확인</td></tr>
+    <tr><td>광섬유·커넥터</td><td>대한광통신, 라이콤</td><td>대한광통신이 국내 유일 모재~완제품 수직계열화. PBR 36.7배</td></tr>
+    <tr><td>CPO 스위치·SiPh</td><td>부분 노출</td><td>삼성전자 CPO 파운드리 진출 보도 있으나 전사 매출 기여도 미미</td></tr>
+    <tr><td>플러거블 트랜시버</td><td>오이솔루션, 빛과전자, 파이버프로</td><td>접근이 가장 쉬운 영역이자 위험도 최고 영역</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>순수 국내 플레이가 없는 영역은 억지로 관련주를 갖다 붙이지 않고 그대로 "확인 못 함"으로 남긴다.
+현실적인 대안은 ETF 경유다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>ETF</th><th>투자 대상</th><th>특징</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>KODEX 미국AI광통신네트워크</td><td>루멘텀·시에나·코히런트 등</td><td>상장 후 수익률 34.4%</td></tr>
+    <tr><td>RISE 네트워크인프라</td><td>국내 광통신·네트워크</td><td>국내 기업 집중</td></tr>
+    <tr><td>PLUS 글로벌광통신</td><td>미국 + 국내</td><td>리스크 분산</td></tr>
+    <tr><td>ACE 미국AI광통신</td><td>미국 AI·광통신 융합</td><td>AI 테마 포함</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>리스크</h2>
+
+<ol>
+  <li><strong>수율·리워크</strong> — 0.95³² = 19.4%. 리워크 불가 구조라 불량 1개가 전체 어셈블리를 버린다</li>
+  <li><strong>일정 지연</strong> — 2028~2029 시나리오가 현실화되면 2027년 실적 추정이 통째로 무너진다</li>
+  <li><strong>밸류에이션</strong> — 조정 후에도 선행 PER 34~52배. 완전 성장주 구간</li>
+  <li><strong>자기잠식</strong> — 플러거블은 CPO가 성공할수록 손해. 논리 충돌 확인 필요</li>
+  <li><strong>단일 고객 집중</strong> — 5개 영역 전부 NVIDIA capex 하나에 물려 있다. 가이던스 한 번이면 동시 하락</li>
+  <li><strong>기술 대체</strong> — 랙 내부는 여전히 구리, AEC·NPO·LPO가 각각 CPO 파이를 나눈다</li>
+  <li><strong>기계적 수급</strong> — 지수 리밸런싱이 펀더멘털과 무관한 급락을 만든다 (LITE 러셀 제외 사례)</li>
+  <li><strong>국내 특유 리스크</strong> — PBR 36배, 중국 YOFC·Hengtong 저가 덤핑, 원재료비 변동</li>
+  <li><strong>모멘텀 소진</strong> — 어닝 비트에도 −6~8%. 좋은 뉴스가 주가를 못 올리는 구간</li>
+</ol>
+
+<div class="callout warn">
+  <strong>데이터 정합성 주의</strong> — 대한광통신은 출처 간 주가·재무 수치가 크게 엇갈린다
+  (38,000~42,000원 vs 22,000원). 이 종목을 검토한다면 <strong>반드시 원본 공시로 재확인</strong>해야 한다.
+</div>
+
+<h2>지금 진입해도 되는가</h2>
+
+<blockquote>
+신규 진입은 가능하되, 지금 한 번에 들어가는 것은 아니다.
+</blockquote>
+
+<p>근거는 셋이다. 첫째, 수요는 실제다. Spectrum-X는 양산에 들어갔고 실적이 실제로 컨센을 이기고 있으며
+NVIDIA가 자기 돈 72억 달러를 이 공급망에 직접 꽂았다. 테마가 아니라 계약이다.
+둘째, 그런데 주가는 그 사실을 이미 안다. 셋째, 6~12개월 안에 CPO 지연 여부라는 이진 변수가 판가름 난다.</p>
+
+<h3>3분할 진입안</h3>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>시점</th><th class="num">비중</th><th>조건</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1차 · 지금</td><td class="num">30%</td><td>레이저·패키징 중심. 실적 발표를 이미 소화한 종목</td></tr>
+    <tr><td>2차 · 8월 하순</td><td class="num">30%</td><td>8/17 Fabrinet 실적 + NVIDIA 가이던스 확인 후</td></tr>
+    <tr><td>3차 · 4Q26</td><td class="num">40%</td><td>CPO 실제 출하량·수율 데이터 확인 후. 지연 시 집행 취소</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>포지션 구성</h3>
+
+<p>코어 70%는 1·2위 영역, 즉 레이저와 패키징이다. CPO가 되든 안 되든 물량이 지나가는 자리라
+기술 노선 베팅을 피할 수 있다. 새틀라이트 30%는 3·4위.
+<strong>5위 플러거블은 코어에 넣지 않는다.</strong> 담더라도 명시적 트레이딩 포지션으로 분리하고
+청산 시점을 미리 정해두는 편이 낫다. 국내는 개별 종목보다 ETF가 현실적이다.</p>
+
+<h3>손절 및 논리 무효화 기준</h3>
+
+<p>진입가 대비 −25%를 기계적 손절선으로 잡되, 더 중요한 것은 thesis-breaker다.
+아래 셋 중 하나라도 뜨면 손절선과 무관하게 비중을 줄인다.</p>
+
+<ul>
+  <li>NVIDIA가 CPO 로드맵을 공식 지연 발표</li>
+  <li>Fabrinet·Lumentum이 광 부문 수주잔고 감소를 언급</li>
+  <li>하이퍼스케일러 capex 가이던스 하향</li>
+</ul>
+
+<h2>정리</h2>
+
+<p><strong>단기 관전 포인트</strong> — 8월 17일 Fabrinet FY26 4분기 실적이 광패키징 수요를 가장 빨리 검증해준다.
+이어서 8월 하순 NVIDIA 분기 실적과 가이던스.</p>
+
+<p><strong>중기 관전 포인트</strong> — 2026년 하반기 Spectrum-X Photonics 광범위 공급 개시 여부,
+그리고 4분기에 나올 CPO 실제 출하량·수율 데이터. SemiAnalysis의 2028~2029 지연 시나리오가
+현실이 되는지 여기서 갈린다.</p>
+
+<div class="callout warn">
+  <strong>포트폴리오 관점</strong> — 광네트워크는 반도체·전력기기와 <strong>같은 AI capex 팩터</strong>다.
+  세 섹터를 나눠 담아도 분산이 아니라 동일 팩터에 대한 추가 베팅이다.
+  AI 투자 사이클이 꺾이면 셋 다 같이 빠진다. 신규 편입 전에 기존 AI 연동 자산 비중부터 합산해 확인해야 한다.
+</div>
+
+<h2>출처</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>내용</th><th>출처</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Spectrum-X Photonics 발표</td><td><a href="https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories">NVIDIA Newsroom</a></td></tr>
+    <tr><td>NVIDIA·Corning 파트너십</td><td><a href="https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure">NVIDIA Newsroom</a></td></tr>
+    <tr><td>$4B 투자 (Coherent·Lumentum)</td><td><a href="https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html">CNBC</a></td></tr>
+    <tr><td>Corning $3.2B 투자</td><td><a href="https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html">CNBC</a></td></tr>
+    <tr><td>GTC 키노트 광학 요약</td><td><a href="https://industrialanalyst.substack.com/p/key-optical-takeaways-from-jensen">Industrial Analyst</a></td></tr>
+    <tr><td>CPO 양산 진입·공급망 구조</td><td><a href="https://photoncap.net/p/taiwan-gtc-computex-2026-cpo-just">PhotonCap</a></td></tr>
+    <tr><td>SemiAnalysis CPO 지연 논쟁</td><td><a href="https://www.tradingkey.com/analysis/stocks/us-stocks/261969604-semianalysis-cpo-delay-optical-selloff-tradingkey">TradingKey</a></td></tr>
+    <tr><td>NPO 부상·수율 문제</td><td><a href="https://www.tomshardware.com/tech-industry/near-packaged-optics-gains-ground-aso-the-industry-hedges-against-co-packaged-optics-growing-pains">Tom's Hardware</a></td></tr>
+    <tr><td>실리콘포토닉스 생태계 파트너</td><td><a href="https://www.naddod.com/ai-insights/nvidia-s-silicon-photonics-cpo-the-beginning-of-a-transformative-journey-in-ai">NADDOD</a></td></tr>
+    <tr><td>실적 전 급락 (8/10)</td><td><a href="https://247wallst.com/investing/2026/08/10/coherent-falls-12-lumentum-drops-7-as-ai-optics-stocks-cool-ahead-of-earnings/">24/7 Wall St.</a></td></tr>
+    <tr><td>7월 조정과 월가 대응</td><td><a href="https://finance.yahoo.com/markets/stocks/articles/optical-stocks-ai-trades-wildest-142900965.html">Yahoo Finance</a></td></tr>
+    <tr><td>Needham 네트워킹·광학 픽</td><td><a href="https://www.investing.com/news/stock-market-news/top-networking-and-optical-tech-stocks-to-watch-according-to-needham-93CH-4810109">Investing.com</a></td></tr>
+    <tr><td>주가·밸류에이션 데이터</td><td><a href="https://stockanalysis.com/stocks/lite/">stockanalysis.com</a></td></tr>
+    <tr><td>오이솔루션 실적·목표주가</td><td><a href="https://economic22.com/oisolution-2026/">economic22</a></td></tr>
+    <tr><td>국내 광통신주 PBR 경고</td><td><a href="https://www.hankyung.com/amp/2026041405481">한국경제</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
