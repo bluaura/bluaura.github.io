@@ -33,6 +33,13 @@
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>AI 인프라 병목의 연쇄: 투자 회고(2022–2026)와 다음 병목</title>
+      <link>https://bluaura.github.io/posts/2026-08-13-ai-bottleneck-cascade.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-ai-bottleneck-cascade.html</guid>
+      <description>GPU→패키징→전력→메모리로 12~18개월마다 병목이 이동했고, 챔피언도 매년 교체됐다(VRT +252%→VST +258%→WDC +283%). NVIDIA 순이익 27배, SK하이닉스 −7.7조→+47.2조. 다음 병목 1순위는 전력, 최대 리스크는 크레딧.</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.13)</title>
       <link>https://bluaura.github.io/posts/2026-08-13-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-us-market.html</guid>
@@ -72,13 +79,6 @@
       <link>https://bluaura.github.io/posts/2026-08-13-ai-financialization.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-ai-financialization.html</guid>
       <description>월가 6개사와 710조원 플랫폼. 돈은 연기금 장기자금, 담보는 GPU, 엔비디아는 보증인. BIS·BoE·FSB가 경고하는 이유와 버리의 반대 베팅.</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 인프라 병목의 연쇄: 투자 회고(2022–2026)와 다음 병목</title>
-      <link>https://bluaura.github.io/posts/2026-08-13-ai-bottleneck-cascade.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-ai-bottleneck-cascade.html</guid>
-      <description>GPU→패키징→전력→메모리로 12~18개월마다 병목이 이동했고, 챔피언도 매년 교체됐다(VRT +252%→VST +258%→WDC +283%). NVIDIA 순이익 27배, SK하이닉스 −7.7조→+47.2조. 다음 병목 1순위는 전력, 최대 리스크는 크레딧.</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
