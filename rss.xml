@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.15)</title>
+      <link>https://bluaura.github.io/posts/2026-08-15-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-15-us-market.html</guid>
+      <description>S&amp;P 500 7,785.76(-0.21%) · NASDAQ 26,729(-0.28%) · Dow 53,732(-0.20%). 7월 retail sales -0.6% 쇼크와 소비심리 51.0 급락에도 주간 3주 연속 상승, 지수를 눌러앉힌 건 Broadcom -6%로 불붙은 AI 인프라 부외부채 논란</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>카탈리스트 캘린더 (2026.08.15 기준)</title>
       <link>https://bluaura.github.io/posts/2026-08-15-catalyst-calendar.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-15-catalyst-calendar.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-11-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-11-macro.html</guid>
       <description>오늘 오전 9시 관세청 8월 1~10일 수출입 잠정치 발표, 내일 밤 미국 7월 CPI 대기. 7월 미국 고용 -2.3만 명 쇼크에도 연준은 인하가 아닌 인상 여부를 두고 저울질 중이며, 한국은 반도체 슈퍼사이클로 수출 989억 달러를 기록했다.</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.08.11)</title>
-      <link>https://bluaura.github.io/posts/2026-08-11-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-11-kr-market.html</guid>
-      <description>KOSPI 6,345.53(+0.73%) · KOSDAQ 857.84(+0.39%). 8월 초순 반도체 수출 155% 급증에 삼성전자 4%대 급등, 외국인·기관 코스피 동반 순매수 전환</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
