@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>2026년 2분기 13F 해부 — 화석이 된 스냅샷, 버크셔의 알파벳, AI 인프라 2군</title>
+      <link>https://bluaura.github.io/posts/2026-08-17-13f-q2-2026.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-17-13f-q2-2026.html</guid>
+      <description>버크셔 14분기 만의 순매수 전환(198억달러), 알파벳 포트폴리오 3위 등극. Situational Awareness는 6/30 기준 포트폴리오 50%가 메모리 2종목에 4배 레버리지 — 7월 -67%. Mag7 축소 44% vs 확대 42%로 컨센서스 부재.</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.15)</title>
       <link>https://bluaura.github.io/posts/2026-08-15-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-15-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-11-nvda-500b-financing.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-11-nvda-500b-financing.html</guid>
       <description>월가 6개사가 SPV·자산담보부 구조로 $5,000억 동원. NVDA는 잔존가치 25% 지원. 2027년 DRAM·HBM 완판, MLCC 30% 인상 — 후방 하드웨어 사이클을 늘리는 촉매.</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.08.11)</title>
-      <link>https://bluaura.github.io/posts/2026-08-11-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-11-macro.html</guid>
-      <description>오늘 오전 9시 관세청 8월 1~10일 수출입 잠정치 발표, 내일 밤 미국 7월 CPI 대기. 7월 미국 고용 -2.3만 명 쇼크에도 연준은 인하가 아닌 인상 여부를 두고 저울질 중이며, 한국은 반도체 슈퍼사이클로 수출 989억 달러를 기록했다.</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
