@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.19)</title>
+      <link>https://bluaura.github.io/posts/2026-08-19-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-19-us-market.html</guid>
+      <description>S&amp;P 500 7,691.76(-0.69%) · NASDAQ 26,289.71(-1.33%). 30년물 Treasury 금리 5.31%로 2007년 이후 최고, AI 광통신·인프라 밸류체인 동반 급락</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.18)</title>
       <link>https://bluaura.github.io/posts/2026-08-18-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-18-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-12-crwv-q2-2026.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-12-crwv-q2-2026.html</guid>
       <description>어닝콜 전문 반영 개정판. 신규 수주는 Q1의 1/5인데 초기 Q3에 $25B가 들어왔다. 2027 ARR $30B 목표는 질문받고도 답하지 않았고, Solidigm(SK하이닉스 자회사) 장기 공급계약이 메모리 수혜의 직접 경로다.</description>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 주간 브리핑 (2026.08.12)</title>
-      <link>https://bluaura.github.io/posts/2026-08-12-ai-weekly.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-12-ai-weekly.html</guid>
-      <description>이번 주 AI 업계 주요 소식 30건. NVIDIA 5000억 달러 인프라 파이낸싱과 Anthropic 데이터센터 합작 등 AI 경쟁이 자본·전력 조달전으로 이동</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
