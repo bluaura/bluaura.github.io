@@ -26,13 +26,6 @@
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
-      <title>한국 증시 브리핑 (2026.08.17)</title>
-      <link>https://bluaura.github.io/posts/2026-08-17-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-17-kr-market.html</guid>
-      <description>8월 17일 광복절 대체공휴일 휴장으로 직전 거래일(8/14) 기준 집계. KOSPI 6,977.94(+2.42%) · KOSDAQ 864.65(+0.38%). 외국인 3조원 순매수로 장중 사상 첫 7,000선 터치, 미 PPI 둔화와 샌디스크 메모리 고점론 해소가 반도체·자동차 랠리를 견인.</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
       <title>2026년 2분기 13F 해부 — 화석이 된 스냅샷, 버크셔의 알파벳, AI 인프라 2군</title>
       <link>https://bluaura.github.io/posts/2026-08-17-13f-q2-2026.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-17-13f-q2-2026.html</guid>
@@ -213,5 +206,12 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-12-ai-weekly.html</guid>
       <description>이번 주 AI 업계 주요 소식 30건. NVIDIA 5000억 달러 인프라 파이낸싱과 Anthropic 데이터센터 합작 등 AI 경쟁이 자본·전력 조달전으로 이동</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미국 증시 브리핑 (2026.08.11)</title>
+      <link>https://bluaura.github.io/posts/2026-08-11-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-11-us-market.html</guid>
+      <description>S&amp;P 500 7,753.11(-0.06%) · NASDAQ 26,605.36(-0.32%). Hormuz 협상 교착에 Brent 3.5% 급등, 10년물 4.69%로 상승하며 반도체 약세·클라우드 강세 분화</description>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
