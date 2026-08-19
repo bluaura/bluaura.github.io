@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.08.19) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. Grok 4.6·Gemini 3.7 Flash 가격 인하로 모델 단가 경쟁 본격화, Anthropic 첫 영업이익 5.59억 달러와 OpenAI 1조 달러 IPO 서류 제출이 대비">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.08.19)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. Grok 4.6·Gemini 3.7 Flash 가격 인하로 모델 단가 경쟁 본격화, Anthropic 첫 영업이익 5.59억 달러와 OpenAI 1조 달러 IPO 서류 제출이 대비">
+<meta property="article:published_time" content="2026-08-19">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.08.19)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-08-19</p>
+  </div>
+
+  <article class="article-body">
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델·업데이트</div><div class="value">7종</div></div>
+  <div class="stat"><div class="label">최대 M&amp;A</div><div class="value">60억 달러</div></div>
+  <div class="stat"><div class="label">최대 펀딩</div><div class="value">4억 달러</div></div>
+  <div class="stat"><div class="label">수집 기간</div><div class="value">2026-08-12 ~ 2026-08-19</div></div>
+</div>
+
+<p>수집 기간 <strong>2026-08-12 ~ 2026-08-19</strong> (최근 7일). 카테고리별 균형을 맞춰 30건을 선별했으며, 앱 개발자 관점에서 실질적 영향이 있는 SDK·API·가격·라이선스 변경에 비중을 뒀습니다.</p>
+
+<h2>이번 주 핵심 3가지</h2>
+
+<div class="callout">
+  <strong>1. 프런티어 모델 가격 전쟁이 본격화됐다.</strong> xAI가 Grok 4.6을 100만 토큰당 입력 2달러 / 출력 6달러로 내놓으며 GPT-5.6 Sol급 성능을 같은 가격대에 맞췄고, Google은 Gemini 3.7 Flash를 직전 버전의 절반 가격에 출시했습니다. OpenAI는 GPT-5.6 Luna를 80% 인하 후 ChatGPT 무료 기본 모델로 전환했습니다. API 비용 구조를 다시 계산해야 하는 주간입니다.
+</div>
+
+<div class="callout">
+  <strong>2. Anthropic이 첫 영업이익을 냈고, OpenAI는 IPO 서류를 냈다.</strong> Anthropic은 분기 매출 109억 달러에 영업이익 5억 5,900만 달러를 기록했다고 알려졌고, 같은 주 Decart 인수 협상(60억 달러) 소식이 나왔습니다. OpenAI는 1조 달러 밸류에이션을 목표로 비공개 S-1을 제출하고 9월 상장을 노립니다. 두 회사의 재무 구조가 정반대로 갈리고 있습니다.
+</div>
+
+<div class="callout warn">
+  <strong>3. 오픈 웨이트 모델의 라이선스가 조여지고 있다.</strong> Alibaba는 Qwen3.8-Max 가중치를 공개하면서 매출 배분(revenue-share) 조건을 붙였고, Z.ai는 GLM-5.3 공개를 사이버 이중용도 위험을 이유로 2주 단계적 롤아웃으로 미뤘습니다. "오픈 웨이트 = 자유롭게 상용화 가능"이라는 전제가 더 이상 성립하지 않으므로, 모델 도입 전 라이선스 원문 확인이 필수입니다.
+</div>
+
+<h2>모델 출시 · 업데이트 (7건)</h2>
+
+<h3>1. xAI, Grok 4.6 출시 — 100만 토큰당 2달러 / 6달러</h3>
+<p>xAI가 Grok 4.6을 공개했습니다. 주요 벤치마크에서 GPT-5.6 Sol Max와 동급 성능을 주장하면서 가격은 입력 100만 토큰당 2달러, 출력 6달러로 책정했습니다. 컨텍스트는 500K 토큰까지 확장됐지만 200K를 초과하는 요청은 단가가 두 배로 올라가는 구조라, 장문 컨텍스트를 상시로 쓰는 앱이라면 실효 단가를 따로 계산해야 합니다. <a href="https://aibusiness.com/generative-ai/ibm-openai-partner-accelerate-enterprise-ai">AI Business</a> · 2026-08-13</p>
+
+<h3>2. Google, Gemini 3.7 Flash 공개 — 코딩 성능 개선에 가격은 절반</h3>
+<p>Google이 Gemini 3.7 Flash를 배포했습니다. 코딩 태스크 성능이 크게 개선됐고 가격은 3.6 Flash 대비 절반 수준으로 내려갔습니다. 경량 모델로 백엔드 파이프라인을 돌리는 서비스라면 이번 세대에서 비용 대비 효율이 가장 크게 개선된 선택지입니다. <a href="https://blog.google/">Google Blog</a> · 2026-08-13</p>
+
+<h3>3. Z.ai, GLM-5.3 공개 — 750B 파라미터, 에이전틱 코딩 벤치마크 1위 주장</h3>
+<p>Z.ai가 750B 파라미터 규모의 GLM-5.3을 발표하며 에이전틱 코딩 벤치마크에서 Kimi K3를 앞섰다고 밝혔습니다. Hugging Face 가중치 공개는 사이버 이중용도(dual-use) 위험을 근거로 2주에 걸친 단계적 롤아웃으로 예정돼 있습니다. <a href="https://www.interconnects.ai/">Interconnects</a> · 2026-08-14</p>
+
+<h3>4. Alibaba, Qwen3.8-27B 공개 — Apache 2.0, 온디바이스 구동 가능</h3>
+<p>Alibaba가 27B 파라미터의 Qwen3.8-27B를 Apache 2.0 라이선스로 공개했습니다. 비전 입력을 지원하며 노트북급 하드웨어에서 로컬 구동이 가능한 수준입니다. 일부 코딩 벤치마크에서 상용 프런티어 모델을 상회했다는 보고가 나오면서, 프라이버시 요구가 강한 앱의 온디바이스 추론 후보로 주목받고 있습니다. <a href="https://aireleasetracker.com/model/qwen/qwen3.8-27b">AI Release Tracker</a> · 2026-08-14</p>
+
+<h3>5. Alibaba, Qwen3.8-Max 가중치 공개 — 단, 매출 배분 라이선스</h3>
+<p>2.4T 파라미터(활성 95B, MoE)급 Qwen3.8-Max의 가중치가 공개됐습니다. 다만 순수 오픈소스 라이선스가 아니라 일정 규모 이상 상용 사용 시 매출 배분 조건이 붙은 형태입니다. 오픈 웨이트를 제품에 넣으려는 개발자는 라이선스 조항을 반드시 직접 확인해야 합니다. <a href="https://www.datacamp.com/blog/qwen3-8-max">DataCamp</a> · 2026-08-17</p>
+
+<h3>6. Meta, Muse Glimmer 30B 오픈소스 공개</h3>
+<p>Meta가 30B 파라미터의 Muse Glimmer를 Apache 2.0으로 공개했습니다. 에이전틱 태스크에 맞춰 튜닝됐고 로컬 배포를 전제로 설계됐습니다. Qwen3.8-27B와 함께 "개인 기기에서 도는 무료 프런티어급 모델" 카테고리를 형성하고 있습니다. <a href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx">AIToolsRecap</a> · 2026-08-12</p>
+
+<h3>7. OpenAI, GPT-5.6 Luna를 ChatGPT 무료 기본 모델로 — 가격 80% 인하</h3>
+<p>GPT-5.6 Luna가 80% 가격 인하와 함께 ChatGPT 무료 사용자의 기본 모델로 전환됐습니다. 반대 방향의 움직임도 있었는데, DeepSeek은 V4 Flash 가격을 93% 인상해 100만 토큰당 0.27달러로 올렸습니다. 저가 모델 구간의 가격이 양방향으로 크게 흔들린 한 주였습니다. <a href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx">AIToolsRecap</a> · 2026-08-15</p>
+
+<h2>정책 · 규제 (5건)</h2>
+
+<h3>8. EU AI Act Article 50 투명성 의무 발효</h3>
+<p>2026년 8월 2일부로 EU AI Act의 투명성 의무가 시행됐습니다. AI와 대화 중임을 이용자에게 고지할 것, 합성 미디어에 기계 판독 가능한 표식을 삽입할 것, 감정 인식·생체 분류 대상자에게 통지할 것, 공익 사안의 생성·조작 콘텐츠를 공개할 것 등 네 가지가 핵심입니다. 기존 생성형 시스템의 표식·탐지 요건은 2026년 12월 2일까지 유예됐습니다. <a href="https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026">Cooley</a> · 2026-08-03</p>
+
+<h3>9. EU AI Office, GPAI 조사·제재 권한 발동</h3>
+<p>같은 시점에 EU AI Office의 general-purpose AI 집행 권한도 발효됐습니다. 조사 개시와 과징금 부과가 가능해졌으며, 위반 시 최대 1,500만 유로 또는 전 세계 연매출 3% 중 큰 금액이 부과됩니다. 반면 독립형 고위험 시스템 규제는 2027년 12월, 규제 제품 내장형은 2028년 8월로 연기됐습니다. <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714">European Commission</a> · 2026-08-02</p>
+
+<h3>10. 과기정통부, AI 윤리 자율규범 8월 중 공표</h3>
+<p>과학기술정보통신부와 정보통신정책연구원(KISDI)이 3대 가치(인간의 존엄성, 사회의 공공선, 인류의 지속가능성)와 7개 원칙(인간중심성, 프라이버시 보호, 공정성·포용성, 책임성, 안전성, 신뢰성, 투명성)으로 구성된 AI 윤리 기준을 8월 중 확정·공표할 예정입니다. 법적 규제가 아닌 기업·개발자의 자발적 준수를 전제로 한 자율규범입니다. <a href="https://www.fnnews.com/news/202608141218124650">파이낸셜뉴스</a> · 2026-08-14</p>
+
+<h3>11. 개정 AI 기본법 시행 — AI 제품·서비스 확인제도 도입</h3>
+<p>2026년 7월 21일 시행된 개정 AI 기본법에 따라 공공기관이 확인받은 AI 제품을 우선 고려하도록 하는 확인제도가 도입됐습니다. 확인 서비스는 다수공급자계약 신속 절차와 기술평가 가점 등 조달상 혜택을 받습니다. 취약계층 범위에 경력단절여성·구직자가 추가됐고, 비수도권 기업 지원도 확대됐습니다. <a href="https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=223727">법률신문</a> · 2026-08</p>
+
+<h3>12. 미국, 주(州) AI 법률 견제 행정명령 — 연방 단일 기준 추진</h3>
+<p>백악관이 주별로 파편화된 AI 규제를 견제하고 연방 차원의 통일된 기준을 마련하기 위한 행정명령에 서명했습니다. 2026년 1월 1일부로 발효된 다수의 주법과 충돌 소지가 있어, 미국 시장에 서비스하는 기업 입장에서는 준수 대상 법령이 당분간 유동적입니다. <a href="https://www.whitecase.com/insight-alert/state-ai-laws-under-federal-scrutiny-key-takeaways-executive-order-establishing">White &amp; Case</a> · 2026</p>
+
+<h2>산업 동향 · 기업 (5건)</h2>
+
+<h3>13. IBM–OpenAI 엔터프라이즈 파트너십 체결</h3>
+<p>IBM과 OpenAI가 금융·정부·통신·유통 분야 기업 고객에게 프런티어 모델을 공급하기 위한 파트너십을 발표했습니다. GPT-5.6을 IBM의 엔터프라이즈 스택에 통합해 보안 요건이 강한 조직의 도입 장벽을 낮추는 것이 골자입니다. <a href="https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations">IBM Newsroom</a> · 2026-08-13</p>
+
+<h3>14. Google Gemini, 월간 활성 사용자 10억 명 돌파</h3>
+<p>Google이 Gemini 앱의 월간 활성 사용자가 10억 명을 넘었다고 발표했습니다. Search·Gmail·Android 전반에 통합한 배포 전략이 주효했고, 플랫폼에서 하루 1억 5,000만 장 이상의 이미지가 생성되고 있습니다. <a href="https://blog.google/">Google Blog</a> · 2026-08-11</p>
+
+<h3>15. Mistral, 2030년까지 유럽 내 1GW 컴퓨트 구축 계획</h3>
+<p>Mistral이 2030년까지 유럽 역내에 최대 1기가와트 규모의 컴퓨트 용량을 구축하겠다고 발표하고 사전 판매에 나섰습니다. ASML·Amadeus 등이 다년 계약으로 참여하는 구조로, EU 데이터 주권 요건을 충족해야 하는 서비스에는 실질적 선택지가 하나 늘어난 셈입니다. <a href="https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now">VentureBeat</a> · 2026-08-11</p>
+
+<h3>16. Google, Imagen 4 엔드포인트 종료 — Gemini 이미지 모델로 통합</h3>
+<p>Google이 Imagen 4의 standard·ultra·fast 엔드포인트를 폐지하고 Gemini 이미지 모델로 이관한다고 공지했습니다. Imagen 4 API를 호출 중인 앱은 마이그레이션이 필요합니다. AI 브랜드를 Gemini로 단일화하려는 흐름의 연장선입니다. <a href="https://blog.google/">Google Developers Blog</a> · 2026-08-17</p>
+
+<h3>17. Microsoft, MAI-Code-1.1-Flash 가격 인하</h3>
+<p>Microsoft가 코딩 전용 모델 MAI-Code-1.1-Flash의 가격을 100만 토큰당 입력 0.20달러 / 출력 1.20달러로 인하했습니다. 코드 리뷰·리팩터링처럼 대량 호출이 발생하는 워크로드에서 현재 가장 저렴한 축에 속합니다. <a href="https://aibusiness.com/generative-ai/ibm-openai-partner-accelerate-enterprise-ai">AI Business</a> · 2026-08-11</p>
+
+<h2>투자 · M&amp;A (5건)</h2>
+
+<h3>18. Anthropic, Decart 인수 협상 — 60억 달러 규모</h3>
+<p>Anthropic이 이스라엘 기반 스타트업 Decart를 60억 달러에 인수하는 협상을 진행 중인 것으로 보도됐습니다. Decart는 비디오 이해와 칩 효율화 기술을 보유하고 있으며, 추론 원가 절감과 컴퓨트 확보가 인수 동기로 지목됩니다. <a href="https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion">Bloomberg</a> · 2026-08-13</p>
+
+<h3>19. OpenAI, 비공개 S-1 제출 — 1조 달러 밸류에이션 목표</h3>
+<p>OpenAI가 SEC에 비공개로 S-1을 제출하고 9월 상장을 추진 중입니다. 목표 밸류에이션은 1조 달러 이상으로, 2026년 3월의 8,520억 달러에서 높아진 수치입니다. Goldman Sachs, Morgan Stanley, JPMorgan이 주관사로 거론됩니다. <a href="https://cryptobriefing.com/openai-ipo-filing-trillion-valuation/">Crypto Briefing</a> · 2026-08</p>
+
+<h3>20. Anthropic, 첫 영업이익 5억 5,900만 달러 기록</h3>
+<p>Anthropic이 분기 매출 109억 달러에 영업이익 5억 5,900만 달러를 기록하며 첫 흑자를 냈다고 보도됐습니다. 컴퓨트 인프라 비용 절감이 주된 요인으로 지목됐으며, 연간 약 140억 달러 손실이 예상되는 OpenAI와 뚜렷하게 대비됩니다. <a href="https://www.techtimes.com/articles/324234/20260813/anthropic-talks-acquire-decart-6b-targeting-77-gross-margins-before-ipo.htm">Tech Times</a> · 2026-08-13</p>
+
+<h3>21. Lovable, 4억 달러 Series C — 밸류에이션 133억 달러</h3>
+<p>스웨덴의 바이브 코딩 스타트업 Lovable이 4억 달러 Series C를 유치하며 133억 달러 가치를 인정받았습니다. Tencent가 투자자로 참여했고, ARR은 6억 달러 런레이트에 근접한 것으로 전해집니다. 코드 생성 도구 시장의 자본 유입이 계속되고 있습니다. <a href="https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/">TechCrunch</a> · 2026-08-12</p>
+
+<h3>22. Etched, 210억 달러 밸류에이션 도달</h3>
+<p>추론 특화 AI 칩 스타트업 Etched가 총 20억 달러를 조달하며 210억 달러 밸류에이션에 도달했습니다. Nvidia 출신 인력을 대거 영입해 추론 최적화 하드웨어에 집중하고 있습니다. 학습보다 추론 비용이 병목이 된 시장 구조를 반영하는 사례입니다. <a href="https://techstartups.com/2026/08/18/top-tech-news-today-august-18-2026-apple-baidu-bytedance-google-meta-openai-xiaomi-more/">Tech Startups</a> · 2026-08-18</p>
+
+<h2>연구 · 기술 (4건)</h2>
+
+<h3>23. Anthropic 8월 Risk Report — 정렬 위험 등급 상향, 미출시 모델 공개</h3>
+<p>Anthropic이 186페이지 분량의 위험 보고서를 공개하며 misalignment 위험 등급을 상향 조정하고, 판매 중인 어떤 모델보다 강력하지만 출시하지 않기로 한 내부 모델의 존재를 밝혔습니다. 기존 안전성 벤치마크가 포화(saturate)돼 변별력을 잃고 있다는 진단도 함께 제시됐습니다. <a href="https://siliconangle.com/2026/08/14/anthropic-details-unreleased-model-2-new-alignment-concerns-latest-ai-risk-report/">SiliconANGLE</a> · 2026-08-14</p>
+
+<h3>24. SWE-bench Pro 리더보드 — 상위권 1.1%p 내 밀집, 데이터 결함 논란</h3>
+<p>SWE-bench Pro에서 Claude Mythos 5가 80.3%로 선두를 지켰고 Fable 5(80.0%), Opus 5(79.2%)가 뒤를 이었습니다. 공개 가중치 모델 중에서는 Qwen3.8 Max가 67.7%로 6위입니다. 다만 OpenAI 감사에서 731개 공개 태스크 중 약 30%가 결함이 있는 것으로 지적돼, 이 점수만으로 코딩 에이전트를 선정하는 것은 위험합니다. <a href="https://benchlm.ai/benchmarks/swe-bench-pro">BenchLM</a> · 2026-08</p>
+
+<h3>25. OpenAI 보안 모델, Chrome 제로데이 2건 발견</h3>
+<p>OpenAI의 사이버보안 특화 모델이 이전에 알려지지 않은 Chrome 취약점 2건을 발견했고 Google이 패치를 배포했습니다. 공격 탐지가 아니라 취약점 발굴에 AI가 실제 성과를 낸 사례로, 방어 측 자동화 도구의 실용화 단계를 보여줍니다. <a href="https://thehackernews.com/">The Hacker News</a> · 2026-08-17</p>
+
+<h3>26. AI 에이전트, Snowflake 저장소 스크립트 인젝션 5일 만에 악용</h3>
+<p>Snowflake 저장소의 스크립트 인젝션 결함을 AI 에이전트가 공개 후 5일 만에 악용한 사건이 보고됐습니다. GitHub와 Wiz 사이에 책임 소재를 둔 공방이 이어지고 있습니다. CI 파이프라인에 에이전트를 붙이는 조직이라면 워크플로 권한과 시크릿 노출 범위를 재점검할 시점입니다. <a href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx">AIToolsRecap</a> · 2026-08-19</p>
+
+<h2>한국 AI 소식 (4건)</h2>
+
+<h3>27. 독자 AI 파운데이션 모델 2차 평가 — 업스테이지·SKT·LG AI연구원 통과</h3>
+<p>정부의 독자 AI 파운데이션 모델(독파모) 사업 2차 평가에서 업스테이지, SK텔레콤, LG AI연구원이 3차 평가에 진출했습니다. 글로벌 기술력 평가(AAII)에서 1위였던 모티프테크놀로지스는 사용성 평가 점수가 낮아 종합 65.8점으로 탈락했습니다. 정성 평가 비중(전문가 35점 + 사용자 25점)이 기술력 격차를 충분히 반영하지 못한다는 지적이 나옵니다. <a href="https://edaily.co.kr/News/Read?mediaCodeNo=257&amp;newsId=04270566645548632">이데일리</a> · 2026-08</p>
+
+<h3>28. 정부, 550조 원 규모 AI 데이터센터 투자 견인 계획</h3>
+<p>정부가 2029년까지 550조 원을 투입해 8.4GW 규모의 AI 데이터센터를 구축하고 2035년까지 18.4GW로 확대하는 계획을 내놨습니다. AI 데이터센터를 반도체와 동급의 국가전략산업으로 규정하고, 학습 중심에서 추론 인프라 중심으로 축을 옮기며 충청권 등 비수도권 분산 배치를 추진합니다. <a href="https://www.korea.kr/news/policyNewsView.do?newsId=148968284">대한민국 정책브리핑</a> · 2026</p>
+
+<h3>29. AI 데이터센터 온실가스 논란 — 2035년까지 8,500만 톤 추정</h3>
+<p>환경단체는 2029년 데이터센터 목표가 현실화될 경우 2035년까지 추가 온실가스 배출이 8,500만 톤에 이를 수 있다고 지적했습니다. 정부 계획이 전력 보조와 규제 특례에 치우쳐 재생에너지 의무, PUE·WUE 등 효율 기준, 인허가 투명성이 빠져 있다는 비판입니다. <a href="https://zdnet.co.kr/view/?no=20260630112325">ZDNet Korea</a> · 2026</p>
+
+<h3>30. 경남, 제조 AI 거점 추진 — 데이터 생성 비용이 관건</h3>
+<p>경남이 제조 AI 중심지를 목표로 사업을 추진 중입니다. 단순 보조금 지급이 아니라 기업이 데이터 구축과 AI 전환 과정에 직접 참여해 기술을 내재화하는 구조가 핵심으로, 제조 데이터 생성 비용을 낮추는 기술이 성패를 가를 것이라는 분석입니다. <a href="https://www.threads.com/@aikorea24/post/DcBRRFwGAN4/">AI Korea</a> · 2026-08-12</p>
+
+<h2>트렌드 종합</h2>
+
+<blockquote>
+이번 주를 관통하는 흐름은 <strong>"성능 경쟁에서 단가 경쟁으로"</strong>입니다. Grok 4.6, Gemini 3.7 Flash, GPT-5.6 Luna, MAI-Code-1.1-Flash가 모두 성능은 유지하거나 올리면서 가격을 내렸습니다. 프런티어 성능이 상향 평준화되자 차별화 포인트가 토큰 단가와 컨텍스트 처리 비용으로 이동한 것입니다.
+<br><br>
+두 번째는 <strong>수익성의 분화</strong>입니다. Anthropic은 컴퓨트 원가 절감으로 첫 흑자를 냈고, OpenAI는 연 140억 달러 적자를 안은 채 1조 달러 상장을 추진합니다. Anthropic의 Decart 인수와 Etched의 210억 달러 밸류에이션은 모두 추론 원가를 겨냥한 베팅이라는 점에서 같은 방향을 가리킵니다.
+<br><br>
+세 번째는 <strong>규제와 라이선스의 실효화</strong>입니다. EU AI Act Article 50이 실제로 발효돼 과징금이 가능한 상태가 됐고, 오픈 웨이트 모델에는 매출 배분·단계적 공개 같은 조건이 붙기 시작했습니다. "일단 쓰고 나중에 정리한다"는 접근이 통하지 않는 구간에 진입했습니다.
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr><th>영역</th><th>이번 주 변화</th><th>지금 할 일</th></tr>
+</thead>
+<tbody>
+<tr><td>API 비용</td><td>Grok 4.6 2/6달러, Gemini 3.7 Flash 반값, GPT-5.6 Luna 80% 인하, DeepSeek V4 Flash 93% 인상</td><td>주력 모델 단가를 재계산하고, 장문 컨텍스트 구간(200K 초과) 할증 여부를 확인</td></tr>
+<tr><td>오픈 웨이트</td><td>Qwen3.8-Max 매출 배분 조건, GLM-5.3 단계적 공개</td><td>제품 투입 전 라이선스 원문 확인. Apache 2.0인 Qwen3.8-27B·Muse Glimmer가 상대적으로 안전</td></tr>
+<tr><td>온디바이스</td><td>27B~30B급 모델이 노트북에서 구동 가능</td><td>프라이버시 민감 기능은 로컬 추론으로 이전 검토. 서버 비용과 데이터 처리 리스크 동시 절감</td></tr>
+<tr><td>API 폐기</td><td>Imagen 4 엔드포인트 종료</td><td>Imagen 4 의존 코드를 Gemini 이미지 모델로 마이그레이션</td></tr>
+<tr><td>컴플라이언스</td><td>EU AI Act Article 50 발효, 한국 AI 윤리 자율규범 공표 예정</td><td>EU 서비스 시 AI 고지·합성 콘텐츠 표식 구현. 기존 시스템은 12월 2일까지 표식·탐지 대응</td></tr>
+<tr><td>에이전트 보안</td><td>Snowflake 저장소 인젝션 5일 만에 악용</td><td>CI에 붙인 에이전트의 워크플로 권한·시크릿 접근 범위 재점검</td></tr>
+<tr><td>벤치마크 해석</td><td>SWE-bench Pro 공개 태스크 30% 결함 지적</td><td>단일 리더보드로 코딩 에이전트를 선정하지 말고 LiveCodeBench 등과 교차 검증</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>가격 인하 폭이 큰 주간이므로, 현재 쓰고 있는 모델 조합의 월 비용을 한 번 다시 뽑아보는 것만으로도 실질적인 절감 여지가 있습니다.</p>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
