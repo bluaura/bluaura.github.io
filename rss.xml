@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.21)</title>
+      <link>https://bluaura.github.io/posts/2026-08-21-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-21-us-market.html</guid>
+      <description>S&amp;P 500 7,641.16(-0.87%) · NASDAQ 26,067.17(-1.00%) · Dow 52,759.21(-1.32%). 재무부 국채 바이백 효과 하루 만에 소멸, 유가 급등과 Walmart 6년래 최저 동일점포 매출이 겹치며 3주 만의 최대 낙폭.</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.08.21)</title>
       <link>https://bluaura.github.io/posts/2026-08-21-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-21-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-13-semco-ms-top-pick.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-semco-ms-top-pick.html</guid>
       <description>MS 목표가 262만원(현 주가 2배). MLCC 과점 85%·ABF 4~5배 성장 논리. DB증권 300만·IBK 175만 등 국내도 같은 방향.</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.08.13)</title>
-      <link>https://bluaura.github.io/posts/2026-08-13-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-macro.html</guid>
-      <description>미국 7월 CPI 헤드라인 3.4%·근원 2.5%로 4개 항목 모두 예상치 부합. 9월 FOMC 동결 확률 54%→62% 상승. 오늘 밤 21:30 7월 PPI(근원 예상 +0.3%)가 다음 분수령. 한국은 8월 초순 수출 +45.3%·반도체 +155.4% 역대 최고, 8/27 금통위는 매파적 동결 우세.</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
