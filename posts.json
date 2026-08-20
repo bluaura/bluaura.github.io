@@ -7,6 +7,19 @@
   },
   "posts": [
     {
+      "slug": "2026-08-20-world-model-physical-ai",
+      "title": "ChatGPT 다음은 World Model인가 — 페이페이 리 인터뷰 투자자 관점 정리",
+      "date": "2026-08-20",
+      "tags": [
+        "AI",
+        "World Model",
+        "피지컬AI",
+        "투자전략",
+        "테크"
+      ],
+      "summary": "World Labs $1B 조달(밸류 $5B), World Model 분야 총 VC 투자 $3B. 투자자 명단에 NVIDIA와 AMD가 동시에 들어간 것이 핵심 신호다. 다만 CEO 본인이 'LLM의 2019년보다 이른 단계'라고 인정했다."
+    },
+    {
       "slug": "2026-08-20-macro-ai-capex-rates",
       "title": "미 장기금리와 AI 캐펙스 — 그리고 2022년 QT와 무엇이 다른가",
       "date": "2026-08-20",

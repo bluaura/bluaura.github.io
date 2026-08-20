@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>ChatGPT 다음은 World Model인가 — 페이페이 리 인터뷰 투자자 관점 정리</title>
+      <link>https://bluaura.github.io/posts/2026-08-20-world-model-physical-ai.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-20-world-model-physical-ai.html</guid>
+      <description>World Labs $1B 조달(밸류 $5B), World Model 분야 총 VC 투자 $3B. 투자자 명단에 NVIDIA와 AMD가 동시에 들어간 것이 핵심 신호다. 다만 CEO 본인이 &#x27;LLM의 2019년보다 이른 단계&#x27;라고 인정했다.</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.20)</title>
       <link>https://bluaura.github.io/posts/2026-08-20-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-20-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-13-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-kr-market.html</guid>
       <description>KOSPI 6,813.34(+3.56%) · KOSDAQ 861.37(+0.29%). 美 7월 CPI 예상 부합과 엔비디아발 AI 인프라 금융 플랫폼 기대에 반도체 대형주 급등, 외국인 3거래일 연속 순매수로 6,800선 회복</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI와 생산성 혁명: 실증 연구 서베이 — 시나리오, 경제적 영향, 디플레이션 논쟁</title>
-      <link>https://bluaura.github.io/posts/2026-08-13-ai-productivity-survey.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-ai-productivity-survey.html</guid>
-      <description>RCT 20여 편 서베이: 태스크 생산성 +14~56%는 재현되지만 경제 전체 절감은 1.6%뿐. 거시 추정은 연 +0.5~1.5%p로 수렴, AI는 지금 캐펙스발 인플레이션 요인(코어 +0.3~0.5%p)이다.</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
