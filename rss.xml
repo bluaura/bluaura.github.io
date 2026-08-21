@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>지니어스 액트와 클래리티 액트 — 달러 토큰은 미 단기채 시장을 바꾸는가</title>
+      <link>https://bluaura.github.io/posts/2026-08-22-stablecoin-genius-clarity.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-22-stablecoin-genius-clarity.html</guid>
+      <description>GENIUS Act는 발효 대기, CLARITY Act는 9월 15일 상원 표결. 행정부는 2030년 3조 달러를 말하지만 2026년 시총은 오히려 −7%. T-bill 시장 내 비중 2~3%, BIS 실측 효과는 3개월물에 3~4bp. 미미론의 결론은 맞지만 이유는 틀렸다.</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.21)</title>
       <link>https://bluaura.github.io/posts/2026-08-21-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-21-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-14-gev-q2-2026.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-14-gev-q2-2026.html</guid>
       <description>매출 $11.1B(+3.4% 비트), EPS $2.47(-18.8% 미스), 백로그 $176B, FCF 가이던스 +$5B 상향. 어닝콜 전문 대조로 &#x27;프레임워크 계약 조용한 철회&#x27;를 확인했다. 선행 PER 37~49배 — 밸류에이션이 아니라 실행에 베팅하는 자리.</description>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 인프라 병목의 연쇄: 투자 회고(2022–2026)와 다음 병목</title>
-      <link>https://bluaura.github.io/posts/2026-08-13-ai-bottleneck-cascade.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-ai-bottleneck-cascade.html</guid>
-      <description>GPU→패키징→전력→메모리로 12~18개월마다 병목이 이동했고, 챔피언도 매년 교체됐다(VRT +252%→VST +258%→WDC +283%). NVIDIA 순이익 27배, SK하이닉스 −7.7조→+47.2조. 다음 병목 1순위는 전력, 최대 리스크는 크레딧.</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
