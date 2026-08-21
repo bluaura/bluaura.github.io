@@ -26,6 +26,13 @@
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.08.21)</title>
+      <link>https://bluaura.github.io/posts/2026-08-21-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-21-kr-market.html</guid>
+      <description>KOSPI 6,912.95(+0.88%) · KOSDAQ 801.94(-4.63%). 삼성전자 110조·SK하이닉스 40조 주주환원에 대형 반도체주 급등, 코스닥은 매도 사이드카 발동</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>ChatGPT 다음은 World Model인가 — 페이페이 리 인터뷰 투자자 관점 정리</title>
       <link>https://bluaura.github.io/posts/2026-08-20-world-model-physical-ai.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-20-world-model-physical-ai.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-ai-bottleneck-cascade.html</guid>
       <description>GPU→패키징→전력→메모리로 12~18개월마다 병목이 이동했고, 챔피언도 매년 교체됐다(VRT +252%→VST +258%→WDC +283%). NVIDIA 순이익 27배, SK하이닉스 −7.7조→+47.2조. 다음 병목 1순위는 전력, 최대 리스크는 크레딧.</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.13)</title>
-      <link>https://bluaura.github.io/posts/2026-08-13-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-13-us-market.html</guid>
-      <description>S&amp;P 500 7,748.50(+0.26%) · NASDAQ 26,588.49(+0.54%). 7월 CPI 3.4% 예상 부합 속 AI 인프라주 급등, 메가캡 빅테크는 동반 하락</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
