@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.22)</title>
+      <link>https://bluaura.github.io/posts/2026-08-22-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-22-us-market.html</guid>
+      <description>S&amp;P 500 7,674.31(+0.43%) · NASDAQ 26,180.46(+0.43%) · Dow 53,276.81(+0.98%). 금요일 반등에도 3대 지수 주간 하락 — 30년물 국채 금리 19년 최고치와 Bessent 재무장관의 바이백 2배 확대가 한 주를 지배</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>지니어스 액트와 클래리티 액트 — 달러 토큰은 미 단기채 시장을 바꾸는가</title>
       <link>https://bluaura.github.io/posts/2026-08-22-stablecoin-genius-clarity.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-22-stablecoin-genius-clarity.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-14-lite-q4-2026.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-14-lite-q4-2026.html</guid>
       <description>매출 서프라이즈는 +1.9%인데 다음 분기 EPS 가이던스는 컨센 +16.3%. 총마진 50.4%로 목표를 절반 규모에서 조기 달성. 지난 분기 약속 9건 중 8건 이행·초과. 그런데 주가는 +14.2% 뒤 −5.6%.</description>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.08.14)</title>
-      <link>https://bluaura.github.io/posts/2026-08-14-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-14-kr-market.html</guid>
-      <description>KOSPI 6,977.94(+2.42%) · KOSDAQ 864.65(+0.38%). 미 7월 PPI 보합에 9월 금리 인상 확률 35%로 후퇴, 외국인 3조원 순매수로 장중 7,000선 첫 돌파.</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
