@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>팔란티어(PLTR) 급등락 진단 — 7월 폭락과 8월 V자 반등, 계속 갈까</title>
+      <link>https://bluaura.github.io/posts/2026-08-24-pltr-move-diagnosis.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-24-pltr-move-diagnosis.html</guid>
+      <description>20거래일 내부는 −30% 폭락 → +38% V자 반등. Q2 매출 +93%·가이던스 +82% 상향이 몸통, 숏 스퀴즈 $3B가 증폭. 주가는 컨센서스 $188.82까지 +8.6%만 남겼다 — 판정: 되돌림 가능.</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.08.24)</title>
       <link>https://bluaura.github.io/posts/2026-08-24-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-24-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-14-sector-power-equipment.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-14-sector-power-equipment.html</guid>
       <description>3사 합산 수주잔고 ~36조원 역대 최대. 효성重 +63%, 수주목표 12조 상향. 관세 25→15% 인하. 남는 리스크는 밸류에이션·북미 DC 의존·느린 매출 인식.</description>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA 광네트워크 밸류체인 — 세부 영역 Top 5와 진입 전략</title>
-      <link>https://bluaura.github.io/posts/2026-08-14-sector-optical-network.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-14-sector-optical-network.html</guid>
-      <description>NVIDIA가 광통신 공급망에 직접 꽂은 돈 72억 달러. 그런데 8/11~12 어닝 비트 직후 LITE −5.6%, COHR −8.0%. 밸류체인 5개 영역을 차등 평가하고 3분할 진입안을 정리했다.</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
