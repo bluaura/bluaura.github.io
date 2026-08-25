@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.08.26)</title>
+      <link>https://bluaura.github.io/posts/2026-08-26-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-macro.html</guid>
+      <description>오늘 밤 미국 7월 PCE·2분기 GDP 잠정치 동시 발표 — 9월 FOMC 전 마지막 대형 지표. 근원 PCE 컨센서스 3.3%, 7월 근원 PPI +0.4% 급등이 상방 리스크. 미국은 고용 -2.3만명·소비자신뢰 7개월 최저로 식는데 한국은 반도체 +198.8%로 8월 수출 역대 최대. 8/27 금통위는 동결 79% vs 인상 20%로 팽팽.</description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.25)</title>
       <link>https://bluaura.github.io/posts/2026-08-25-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-25-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-17-13f-q2-2026.html</guid>
       <description>버크셔 14분기 만의 순매수 전환(198억달러), 알파벳 포트폴리오 3위 등극. Situational Awareness는 6/30 기준 포트폴리오 50%가 메모리 2종목에 4배 레버리지 — 7월 -67%. Mag7 축소 44% vs 확대 42%로 컨센서스 부재.</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.15)</title>
-      <link>https://bluaura.github.io/posts/2026-08-15-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-15-us-market.html</guid>
-      <description>S&amp;P 500 7,785.76(-0.21%) · NASDAQ 26,729(-0.28%) · Dow 53,732(-0.20%). 7월 retail sales -0.6% 쇼크와 소비심리 51.0 급락에도 주간 3주 연속 상승, 지수를 눌러앉힌 건 Broadcom -6%로 불붙은 AI 인프라 부외부채 논란</description>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
