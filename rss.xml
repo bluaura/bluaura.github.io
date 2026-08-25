@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.26)</title>
+      <link>https://bluaura.github.io/posts/2026-08-26-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-us-market.html</guid>
+      <description>S&amp;P 500 7,676.62(+0.31%) · NASDAQ 26,145.47(+0.64%). NVIDIA 실적·PCE 앞두고 반도체 반등, 유가 1주일 최저·Consumer Confidence 7개월 최저</description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.08.26)</title>
       <link>https://bluaura.github.io/posts/2026-08-26-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-18-anthropic-q2-2026.html</guid>
       <description>Q2 매출 115억 달러 초과(전년 7.87억 달러 대비 14배), 첫 조정 영업이익 흑자. 다만 SBC 제외·SpaceX 임대 램프업 할인·총액 매출 인식이 겹친 비GAAP 지표다. 진짜 시사점은 순이익의 절반~3분의 2가 Anthropic 평가익인 GOOGL·AMZN 쪽에 있다.</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>2026년 2분기 13F 해부 — 화석이 된 스냅샷, 버크셔의 알파벳, AI 인프라 2군</title>
-      <link>https://bluaura.github.io/posts/2026-08-17-13f-q2-2026.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-17-13f-q2-2026.html</guid>
-      <description>버크셔 14분기 만의 순매수 전환(198억달러), 알파벳 포트폴리오 3위 등극. Situational Awareness는 6/30 기준 포트폴리오 50%가 메모리 2종목에 4배 레버리지 — 7월 -67%. Mag7 축소 44% vs 확대 42%로 컨센서스 부재.</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
