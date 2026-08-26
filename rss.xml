@@ -19,6 +19,13 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>AI 주간 브리핑 (2026.08.26)</title>
+      <link>https://bluaura.github.io/posts/2026-08-26-ai-weekly.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-ai-weekly.html</guid>
+      <description>이번 주 AI 업계 주요 소식 30건. OpenAI 자체 추론칩 Jalapeño 첫 벤치마크 공개, Hugging Face 130억 달러 인수 협상설, EU AI Act 투명성 의무 집행 개시</description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.25)</title>
       <link>https://bluaura.github.io/posts/2026-08-25-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-25-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-18-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-18-kr-market.html</guid>
       <description>KOSPI 6,869.83(-1.55%) · KOSDAQ 834.20(-3.52%). 장중 7,216까지 올랐다가 기관 1.2조 순매도에 6,800선까지 밀린 롤러코스터 장세 — 유가·글로벌 금리 급등이 오후 반전의 방아쇠.</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Q2 매출 115억 달러와 첫 흑자 — 숫자 뒤의 세 가지 함정과 투자자 시사점</title>
-      <link>https://bluaura.github.io/posts/2026-08-18-anthropic-q2-2026.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-18-anthropic-q2-2026.html</guid>
-      <description>Q2 매출 115억 달러 초과(전년 7.87억 달러 대비 14배), 첫 조정 영업이익 흑자. 다만 SBC 제외·SpaceX 임대 램프업 할인·총액 매출 인식이 겹친 비GAAP 지표다. 진짜 시사점은 순이익의 절반~3분의 2가 Anthropic 평가익인 GOOGL·AMZN 쪽에 있다.</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>

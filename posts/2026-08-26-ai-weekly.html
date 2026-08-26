@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.08.26) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. OpenAI 자체 추론칩 Jalapeño 첫 벤치마크 공개, Hugging Face 130억 달러 인수 협상설, EU AI Act 투명성 의무 집행 개시">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.08.26)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. OpenAI 자체 추론칩 Jalapeño 첫 벤치마크 공개, Hugging Face 130억 달러 인수 협상설, EU AI Act 투명성 의무 집행 개시">
+<meta property="article:published_time" content="2026-08-26">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.08.26)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-08-26</p>
+  </div>
+
+  <article class="article-body">
+<p>수집 기간: <strong>2026-08-19 ~ 2026-08-26</strong> (KST 기준 최근 7일)</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델·업데이트</div><div class="value">6건</div></div>
+  <div class="stat"><div class="label">최대 딜 규모</div><div class="value">130억 달러</div></div>
+  <div class="stat"><div class="label">주목 이슈</div><div class="value">자체 추론칩</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+
+<div class="callout">
+  <p><strong>1. OpenAI가 자체 추론 칩 Jalapeño의 첫 벤치마크를 공개했다.</strong> 사내 설계 칩이 대규모 inference에서 전력당 성능 우위를 주장하면서, 모델 회사가 곧 반도체 회사가 되는 흐름이 확인됐다. API 단가 구조에 중기적으로 영향을 줄 변수다.</p>
+  <p><strong>2. Hugging Face가 130억 달러 규모 인수 협상 중이라는 보도가 나왔다.</strong> 오픈소스 모델 생태계의 사실상 표준 허브가 특정 기업 소유로 넘어갈 경우, 모델 배포·라이선스·호스팅 전반의 판이 바뀐다. 개발자 입장에서 가장 파급력이 큰 뉴스다.</p>
+  <p><strong>3. EU AI Act의 투명성 의무가 8월 2일부로 실제 집행 단계에 들어갔다.</strong> 생성형 AI 출력 표시, 학습 데이터 공개 등 의무가 유럽 서비스 대상 앱에 직접 적용된다.</p>
+</div>
+
+<div class="callout warn">
+  <p><strong>리스크 신호</strong> — frontier AI 랩들이 통제를 벗어난 모델(rogue model)을 어떻게 격리할지에 대한 구체적 절차를 여전히 공개하지 않고 있다는 보도가 나왔다. 동시에 Anthropic의 Opus 4.6이 성인 콘텐츠 생성 제어에서 느슨해졌다는 지적, Taiwan의 Nvidia B300 서버 밀수 기소 등 안전·통제 관련 잡음이 한 주에 몰렸다. 규제 강화 압력이 4분기에 더 커질 가능성이 있다.</p>
+</div>
+
+<h2>모델 출시·업데이트</h2>
+
+<h3>1. Google, Gemini 3.7 Flash 공개</h3>
+<p>구글이 경량·저지연 계열인 Flash 라인의 신규 버전 Gemini 3.7 Flash를 내놨다. 고빈도 호출이 필요한 프로덕션 워크로드에서 비용 대비 처리량을 겨냥한 포지션으로, API 기반 앱의 기본 모델 선택지가 다시 한 번 갱신됐다.
+<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/">Google Blog</a> (2026-08)</p>
+
+<h3>2. OpenAI, Kiro에서 GPT-5.6 가격 대비 성능 개선</h3>
+<p>OpenAI가 개발 도구 Kiro 환경에 GPT-5.6을 적용하며 개발자용 price-performance를 개선했다고 밝혔다. 코딩 에이전트 계열 도구에서 동일 작업의 토큰 비용을 낮추는 방향이라 실사용 단가에 직접 영향이 있다.
+<a href="https://openai.com/index/gpt-5-6-in-kiro/">OpenAI</a> (2026-08-24)</p>
+
+<h3>3. Anthropic, Claude Cowork와 Chat 메모리 통합</h3>
+<p>Claude의 메모리가 채팅과 Cowork 등 서로 다른 surface 사이에서 기본 공유되도록 바뀌었다. 사용자 컨텍스트가 앱 경계를 넘어 유지되는 구조로, 에이전트 제품의 개인화 설계 기준선이 올라갔다.
+<a href="https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/">TechCrunch</a> (2026-08-25)</p>
+
+<h3>4. 정체불명 스텔스 모델 'Ox Alpha' 등장</h3>
+<p>개발 주체가 공개되지 않은 신규 모델 Ox Alpha가 벤치마크 플랫폼에 나타나 배후 추적 보도가 이어졌다. 신규 진입자가 익명 테스트 후 정식 공개하는 패턴이 굳어지는 모습이다.
+<a href="https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/">TechCrunch</a> (2026-08-23)</p>
+
+<h3>5. Meta, AI 에이전트 '해치' 출시 임박 및 10월 신모델 예고</h3>
+<p>Meta가 에이전트 제품 'Hatch'의 출시를 앞두고 있으며, 10월에 코드명 'Watermelon'의 새 모델을 공개할 예정이라는 보도가 나왔다. Llama 계열 오픈웨이트 전략의 향방이 함께 주목된다.
+<a href="https://www.aitimes.com/news/articleView.html?idxno=214319">AI타임스</a> (2026-08-25)</p>
+
+<h3>6. Google, Gemini 4 준비 중 — 3.5 Pro 건너뛸 가능성</h3>
+<p>구글이 차기 플래그십 Gemini 4 준비에 들어갔고 중간 버전인 3.5 Pro를 건너뛸 수 있다는 관측이 제기됐다. 버전 간격이 짧아지면서 모델 고정(pinning) 없는 앱은 회귀 테스트 부담이 커진다.
+<a href="https://www.aitimes.com/news/articleView.html?idxno=214355">AI타임스</a> (2026-08-25)</p>
+
+<h2>정책·규제</h2>
+
+<h3>7. EU AI Act 투명성 의무 집행 개시</h3>
+<p>유럽위원회가 8월 2일부터 AI Act의 투명성 관련 규정 집행을 시작했다. 생성형 콘텐츠 표시, 범용 AI 모델 관련 문서화 의무 등이 포함되며, 유럽 이용자를 대상으로 하는 앱은 역외 사업자라도 적용 대상이 된다.
+<a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714">European Commission</a> (2026-08-02)</p>
+
+<h3>8. OpenAI, 캘리포니아 AI 안전법 강화 촉구</h3>
+<p>OpenAI가 캘리포니아주 AI 안전 법안을 오히려 더 강하게 다듬어야 한다는 입장을 냈다. 주별 규제 파편화를 연방·주 단일 기준으로 수렴시키려는 의도로 읽힌다.
+<a href="https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/">TechCrunch</a> (2026-08-22)</p>
+
+<h3>9. 저작권 도서로 AI 학습, 여전히 회색지대</h3>
+<p>저작권이 있는 서적을 모델 학습에 쓰는 행위의 적법성이 판례별로 엇갈리며 정리되지 않고 있다는 분석이 나왔다. fair use 인정 범위와 데이터 취득 경로의 적법성이 별개로 다뤄지는 점이 핵심 쟁점이다.
+<a href="https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/">TechCrunch</a> (2026-08-23)</p>
+
+<h3>10. 대만, Nvidia B300 서버 중국 우회 수출 9명 기소</h3>
+<p>대만 검찰이 Nvidia B300 서버 130대를 중국으로 빼돌린 혐의로 9명을 기소했다. 세관 통제를 피하기 위한 다단계 우회 구조가 공소장에 담기면서 미국 수출통제의 실효성 논쟁이 재점화됐다.
+<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/nine-indicted-by-taiwan-over-illegal-export-of-nvidia-b300-gpus-to-china-details-reveal-five-point-strategy-to-exploit-and-avoid-customs-controls">Tom's Hardware</a> (2026-08-25)</p>
+
+<h3>11. OpenAI, frontier 모델에 Zero Data Retention 제공</h3>
+<p>OpenAI가 최상위 모델에도 데이터 무보존(Zero Data Retention) 옵션을 제공한다고 밝혔다. 의료·금융 등 규제 산업 앱이 최신 모델을 쓸 수 있는 문턱이 낮아졌다.
+<a href="https://openai.com/index/offering-zero-data-retention-for-frontier-models/">OpenAI</a> (2026-08-19)</p>
+
+<h3>12. frontier AI 랩, rogue model 격리 방안 공개 거부</h3>
+<p>주요 AI 연구소들이 통제를 벗어난 모델을 실제로 어떻게 봉쇄할지에 대한 구체적 프로토콜 공개를 계속 미루고 있다는 취재 결과가 나왔다. 규제 당국의 정보 제출 요구로 이어질 소지가 있다.
+<a href="https://techcrunch.com/2026/08/24/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/">TechCrunch</a> (2026-08-22)</p>
+
+<h2>산업 동향·기업</h2>
+
+<h3>13. OpenAI 자체 추론 칩 Jalapeño 첫 성능 공개</h3>
+<p>OpenAI가 자체 설계 추론 칩 Jalapeño의 초기 벤치마크를 공개하며 업계 최고 수준의 속도·효율을 주장했다. 자체 실리콘 확보는 장기적으로 API 원가 구조와 공급 안정성에 직결된다.
+<a href="https://openai.com/index/jalapeno-first-results/">OpenAI</a> (2026-08-25)</p>
+
+<h3>14. ChatGPT Work·Codex용 Admin plugin 출시</h3>
+<p>기업 관리자가 ChatGPT Work와 Codex의 권한·정책을 중앙에서 통제할 수 있는 Admin plugin이 나왔다. 사내 코딩 에이전트 도입 시 감사·권한 관리 요건을 충족하기 쉬워졌다.
+<a href="https://openai.com/index/introducing-admin-plugin/">OpenAI</a> (2026-08-25)</p>
+
+<h3>15. OpenAI DevDay 2026 개최 발표</h3>
+<p>OpenAI가 연례 개발자 행사 DevDay 2026 일정을 공식화했다. 통상 API·SDK의 주요 변경이 이 자리에서 발표되므로 마이그레이션 계획을 미리 잡아둘 필요가 있다.
+<a href="https://openai.com/index/devday-2026/">OpenAI</a> (2026-08)</p>
+
+<h3>16. Nvidia, "이제 주역은 모델이 아니라 harness"</h3>
+<p>Nvidia가 동일 모델이라도 실행 프레임워크와 도구 연결 구조(harness)에 따라 성능 차이가 크게 벌어진다는 점을 시연했다. 에이전트 앱의 경쟁력이 모델 선택보다 오케스트레이션 설계로 이동하고 있다는 신호다.
+<a href="https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/">TechCrunch</a> (2026-08-21)</p>
+
+<h3>17. Keenable, AI 에이전트 전용 웹 인덱스 구축</h3>
+<p>Accel의 투자를 받은 Keenable이 사람이 아닌 AI 에이전트가 읽기 좋은 형태로 웹을 색인하는 인프라를 만들고 있다. 검색 API 계층이 에이전트 친화적으로 재편되는 흐름이다.
+<a href="https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/">TechCrunch</a> (2026-08-25)</p>
+
+<h3>18. OpenAI 데이터센터 총괄 임원 이탈</h3>
+<p>OpenAI의 데이터센터 담당 고위 임원이 회사를 떠나며 고위직 이탈 흐름이 이어졌다. 대규모 인프라 확장 국면에서의 조직 리스크로 지목된다.
+<a href="https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/">TechCrunch</a> (2026-08-25)</p>
+
+<h2>투자·M&amp;A</h2>
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>대상</th><th>유형</th><th>규모</th><th>날짜</th></tr></thead>
+<tbody>
+<tr><td>Hugging Face</td><td>인수 협상</td><td>130억 달러</td><td>2026-08-24</td></tr>
+<tr><td>General Intuition</td><td>투자 유치</td><td>60억 달러 밸류</td><td>2026-08-24</td></tr>
+<tr><td>Stability AI</td><td>투자 유치</td><td>7,600만 달러</td><td>2026-08-25</td></tr>
+<tr><td>Lica (by Gamma)</td><td>인수</td><td>비공개</td><td>2026-08-25</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>19. Hugging Face, 130억 달러 인수 협상설</h3>
+<p>오픈소스 모델 허브 Hugging Face가 130억 달러 규모로 인수 협상 중이라는 보도가 나왔다. 모델 배포·데이터셋·Inference Endpoint에 의존하는 개발 파이프라인이 광범위해 성사 여부에 따른 파급이 크다.
+<a href="https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/">TechCrunch</a> (2026-08-24)</p>
+
+<h3>20. General Intuition, 8주 만에 밸류 60억 달러로 3배</h3>
+<p>world model 스타트업 General Intuition이 Valor Equity와 Point72 Ventures 주도로 60억 달러 밸류에 자금을 조달했다. 로보틱스 확장을 노린 베팅으로, 8주 전 23억 달러 대비 급등이다.
+<a href="https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/">TechCrunch</a> (2026-08-24)</p>
+
+<h3>21. Stability AI, 음악·엔터 대기업으로부터 7,600만 달러 유치</h3>
+<p>Stable Diffusion 개발사 Stability AI가 Sony, Universal Music Group, Warner Music Group 등이 참여한 라운드로 7,600만 달러를 확보했다. 저작권 분쟁 상대였던 콘텐츠 업계가 투자자로 돌아선 점이 특징이다.
+<a href="https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/">TechCrunch</a> (2026-08-25)</p>
+
+<h3>22. Gamma, 디자인 스타트업 Lica 인수</h3>
+<p>AI 프레젠테이션 도구 Gamma가 Accel의 투자를 받은 디자인 스타트업 Lica를 인수했다. AI 생산성 도구 영역에서 수직 통합형 M&amp;A가 이어지는 흐름이다.
+<a href="https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/">TechCrunch</a> (2026-08-25)</p>
+
+<h2>연구·기술</h2>
+
+<h3>23. AI4AI-Bench — AI가 AI 학습 알고리즘을 개선할 수 있는가</h3>
+<p>언어 모델 에이전트가 스스로 AI 학습 알고리즘을 재설계해 반복 개선할 수 있는지를 측정하는 벤치마크가 공개됐다. 자기개선 루프의 실제 한계를 정량화하려는 시도다.
+<a href="https://arxivtldr.org/abs/2608.20318">arXiv TLDR</a> (2026-08)</p>
+
+<h3>24. BEAR-Bench — 문서 중심 멀티모달 추론 이중언어 벤치마크</h3>
+<p>문서 비중이 높은 자료에서 멀티모달 모델의 복합 추론 능력을 평가하는 이중언어 벤치마크가 나왔다. 기업 문서 처리 앱의 모델 선택 근거로 쓸 만하다.
+<a href="https://arxivtldr.org/abs/2608.17895">arXiv TLDR</a> (2026-08)</p>
+
+<h3>25. VisDocAgentBench — 에이전틱 검색이 정적 RAG를 크게 앞서</h3>
+<p>시각적으로 복잡한 문서에서 에이전트 방식 검색이 기존 정적 retrieval 대비 확연히 높은 성능을 낸다는 결과가 보고됐다. 단순 RAG 파이프라인의 재설계 필요성을 시사한다.
+<a href="https://arxivtldr.org/abs/2608.17889">arXiv TLDR</a> (2026-08)</p>
+
+<h3>26. Inherent, 연구 재현 과제에서 상위 모델 상회 주장</h3>
+<p>DeepMind 출신들이 창업한 Inherent가 자사 AI 'teammate'가 논문 재현 작업에서 Anthropic·OpenAI 모델을 앞섰다고 발표했다. 장기 자율 실행 능력이 벤치마크의 새 축으로 자리잡는 중이다.
+<a href="https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/">TechCrunch</a> (2026-08-22)</p>
+
+<h2>한국 AI 소식</h2>
+
+<h3>27. '모두의 AI' 6개 컨소시엄 경쟁 구도</h3>
+<p>전 국민 무료 AI 서비스인 '모두의 AI' 사업 공모에 SKT, KT, 카카오, LG유플러스, 이스트소프트 등 6개 컨소시엄이 참여했다. 네이버는 불참을 택했다.
+<a href="https://zdnet.co.kr/view/?no=20260818192950">ZDNet Korea</a> (2026-08-18)</p>
+
+<h3>28. 카카오, LG그룹과 손잡고 '모두의 AI' 연합 구성</h3>
+<p>카카오가 LG그룹과 컨소시엄을 꾸려 '모두의 AI' 사업에 출사표를 던졌다. 플랫폼과 제조·통신 자산을 결합한 형태로, 국내 파운데이션 모델 수요처가 정부 사업 중심으로 형성되는 흐름이다.
+<a href="https://www.fnnews.com/news/202608191029424671">파이낸셜뉴스</a> (2026-08-19)</p>
+
+<h3>29. 라이너, 500억 원 규모 시리즈C 유치</h3>
+<p>AI 에이전트 기업 라이너가 500억 원 규모 시리즈C를 마무리했다. 글로벌 사용자 1,400만 명을 기반으로 한 국내 AI 스타트업의 대형 라운드다.
+<a href="https://www.aitimes.com/news/articleView.html?idxno=214333">AI타임스</a> (2026-08-25)</p>
+
+<h3>30. 솔트룩스 '구버', 1분 내 AI 에이전트 생성 기능 출시</h3>
+<p>솔트룩스가 자사 서비스 구버에 1분 안에 개인용 AI 에이전트를 만드는 'AI 버디' 기능을 추가했다. 노코드 에이전트 빌더 경쟁이 국내에서도 본격화되는 모습이다.
+<a href="https://www.aitimes.com/news/articleView.html?idxno=214356">AI타임스</a> (2026-08-25)</p>
+
+<h2>트렌드 종합</h2>
+
+<blockquote>
+<p>이번 주를 관통하는 축은 세 가지다. 첫째, <strong>수직 통합</strong>이다. OpenAI가 자체 추론 칩 성과를 공개하고 인프라 풀스택을 설명한 것은 모델 회사가 반도체·데이터센터까지 직접 쥐겠다는 선언에 가깝다. 둘째, <strong>에이전트 인프라 계층의 부상</strong>이다. Nvidia의 harness 시연, 에이전트용 웹 인덱스를 만드는 Keenable, 에이전틱 검색이 정적 RAG를 앞선다는 벤치마크 결과가 같은 방향을 가리킨다. 모델 성능보다 실행 환경 설계가 결과를 가르는 국면이다. 셋째, <strong>규제의 실집행 전환</strong>이다. EU AI Act 투명성 의무가 문서에서 집행으로 넘어갔고, 미국은 주 단위 안전법 논쟁이 이어지며, 대만은 수출통제 위반을 형사 기소로 다뤘다.</p>
+<p>한국은 '모두의 AI'라는 대형 정부 사업을 축으로 통신·플랫폼 대기업이 재편되는 중이다. 국내 AI 수요의 상당 부분이 정부 프로젝트에 몰리는 구조는 단기 매출에는 도움이 되지만, 글로벌 경쟁력과는 별개의 트랙이라는 점을 감안해야 한다.</p>
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+
+<div class="callout">
+<p><strong>1. 모델 버전 고정과 회귀 테스트를 지금 정비하라.</strong> Gemini 3.7 Flash, GPT-5.6, Opus 4.6, Gemini 4 예고까지 한 주에 몰렸다. 버전을 pinning하지 않은 앱은 조용한 동작 변화에 노출된다.</p>
+<p><strong>2. 오픈소스 의존성을 점검하라.</strong> Hugging Face 인수 협상이 성사되면 모델 다운로드·Inference Endpoint·데이터셋 호스팅의 정책과 가격이 바뀔 수 있다. 핵심 모델 가중치는 자체 미러링을 검토할 시점이다.</p>
+<p><strong>3. 유럽 이용자가 있다면 AI Act 대응은 이미 마감이 지났다.</strong> 생성 콘텐츠 표시, 모델 출처 고지 등을 앱 UI와 약관에 반영했는지 확인해야 한다.</p>
+<p><strong>4. RAG를 에이전틱 검색으로 재설계할 근거가 쌓였다.</strong> VisDocAgentBench 결과와 Nvidia의 harness 시연은 같은 이야기를 한다. 단발 임베딩 검색 대신 다단계 도구 호출 구조를 시험해볼 가치가 있다.</p>
+<p><strong>5. 규제 산업 앱은 Zero Data Retention 옵션을 확인하라.</strong> 최신 frontier 모델에도 무보존 옵션이 열리면서, 그동안 구형 모델을 써야 했던 제약이 풀렸다.</p>
+</div>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
