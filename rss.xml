@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.08.27)</title>
+      <link>https://bluaura.github.io/posts/2026-08-27-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-27-macro.html</guid>
+      <description>미국 7월 근원 PCE 전월비 +0.2% 예상 부합·전년비 3.3%로 9월 FOMC 인상 확률 40%→38% 하락. 2분기 GDP 잠정치 1.5% 유지지만 민간 국내구매자 실질최종판매 4.2%로 상향, 기업이익 4,009억달러 급증. 오늘 오전 한국은행 금통위(동결 79% 전망)와 수정 경제전망이 국내 최대 변수.</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.26)</title>
       <link>https://bluaura.github.io/posts/2026-08-26-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-19-ai-weekly.html</guid>
       <description>이번 주 AI 업계 주요 소식 30건. Grok 4.6·Gemini 3.7 Flash 가격 인하로 모델 단가 경쟁 본격화, Anthropic 첫 영업이익 5.59억 달러와 OpenAI 1조 달러 IPO 서류 제출이 대비</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.18)</title>
-      <link>https://bluaura.github.io/posts/2026-08-18-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-18-us-market.html</guid>
-      <description>S&amp;P 500 7,745.06(-0.52%) · NASDAQ 26,644.91(-0.32%). 메모리 반도체 폭등 속 30년물 금리 5.29%로 2007년 이후 최고, Microsoft·Meta 급락</description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
