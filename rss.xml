@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.28)</title>
+      <link>https://bluaura.github.io/posts/2026-08-28-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-28-us-market.html</guid>
+      <description>S&amp;P 500 7,730.73(+0.72%) · NASDAQ 26,540.78(+1.57%). NVIDIA가 FY2028 매출 70% 성장 가이던스로 8.7% 급등하며 지수를 견인했으나 동일가중 지수는 하락, 9월 FOMC 금리 인상 확률은 65%</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.27)</title>
       <link>https://bluaura.github.io/posts/2026-08-27-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-27-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-20-kr-market.html</guid>
       <description>KOSPI 6,852.58(+5.89%) · KOSDAQ 840.89(+1.99%). SK하이닉스 40조원 자사주 소각 결의와 미 재무부 국채 바이백 확대에 외국인 1.7조 순매수, 전일 급락분 하루 만에 회복.</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.19)</title>
-      <link>https://bluaura.github.io/posts/2026-08-19-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-19-us-market.html</guid>
-      <description>S&amp;P 500 7,691.76(-0.69%) · NASDAQ 26,289.71(-1.33%). 30년물 Treasury 금리 5.31%로 2007년 이후 최고, AI 광통신·인프라 밸류체인 동반 급락</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
