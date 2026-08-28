@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.08.29)</title>
+      <link>https://bluaura.github.io/posts/2026-08-29-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-29-us-market.html</guid>
+      <description>S&amp;P 500 7,711.14(-0.26%) · NASDAQ 26,411.00(-0.49%). Warsh 의장 잭슨홀 매파 발언에 9월 금리 인상 확률 35%→59% 급등, NVIDIA 실적 랠리 하루 만에 반납</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.28)</title>
       <link>https://bluaura.github.io/posts/2026-08-28-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-28-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-20-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-20-macro.html</guid>
       <description>7월 FOMC 의사록에서 다수 위원이 &#x27;물가가 안 잡히면 인상 필요&#x27;에 공감. 정작 지표는 인상 명분을 약화시켰는데 30년물이 19년래 최고 5.327%를 찍으며 코스피가 5.8% 급락했다. 이번 금리 상승은 연준이 아니라 국채 수급 문제다.</description>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.08.20)</title>
-      <link>https://bluaura.github.io/posts/2026-08-20-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-20-kr-market.html</guid>
-      <description>KOSPI 6,852.58(+5.89%) · KOSDAQ 840.89(+1.99%). SK하이닉스 40조원 자사주 소각 결의와 미 재무부 국채 바이백 확대에 외국인 1.7조 순매수, 전일 급락분 하루 만에 회복.</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
