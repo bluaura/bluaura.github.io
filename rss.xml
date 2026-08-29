@@ -33,6 +33,13 @@
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.08.28)</title>
+      <link>https://bluaura.github.io/posts/2026-08-28-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-28-kr-market.html</guid>
+      <description>KOSPI 6,847.96(-0.93%) · KOSDAQ 838.41(+0.09%). 외국인 1.6조 순매도로 반도체 대형주 되돌림, 삼성바이오로직스 3조 유상증자에도 코스닥은 순환매로 방어 (8/29 휴장, 직전 거래일 기준)</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.28)</title>
       <link>https://bluaura.github.io/posts/2026-08-28-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-28-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-21-kr-market.html</guid>
       <description>KOSPI 6,912.95(+0.88%) · KOSDAQ 801.94(-4.63%). 삼성전자 110조·SK하이닉스 40조 주주환원에 대형 반도체주 급등, 코스닥은 매도 사이드카 발동</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT 다음은 World Model인가 — 페이페이 리 인터뷰 투자자 관점 정리</title>
-      <link>https://bluaura.github.io/posts/2026-08-20-world-model-physical-ai.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-20-world-model-physical-ai.html</guid>
-      <description>World Labs $1B 조달(밸류 $5B), World Model 분야 총 VC 투자 $3B. 투자자 명단에 NVIDIA와 AMD가 동시에 들어간 것이 핵심 신호다. 다만 CEO 본인이 &#x27;LLM의 2019년보다 이른 단계&#x27;라고 인정했다.</description>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
