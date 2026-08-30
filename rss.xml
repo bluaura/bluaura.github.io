@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.08.31)</title>
+      <link>https://bluaura.github.io/posts/2026-08-31-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-31-macro.html</guid>
+      <description>오늘 오전 8시 한국 7월 산업활동동향 발표 — 6월 전산업생산 +2.3%(6년 만의 최대) 뒤 첫 시험대. 동시에 워시 잭슨홀 연설을 국내 시장이 처음 반영하는 거래일로, 9월 FOMC 인상 확률은 35%에서 55~59%로 급등했다. 이번 주는 ISM·한국 CPI·미 8월 고용까지 지표가 나흘 연속 이어진다.</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.08.29)</title>
       <link>https://bluaura.github.io/posts/2026-08-29-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-29-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-21-term-premium-multiple.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-21-term-premium-multiple.html</guid>
       <description>1966~2026년 11개 국면 검증. 명제는 4개 조건에서만 성립한다. 1994년은 P/E −30%인데 주가 +1.3%, 2013년은 실질금리 +156bp인데 주식 +32%. 그리고 &#x27;term premium↑ → 예대마진↑ → 대출 완화&#x27; 가설은 핵심 고리 3개가 끊어져 있다 — 2026 Q1 NIM은 오히려 −8bp.</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.08.21)</title>
-      <link>https://bluaura.github.io/posts/2026-08-21-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-21-macro.html</guid>
-      <description>오늘 한국 8월 1~20일 수출입 잠정치와 미국 8월 플래시 PMI 발표. 재무부 바이백으로 30년물이 5.196%까지 밀렸다가 5.251%로 되돌림 — 진통제는 통했지만 원인은 그대로다.</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
