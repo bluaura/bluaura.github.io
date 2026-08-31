@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.01)</title>
+      <link>https://bluaura.github.io/posts/2026-09-01-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-macro.html</guid>
+      <description>오늘 오전 9시 한국 8월 수출입, 밤 11시 미 8월 ISM 제조업 동시 발표. 8월 1~20일 수출 +56.0%·반도체 +198.8%지만 반도체 제외 +9.3%. 워시 잭슨홀 후 9월 FOMC 인상 확률 60.4%로 상승, 골드만삭스는 동결 고수. 근원 CPI 2.5% vs 근원 PCE 3.3% 괴리가 승부처.</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.08.31)</title>
       <link>https://bluaura.github.io/posts/2026-08-31-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-31-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-22-catalyst-calendar.html</guid>
       <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.21)</title>
-      <link>https://bluaura.github.io/posts/2026-08-21-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-21-us-market.html</guid>
-      <description>S&amp;P 500 7,641.16(-0.87%) · NASDAQ 26,067.17(-1.00%) · Dow 52,759.21(-1.32%). 재무부 국채 바이백 효과 하루 만에 소멸, 유가 급등과 Walmart 6년래 최저 동일점포 매출이 겹치며 3주 만의 최대 낙폭.</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
