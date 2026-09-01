@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.02)</title>
+      <link>https://bluaura.github.io/posts/2026-09-02-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-02-macro.html</guid>
+      <description>오늘 한국 8월 CPI(컨센서스 3.2%)와 미국 8월 ADP 발표. 밤사이 ISM 제조업 54.6으로 둔화됐지만 물가지불 71.1 고착, 유가 급등에 미 10년물 4.78% 19개월 최고. 9월 FOMC 인상 확률 65~68%.</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.01)</title>
       <link>https://bluaura.github.io/posts/2026-09-01-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-24-kr-market.html</guid>
       <description>KOSPI 6,696.96(-3.12%) · KOSDAQ 813.33(+1.42%). 삼성전자 110조 주주환원에 &#x27;자사주 소각&#x27; 빠지며 -8.7% 급락, 코스피 6700선 붕괴. 자금은 이차전지·방산으로 순환매</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.22)</title>
-      <link>https://bluaura.github.io/posts/2026-08-22-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-22-us-market.html</guid>
-      <description>S&amp;P 500 7,674.31(+0.43%) · NASDAQ 26,180.46(+0.43%) · Dow 53,276.81(+0.98%). 금요일 반등에도 3대 지수 주간 하락 — 30년물 국채 금리 19년 최고치와 Bessent 재무장관의 바이백 2배 확대가 한 주를 지배</description>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
