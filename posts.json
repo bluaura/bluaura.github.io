@@ -7,6 +7,20 @@
   },
   "posts": [
     {
+      "slug": "2026-09-01-local-llm-hardware-mac-vs-spark",
+      "title": "Mac Studio M5 Ultra vs DGX Spark — 로컬 LLM 하드웨어 시장과 밸류체인 투자 인사이트",
+      "date": "2026-09-01",
+      "tags": [
+        "AI",
+        "테크",
+        "반도체",
+        "AAPL",
+        "NVDA",
+        "투자전략"
+      ],
+      "summary": "M5 Ultra 1.2TB/s·512GB vs DGX Spark 273GB/s·128GB. 2026년 내내 수요>공급, 병목은 메모리. 프로슈머 로컬 AI는 DRAM 비트의 1% 미만이지만 $25/GB 업그레이드가 완판되는 가격 신호. Apple Mac 믹스·MediaTek·Arm 직접 수혜, 메모리·TSMC는 데이터센터가 결정."
+    },
+    {
       "slug": "2026-09-01-macro-korea-aug-trade",
       "title": "2026년 8월 수출입동향 — 반도체 +209%, 컨센서스 상회에도 시장이 덤덤한 이유",
       "date": "2026-09-01",

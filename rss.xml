@@ -33,6 +33,13 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>Mac Studio M5 Ultra vs DGX Spark — 로컬 LLM 하드웨어 시장과 밸류체인 투자 인사이트</title>
+      <link>https://bluaura.github.io/posts/2026-09-01-local-llm-hardware-mac-vs-spark.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-local-llm-hardware-mac-vs-spark.html</guid>
+      <description>M5 Ultra 1.2TB/s·512GB vs DGX Spark 273GB/s·128GB. 2026년 내내 수요&gt;공급, 병목은 메모리. 프로슈머 로컬 AI는 DRAM 비트의 1% 미만이지만 $25/GB 업그레이드가 완판되는 가격 신호. Apple Mac 믹스·MediaTek·Arm 직접 수혜, 메모리·TSMC는 데이터센터가 결정.</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.09.01)</title>
       <link>https://bluaura.github.io/posts/2026-09-01-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-22-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-22-us-market.html</guid>
       <description>S&amp;P 500 7,674.31(+0.43%) · NASDAQ 26,180.46(+0.43%) · Dow 53,276.81(+0.98%). 금요일 반등에도 3대 지수 주간 하락 — 30년물 국채 금리 19년 최고치와 Bessent 재무장관의 바이백 2배 확대가 한 주를 지배</description>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 부채 40조 달러와 30년물 5.3% — 감당 가능한가, 디스카운트는 시작됐나</title>
-      <link>https://bluaura.github.io/posts/2026-08-22-us-debt-40t-30y-yield.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-22-us-debt-40t-30y-yield.html</guid>
-      <description>총부채 $40.05조, 30년물 5.28%(8/18 장중 5.34%), 순이자 $1조로 국방비 초과. 디폴트가 아니라 기간프리미엄·인플레·금융억압이 리스크. 디스카운트는 채권→달러→(아직 아님)주식 순으로 진행 중. 시나리오 3개와 자산별 시사점, 놓치기 쉬운 포인트 7가지.</description>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
