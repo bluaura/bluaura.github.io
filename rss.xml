@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.02)</title>
+      <link>https://bluaura.github.io/posts/2026-09-02-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-02-us-market.html</guid>
+      <description>S&amp;P 500 7,631.54(-0.71%) · NASDAQ 26,099.77(-1.03%). 미군 이란 타격에 WTI 5% 급등, 10년물 4.79%로 2025년 1월 이후 최고 — 9월 FOMC 금리 인상 확률 66% 돌파</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.02)</title>
       <link>https://bluaura.github.io/posts/2026-09-02-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-02-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-24-mstr-surge.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-24-mstr-surge.html</guid>
       <description>20거래일 +30.1%(나스닥 +4.5%) — 상승분 대부분이 8/19~21 3일 집중. 원인은 BTC 브레이크아웃 60%+숏커버 30%, 회사는 오히려 BTC 매입 중단·매각 중. 목표가 컨센서스는 한 달 내내 하향. 판정: 되돌림 가능.</description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.08.24)</title>
-      <link>https://bluaura.github.io/posts/2026-08-24-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-24-kr-market.html</guid>
-      <description>KOSPI 6,696.96(-3.12%) · KOSDAQ 813.33(+1.42%). 삼성전자 110조 주주환원에 &#x27;자사주 소각&#x27; 빠지며 -8.7% 급락, 코스피 6700선 붕괴. 자금은 이차전지·방산으로 순환매</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
