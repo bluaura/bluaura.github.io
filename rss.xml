@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.03)</title>
+      <link>https://bluaura.github.io/posts/2026-09-03-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-03-macro.html</guid>
+      <description>미국 8월 ADP 민간고용 +3.8만명으로 1월 이후 최저. 오늘 밤 ISM 서비스업, 내일 밤 8월 고용보고서. 유가 91달러와 국채금리 급등에 9월 FOMC 인상 확률 66.2%, 코스피는 수출 역대급에도 3.99% 급락.</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.02)</title>
       <link>https://bluaura.github.io/posts/2026-09-02-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-02-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-25-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-25-us-market.html</guid>
       <description>S&amp;P 500 7,652.86(-0.28%) · NASDAQ 25,980.19(-0.76%) · Dow 53,417.16(+0.26%). Apple의 중국산 메모리 검토 보도로 Micron·SanDisk 등 메모리주가 6~9% 급락, 반도체가 지수를 끌어내린 반면 금융·철강 블루칩이 Dow를 떠받쳤다.</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>중국 휴머노이드 로봇 산업, 투자자 관점 조사</title>
-      <link>https://bluaura.github.io/posts/2026-08-25-sector-china-humanoid.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-25-sector-china-humanoid.html</guid>
-      <description>중국 제조사 150+곳 중 1,000대 이상 출하는 3곳. 2026 H1 글로벌 출하 97%가 중국이지만 Unitree 산업용 매출은 9%. 시장 전망·월가 의견·미국 비교·투자 가능 종목 정리.</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
