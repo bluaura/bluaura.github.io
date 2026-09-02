@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.03)</title>
+      <link>https://bluaura.github.io/posts/2026-09-03-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-03-us-market.html</guid>
+      <description>S&amp;P 500 7,666.60(+0.46%) · NASDAQ 26,217.83(+0.45%). Fed Williams의 9월 인상 신중론에 이틀 연속 하락 후 반등, 10년물 4.81%로 2023년 11월 이후 최고</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.03)</title>
       <link>https://bluaura.github.io/posts/2026-09-03-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-03-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-ai-weekly.html</guid>
       <description>이번 주 AI 업계 주요 소식 30건. OpenAI 자체 추론칩 Jalapeño 첫 벤치마크 공개, Hugging Face 130억 달러 인수 협상설, EU AI Act 투명성 의무 집행 개시</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.25)</title>
-      <link>https://bluaura.github.io/posts/2026-08-25-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-25-us-market.html</guid>
-      <description>S&amp;P 500 7,652.86(-0.28%) · NASDAQ 25,980.19(-0.76%) · Dow 53,417.16(+0.26%). Apple의 중국산 메모리 검토 보도로 Micron·SanDisk 등 메모리주가 6~9% 급락, 반도체가 지수를 끌어내린 반면 금융·철강 블루칩이 Dow를 떠받쳤다.</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
