@@ -19,6 +19,13 @@
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.09.03)</title>
+      <link>https://bluaura.github.io/posts/2026-09-03-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-03-kr-market.html</guid>
+      <description>KOSPI 6,579.48(+0.26%) · KOSDAQ 790.21(-1.71%). 이란의 쿠웨이트 미군기지 타격에 장중 6,439까지 급락했다가 자사주 매수벽에 힘입어 반등 마감, 금리 상승 수혜 보험·은행주가 시장 주도</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.02)</title>
       <link>https://bluaura.github.io/posts/2026-09-02-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-02-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-26-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-kr-market.html</guid>
       <description>KOSPI 6,808.21(+0.97%) · KOSDAQ 826.87(-0.03%). 외국인·개인 동반 매도에도 삼성전자·SK하이닉스 자사주 매입(기타법인 1.59조 순매수)이 지수를 밀어올린 하루</description>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 주간 브리핑 (2026.08.26)</title>
-      <link>https://bluaura.github.io/posts/2026-08-26-ai-weekly.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-ai-weekly.html</guid>
-      <description>이번 주 AI 업계 주요 소식 30건. OpenAI 자체 추론칩 Jalapeño 첫 벤치마크 공개, Hugging Face 130억 달러 인수 협상설, EU AI Act 투명성 의무 집행 개시</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
