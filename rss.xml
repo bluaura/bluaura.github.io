@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.04)</title>
+      <link>https://bluaura.github.io/posts/2026-09-04-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-us-market.html</guid>
+      <description>S&amp;P 500 7,747.71(+1.06%) · NASDAQ 26,584.06(+1.40%) · Dow 53,686.11(+1.18%). Fed 이사 Waller의 9월 동결 시사로 10년물 금리가 4.75%로 밀리며 3대 지수 동반 급등, Broadcom은 AI 매출 +221%에도 가이던스 미달로 하락.</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.04)</title>
       <link>https://bluaura.github.io/posts/2026-09-04-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-26-msci-august-review.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-msci-august-review.html</guid>
       <description>LG이노텍 편입(유입 785억~4,390억), HLB·LGD·포스코인터·삼성에피스 편출. 8/31 종가 리밸런싱. 편입주는 발표 45일 전 +24.7% 선반영, 발표 당일 -0.1%.</description>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.08.26)</title>
-      <link>https://bluaura.github.io/posts/2026-08-26-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-macro.html</guid>
-      <description>오늘 밤 미국 7월 PCE·2분기 GDP 잠정치 동시 발표 — 9월 FOMC 전 마지막 대형 지표. 근원 PCE 컨센서스 3.3%, 7월 근원 PPI +0.4% 급등이 상방 리스크. 미국은 고용 -2.3만명·소비자신뢰 7개월 최저로 식는데 한국은 반도체 +198.8%로 8월 수출 역대 최대. 8/27 금통위는 동결 79% vs 인상 20%로 팽팽.</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
