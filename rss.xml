@@ -12,6 +12,13 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>NVIDIA의 Hugging Face 인수($12.9B) — 무엇을 얻고, 월가는 어떻게 보나</title>
+      <link>https://bluaura.github.io/posts/2026-09-04-nvda-hugging-face.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-nvda-hugging-face.html</guid>
+      <description>매출 $150M 회사를 86x에 인수. 오픈 AI 수요의 입구 장악과 하이퍼스케일러 자체 칩 헤지가 핵심. Morningstar 목표가 $310, 컨센서스 $321. 변수는 중립성과 2027년 반독점 승인.</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.04)</title>
       <link>https://bluaura.github.io/posts/2026-09-04-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-27-kr-market.html</guid>
       <description>KOSPI 6,912.37(+1.53%) · KOSDAQ 837.65(+1.30%). 엔비디아 호실적이 반도체를 끌어올린 날, 한국은행은 기준금리를 연 3.00%로 두 달 연속 인상했다.</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.26)</title>
-      <link>https://bluaura.github.io/posts/2026-08-26-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-26-us-market.html</guid>
-      <description>S&amp;P 500 7,676.62(+0.31%) · NASDAQ 26,145.47(+0.64%). NVIDIA 실적·PCE 앞두고 반도체 반등, 유가 1주일 최저·Consumer Confidence 7개월 최저</description>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
