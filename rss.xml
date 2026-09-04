@@ -33,6 +33,13 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.09.04)</title>
+      <link>https://bluaura.github.io/posts/2026-09-04-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-kr-market.html</guid>
+      <description>KOSPI 6,687.21(+1.64%) · KOSDAQ 813.50(+2.95%). 월러 연준 이사의 9월 동결 시사로 미 10년물 4.77% 하락, 반도체·로봇 주도 반등에 원-달러 환율은 14개월 만에 1,350원선</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국채 불안 속 금·비트코인 동반 반등 — 중앙은행의 금 선호는 구조적, 비트코인은 아직 민간 자금</title>
       <link>https://bluaura.github.io/posts/2026-09-04-gold-bitcoin-treasury-shift.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-gold-bitcoin-treasury-shift.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-28-macro.html</guid>
       <description>한국은행이 기준금리를 3.00%로 2회 연속 인상하며 1년 9개월 만에 3% 시대에 진입했다. 그런데 국고채 금리는 전 구간 하락했다. 성장률 전망 3.3% 상향과 반도체 수출 +198.8%가 배경이며, 미국은 7월 PCE 3.7%로 연준의 12월 인상 가능성이 남았다.</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.08.27)</title>
-      <link>https://bluaura.github.io/posts/2026-08-27-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-27-us-market.html</guid>
-      <description>S&amp;P 500 7,678.8(+0.02%) · NASDAQ 26,117(-0.12%). NVIDIA 매출 96.2B 서프라이즈에도 시간외 하락, Salesforce·CrowdStrike는 11%대 급등 — AI 프리미엄이 인프라에서 수익화 기업으로 이동</description>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
