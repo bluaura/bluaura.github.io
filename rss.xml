@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.08)</title>
+      <link>https://bluaura.github.io/posts/2026-09-08-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-08-macro.html</guid>
+      <description>오늘 오전 8시 한국 2분기 GDP 잠정치 발표(속보 +0.6%). 미국 8월 고용 +16.2만명으로 예상 3배 상회하며 9월 FOMC 인상 확률 55.6%로 상승, 10년물 4.82% 34개월 최고. 이번 주 PPI·CPI가 분수령.</description>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.09.07)</title>
       <link>https://bluaura.github.io/posts/2026-09-07-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-07-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-29-nvda-q2-fy2027.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-29-nvda-q2-fy2027.html</guid>
       <description>매출 $96.2B(+106%, 컨센 +4.4% 상회), Q3 가이던스 $108B, FY28 +70% 첫 연간 가이던스로 5개 분기 만의 실적 후 첫 상승(+6%). 단 마진은 Q4 71~72% 바닥, FCF 반토막.</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>잭슨홀 2026 — 워시의 첫 메시지와 장기금리</title>
-      <link>https://bluaura.github.io/posts/2026-08-29-jackson-hole.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-29-jackson-hole.html</guid>
-      <description>워시 첫 잭슨홀 연설 &#x27;In Our Time&#x27;. 대차대조표·QT 언급 0회, 물가에 화력 집중. 9월 인상 확률 35%→55~59%, 2년물 +11.4bp vs 30년물 +1.1bp 베어 플래트닝. 30년물 5.21%. 한국은 8/31이 첫 반영 거래일</description>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
