@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.09)</title>
+      <link>https://bluaura.github.io/posts/2026-09-09-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-macro.html</guid>
+      <description>한국 2분기 GDP 잠정치 발표 - 실질 0.6%, 명목 전년比 26.4%로 47년 만에 최대. 미 8월 고용 16.2만 서프라이즈로 9월 FOMC 인상 확률 약 60%. 9/11 미 8월 CPI가 분수령.</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.08)</title>
       <link>https://bluaura.github.io/posts/2026-09-08-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-08-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-08-31-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-31-macro.html</guid>
       <description>오늘 오전 8시 한국 7월 산업활동동향 발표 — 6월 전산업생산 +2.3%(6년 만의 최대) 뒤 첫 시험대. 동시에 워시 잭슨홀 연설을 국내 시장이 처음 반영하는 거래일로, 9월 FOMC 인상 확률은 35%에서 55~59%로 급등했다. 이번 주는 ISM·한국 CPI·미 8월 고용까지 지표가 나흘 연속 이어진다.</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.08.31)</title>
-      <link>https://bluaura.github.io/posts/2026-08-31-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-31-kr-market.html</guid>
-      <description>KOSPI 6,820.02(+0.46%) · KOSDAQ 834.29(-0.49%). 연준 매파 발언에 3%대 급락 출발했으나 삼성전자·SK하이닉스 자사주 매입이 지수를 떠받치며 반등 마감</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
