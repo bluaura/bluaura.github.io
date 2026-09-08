@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.09)</title>
+      <link>https://bluaura.github.io/posts/2026-09-09-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-us-market.html</guid>
+      <description>S&amp;P 500 7,673.52(-0.58%) · NASDAQ 26,421.41(-0.32%) · Dow 52,786.07(-1.18%). Brent $99 근접과 9월 FOMC 금리 인상 확률 60%가 지수를 눌렀고, GPT-6 Astra 여파로 소프트웨어가 무너진 반면 Intel(+9%)·Qualcomm은 강세.</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.09)</title>
       <link>https://bluaura.github.io/posts/2026-09-09-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-kr-market.html</guid>
       <description>KOSPI 6,835.80(+0.23%) · KOSDAQ 821.25(-1.56%). 8월 반도체 수출 466억 달러 역대 최대에도 미·이란 충돌 재개로 상단 제한, 자사주 기타법인 1.69조 순매수가 지수 방어</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.08.31)</title>
-      <link>https://bluaura.github.io/posts/2026-08-31-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-08-31-macro.html</guid>
-      <description>오늘 오전 8시 한국 7월 산업활동동향 발표 — 6월 전산업생산 +2.3%(6년 만의 최대) 뒤 첫 시험대. 동시에 워시 잭슨홀 연설을 국내 시장이 처음 반영하는 거래일로, 9월 FOMC 인상 확률은 35%에서 55~59%로 급등했다. 이번 주는 ISM·한국 CPI·미 8월 고용까지 지표가 나흘 연속 이어진다.</description>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
