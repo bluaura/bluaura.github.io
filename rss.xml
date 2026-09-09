@@ -19,6 +19,13 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>AI 주간 브리핑 (2026.09.09)</title>
+      <link>https://bluaura.github.io/posts/2026-09-09-ai-weekly.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-ai-weekly.html</guid>
+      <description>이번 주 AI 업계 주요 소식 30건. Nvidia가 Hugging Face를 129억 달러에 인수하고, 프런티어 4사가 한 주에 신모델을 동시 출시했다.</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.08)</title>
       <link>https://bluaura.github.io/posts/2026-09-08-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-08-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-01-local-llm-hardware-mac-vs-spark.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-local-llm-hardware-mac-vs-spark.html</guid>
       <description>M5 Ultra 1.2TB/s·512GB vs DGX Spark 273GB/s·128GB. 2026년 내내 수요&gt;공급, 병목은 메모리. 프로슈머 로컬 AI는 DRAM 비트의 1% 미만이지만 $25/GB 업그레이드가 완판되는 가격 신호. Apple Mac 믹스·MediaTek·Arm 직접 수혜, 메모리·TSMC는 데이터센터가 결정.</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.01)</title>
-      <link>https://bluaura.github.io/posts/2026-09-01-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-kr-market.html</guid>
-      <description>KOSPI 6,835.80(+0.23%) · KOSDAQ 821.25(-1.56%). 8월 반도체 수출 466억 달러 역대 최대에도 미·이란 충돌 재개로 상단 제한, 자사주 기타법인 1.69조 순매수가 지수 방어</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
