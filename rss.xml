@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.10)</title>
+      <link>https://bluaura.github.io/posts/2026-09-10-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-10-macro.html</guid>
+      <description>오늘 밤 미 8월 PPI(컨센 +0.4% M/M), 내일 밤 8월 CPI(3.4% Y/Y) — 9/16 FOMC 직전 물가 2연타. 브렌트 100달러 돌파에도 인상 확률은 52.5%로 후퇴, 월가 6곳이 3대3으로 갈렸다. 한국 8월 반도체 수출은 +209%로 역대 최대.</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.09)</title>
       <link>https://bluaura.github.io/posts/2026-09-09-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-01-macro-korea-aug-trade.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-macro-korea-aug-trade.html</guid>
       <description>8월 수출 $982.5억(+68.7%, 컨센 62.6%), 반도체 $466.5억(+209%) 역대 최대, 무역흑자 $347.5억. 코스피 +0.23%·외국인 순매도. 국내 9곳·해외 8곳 전망과 4Q 메모리 가격 정점 논쟁 정리.</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.09.01)</title>
-      <link>https://bluaura.github.io/posts/2026-09-01-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-macro.html</guid>
-      <description>오늘 오전 9시 한국 8월 수출입, 밤 11시 미 8월 ISM 제조업 동시 발표. 8월 1~20일 수출 +56.0%·반도체 +198.8%지만 반도체 제외 +9.3%. 워시 잭슨홀 후 9월 FOMC 인상 확률 60.4%로 상승, 골드만삭스는 동결 고수. 근원 CPI 2.5% vs 근원 PCE 3.3% 괴리가 승부처.</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
