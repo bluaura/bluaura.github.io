@@ -19,6 +19,13 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.09.09)</title>
+      <link>https://bluaura.github.io/posts/2026-09-09-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-kr-market.html</guid>
+      <description>KOSPI 7,051.64(+1.40%) · KOSDAQ 830.37(+2.28%). 33거래일 만에 7000선 탈환 — 이차전지·반도체 쌍끌이 강세와 23개월 최저 환율(1,336.1원)이 배경, 다만 매수 주체는 기관·기타법인이고 개인은 2조 순매도</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>AI 주간 브리핑 (2026.09.09)</title>
       <link>https://bluaura.github.io/posts/2026-09-09-ai-weekly.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-ai-weekly.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-01-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-macro.html</guid>
       <description>오늘 오전 9시 한국 8월 수출입, 밤 11시 미 8월 ISM 제조업 동시 발표. 8월 1~20일 수출 +56.0%·반도체 +198.8%지만 반도체 제외 +9.3%. 워시 잭슨홀 후 9월 FOMC 인상 확률 60.4%로 상승, 골드만삭스는 동결 고수. 근원 CPI 2.5% vs 근원 PCE 3.3% 괴리가 승부처.</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>Mac Studio M5 Ultra vs DGX Spark — 로컬 LLM 하드웨어 시장과 밸류체인 투자 인사이트</title>
-      <link>https://bluaura.github.io/posts/2026-09-01-local-llm-hardware-mac-vs-spark.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-local-llm-hardware-mac-vs-spark.html</guid>
-      <description>M5 Ultra 1.2TB/s·512GB vs DGX Spark 273GB/s·128GB. 2026년 내내 수요&gt;공급, 병목은 메모리. 프로슈머 로컬 AI는 DRAM 비트의 1% 미만이지만 $25/GB 업그레이드가 완판되는 가격 신호. Apple Mac 믹스·MediaTek·Arm 직접 수혜, 메모리·TSMC는 데이터센터가 결정.</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
