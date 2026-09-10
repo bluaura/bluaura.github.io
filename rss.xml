@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.11)</title>
+      <link>https://bluaura.github.io/posts/2026-09-11-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-11-macro.html</guid>
+      <description>미국 8월 PPI가 전년 대비 5.4%로 가속되며 미 10년물이 4.95%로 52주 최고, 9월 FOMC 인상 확률은 70%로 상승. 오늘 밤 21:30 발표되는 8월 CPI가 분수령. 한국은 8월 수출 +68.7%, 반도체 +209%로 역대 최대.</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.10)</title>
       <link>https://bluaura.github.io/posts/2026-09-10-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-10-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-02-aapl-ceo-ternus.html</guid>
       <description>취임 첫날 +2.6%, 컨센서스 PT $324~339로 현재가와 동일. 매도 등급 6곳은 2012년 이후 최다. 쿡(합의·운영) vs 터너스(결단·제품) 스타일 비교, Bull $400 / Bear $215 시나리오, FY26 EPS +18% 전망.</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.09.01)</title>
-      <link>https://bluaura.github.io/posts/2026-09-01-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-01-us-market.html</guid>
-      <description>S&amp;P 500 7,686.14(-0.33%) · NASDAQ 26,370.89(-0.12%) · Dow 53,185.90(-0.70%). 미군의 Strait of Hormuz 이란 타격에 유가 급등, Warsh 연준 의장 매파 발언으로 9월 금리 인상 확률 50% 돌파.</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
