@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.11)</title>
+      <link>https://bluaura.github.io/posts/2026-09-11-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-11-us-market.html</guid>
+      <description>S&amp;P 500 7,591(-0.58%) · NASDAQ 26,081(-0.65%) · Dow 52,064(-0.60%), 4거래일 연속 하락. 8월 PPI 5.4% 서프라이즈와 Brent $107 급등으로 Fed 금리 인상 확률 70%. 장 마감 후 Oracle RPO $664B 서프라이즈로 시간외 +7%.</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.11)</title>
       <link>https://bluaura.github.io/posts/2026-09-11-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-11-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-02-ai-weekly.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-02-ai-weekly.html</guid>
       <description>이번 주 AI 업계 주요 소식 31건. Anthropic이 Nvidia 투자사 Lambda와 350억 달러 클라우드 계약을 맺었고, 미국은 G20에서 저강도 규제를, EU는 30여 개 기업 AI Act 준수 조사를 개시하며 규제 노선이 갈라졌다.</description>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>애플 CEO 교체: 팀 쿡 → 존 터너스, 월가는 어떻게 보나</title>
-      <link>https://bluaura.github.io/posts/2026-09-02-aapl-ceo-ternus.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-02-aapl-ceo-ternus.html</guid>
-      <description>취임 첫날 +2.6%, 컨센서스 PT $324~339로 현재가와 동일. 매도 등급 6곳은 2012년 이후 최다. 쿡(합의·운영) vs 터너스(결단·제품) 스타일 비교, Bull $400 / Bear $215 시나리오, FY26 EPS +18% 전망.</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
