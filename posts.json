@@ -7,6 +7,22 @@
   },
   "posts": [
     {
+      "slug": "2026-09-12-ai-capex-watchlist",
+      "title": "AI capex 관심 종목 점검 — 하이닉스·삼성전자·전력기기·NVDA·Micron·Sandisk·SpaceX",
+      "date": "2026-09-12",
+      "tags": [
+        "AI",
+        "반도체",
+        "전력기기",
+        "종목분석",
+        "NVDA",
+        "MU",
+        "SNDK",
+        "SPCX"
+      ],
+      "summary": "9/11 코스피 7000 이탈은 AI 의심이 아니라 금리 4.96%·유가 $102 탓. 하이닉스 목표가 230만 vs 240만 하향 논쟁, 삼성 HBM 점유율 40% 근접, 전력기기 3사 분기 최대 이익, SpaceX 컴퓨트 임대 연 $26B."
+    },
+    {
       "slug": "2026-09-12-ai-capex-check",
       "title": "AI capex 우려는 해소되고 있는가 — GPT-6 Astra와 오라클 FY27 1분기로 본 현황",
       "date": "2026-09-12",
