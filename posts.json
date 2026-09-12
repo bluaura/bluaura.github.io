@@ -7,6 +7,19 @@
   },
   "posts": [
     {
+      "slug": "2026-09-12-aapl-on-device-ai",
+      "title": "애플은 'AI 디바이스 플랫폼'으로 자리 잡는가 — A20 Pro·M5 Ultra·로컬 LLM·월가 시각으로 본 3년 투자 리서치",
+      "date": "2026-09-12",
+      "tags": [
+        "미국증시",
+        "종목분석",
+        "AAPL",
+        "온디바이스AI",
+        "테크"
+      ],
+      "summary": "A20 Pro 듀얼 NE·M5 Ultra 512GB/1.2TB/s로 온디바이스 AI 방향은 확인. Mac +29%, OpenClaw발 Mac mini 품절. 월가 Buy 16/Hold 12/Sell 4, 평균 PT $336 vs 주가 $332. 판정 Hold — 3년 thesis 유효, $280~300 눌림목 대기."
+    },
+    {
       "slug": "2026-09-12-hpq-q3-2026",
       "title": "[리뷰] HP Inc.(HPQ) FY2026 Q3 실적·어닝콜 분석 — 돈은 프린터에서, 말은 AI PC에서",
       "date": "2026-09-12",
