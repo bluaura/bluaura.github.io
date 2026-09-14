@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.15)</title>
+      <link>https://bluaura.github.io/posts/2026-09-15-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-15-us-market.html</guid>
+      <description>S&amp;P 500 7,619.98(-0.48%) · NASDAQ 26,186.41(-0.56%). AI 개발 속도조절론과 10년물 국채금리 5% 돌파가 겹치며 반도체·AI 인프라 급락, 사이버보안·소프트웨어로 순환매</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.09.14)</title>
       <link>https://bluaura.github.io/posts/2026-09-14-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-14-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-04-samsung-skhynix-buyback-pace.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-samsung-skhynix-buyback-pace.html</guid>
       <description>삼성전자 일 200만주(거래량 15%)·SK하이닉스 65만주(거래량 25%) 매입, 계획의 1.7~2.5배 속도. 이 속도면 각각 9월말~10월초, 10월 중순 종료.</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA의 Hugging Face 인수($12.9B) — 무엇을 얻고, 월가는 어떻게 보나</title>
-      <link>https://bluaura.github.io/posts/2026-09-04-nvda-hugging-face.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-nvda-hugging-face.html</guid>
-      <description>매출 $150M 회사를 86x에 인수. 핵심은 오픈 AI 수요의 입구 장악과 &#x27;수요 선행 데이터&#x27; — 모델 트렌드를 GPU 설계에 2~3년 먼저 반영. 개발자가 같은 데이터를 앱 설계에 쓰는 법까지. Morningstar 목표가 $310, 컨센서스 $321.</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
