@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.16)</title>
+      <link>https://bluaura.github.io/posts/2026-09-16-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-us-market.html</guid>
+      <description>S&amp;P 500 7,585.73(-0.45%) · NASDAQ 25,981.57(-0.78%) · Dow 52,092.57(-0.63%). 10년물 국채금리가 2007년 이후 최고인 5.01%로 올라서고 Brent유가 $109를 넘어서며 지수를 눌렀다. Fed는 9/16 3년 만의 금리 인상을 앞두고 있다.</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.16)</title>
       <link>https://bluaura.github.io/posts/2026-09-16-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-05-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-05-us-market.html</guid>
       <description>S&amp;P 500 7,718.60(-0.38%) · NASDAQ 26,506.99(-0.29%) · Dow 53,413(-0.51%). 8월 고용 +162K 서프라이즈로 9월 FOMC 금리 인상 확률 62~65%까지 상승, 2Y·5Y 국채 금리 52주 신고가</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>카탈리스트 캘린더 (2026.09.05 기준)</title>
-      <link>https://bluaura.github.io/posts/2026-09-05-catalyst-calendar.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-05-catalyst-calendar.html</guid>
-      <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
