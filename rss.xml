@@ -19,6 +19,13 @@
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>Amodei의 AI 속도조절 제안 — 실제로 멈추는 건 없다, 시장·정치·중국 반응 정리</title>
+      <link>https://bluaura.github.io/posts/2026-09-15-ai-pacing-amodei.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-15-ai-pacing-amodei.html</guid>
+      <description>Altman·Musk·Hassabis 동조에도 학습 중단 랩은 없음. 필라델피아 반도체 −5~6%, 코스피 −3.26%, 하이닉스 −6~7%. 트럼프·중국 반대, 월가 다수는 &#x27;캐펙스 실효성 낮다&#x27;.</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.09.14)</title>
       <link>https://bluaura.github.io/posts/2026-09-14-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-14-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-04-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-us-market.html</guid>
       <description>S&amp;P 500 7,747.71(+1.06%) · NASDAQ 26,584.06(+1.40%) · Dow 53,686.11(+1.18%). Fed 이사 Waller의 9월 동결 시사로 10년물 금리가 4.75%로 밀리며 3대 지수 동반 급등, Broadcom은 AI 매출 +221%에도 가이던스 미달로 하락.</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>[리뷰] Snowflake(SNOW) FY2027 Q2 실적 분석 — 3분기 연속 가속, RPO 둔화는 12월 검증 부채</title>
-      <link>https://bluaura.github.io/posts/2026-09-04-snow-q2-fy2027.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-04-snow-q2-fy2027.html</guid>
-      <description>제품매출 $1.49B(+37%, 3분기 연속 가속), 조정 EPS $0.62(컨센 $0.45), FY27 가이던스 $5.84B→$6.07B 상향에 주가 +21~23%. RPO 42→38→30% 둔화, GM 75→74% 하향은 미해소 부채. 참고: Agentic Enterprise·control plane 아키텍처 딥다이브와 Palantir 해자 비교 추가.</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
