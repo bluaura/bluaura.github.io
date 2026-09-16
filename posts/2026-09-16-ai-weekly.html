@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.09.16) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. OpenAI Agents API 퍼블릭 베타로 에이전트가 인프라가 됐고, 같은 주에 에이전트 자격증명 보안 사고가 세 건 겹쳤다">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.09.16)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. OpenAI Agents API 퍼블릭 베타로 에이전트가 인프라가 됐고, 같은 주에 에이전트 자격증명 보안 사고가 세 건 겹쳤다">
+<meta property="article:published_time" content="2026-09-16">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.09.16)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-09-16</p>
+  </div>
+
+  <article class="article-body">
+<p>수집 기간: <strong>2026-09-09 ~ 2026-09-16</strong> (KST 기준 주간 집계)</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델·API</div><div class="value">6건</div></div>
+  <div class="stat"><div class="label">최대 투자 이슈</div><div class="value">$1.2T</div></div>
+  <div class="stat"><div class="label">카테고리</div><div class="value">6개</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+
+<div class="callout">
+  <p><strong>1. OpenAI Agents API 퍼블릭 베타 (9/10)</strong> — Codex를 돌리던 내부 에이전트 하네스를 API 호출 하나로 개방했다. 장시간 실행되는 에이전트의 상태 관리·재시도·샌드박스를 OpenAI가 관리형으로 떠안는 구조라, 자체 오케스트레이션 레이어를 만들어 온 개발자에게 직접적인 설계 변경 압력이 된다.</p>
+  <p><strong>2. Google Gemini 3.8 Live 출시 (9/15)</strong> — 실시간 음성 대 음성(speech-to-speech) 모델이 프로덕션 등급으로 올라왔다. Extended Thinking 변형은 대화 중 백그라운드 추론을 허용하고, Google은 경쟁 모델 대비 낮은 가격을 내세웠다. 음성 에이전트 단가 경쟁이 본격화됐다.</p>
+  <p><strong>3. 에이전트 보안이 이론에서 실제 사고로</strong> — Strix가 3년 묵은 Docker 토큰 하나로 Baseten의 GitHub 조직 전체를 장악할 수 있음을 실증했고(9/16), OpenAI 테스트 에이전트가 RubyGems 코드 실행 사건과 연결됐다는 연구도 나왔다(9/14). 에이전트에 부여한 자격증명이 곧 공급망 공격면이 됐다.</p>
+</div>
+
+<h2>모델 출시 · 업데이트</h2>
+
+<h3>1. Google, Gemini 3.8 Live 및 3.8 Live Extended Thinking 공개</h3>
+<p>실시간 음성 애플리케이션을 겨냥한 speech-to-speech 모델로, 별도 STT·TTS 파이프라인 없이 대화형 에이전트를 구성할 수 있다. Extended Thinking 변형은 사용자가 말하는 동안 백그라운드 추론을 수행해 응답 지연과 추론 품질을 맞바꾸는 선택지를 제공한다. 함께 공개된 3.5 Transcribe는 전사 전용 모델이다. Google은 경쟁 음성 모델 대비 낮은 토큰 단가를 강조했다. <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/">Google Blog</a> · <a href="https://siliconangle.com/2026/09/15/googles-new-speech-model-gemini-3-8-live-supports-real-time-reasoning/">SiliconANGLE</a> (2026-09-15)</p>
+
+<h3>2. OpenAI, Agents API 퍼블릭 베타 공개</h3>
+<p>Codex를 구동하던 에이전트 실행 하네스를 외부 개발자에게 API 형태로 열었다. 장시간 실행 태스크의 상태 유지, 도구 호출 루프, 격리 실행 환경을 플랫폼이 관리하는 방식이라 개발자가 직접 구축하던 오케스트레이션 코드의 상당 부분이 대체 가능하다. 9월 29일 DevDay에서 추가 확장이 예고돼 있다. <a href="https://openai.com/index/introducing-the-agents-api/">OpenAI</a> · <a href="https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/">MarkTechPost</a> (2026-09-10)</p>
+
+<h3>3. Shanghai AI Lab, 744B 에이전틱 MoE 모델 Atria Dawn Preview 공개</h3>
+<p>InternLM 계열에서 나온 744B 파라미터 규모의 MoE 모델로, 범용 대화보다 에이전트 루프 수행에 맞춰 후처리 학습됐다. Hugging Face에 가중치와 FP8 양자화 버전이 함께 올라와 자체 호스팅이 가능하다. 중국 연구소발 오픈 웨이트 에이전트 모델 경쟁이 한 단계 더 올라간 사례다. <a href="https://huggingface.co/internlm/Atria-Dawn-Preview">Hugging Face</a> · <a href="https://aiweekly.co/alerts/shanghai-ai-lab-ships-atria-dawn-preview-a-744b-agentic-moe">AI Weekly</a> (2026-09-15)</p>
+
+<h3>4. DeepSeek, V4.1-Flash 출시 — MIT 라이선스 오픈 웨이트</h3>
+<p>속도와 비용에 초점을 맞춘 멀티모달 경량 모델로, KV 캐시 사용량을 약 4분의 1로 줄이는 최적화가 적용됐다. MIT 라이선스라 상업적 제약이 사실상 없어, 온프레미스·온디바이스 배포를 검토하는 팀에 현실적인 선택지가 된다. <a href="https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html">Local AI Zone</a> · <a href="https://llm-stats.com/llm-updates">LLM Stats</a> (2026-09-10)</p>
+
+<h3>5. Abacus.AI, 에이전틱 워크로드 특화 오픈 웨이트 모델 Smaug 공개</h3>
+<p>도구 호출과 다단계 작업 수행에 맞춰 튜닝된 오픈 웨이트 모델 계열이다. 프런티어 모델을 API로 호출하는 대신 자체 인프라에서 에이전트를 돌리려는 조직을 겨냥했다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-09-14)</p>
+
+<h3>6. Moonshot AI, Kimi K2.8 Preview 공개</h3>
+<p>Kimi 계열의 프리뷰 버전으로 릴리스 트래커에 등재됐다. K3 가중치 공개 이후 이어지는 빠른 반복 주기의 연장선이며, 세부 벤치마크와 가격은 아직 제한적으로만 공개됐다. <a href="https://llm-stats.com/llm-updates">LLM Stats</a> (2026-09-11)</p>
+
+<h2>정책 · 규제</h2>
+
+<h3>7. 미 상무부, Kalshi의 AI 연산 선물 상품 중단 명령</h3>
+<p>예측시장 플랫폼 Kalshi가 내놓은 AI 컴퓨트(연산 자원) 선물 상품에 대해 미 상무부가 국가안보를 이유로 상장 폐지를 지시했고 Kalshi가 이에 따랐다. 조치는 8월에 이뤄졌으나 이번 주 보도로 공개됐다. AI 연산 자원을 금융 상품화하는 시도 자체를 정부가 안보 사안으로 다루기 시작했다는 신호다. <a href="https://www.semafor.com/article/09/15/2026/commerce-dept-ordered-kalshi-to-take-down-ai-compute-futures-product">Semafor</a> (2026-09-15)</p>
+
+<h3>8. OpenAI "안전 협력에 반독점 면제는 불필요" — Anthropic·Google과 수 주간 공조</h3>
+<p>OpenAI는 Anthropic, Google과 수 주 동안 AI 안전 관련 정보를 공유해 왔으며 이를 위해 반독점 면제(antitrust waiver)를 받을 필요는 없다는 입장을 밝혔다. 프런티어 랩 간 안전 협력이 경쟁법과 충돌하는지를 두고 법적 해석이 정리되는 국면이다. <a href="https://www.techmeme.com/260915/p27">Bloomberg Law</a> (2026-09-15)</p>
+
+<h3>9. OpenAI의 정치자금 조직 'Leading the Future' 지원에 비판 확산</h3>
+<p>연방 차원의 AI 규제를 억제하려는 정치자금 조직을 OpenAI가 지원하는 데 대해 내부 직원들이 반대해야 하며 의회가 AI 리스크 청문회를 열어야 한다는 주장이 제기됐다. AI 기업의 규제 로비가 본격적인 정치 쟁점으로 올라섰다. <a href="https://www.techmeme.com/260914/p17">Slow Boring</a> (2026-09-14)</p>
+
+<h3>10. EU AI Act 고위험 의무 시행, Digital Omnibus 합의로 2027년 12월 연기 (진행 중 이슈)</h3>
+<p>EU 입법기관이 AI Digital Omnibus에 합의하면서 고위험(high-risk) AI 시스템에 대한 의무 적용 시점이 2027년 12월로 미뤄졌다. 폐기가 아닌 유예이며, 투명성 의무 등 2026년 8월부터 시행된 조항은 그대로 유지된다. EU 시장 대상 제품을 준비하는 팀은 유예 기간을 준수 체계 구축에 쓰는 것이 맞다. <a href="https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/">Gibson Dunn</a> · <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-omnibus-vii-deadline-delay-20260/">Cloud Security Alliance</a> (2026년 진행 중)</p>
+
+<h3>11. 미국, 주(州) AI 법 선점을 위한 행정명령 후속 절차 진행 (진행 중 이슈)</h3>
+<p>주별로 갈라진 AI 규제를 연방 표준으로 통일하려는 행정명령이 발동된 이후, 주법의 "최소 부담" 원칙 심사와 연방 선점(preemption) 입법 권고가 이어지고 있다. 미국 시장에 서비스하는 앱은 당분간 주별 규제와 연방 표준이 병존하는 불확실 구간을 감안해야 한다. <a href="https://www.whitecase.com/insight-alert/state-ai-laws-under-federal-scrutiny-key-takeaways-executive-order-establishing">White &amp; Case</a> · <a href="https://www.lw.com/en/insights/ai-executive-order-targets-state-laws-and-seeks-uniform-federal-standards">Latham &amp; Watkins</a> (2026년 진행 중)</p>
+
+<h2>산업 동향 · 기업</h2>
+
+<h3>12. Salesforce, 업무 투입형 Agentforce 포트폴리오와 장기 실행 런타임 공개</h3>
+<p>특정 직무를 바로 수행하도록 사전 구성된 에이전트 묶음과, 며칠 단위로 이어지는 장기 과제를 처리하는 런타임을 함께 내놨다. 에이전트를 "기능"이 아니라 "직무 단위"로 판매하는 방향 전환이 뚜렷하다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-09-15)</p>
+
+<h3>13. AWS, 백그라운드 에이전트용 인박스 인터페이스 Pizza Bot 오픈소스 공개</h3>
+<p>백그라운드에서 돌아가는 에이전트가 사람에게 확인을 요청하고 결과를 보고하는 창구를 이메일 인박스 형태로 구현한 오픈소스다. 에이전트의 human-in-the-loop 구간을 별도 UI 없이 붙일 수 있어 사내 도구 개발자에게 바로 쓸모가 있다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-09-14)</p>
+
+<h3>14. Gates Foundation, AI 접근성 확대에 2년간 10억 달러 이상 투입</h3>
+<p>저소득 국가의 AI 접근성 확대와 사회적 불평등 해소에 AI를 활용하겠다며 2년간 10억 달러 이상을 공약했다. 빌 게이츠는 "AI를 선한 목적에 활용할 수 있다"고 밝혔다. 민간 재단이 AI 인프라 격차에 직접 개입하는 대형 사례다. <a href="https://www.techmeme.com/260915/p20">The New York Times</a> (2026-09-15)</p>
+
+<h3>15. NVIDIA Vera Rubin, 메가와트당 토큰 처리량에서 Blackwell 대비 7배</h3>
+<p>SemiAnalysis 분석에 따르면 Vera Rubin NVL72는 에이전틱 추론 워크로드에서 전력당 토큰 처리량이 Blackwell 세대의 약 7배에 이른다. 에이전트가 소비하는 토큰량이 급증하는 상황에서 전력 제약이 실질적 병목이 된 만큼, 추론 단가 하락 폭을 좌우할 지표다. <a href="https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference">SemiAnalysis</a> (2026-09-14)</p>
+
+<h3>16. AI 데이터센터 건설, 필라델피아에서 환경 반대 운동과 충돌</h3>
+<p>데이터센터 건설 반대가 이미 산업시설 부담을 안고 있던 주거 지역으로 확산됐다. 전력·용수·소음 문제를 둘러싼 지역사회 반발이 AI 인프라 증설의 실질적인 지연 요인으로 자리잡는 중이다. <a href="https://llm-stats.com/ai-news">LLM Stats (뉴스 집계)</a> (2026-09-15)</p>
+
+<h2>투자 · M&amp;A</h2>
+
+<h3>17. OpenAI, IPO 전 1.2조 달러 밸류에이션 사모 라운드 타진</h3>
+<p>OpenAI가 기업공개에 앞서 1.2조 달러 가치로 추가 사모 자금 조달을 투자자들과 초기 논의 중인 것으로 전해졌다. 성사되면 사모 시장 역사상 최대 규모 밸류에이션이 되며, 동시에 AI 수익성 회의론이 커지는 시점이라는 점에서 거품 논쟁의 중심에 서 있다. <a href="https://www.techmeme.com/260915/p34">Techmeme 집계</a> (2026-09-15)</p>
+
+<h3>18. Factory, 2억 달러 조달 — 밸류에이션 50억 달러</h3>
+<p>과제 난이도에 따라 모델을 전환하는 코딩 에이전트 'Droids'를 만드는 Factory가 2억 달러를 유치했다. 4월 15억 달러였던 기업가치가 5개월 만에 50억 달러로 뛰었다. 모델 라우팅을 제품의 핵심 가치로 내세운 접근이 시장에서 인정받은 사례다. <a href="https://www.techmeme.com/260915/p37">Wall Street Journal</a> (2026-09-15)</p>
+
+<h3>19. Exein, 2억 7천만 달러 유치 — 밸류에이션 17억 달러</h3>
+<p>자동차·홈 라우터 등 커넥티드 디바이스 보안 도구를 만드는 로마 기반 Exein이 Headline 주도로 2억 7천만 달러를 조달했다. 엣지 디바이스 보안이 AI 인프라 확산과 맞물려 별도 투자 테마로 형성되고 있다. <a href="https://www.techmeme.com/260915/p1">Financial Times</a> (2026-09-15)</p>
+
+<h3>20. Profound, 1억 8천만 달러 시리즈 D — 밸류에이션 18억 달러</h3>
+<p>AI 서비스 안에서 브랜드 노출을 관리하는 마케팅 기술 기업 Profound가 Sequoia Capital과 Kleiner Perkins 주도로 1억 8천만 달러를 유치했다. 검색이 챗봇으로 옮겨가면서 "AI 안에서의 브랜드 가시성"이 새로운 마케팅 카테고리로 굳어지는 흐름이다. <a href="https://siliconangle.com/">SiliconANGLE</a> (2026-09-15)</p>
+
+<h3>21. AIUC, 4천만 달러 시리즈 A — 프런티어 모델 감사·인증</h3>
+<p>AI 에이전트에 대한 감사·인증 레이어를 구축하는 Artificial Intelligence Underwriting Company가 4천만 달러를 조달해 누적 5천5백만 달러를 확보했다. 프런티어 모델 감사를 시작하겠다고 밝혔다. 에이전트 도입을 앞둔 기업의 책임 소재 문제가 독립적인 시장을 만들고 있다. <a href="https://www.techmeme.com/260915/p26">TechCrunch</a> (2026-09-15)</p>
+
+<h2>연구 · 기술</h2>
+
+<h3>22. 프롬프트 인젝션을 "명령/데이터 혼동" 문제로 재정의한 에이전트 공격 가이드</h3>
+<p>에이전트 공격 기법을 정리한 분석이 프롬프트 인젝션을 새로운 AI 취약점이 아니라 SQL 인젝션과 동일한 계열의 고전적 명령·데이터 분리 실패로 규정했다. 입력 필터링이 아니라 권한 경계 설계로 접근해야 한다는 함의가 크다. <a href="https://darkmarc.substack.com/p/the-hackers-guide-to-attacking-ai">darkmarc</a> (2026-09-15)</p>
+
+<h3>23. Strix, 3년 된 Docker 토큰으로 Baseten GitHub 조직 장악 실증</h3>
+<p>컨테이너 이미지에 남아 있던 3년 전 Docker 자격증명 하나로 Baseten의 GitHub 조직 전체 권한을 획득할 수 있음을 보였다. AI 인프라 기업의 빌드 파이프라인에 쌓인 장수명 토큰이 실제 공급망 침해 경로임을 보여준 사례다. <a href="https://www.strix.ai/blog/baseten-harbor-github-pat-takeover">Strix</a> (2026-09-16)</p>
+
+<h3>24. OpenAI 테스트 에이전트와 RubyGems 코드 실행 사건의 연관성 연구</h3>
+<p>RubyGems 생태계에서 발생한 코드 실행 사건의 흔적이 OpenAI의 테스트 에이전트 활동과 연결된다는 분석이 공개됐다. 자동화된 에이전트가 패키지 레지스트리를 탐색하는 과정 자체가 의도치 않은 실행 위험을 만든다는 점에서, 사내 CI에 에이전트를 붙이는 팀이 참고할 만하다. <a href="https://aiagentstore.ai/ai-agent-news/this-week">AI Agent Store</a> (2026-09-14)</p>
+
+<h3>25. 로봇용 온디바이스 추론과 데이터센터 추론의 분기 구조 분석</h3>
+<p>SemiAnalysis가 로봇 모델의 구조, 실제 배치 사례, 공급망, 그리고 무선 대역폭 한계로 인한 이른바 "network wall"까지 정리했다. 연산을 기기에 둘지 서버에 둘지가 로보틱스 제품 설계의 1차 분기점이라는 결론으로, 온디바이스 AI를 다루는 개발자에게 직접 적용되는 프레임이다. <a href="https://www.techmeme.com/260915/p4">SemiAnalysis</a> (2026-09-15)</p>
+
+<h2>한국 AI 소식</h2>
+
+<h3>26. AI WORLD 2026 개막 — "AI를 K제조업 경쟁력과 결합하라"</h3>
+<p>서울에서 열린 AI WORLD 2026에서 AI가 경제 구조 자체를 바꾸는 국면에 접어들었으며, 한국은 범용 AI 경쟁보다 제조업 현장의 축적된 역량과 AI를 결합하는 데서 승부를 봐야 한다는 진단이 제시됐다. "GPU는 살 수 있어도 제조 노하우는 살 수 없다"는 발언이 주요 메시지로 다뤄졌다. <a href="https://www.fnnews.com/news/202609091828153930">파이낸셜뉴스</a> · <a href="https://www.fnnews.com/news/202609091833194535">관련 기사</a> (2026-09-09)</p>
+
+<h3>27. "독자 모델로 세계 3강 안착" — 기술과 함께 안전성·보안 확보 강조</h3>
+<p>같은 행사에서 한국의 소버린 AI 전략 방향으로, 독자 파운데이션 모델 확보를 넘어 안전성과 보안까지 함께 갖춰야 실질적 3강 진입이 가능하다는 논의가 나왔다. 정부 주도 독자 모델 사업이 성능 경쟁 단계에서 신뢰성 검증 단계로 넘어가고 있음을 보여준다. <a href="https://m.news.nate.com/view/20260909n35080">네이트 뉴스</a> (2026-09-09)</p>
+
+<h3>28. "AI 자율성 커질수록 위험" — 신뢰·안전 모니터링 체계 필요성 제기</h3>
+<p>에이전트의 자율성이 높아질수록 사후 감사가 어려워지므로, 실행 과정을 상시 모니터링하는 체계를 제품 설계 단계부터 넣어야 한다는 주장이 나왔다. 가격까지 스스로 조정하는 AI가 새로운 경제 주체로 등장해 시장 질서를 흔들 수 있다는 지적도 함께 제기됐다. <a href="https://www.fnnews.com/news/202609091830163055">파이낸셜뉴스</a> · <a href="https://www.fnnews.com/news/202609091830094628">관련 기사</a> (2026-09-09)</p>
+
+<h3>29. 삼성전기·LG이노텍, 대면적 AI 기판·유리기판 경쟁 본격화</h3>
+<p>AI 칩 크기가 커지면서 이를 받칠 대면적 패키지 기판과 유리기판 수요가 부각됐고, 삼성전기와 LG이노텍이 차세대 AI 기판 라인업을 나란히 내세우며 정면 승부에 나섰다. HBM 다음 단계의 국내 소부장 투자 포인트로 거론된다. <a href="https://m.news.nate.com/view/20260909n32197">네이트 뉴스</a> (2026-09-09)</p>
+
+<h3>30. '모두의 AI' 사업 본격 착수 — SKT·카카오·KT 연내 서비스 출시 목표 (직전 주)</h3>
+<p>전 국민 대상 무료 AI 서비스 '모두의 AI' 사업자로 SKT, 카카오, KT가 선정돼 개발에 착수했다. SKT는 생활서비스, 카카오는 메신저, KT는 콘텐츠를 축으로 삼으며 연내 출시를 목표로 한다. 네이버는 이 사업에 불참했다. 국내 사용자 기반 AI 서비스의 유통 구조가 통신·플랫폼 사업자 중심으로 재편되는 사안이다. <a href="https://www.seoul.co.kr/news/economy/2026/09/04/20260904500354">서울신문</a> (2026-09-04)</p>
+
+<div class="callout warn">
+  <p><strong>이번 주 리스크 · 논란</strong></p>
+  <p>에이전트 보안 사고가 같은 주에 세 건 겹쳤다. Strix의 Baseten GitHub 탈취 실증, OpenAI 테스트 에이전트와 RubyGems 코드 실행 사건의 연관성, 프롬프트 인젝션의 구조적 재정의가 모두 한 방향을 가리킨다. 에이전트에 넘긴 자격증명의 수명과 권한 범위를 관리하지 않으면 공급망 전체가 뚫린다는 것이다.</p>
+  <p>여기에 Anthropic CEO가 "협조하는 AI 에이전트들이 1년 안에 인터넷의 상당 부분을 장악할 수 있다"고 경고한 발언(9/14)이 겹쳤다. 동시에 OpenAI의 1.2조 달러 밸류에이션 논의와 AI 수익성 회의론이 같은 주에 나란히 보도되면서, 자본 조달 속도와 실제 수익 실현 속도의 괴리가 다시 쟁점이 됐다.</p>
+</div>
+
+<h2>트렌드 종합</h2>
+
+<blockquote>
+  <p>이번 주의 축은 하나로 수렴한다. <strong>에이전트가 데모에서 인프라로 넘어갔다.</strong> OpenAI는 에이전트 실행 하네스를 API로 상품화했고, Salesforce는 에이전트를 직무 단위로 팔기 시작했으며, AWS는 에이전트와 사람이 주고받는 창구를 오픈소스로 풀었다. Abacus.AI와 Shanghai AI Lab은 에이전트 전용으로 후처리 학습된 오픈 웨이트 모델을 내놨다.</p>
+  <p>인프라가 되면 보안 요구도 인프라 수준이 된다. 같은 주에 터진 세 건의 에이전트 보안 이슈, 그리고 AIUC가 에이전트 감사·인증만으로 4천만 달러를 조달한 사실이 이를 뒷받침한다. 규제 쪽도 EU는 고위험 의무를 연기했지만 폐기하지 않았고, 미국은 연방 선점 논의와 AI 기업의 정치자금 문제가 동시에 진행 중이다.</p>
+  <p>비용 측면에서는 Vera Rubin의 메가와트당 7배 개선과 Gemini 3.8 Live의 공격적 가격 책정이 같은 방향을 가리킨다. 에이전트가 소비하는 토큰량이 폭증하는 만큼 전력당 처리량이 곧 단가이고, 단가 하락이 다시 에이전트 확산을 밀어올리는 구조다.</p>
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr><th>영역</th><th>이번 주 변화</th><th>지금 할 일</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td>에이전트 아키텍처</td>
+  <td>OpenAI Agents API가 관리형 실행 하네스를 제공</td>
+  <td>자체 구축한 상태 관리·재시도·샌드박스 레이어와 비용·락인을 비교. 특히 장기 실행 태스크는 직접 운영 비용이 빠르게 커진다</td>
+</tr>
+<tr>
+  <td>음성 인터페이스</td>
+  <td>Gemini 3.8 Live로 speech-to-speech가 프로덕션 등급 진입</td>
+  <td>STT → LLM → TTS 3단 파이프라인을 쓰고 있다면 지연·비용 재측정. Extended Thinking 변형은 지연과 품질의 선택 지점</td>
+</tr>
+<tr>
+  <td>보안</td>
+  <td>에이전트 자격증명이 실제 공급망 침해 경로로 확인</td>
+  <td>장수명 토큰 전수 조사, CI·컨테이너 이미지에 남은 PAT 폐기, 에이전트 권한 최소화와 실행 감사 로그 확보</td>
+</tr>
+<tr>
+  <td>오픈 웨이트 · 온디바이스</td>
+  <td>DeepSeek V4.1-Flash(MIT), Atria Dawn, Smaug 등 자체 호스팅 선택지 확대</td>
+  <td>API 단가와 자체 호스팅 TCO 재계산. 특히 KV 캐시 최적화 모델은 메모리 제약 환경에서 유효</td>
+</tr>
+<tr>
+  <td>규제 대응</td>
+  <td>EU 고위험 의무 2027년 12월로 유예, 미국은 주법·연방 표준 병존</td>
+  <td>유예 기간을 로그·데이터 출처·모델 카드 체계 구축에 사용. 투명성 의무는 이미 시행 중이므로 지금 적용</td>
+</tr>
+<tr>
+  <td>비용 구조</td>
+  <td>전력당 토큰 처리량 개선과 가격 인하 경쟁 지속</td>
+  <td>모델 선택보다 추론 강도(effort level) 다이얼이 비용 변수로 커지는 추세. 요청 단위 라우팅 설계를 검토</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>수집 원칙: 실제 기사 URL이 확인된 항목만 포함했으며, 동일 사건은 원본에 가까운 출처 1건만 선택했다. 정책 항목 중 2건(EU AI Act 유예, 미국 주법 선점)은 수집 기간 내 단일 이벤트가 아닌 진행 중 이슈로, 개발자 영향도를 고려해 배경으로 포함했음을 명시한다.</p>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>

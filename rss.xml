@@ -19,6 +19,13 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>AI 주간 브리핑 (2026.09.16)</title>
+      <link>https://bluaura.github.io/posts/2026-09-16-ai-weekly.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-ai-weekly.html</guid>
+      <description>이번 주 AI 업계 주요 소식 30건. OpenAI Agents API 퍼블릭 베타로 에이전트가 인프라가 됐고, 같은 주에 에이전트 자격증명 보안 사고가 세 건 겹쳤다</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.15)</title>
       <link>https://bluaura.github.io/posts/2026-09-15-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-15-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-07-kr-market.html</guid>
       <description>KOSPI 6,995.39(+4.61%) · KOSDAQ 822.19(+1.07%). GPT-6 아스트라發 AGI 기대에 반도체 폭등, 외국인·기관 쌍끌이로 7,000선 4.61p 앞까지</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.09.05)</title>
-      <link>https://bluaura.github.io/posts/2026-09-05-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-05-us-market.html</guid>
-      <description>S&amp;P 500 7,718.60(-0.38%) · NASDAQ 26,506.99(-0.29%) · Dow 53,413(-0.51%). 8월 고용 +162K 서프라이즈로 9월 FOMC 금리 인상 확률 62~65%까지 상승, 2Y·5Y 국채 금리 52주 신고가</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
