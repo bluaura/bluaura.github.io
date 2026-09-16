@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.17)</title>
+      <link>https://bluaura.github.io/posts/2026-09-17-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-17-macro.html</guid>
+      <description>연준이 3년 2개월 만에 금리를 인상했다. 기준금리 3.75~4.00%, 만장일치, 점도표는 2026년 추가 1회를 제시. 워시 의장은 물가 우선을 못박았고 미 10년물은 5% 부근. 8월 소매판매 +1.2%로 예상 상회, 한국 반도체 수출은 +209% 역대 최대.</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.16)</title>
       <link>https://bluaura.github.io/posts/2026-09-16-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-08-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-08-macro.html</guid>
       <description>오늘 오전 8시 한국 2분기 GDP 잠정치 발표(속보 +0.6%). 미국 8월 고용 +16.2만명으로 예상 3배 상회하며 9월 FOMC 인상 확률 55.6%로 상승, 10년물 4.82% 34개월 최고. 이번 주 PPI·CPI가 분수령.</description>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.08)</title>
-      <link>https://bluaura.github.io/posts/2026-09-08-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-08-kr-market.html</guid>
-      <description>KOSPI 6,954.52(-0.58%) · KOSDAQ 811.88(-1.25%). 장중 7,171 사상 최고 찍고 개인 3조 차익실현에 7,000선 반납, 원전주는 대미 투자 기대에 상한가 속출</description>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
