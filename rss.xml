@@ -19,6 +19,13 @@
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.09.17)</title>
+      <link>https://bluaura.github.io/posts/2026-09-17-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-17-kr-market.html</guid>
+      <description>KOSPI 6,715.41(-0.04%) · KOSDAQ 822.18(+0.76%). 연준 3년여 만의 금리 인상(3.75~4.00%)·점도표 상향을 소화하며 보합 방어, 외국인 7거래일 연속 순매도(-2.46조)·원달러 1,382원 급등 속 방산·조선·우주항공으로 순환매.</description>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.16)</title>
       <link>https://bluaura.github.io/posts/2026-09-16-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-ai-weekly.html</guid>
       <description>이번 주 AI 업계 주요 소식 30건. Nvidia가 Hugging Face를 129억 달러에 인수하고, 프런티어 4사가 한 주에 신모델을 동시 출시했다.</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.09.08)</title>
-      <link>https://bluaura.github.io/posts/2026-09-08-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-08-us-market.html</guid>
-      <description>S&amp;P 500 7,718.60(-0.38%) · NASDAQ 26,506.99(-0.29%) · Dow 53,414.25(-0.51%). 8월 고용 16.2만 명 서프라이즈로 9월 FOMC 금리 인상 확률 63% 급등, 2년·5년물 52주 신고가. 9/7 Labor Day 휴장으로 9/4(ET) 종가 기준.</description>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
