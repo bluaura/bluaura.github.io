@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>S&amp;P 500 신규 편입 종목 추적: 편입 후 순위가 오르는 기업 찾기 (2026년 9월 기준선)</title>
+      <link>https://bluaura.github.io/posts/2026-09-19-sp500-new-entrants-tracking.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-sp500-new-entrants-tracking.html</guid>
+      <description>최근 1년 신규 편입 22종목 중 11종목 순위 상승. SNDK 285→45위(+240), LITE +151, FLEX +100, MRVL +86. 상승 종목은 AI 인프라 공급망에 집중, RDDT·APP·CRH는 -70 이상 하락. 9/21 BE·ILMN·P 편입.</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.18)</title>
       <link>https://bluaura.github.io/posts/2026-09-18-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-18-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-09-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-us-market.html</guid>
       <description>S&amp;P 500 7,673.52(-0.58%) · NASDAQ 26,421.41(-0.32%) · Dow 52,786.07(-1.18%). Brent $99 근접과 9월 FOMC 금리 인상 확률 60%가 지수를 눌렀고, GPT-6 Astra 여파로 소프트웨어가 무너진 반면 Intel(+9%)·Qualcomm은 강세.</description>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.09.09)</title>
-      <link>https://bluaura.github.io/posts/2026-09-09-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-09-macro.html</guid>
-      <description>한국 2분기 GDP 잠정치 발표 - 실질 0.6%, 명목 전년比 26.4%로 47년 만에 최대. 미 8월 고용 16.2만 서프라이즈로 9월 FOMC 인상 확률 약 60%. 9/11 미 8월 CPI가 분수령.</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
