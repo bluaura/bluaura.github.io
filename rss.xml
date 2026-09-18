@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.19)</title>
+      <link>https://bluaura.github.io/posts/2026-09-19-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-us-market.html</guid>
+      <description>S&amp;P 500 7,650.50(+0.17%) · NASDAQ 26,522.55(+0.39%) · Dow 51,682.64(-0.18%). Fed의 3년 만의 첫 금리 인상 이후 10년물 5% 진정과 유가 하락에 반도체가 반등하며 지수를 떠받쳤다.</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>S&amp;P 500 신규 편입 종목 추적: 편입 후 순위가 오르는 기업 찾기 (2026년 9월 기준선)</title>
       <link>https://bluaura.github.io/posts/2026-09-19-sp500-new-entrants-tracking.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-sp500-new-entrants-tracking.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-10-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-10-macro.html</guid>
       <description>오늘 밤 미 8월 PPI(컨센 +0.4% M/M), 내일 밤 8월 CPI(3.4% Y/Y) — 9/16 FOMC 직전 물가 2연타. 브렌트 100달러 돌파에도 인상 확률은 52.5%로 후퇴, 월가 6곳이 3대3으로 갈렸다. 한국 8월 반도체 수출은 +209%로 역대 최대.</description>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.10)</title>
-      <link>https://bluaura.github.io/posts/2026-09-10-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-10-kr-market.html</guid>
-      <description>KOSPI 7,033.92(-0.25%) · KOSDAQ 836.92(+0.79%). 네 마녀의 날에 외국인 3.5조 순매도, 브렌트유 100달러·美 10년물 4.85% 부담 속 7,000선 사수</description>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
