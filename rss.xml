@@ -26,6 +26,13 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.09.21)</title>
+      <link>https://bluaura.github.io/posts/2026-09-21-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-21-kr-market.html</guid>
+      <description>KOSPI 7,007.72(+1.65%) · KOSDAQ 836.27(+1.11%). 반도체 수출 +259%에 삼성전자 5% 급등, 코스피 7거래일 만에 7000선 탈환</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.19)</title>
       <link>https://bluaura.github.io/posts/2026-09-19-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-12-ai-capex-check.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-12-ai-capex-check.html</guid>
       <description>오라클 RPO $664B·capex $90~95B 유지, 빅4 2026 capex ~$725B. 규모 의심은 끝났고 자금·회수 의심이 부분 해소되는 초입 구간.</description>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>애플은 &#x27;AI 디바이스 플랫폼&#x27;으로 자리 잡는가 — A20 Pro·M5 Ultra·로컬 LLM·월가 시각으로 본 3년 투자 리서치</title>
-      <link>https://bluaura.github.io/posts/2026-09-12-aapl-on-device-ai.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-12-aapl-on-device-ai.html</guid>
-      <description>A20 Pro 듀얼 NE·M5 Ultra 512GB/1.2TB/s로 온디바이스 AI 방향은 확인. Mac +29%, OpenClaw발 Mac mini 품절. 월가 Buy 16/Hold 12/Sell 4, 평균 PT $336 vs 주가 $332. 판정 Hold — 3년 thesis 유효, $280~300 눌림목 대기.</description>
       <pubDate>Sat, 12 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
