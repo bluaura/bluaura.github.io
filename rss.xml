@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.23)</title>
+      <link>https://bluaura.github.io/posts/2026-09-23-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-23-us-market.html</guid>
+      <description>S&amp;P 500 7,763.60(-0.01%) · NASDAQ 27,244.00(+0.45%, 사상 최고). Meta Muse·AMD 1조 달러가 AI 랠리를 이끄는 사이 AI 디스럽션 공포로 금융·여행주 급락, Dow -185pt.</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.22)</title>
       <link>https://bluaura.github.io/posts/2026-09-22-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-22-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-12-catalyst-calendar.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-12-catalyst-calendar.html</guid>
       <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI capex 관심 종목 점검 — 하이닉스·삼성전자·전력기기·NVDA·Micron·Sandisk·SpaceX</title>
-      <link>https://bluaura.github.io/posts/2026-09-12-ai-capex-watchlist.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-12-ai-capex-watchlist.html</guid>
-      <description>9/11 코스피 7000 이탈은 AI 의심이 아니라 금리 4.96%·유가 $102 탓. 하이닉스 목표가 230만 vs 240만 하향 논쟁, 삼성 HBM 점유율 40% 근접, 전력기기 3사 분기 최대 이익, SpaceX 컴퓨트 임대 연 $26B.</description>
       <pubDate>Sat, 12 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
