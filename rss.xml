@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.25)</title>
+      <link>https://bluaura.github.io/posts/2026-09-25-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-25-us-market.html</guid>
+      <description>S&amp;P 500 7,704.13(-0.02%) · NASDAQ 26,939.37(+0.01%) · Dow 51,349.98(-0.31%). 10년물 금리 5.16%로 2007년 이후 최고, PMI 58.4 호조가 역설적 매도 압력으로. Oracle의 AI 데이터센터 force majeure 통지가 AI 캐펙스 자금조달 리스크를 부각.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.24)</title>
       <link>https://bluaura.github.io/posts/2026-09-24-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-24-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-15-ai-pacing-amodei.html</guid>
       <description>Altman·Musk·Hassabis 동조에도 학습 중단 랩은 없음. 필라델피아 반도체 −5~6%, 코스피 −3.26%, 하이닉스 −6~7%. 트럼프·중국 반대, 월가 다수는 &#x27;캐펙스 실효성 낮다&#x27;.</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.14)</title>
-      <link>https://bluaura.github.io/posts/2026-09-14-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-14-kr-market.html</guid>
-      <description>KOSPI 6,684.37(-3.26%) · KOSDAQ 806.79(-1.69%). 미 CPI 상회발 금리 인상론, 브렌트유 108달러 급등, AI 속도조절론 삼중 악재에 외국인 3.3조 순매도</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
