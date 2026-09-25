@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.26)</title>
+      <link>https://bluaura.github.io/posts/2026-09-26-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-26-us-market.html</guid>
+      <description>S&amp;P 500 7,743.50(+0.51%) · NASDAQ 27,068.72(+0.48%). 10년물 5.22% 2007년 이후 최고에도 3대 지수 상승 마감, Akamai-Anthropic 116억 달러 AI 클라우드 계약이 최대 이슈</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.25)</title>
       <link>https://bluaura.github.io/posts/2026-09-25-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-25-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-15-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-15-us-market.html</guid>
       <description>S&amp;P 500 7,619.98(-0.48%) · NASDAQ 26,186.41(-0.56%). AI 개발 속도조절론과 10년물 국채금리 5% 돌파가 겹치며 반도체·AI 인프라 급락, 사이버보안·소프트웨어로 순환매</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.15)</title>
-      <link>https://bluaura.github.io/posts/2026-09-15-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-15-kr-market.html</guid>
-      <description>KOSPI 6,627.26(-0.85%) · KOSDAQ 812.41(+0.70%). 미 10년물 5% 재돌파와 브렌트유 107달러에 이틀째 조정, 외국인 1.57조 순매도 속 코스닥은 로봇·반도체 장비 힘입어 반등</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
