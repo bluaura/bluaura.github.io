@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.09.29)</title>
+      <link>https://bluaura.github.io/posts/2026-09-29-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-29-us-market.html</guid>
+      <description>S&amp;P 500 7,683.69(-0.77%) · NASDAQ 26,820.38(-0.92%) · Dow 51,481.51(-0.67%). Trump의 이란 호르무즈 제안 거부로 유가 급등, 10년물 금리 5.24%로 19년 최고치 경신하며 금리·유가 이중 압박</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.29)</title>
       <link>https://bluaura.github.io/posts/2026-09-29-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-29-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-16-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-us-market.html</guid>
       <description>S&amp;P 500 7,585.73(-0.45%) · NASDAQ 25,981.57(-0.78%) · Dow 52,092.57(-0.63%). 10년물 국채금리가 2007년 이후 최고인 5.01%로 올라서고 Brent유가 $109를 넘어서며 지수를 눌렀다. Fed는 9/16 3년 만의 금리 인상을 앞두고 있다.</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.09.16)</title>
-      <link>https://bluaura.github.io/posts/2026-09-16-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-macro.html</guid>
-      <description>9월 FOMC에서 2023년 7월 이후 첫 25bp 인상이 유력(확률 92.7%). 8월 근원 CPI 0.3%로 예상 상회, 미 10년물 5% 돌파, 한국 8월 반도체 수출 +209%로 역대 최대. 관건은 인상 여부가 아니라 점도표다.</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
