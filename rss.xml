@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.29)</title>
+      <link>https://bluaura.github.io/posts/2026-09-29-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-29-macro.html</guid>
+      <description>연준 9월 인상(3.75~4.00%) 이후 첫 성적표가 이번 주 몰려 있다. 8월 Core PCE(9/30)·9월 ISM(10/1)·9월 NFP(10/2) 연속 발표. 10년물 5.18%, KOSPI 9/28 -2.70% 급락.</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.09.28)</title>
       <link>https://bluaura.github.io/posts/2026-09-28-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-28-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-16-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-macro.html</guid>
       <description>9월 FOMC에서 2023년 7월 이후 첫 25bp 인상이 유력(확률 92.7%). 8월 근원 CPI 0.3%로 예상 상회, 미 10년물 5% 돌파, 한국 8월 반도체 수출 +209%로 역대 최대. 관건은 인상 여부가 아니라 점도표다.</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.16)</title>
-      <link>https://bluaura.github.io/posts/2026-09-16-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-16-kr-market.html</guid>
-      <description>KOSPI 6,717.97(+1.37%) · KOSDAQ 809.98(-0.30%). 반도체 투톱이 4거래일 연속 하락을 끊었지만 외국인은 1.25조 순매도, FOMC 결과 대기</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
