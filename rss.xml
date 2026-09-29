@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.09.30)</title>
+      <link>https://bluaura.github.io/posts/2026-09-30-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-30-macro.html</guid>
+      <description>오늘 밤 美 8월 Core PCE·2분기 GDP 확정치·9월 ADP 동시 발표. 9월 소비자신뢰 81.9로 2014년 이후 최저, 기대인플레 6.1% 상승에 10년물 5.29%까지 치솟아 10월 FOMC 인상 확률 51.5% — PCE가 분수령</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.09.29)</title>
       <link>https://bluaura.github.io/posts/2026-09-29-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-29-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-17-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-17-macro.html</guid>
       <description>연준이 3년 2개월 만에 금리를 인상했다. 기준금리 3.75~4.00%, 만장일치, 점도표는 2026년 추가 1회를 제시. 워시 의장은 물가 우선을 못박았고 미 10년물은 5% 부근. 8월 소매판매 +1.2%로 예상 상회, 한국 반도체 수출은 +209% 역대 최대.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.17)</title>
-      <link>https://bluaura.github.io/posts/2026-09-17-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-17-kr-market.html</guid>
-      <description>KOSPI 6,715.41(-0.04%) · KOSDAQ 822.18(+0.76%). 연준 3년여 만의 금리 인상(3.75~4.00%)·점도표 상향을 소화하며 보합 방어, 외국인 7거래일 연속 순매도(-2.46조)·원달러 1,382원 급등 속 방산·조선·우주항공으로 순환매.</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
