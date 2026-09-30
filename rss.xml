@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.01)</title>
+      <link>https://bluaura.github.io/posts/2026-10-01-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-01-macro.html</guid>
+      <description>美 8월 Core PCE 3.0%로 예상(3.3%) 크게 하회, 10월 FOMC 인상 확률 51.5%→30%대·골드만 12월로 연기. 그러나 GDP 2.2% 상향·유가 103달러에 10년물 5.289% 신고가. 오늘 韓 9월 수출 1,000억달러 돌파 여부·美 ISM 제조업 주목</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.09.30)</title>
       <link>https://bluaura.github.io/posts/2026-09-30-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-30-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-18-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-18-us-market.html</guid>
       <description>S&amp;P 500 7,638.16(+1.14%) · NASDAQ 26,413.17(+1.67%). Fed 25bp 인상 쇼크를 하루 만에 되돌린 반등 — 유가 $100 복귀와 10년물 4.94%가 연료, Generac·Micron이 주도</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.18)</title>
-      <link>https://bluaura.github.io/posts/2026-09-18-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-18-kr-market.html</guid>
-      <description>KOSPI 6,894.23(+2.66%) · KOSDAQ 827.12(+0.60%). 미 장기금리 안정과 엔비디아 칩 출하 전망에 반도체 급등, 외국인 7거래일 만에 순매수 전환</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
