@@ -7,6 +7,17 @@
   },
   "posts": [
     {
+      "slug": "2026-09-30-ai-weekly",
+      "title": "AI 주간 브리핑 (2026.09.30)",
+      "date": "2026-09-30",
+      "tags": [
+        "AI",
+        "주간브리핑",
+        "테크"
+      ],
+      "summary": "이번 주 AI 업계 주요 소식 26건. Sonnet 5.5·GPT-6.1 Sol이 $2/$10에 맞붙은 가격 전쟁, OpenAI DevDay 에이전트 API, OpenAI $1.4T 펀딩 추진과 AMD의 World Labs $8.2B 인수"
+    },
+    {
       "slug": "2026-09-29-us-market",
       "title": "미국 증시 브리핑 (2026.09.29)",
       "date": "2026-09-30",
