@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.01)</title>
+      <link>https://bluaura.github.io/posts/2026-10-01-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-01-us-market.html</guid>
+      <description>S&amp;P 500 7,651.54(-0.25%) · NASDAQ 26,861.06(+0.24%) · Dow 50,906.05(-0.86%). PCE 둔화에도 10년물 5.29% 최고치에 약세, 장후 Micron 가이던스 대폭 상회</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.10.01)</title>
       <link>https://bluaura.github.io/posts/2026-10-01-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-01-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-be-q2-2026.html</guid>
       <description>Q2 매출 $1,065M(+166% YoY, 컨센 +29%), EPS $0.78(+90%), FY26 가이던스 $3.9~4.2B로 3연속 상향. 어닝콜에서 capacity·백로그·CFOA 세 지표가 정량에서 정성으로 후퇴. 발표 후 주가 +63%로 목표가 소진, 10/27 Q3 합격선 5개 제시.</description>
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.09.18)</title>
-      <link>https://bluaura.github.io/posts/2026-09-18-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-18-us-market.html</guid>
-      <description>S&amp;P 500 7,638.16(+1.14%) · NASDAQ 26,413.17(+1.67%). Fed 25bp 인상 쇼크를 하루 만에 되돌린 반등 — 유가 $100 복귀와 10년물 4.94%가 연료, Generac·Micron이 주도</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
