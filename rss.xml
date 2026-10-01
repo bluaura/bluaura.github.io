@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.02)</title>
+      <link>https://bluaura.github.io/posts/2026-10-02-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-us-market.html</guid>
+      <description>S&amp;P 500 7,666(+0.20%) · NASDAQ 26,872(+0.04%). 10년물 5.33% 24년 최고 후 반락, Fed 10월 인상 확률 급락·Micron 호실적에 강보합</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.10.02)</title>
       <link>https://bluaura.github.io/posts/2026-10-02-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-19-sp500-new-entrants-tracking.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-sp500-new-entrants-tracking.html</guid>
       <description>최근 1년 신규 편입 22종목 중 11종목 순위 상승. SNDK 285→45위(+240), LITE +151, FLEX +100, MRVL +86. 상승 종목은 AI 인프라 공급망에 집중, RDDT·APP·CRH는 -70 이상 하락. 9/21 BE·ILMN·P 편입.</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>9월 FOMC 정리: 3년 만의 금리 인상, 증시는 어디까지 버티나</title>
-      <link>https://bluaura.github.io/posts/2026-09-19-fomc-rate-hike.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-fomc-rate-hike.html</guid>
-      <description>기준금리 3.75~4.00%(+25bp, 만장일치), 연내 추가 인상 확률 87%, 10년물 5%. 2026년 EPS +31.8%로 당장 꺾일 위험은 낮고 2027년이 관건.</description>
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
