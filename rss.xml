@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.03)</title>
+      <link>https://bluaura.github.io/posts/2026-10-03-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-03-us-market.html</guid>
+      <description>S&amp;P 500 7,722.72(+0.74%) · NASDAQ 27,190.86(+1.19%). 9월 NFP +29K 쇼크로 Fed 인상 확률 급락, NVIDIA 1,500억 달러 자사주 매입·신고가</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.02)</title>
       <link>https://bluaura.github.io/posts/2026-10-02-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-22-kr-market.html</guid>
       <description>KOSPI 7,017.91(+0.15%) · KOSDAQ 834.38(-0.23%). 메타 AI &#x27;Muse&#x27; 효과로 2%대 급등 출발했으나 추석 앞 개인 1.6조 매도에 상승분 반납, 기판·항공주 강세, 환율 22.8원 급락</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.09.21)</title>
-      <link>https://bluaura.github.io/posts/2026-09-21-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-21-macro.html</guid>
-      <description>오늘 9월 1~20일 수출입 발표 — 1~10일 반도체 +270.1%의 지속 여부가 관건. 유가 3일 -8.4%로 물가 압력 완화, 시장은 연말 4.21%로 점도표(4.125%)보다 매파적 재가격. 삼성증권 코스피 상단 12,600→8,400.</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
