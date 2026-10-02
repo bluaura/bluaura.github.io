@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 에이전트 투자 리서치 — 구현 구조·컴퓨팅 수요·수혜주·피해주·월가 뷰 (2026.10) · 블루오라 투자노트</title>
+<meta name="description" content="Muse·dots 등 상시 가동 에이전트의 두뇌는 전부 클라우드. 토큰 소비 채팅의 4~15배, 5사 capex 약 $825B 전원 상향. 수혜는 GPU·HBM→서버 CPU·전력, 피해는 OTA·배달·좌석 SaaS·BPO.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 에이전트 투자 리서치 — 구현 구조·컴퓨팅 수요·수혜주·피해주·월가 뷰 (2026.10)">
+<meta property="og:description" content="Muse·dots 등 상시 가동 에이전트의 두뇌는 전부 클라우드. 토큰 소비 채팅의 4~15배, 5사 capex 약 $825B 전원 상향. 수혜는 GPU·HBM→서버 CPU·전력, 피해는 OTA·배달·좌석 SaaS·BPO.">
+<meta property="article:published_time" content="2026-10-02">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 에이전트 투자 리서치 — 구현 구조·컴퓨팅 수요·수혜주·피해주·월가 뷰 (2026.10)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">에이전트</span><span class="tag">반도체</span><span class="tag">투자전략</span><span class="tag">미국증시</span><span class="tag">한국증시</span> &nbsp;2026-10-02</p>
+  </div>
+
+  <article class="article-body">
+<div class="stats">
+  <div class="stat"><div class="label">2026 하이퍼스케일러 capex (5사)</div><div class="value">약 $825B</div><div class="delta up">전원 상향</div></div>
+  <div class="stat"><div class="label">에이전트 토큰 소비 (vs 채팅)</div><div class="value">4~15배</div><div class="delta">코딩 에이전트 1,000배+</div></div>
+  <div class="stat"><div class="label">Google 월간 토큰</div><div class="value">3.2경+</div><div class="delta up">1년 새 7배</div></div>
+  <div class="stat"><div class="label">韓 9월 반도체 수출</div><div class="value">$603억</div><div class="delta up">+263% YoY</div></div>
+</div>
+
+<blockquote>
+  2026년 9월 한 달에 Meta Muse(9/8), OpenAI dots(9/29), Gemini 4 Argon(10/1)이 나오면서 빅테크 전부가 "상시 가동 개인 에이전트" 경쟁에 들어갔다.
+  이 에이전트들의 두뇌(LLM)는 예외 없이 클라우드에서 돌고, 손(브라우저·OS 조작)만 일부 로컬이다.
+  따라서 에이전트 확산은 클라우드 추론 수요의 증가 요인이고, 로컬 디바이스 수요는 대체가 아니라 추가다.
+  수혜는 GPU·HBM에서 서버 CPU·DRAM·전력으로 넓어지고, 피해는 "중개"로 돈 버는 OTA·배달·좌석 SaaS·BPO에 집중된다.
+</blockquote>
+
+<h2>1. 에이전트란 — 챗봇에서 "대신 일하는 상시 가동 소프트웨어"로</h2>
+
+<p>챗봇은 질문 한 번에 답 한 번이지만, 에이전트는 목표를 받아 스스로 계획하고 도구(브라우저·앱·결제)를 써서 몇 분~수 시간, 혹은 24시간 계속 일한다.
+<a href="https://www.anthropic.com/engineering/building-effective-agents">Anthropic</a>의 정의로는 "LLM이 스스로 프로세스와 도구 사용을 결정하는 시스템",
+<a href="https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf">OpenAI</a>의 정의로는 "사용자를 대신해 독립적으로 작업을 완수하는 시스템"이다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>출시일</th><th>회사</th><th>제품</th><th>핵심 내용</th><th>실행 위치</th></tr></thead>
+  <tbody>
+    <tr><td>2026-09-29</td><td>OpenAI</td><td><a href="https://openai.com/index/introducing-dots/">dots</a></td><td>상시 가동 개인 에이전트. dot마다 전용 클라우드 컴퓨터·브라우저, 4,000+ 앱 연결, GPT-6 Astra. Pro·Business Premium 포함, 향후 "teams of dots"</td><td>클라우드 VM</td></tr>
+    <tr><td>2026-09-08</td><td>Meta</td><td><a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">Muse</a></td><td>이메일·여행 예약·구매 대행. 사용자별 Secure VM + 전용 브라우저, Sentinel 에이전트가 송신 검수. Shopify·Walmart·Expedia 연동, 거래 수수료 모델. 무료/$20/$100</td><td>클라우드 VM (+Mac 앱 제어)</td></tr>
+    <tr><td>2026-05-19</td><td>Google</td><td><a href="https://thenextweb.com/news/google-gemini-spark-agentic-assistant-gmail-io-2026">Gemini Spark</a></td><td>24시간 개인 에이전트, 전용 Gmail 주소로 업무 수신. Google Cloud 전용 VM. Ultra $250→$100 인하</td><td>클라우드 VM</td></tr>
+    <tr><td>2026-06-08</td><td>Apple</td><td><a href="https://qz.com/apple-siri-ai-google-gemini-wwdc-2026-060826">새 Siri (iOS 27)</a></td><td>Gemini 기반, 화면 인식·앱 간 작업. 온디바이스 + Private Cloud Compute. 2026 가을</td><td>온디바이스 + 클라우드</td></tr>
+    <tr><td>2026-05-01</td><td>Microsoft</td><td><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/overview">Agent 365</a></td><td>기업용 에이전트 레지스트리. 출시 2개월 만에 약 4,000만 개 에이전트 등록, AI ARR $37B(+123%)</td><td>클라우드 + Windows Agent Workspace</td></tr>
+    <tr><td>2026-04-08</td><td>Anthropic</td><td><a href="https://claude.com/blog/claude-managed-agents">Claude Managed Agents</a></td><td>하네스·샌드박스·메모리 통합. 토큰 요금 + 세션 시간당 $0.08. Cloudflare microVM</td><td>클라우드 샌드박스</td></tr>
+    <tr><td>2026-02-04</td><td>Amazon</td><td><a href="https://techcrunch.com/2026/02/04/alexa-amazons-ai-assistant-is-now-available-to-everyone-in-the-u-s/">Alexa+</a></td><td>미국 전체 출시, Prime 무료. Alexa for Shopping 12개월 이용자 3.5억</td><td>클라우드</td></tr>
+    <tr><td>2026-01-12</td><td>Anthropic</td><td><a href="https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no">Claude Cowork</a></td><td>데스크톱 파일·브라우저 에이전트. 9/16 chat과 통합</td><td>로컬 VM(손) + 클라우드(두뇌)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>표준은 4개로 수렴 중이다. 도구 연결 MCP(Linux Foundation 기증, 서버 10,000+), 에이전트 간 통신 A2A(Google), 결제 ACP(OpenAI·Stripe)와 AP2(Google, 60+ 기관).</p>
+
+<h2>2. 어떻게 구현되나 — 두뇌는 클라우드, 손만 일부 로컬</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>유형</th><th>두뇌(LLM)</th><th>손(조작)</th><th>대표 제품</th><th>하드웨어 수요</th></tr></thead>
+  <tbody>
+    <tr><td>완전 클라우드</td><td>클라우드</td><td>클라우드 VM/샌드박스</td><td>dots, Muse, Gemini Spark, ChatGPT agent, Mariner, Codex, Manus, Managed Agents</td><td>GPU/TPU + 서버 CPU·DRAM·SSD</td></tr>
+    <tr><td>하이브리드</td><td>클라우드</td><td>로컬 브라우저·VM·OS 세션</td><td>Claude Cowork/Chrome, Chrome auto browse, Atlas, Comet, Windows Agent Workspace</td><td>GPU/TPU + PC CPU·RAM</td></tr>
+    <tr><td>완전 로컬</td><td>NPU/GPU 온디바이스</td><td>로컬</td><td>Microsoft Mu(330M), Gemini Nano, Apple 온디바이스, Meta Muse Glimmer(30B, RTX 5090·M-Max급 필요)</td><td>NPU·통합메모리 24~32GB+</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>클라우드 샌드박스는 CPU만 쓴다.</strong> Manus는 작업마다 <a href="https://e2b.dev/customers/how-manus-uses-e2b-to-provide-agents-with-virtual-computers">E2B Firecracker microVM</a>(기동 150ms)을 할당하고,
+Anthropic 코드 실행 컨테이너는 <a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool">CPU 1개·RAM 5GiB</a>, 가격은 시간당 $0.05다.
+Opus 5.5 토큰 가격(입력 $4/출력 $20 per M)과 비교하면 샌드박스 1시간은 토큰 몇천 개 값이라 비용의 대부분은 GPU 추론에 몰린다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>출처</th><th>토큰 소비 수치</th></tr></thead>
+  <tbody>
+    <tr><td><a href="https://www.anthropic.com/engineering/multi-agent-research-system">Anthropic (2025-06)</a></td><td>단일 에이전트 = 채팅의 약 4배, 멀티에이전트 = 약 15배. 성능 차이의 80%가 토큰 사용량으로 설명</td></tr>
+    <tr><td><a href="https://digitaleconomy.stanford.edu/news/how-are-ai-agents-spending-your-tokens/">Stanford/Microsoft (2026-05)</a></td><td>에이전틱 코딩은 단일 턴의 3,500배. 작업당 $1.857 vs 채팅 $0.023. 입력:출력 = 154:1</td></tr>
+    <tr><td><a href="https://www.trendforce.com/insights/agentic-ai-cpu-gpu">TrendForce (2026-09-29)</a></td><td>CPU:GPU 비율 1:4~1:8 → 1:1~1:2. Arm 추정 GW당 CPU 코어 3,000만 → 1.2억</td></tr>
+    <tr><td><a href="https://www.tomshardware.com/pc-components/cpus/shifting-need-for-cpus-in-ai-workloads-drives-intensifying-shortages-price-hikes">Tom's Hardware</a></td><td>서버 CPU 가격 2026-03 이후 +10~20%, 리드타임 약 6개월</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>3. 컴퓨팅 수요 — 클라우드가 주인공, 로컬은 보조</h2>
+
+<p>5대 하이퍼스케일러 모두 2026년 7~9월 실적에서 "수요 &gt; 공급"을 밝혔고, Amazon은 그 상태가 2027년까지 이어진다고 명시했다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>회사</th><th class="num">2026 capex 가이던스</th><th>핵심 발언·지표</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>Amazon</td><td class="num">$220B (상향)</td><td>"2027년에도 수요가 공급 초과". AWS +37%, 백로그 $496B</td><td><a href="https://www.metirai.com/blog/amazon-q2-2026-earnings-aws-reacceleration-ai-capex">Q2 콜</a></td></tr>
+    <tr><td>Alphabet</td><td class="num">$195~205B (상향)</td><td>월간 토큰 3.2경+(7배), API 분당 220억, 백로그 $514B</td><td><a href="https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/">Q2</a></td></tr>
+    <tr><td>Microsoft</td><td class="num">약 $175B (CY)</td><td>Agent 365 2개월 만에 4,000만 에이전트, Azure +43%</td><td><a href="https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4">FY26 Q4</a></td></tr>
+    <tr><td>Meta</td><td class="num">$130~145B</td><td>"단기 용량이 장기 용량보다 가치 있다". Business Agent 주간 100만 기업</td><td><a href="https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf">Q2 콜</a></td></tr>
+    <tr><td>Oracle</td><td class="num">$90~95B (FY27)</td><td>RPO $664B, GPU 가동률 97.9%, 에이전트 실행 분기마다 2배</td><td><a href="https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/">FQ1</a></td></tr>
+    <tr><td>CoreWeave</td><td class="num">$35~39B</td><td>"단기 용량 사실상 매진", 백로그 $104B(+246%)</td><td><a href="https://s205.q4cdn.com/133937190/files/doc_financials/2026/q2/CRWV-US-CORRECTED-TRANSCRIPT-CoreWeave-Q2-2026-Earnings-Call-11August2026.pdf">Q2 콜</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>로컬 수요는 세 갈래다.</strong> (1) 하이브리드 에이전트가 요구하는 PC·Mac 상시 온라인과 더 많은 RAM, (2) NPU 소형 모델(Copilot+ 40 TOPS, Mu, Gemini Nano), (3) 오픈 웨이트 30B급 로컬 에이전트(Muse Glimmer: RTX 5090 또는 M-Max Mac, 메모리 24~32GB).
+AI PC 출하량이 에이전트로 가속된다는 2026년 집계(IDC·Gartner)는 이번 조사에서 확보하지 못했다. 확인된 가장 강한 로컬 증거는 메모리 가격이다. <a href="https://www.trendforce.com/presscenter/news">TrendForce</a>는 4Q26 범용 DRAM 계약가 +10~15% QoQ, 2027 HBM 혼합 ASP +121% YoY를 전망한다.</p>
+
+<div class="callout">
+  <strong>멀티 에이전트 시나리오</strong> — 현재는 1인 1에이전트지만 로드맵은 N개다. OpenAI "teams of dots", Muse Spark 병렬 서브에이전트, Mariner 동시 10개 작업.
+  1인 N에이전트가 되면 클라우드 수요는 "사용자 수 × 에이전트 수 × 가동 시간"으로 결정된다.
+  역방향 요인: 토큰 단가는 1/5로 떨어지고(GPT-6.1 Sol·Gemini 4 Argon 모두 $2/$10 per M), Gartner는 2028년까지 기업 70%가 비용 문제로 벤더 FDE 방식 에이전트를 포기할 것으로 본다.
+  즉 토큰 수량은 폭증하되 토큰당 매출은 디플레이션 — 하드웨어에는 긍정, 에이전트 제공사 마진에는 압박.
+</div>
+
+<h2>4. 수혜 기업 — 실적으로 확인된 고리부터</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>기업</th><th>에이전트 수혜 논리</th><th>최근 실적</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>NVIDIA</td><td>추론 토큰 폭증 1차 수혜. Vera CPU "에이전트용 최초 CPU", Groq 3 LPX, BlueField-4 KV cache 스토리지</td><td class="up">DC $89.0B(+117%), Q3 가이드 $108B. 선행 PER 24.9배</td><td><a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027">IR</a></td></tr>
+    <tr><td>AMD</td><td>"agentic AI가 서버 CPU의 새 성장 벡터". 서버 CPU 2H26 +80% 가이드. MI450 Anthropic 2GW</td><td class="up">DC $6.7B(+107%). 시총 $1T 돌파</td><td><a href="https://finance.yahoo.com/markets/stocks/articles/amd-amd-q2-2026-earnings-232859641.html">Q2</a></td></tr>
+    <tr><td>Broadcom</td><td>Anthropic TPU 2027 5GW→2028 10GW. AI 매출 목표 FY27 $115B, FY28 $230B</td><td class="up">AI 반도체 $16.7B(+221%)</td><td><a href="https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial">IR</a></td></tr>
+    <tr><td>Intel</td><td>샌드박스·도구 호출로 CPU:GPU 1:8→1:4. Xeon 미충족 수요 "십억 달러 단위"</td><td class="up">매출 +25%(15년 내 최고), DCAI +59%</td><td><a href="https://www.nasdaq.com/press-release/intel-reports-second-quarter-2026-financial-results-2026-07-23">IR</a></td></tr>
+    <tr><td>Arm</td><td>GW당 CPU 코어 4배. AGI CPU 고객 OpenAI·Cloudflare·SKT, FY27~28 $2B+</td><td class="up">FY26 +23%, 하이퍼스케일러 CPU 점유 50%</td><td><a href="https://www.datacenterdynamics.com/en/news/arm-posts-recording-breaking-revenue-for-full-year-and-q4-26-with-its-share-of-hyperscaler-cpu-compute-hitting-50/">DCD</a></td></tr>
+    <tr><td>Micron</td><td>2027 HBM 물량 대부분 높은 가격에 기판매. FY27~28 수급 더 타이트</td><td class="up">FQ4 $54.2B(4배+), GM 86.8%, FQ1 가이드 $61.5B</td><td><a href="https://www.globenewswire.com/news-release/2026/09/30/3372366/14450/en/micron-technology-inc-reports-record-fiscal-fourth-quarter-and-full-year-2026-results.html">IR</a></td></tr>
+    <tr><td>Vertiv · GE Vernova</td><td>상시 가동 에이전트 = DC 가동률 상승 → 전력·냉각</td><td class="up">VRT +24%, GEV 수주 +88%, 가스터빈 백로그 116GW</td><td><a href="https://www.gevernova.com/news/press-releases/ge-vernova-reports-second-quarter-2026-financial-results-raises-2026-financial">GEV</a></td></tr>
+    <tr><td>Meta</td><td>Muse 소비자 에이전트 1위 후보. 거래 수수료 + 구독. Jefferies 2027 말 $10.8B 잠재</td><td class="up">9월 +27%, 선행 PER 23배. TP MS $775, JPM $920</td><td><a href="https://finance.yahoo.com/technology/ai/articles/meta-maps-muse-monetization-strategy-110000882.html">Yahoo</a></td></tr>
+    <tr><td>Cloudflare</td><td>Managed Agents 샌드박스, 에이전트 트래픽 게이트키퍼. 일일 AI 에이전트 요청 +1,700%</td><td class="up">+36%, 시간외 +17%</td><td><a href="https://www.investing.com/news/company-news/cloudflare-q2-2026-slides-agentic-internet-drives-36-revenue-growth-93CH-4844865">Q2</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>한국 — 메모리가 핵심, 전력·기판·통신으로 확산</h3>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>종목</th><th>에이전트 수혜 논리</th><th>수치·목표주가</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>SK하이닉스</td><td>HBM4 2Q 양산, LTA 약 10고객. 콘콜 "에이전트 서비스 지원 서버 D램 수요 증가"</td><td>Q2 OP 60.5조, Q3 컨센 78.1조. 주가 181만(고점 282만 대비 ▼36%). TP 미래에셋 310만, DB 230만, LS 240만(하향), BNK 148만</td><td><a href="https://www.thelec.kr/news/articleView.html?idxno=60209">더일렉</a> · <a href="https://biz.heraldcorp.com/article/10857739">헤럴드</a></td></tr>
+    <tr><td>삼성전자</td><td>HBM4 비중 1Q 5%→2Q 35%. D램 ASP Q3 +17~18% QoQ</td><td>Q2 OP 89.5조, Q3 컨센 110.3조(첫 100조). TP 노무라 67만, KB 60만, NH 53만, LS 45만, 미래 40만</td><td><a href="https://www.etoday.co.kr/news/view/2630639">이투데이</a></td></tr>
+    <tr><td>삼성전기</td><td>서버 FC-BGA 비중 60%→70%, DC MLCC 협상가 +20%</td><td>Q3 OP 추정 6,710억(+158%). 키움 TP 280만</td><td><a href="https://www.g-enews.com/article/Securities/2026/09/20260929083122850444093b5d4e_1">G-ENEWS</a></td></tr>
+    <tr><td>SK텔레콤</td><td>Anthropic 지분(최대 8조 추정), Arm AGI CPU 고객, DC 143MW→318MW</td><td>하나 TP 14만 최선호, 미래에셋 최선호</td><td><a href="https://www.g-enews.com/article/Securities/2026/09/20260901083700262644093b5d4e_1">G-ENEWS</a></td></tr>
+    <tr><td>HD현대일렉트릭</td><td>DC 배전·변압기</td><td>Q2 OP 2,870억(+37%), OPM 25.1%, 수주잔고 $84.9억</td><td><a href="https://www.mt.co.kr/industry/2026/07/28/2026072814325897341">머니투데이</a></td></tr>
+    <tr><td>두산에너빌리티</td><td>미국 빅테크 DC용 가스터빈(1Q26 미국 H급 수주 1위)</td><td>상반기 수주 7.12조(+90%), 잔고 26.35조</td><td><a href="https://view.asiae.co.kr/article/2026072716162963397">아시아경제</a></td></tr>
+    <tr><td>네이버</td><td>쇼핑 AI 에이전트 3→8월 MAU 5배, 일 거래액 4배, 연말 결제 탑재</td><td>Q2 매출 3.39조(+16%), 커머스 +31%</td><td><a href="https://www.fnnews.com/news/202609270633124595">파이낸셜뉴스</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>9월 반도체 수출은 <a href="https://zdnet.co.kr/view/?no=20261001113208">$603억(+263%)</a>으로 단일 품목 첫 $600억. 다만 외국인은 9월 하이닉스 11.6조·삼성전자 4.9조 순매도(미 10년물 5.3% 영향)로 펀더멘털과 수급이 어긋나는 구간이다.</p>
+
+<h2>5. 피해 가능 기업 — "중개"로 돈 버는 모델이 타깃</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>업종</th><th>위협 논리</th><th>주가·실적 증거</th><th>반론·대응</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>여행 OTA (BKNG, EXPE, ABNB)</td><td>에이전트가 직접 비교·예약 → 수수료·광고 우회</td><td class="down">Meta Connect 당일 EXPE ▼7%, ABNB ▼6%, BKNG ▼5%. 1개월 BKNG ▼18%</td><td>Booking: LLM 유입 "1% 크게 미만". 3/6 OpenAI 직접 결제 후퇴에 EXPE ▲12%. Expedia는 Muse 파트너, Booking은 거부</td><td><a href="https://247wallst.com/investing/2026/10/01/how-booking-holdings-and-expedia-are-taking-opposite-bets-on-ai-shopping-agents/">247WallSt</a></td></tr>
+    <tr><td>Amazon 리테일·광고</td><td>에이전트는 광고를 보지 않음 → 광고 $68B 노출. 9th Circuit "에이전트 = 사용자의 도구" 판결로 차단 수단 약화</td><td>9/20 Muse 차단, Google·OpenAI 에이전트도 차단 계획</td><td>자체 에이전트(Rufus, Alexa for Shopping 3.5억)로 방어. AWS·Anthropic으로 만회</td><td><a href="https://www.forbes.com/sites/the-prompt/2026/09/23/amazons-68-billion-reason-to-block-metas-muse/">Forbes</a></td></tr>
+    <tr><td>음식배달 (DASH, UBER)</td><td>수수료율 25%→7% 압축 가능(Citrini)</td><td class="down">DASH 1개월 ▼16%, UBER ▼12%</td><td>본격화는 "2027년 이벤트"</td><td><a href="https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/">247WallSt</a></td></tr>
+    <tr><td>좌석 SaaS (CRM, NOW, ADBE, HUBS)</td><td>"500 라이선스→50" 좌석 압축. Gartner: SaaS 지출 20%($234B) 위험</td><td class="down">2/3 "Black Tuesday" SW ▼13%. NOW 고점 대비 ▼55%, ADBE ▼34%</td><td>실적은 견조: NOW "활성 좌석 증가", CRM Agentforce ARR $1.5B+(+240%). IGV 4월 저점 후 ▲40%</td><td><a href="https://sg.finance.yahoo.com/news/lies-ahead-software-stocks-etfs-110000811.html">Yahoo</a></td></tr>
+    <tr><td>BPO·콜센터 (CNXC, TEP)</td><td>고객응대 인력 직접 대체</td><td class="down">Concentrix 가이던스 하향 ▼24%, YTD ▼39%. "uninvestable" 평가</td><td>—</td><td><a href="https://thenextweb.com/news/call-centre-stocks-fall-ai-fears">TNW</a></td></tr>
+    <tr><td>IT 서비스 (ACN, INFY, TCS)</td><td>인월 과금 디플레이션. JPM "2년 추가 역풍"</td><td class="down">인도 IT지수 YTD ▼29%. ACN 실적 전 YTD ▼32%</td><td class="up">ACN 10/1 ▲21.4%(사상 최대): $100M+ 계약 141건</td><td><a href="https://www.benzinga.com/markets/earnings/26/10/62103078/ai-threat-accenture-posts-record-big-ticket-client-bookings">Benzinga</a></td></tr>
+    <tr><td>프리랜서 (UPWK)</td><td>단순 외주 대체</td><td class="down">Q2 매출 ▼2%, 가이던스 하향 ▼15%</td><td>—</td><td><a href="https://thenextweb.com/news/upwork-q2-2026-ai-disruption-guidance-cut">TNW</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="callout warn">
+  <strong>에이전트 커머스의 현실</strong> — OpenAI Instant Checkout은 2026-03 매처 직접 결제로 후퇴했다(도입 매처 12~30곳, Walmart 채팅 내 전환율은 사이트 이동 경로의 1/3).
+  미국 소비자 중 완전 자율 에이전트 주문 경험은 5%, 여행 AI 예약 신뢰는 8%. 피해주 주가에는 이미 많이 반영됐고 실제 거래량 전환은 2027년 이후 이벤트다.
+  실적까지 훼손이 확인된 곳은 BPO·프리랜서·인도 IT뿐이다.
+</div>
+
+<h2>6. 실사용 리뷰 — "리서치는 잘하고, 결제는 느리고 불안하다"</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>제품</th><th>잘된 것</th><th>실패·불만</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>Meta Muse</td><td>쇼핑 후보 찾기, 이메일 답장, 이사업체 견적 비교, OpenTable 예약, 판타지풋볼 자동 갱신</td><td>폐업 식당 추천, 전화번호 지어냄, 직접보다 훨씬 느림, Mac Messages DB 187,462행 무단 동기화. TechRadar "convenience mixed with discomfort", Verge "creepy"</td><td><a href="https://www.techradar.com/ai-platforms-assistants/i-tried-metas-new-muse-ai-agent-its-incredibly-useful-but-handing-it-my-digital-life-felt-deeply-uncomfortable">TechRadar</a> · <a href="https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202">Inc.</a></td></tr>
+    <tr><td>OpenAI dots (3일차)</td><td>송장 필요성 선제 감지·초안 작성</td><td>DevDay 데모 실패, 같은 작업 20~30분(Claude 5분), 2FA 자동입력 실패. HN: "my throughput is limited by my approval"</td><td><a href="https://dev.to/max_quimby/openai-shipped-dots-practitioners-shipped-skepticism-23if">HN 정리</a></td></tr>
+    <tr><td>Gemini Spark</td><td>받은편지함·캘린더 정리, 일일 브리핑, 예산 분석. "베이비시팅 불필요"</td><td>Google 생태계 밖 미지원, $100/월</td><td><a href="https://www.tomsguide.com/ai/i-use-gemini-spark-daily-here-are-7-prompts-that-show-what-it-can-really-do">Tom's Guide</a></td></tr>
+    <tr><td>Claude Cowork</td><td>파일 500개 정리 10분(수작업 3~4시간), 송장→스프레드시트 3분</td><td>computer use "basic", 시험 작업 성공률 약 50%(3월)</td><td><a href="https://thoughts.jock.pl/p/claude-cowork-dispatch-computer-use-honest-agent-review-2026">jock.pl</a></td></tr>
+    <tr><td>ChatGPT Atlas</td><td>—</td><td>장바구니 3개 담는 데 10분(Verge), 항공편 16분(WSJ "toddler feeding himself")</td><td><a href="https://futurism.com/artificial-intelligence/openai-atlas-web-browser-messy">Futurism</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>공통 불만 4가지</strong>: 속도(최고 모델도 OSWorld 2.0 작업당 약 40분), 승인 피로, 보안(OpenAI CISO "프롬프트 인젝션은 미해결 프론티어 문제"), 접근 차단(Amazon이 Comet·Muse 차단, CAPTCHA·2FA).
+확산 증거도 분명하다. Muse는 2주 280만 다운로드로 App Store 1위, 500만까지 22일(ChatGPT 56일).</p>
+
+<h2>7. 유저 시나리오와 확산 전망</h2>
+
+<p>생활의 변화는 "내가 앱을 열고 비교하고 입력한다"에서 "에이전트가 백그라운드에서 해두고 나는 승인만 한다"로 요약된다.
+쇼핑은 생필품 자동 재주문(Alexa Auto-Buy)과 고가 구매 승인, 여행은 결항 시 자동 재예약과 사용자 에이전트↔호텔 에이전트 협상(A2A), 업무는 "IC에서 에이전트 팀 관리자로"(Sequoia).
+2028년경 한 사람이 업무 dot, 개인 에이전트, 금융 에이전트를 따로 쓰면 1인당 상시 VM 3~5개, 토큰은 채팅의 15배 이상이다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>지표</th><th>수치</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>미국 성인 챗봇 사용 / 매일</td><td class="num">49% / 25%</td><td><a href="https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PI_2026.06.17_Americans-and-AI_REPORT.pdf">Pew</a></td></tr>
+    <tr><td>한국 생성형 AI 경험률 / 유료 구독</td><td class="num">44.5% / 7.9%</td><td><a href="https://view.asiae.co.kr/article/2026033115131651304">과기정통부</a></td></tr>
+    <tr><td>미국 자율 에이전트 주문 경험 / AI 도움 구매</td><td class="num">5% / 23%</td><td><a href="https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook">Morgan Stanley</a></td></tr>
+    <tr><td>대기업 에이전트 확산 단계</td><td class="num">40% (전년 27%)</td><td><a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/the-state-of-ai-in-2026-on-the-road-to-roi.pdf">McKinsey</a></td></tr>
+    <tr><td>Gartner: 2027년까지 에이전트 프로젝트 취소</td><td class="num">40%+</td><td><a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027">Gartner</a></td></tr>
+    <tr><td>2030 미국 에이전트 커머스</td><td class="num">$190~385B</td><td>Morgan Stanley</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>종합하면 에이전트는 2027년까지 파워유저·업무·소상공인 중심으로 퍼지고, 일반 소비자의 결제·예약 위임은 2027~2028년 이후 이벤트다. 다만 컴퓨팅 수요는 확산보다 앞서 움직인다. 파워유저 소수가 채팅 사용자 다수보다 토큰을 더 많이 쓰기 때문이다.</p>
+
+<h2>8. 월가·기관·시장 뷰</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>기관</th><th>핵심 논지</th><th>지목</th><th>출처</th></tr></thead>
+  <tbody>
+    <tr><td>Morgan Stanley</td><td>Muse는 META의 "가장 큰 unpriced call option". 소비자 에이전트 TAM $30T</td><td>META OW $775</td><td><a href="https://ca.finance.yahoo.com/news/meta-stock-jumps-5-premarket-134413004.html">Yahoo</a></td></tr>
+    <tr><td>JPMorgan</td><td>"ChatGPT 이후 가장 널리 쓰일 소비자 AI 앱"</td><td>META TP $640→$920</td><td><a href="https://finance.biggo.com/news/78b9066b-c42d-415e-9119-117a29bbacee">Biggo</a></td></tr>
+    <tr><td>BofA (Arya)</td><td>에이전트 워크플로 1건 = 채팅의 10~1,000배 토큰. AI DC 시장 2030 $2.2T. SOX 선행 PER 21배(중앙값보다 쌈)</td><td>NVDA, INTC, MU, MRVL, LRCX</td><td><a href="https://www.benzinga.com/markets/tech/26/09/62092509/top-semiconductor-stocks-to-own-bank-of-america-picks">Benzinga</a></td></tr>
+    <tr><td>Goldman (Sheridan)</td><td>수급 균형은 2028 상반기. 관심은 capex 절대액→ROIC</td><td>MSFT·AMZN 멀티플 확장</td><td><a href="https://finance.yahoo.com/markets/article/here-comes-the-ai-capex-shocker-goldman-sachs-says-171026577.html">Yahoo</a></td></tr>
+    <tr><td>Goldman (Covello)</td><td>2026~31 누적 capex $7.6T, "FOMO가 동기". 반도체는 군비경쟁 반영</td><td>반도체보다 하이퍼스케일러</td><td><a href="https://fortune.com/2026/05/06/is-ai-a-bubble-goldman-sachs-skeptics-overhyped/">Fortune</a></td></tr>
+    <tr><td>Bain (9/29)</td><td>2031년 연 $6T AI 매출 필요, $4.2T 갭. 신규 150GW</td><td>—</td><td><a href="https://www.bain.com/about/media-center/press-releases/2026/global-ai-market-could-hit-$6-trillion-annually-by-2031-through-unlocking-value-and-innovation--bain--cos-7th-global-technology-report/">Bain</a></td></tr>
+    <tr><td>Gartner (9/16)</td><td>2026 AI 지출 $2.7T(+49.5%). 인프라 $1.48T vs 에이전트·어시스턴트 $29.2B</td><td>인프라가 55%</td><td><a href="https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026">Gartner</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>시장</strong>: 9/30 S&amp;P 500 7,652(9월 ▼0.4%), Nasdaq 26,861(9/22 사상 최고 27,244), 미 10년물 5.30~5.34%로 2002년 이후 최고. 9월 S&amp;P 종목 4개 중 3개 하락, 오른 섹터는 기술뿐.
+KOSPI 6,971(10/1)은 연초 대비 약 ▲62%, 6월 고점 8,917 대비 약 ▼22%로 증권사 연말 목표(JPM 10,000, KB 10,500) 하단을 밑돈다.
+BofA FMS 9월: 가장 붐비는 거래 "반도체 롱" 53%(6월 80%에서 완화), 하이퍼스케일러 capex를 신용위험으로 꼽은 비율 42%.</p>
+
+<p><strong>에이전트 매출이 capex를 정당화하는가</strong>: OpenAI run-rate 약 $70B(2030년까지 현금소진 $280B 전망) + Anthropic $65B(2Q 매출 $11.5B, 2분기 연속 영업이익, IPO 목표 $2T). 합계 약 $135B는 4대 하이퍼스케일러 capex의 약 18%. Anthropic의 흑자 전환이 "추론이 마진을 낸다"는 첫 증거로 받아들여진다.</p>
+
+<h2>정리</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>시나리오</th><th>수혜 확대</th><th>수혜 축소</th><th>현재 데이터 부합도</th></tr></thead>
+  <tbody>
+    <tr><td>A. 클라우드 에이전트 주도 (기본)</td><td>GPU·HBM, 서버 CPU, 전력, 기판</td><td>중개 플랫폼, BPO, 좌석 SaaS</td><td class="up">높음</td></tr>
+    <tr><td>B. 하이브리드·로컬 확산</td><td>PC·폰 메모리 콘텐츠, Apple, NPU</td><td>일부 클라우드 토큰 상쇄</td><td>중간 (AI PC 데이터 미확보)</td></tr>
+    <tr><td>C. 토큰 디플레이션·ROI 실망</td><td>—</td><td>GPU 인프라, 네오클라우드, AI 앱 레이어</td><td>중간 (Sol·Argon 1/5 가격, Bain $4.2T 갭)</td></tr>
+    <tr><td>D. 금리·전력 병목</td><td>전력 설비·가스터빈</td><td>고밸류 성장주, 한국 외국인 수급</td><td class="up">높음 (9월 하락의 1차 원인)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>단기 관전 포인트</strong> — 10월 말~11월 초 하이퍼스케일러 3Q 실적에서 2027 capex 첫 숫자 제시 여부, dots 추가 구매 가격·Muse 유료 전환율 공개, 미 10년물 5% 이하 복귀와 한국 외국인 순매도 전환.</p>
+<p><strong>중기 관전 포인트</strong> — Intel DCAI·AMD 서버 CPU 가이던스(+80%) 달성, 4Q26 DRAM 계약가(+10~15%)·2027 HBM ASP, Amazon v. Perplexity 본안과 UCP·ACP·AP2 매처 채택 수, Muse·dots 한국 출시 시점.</p>
+
+<p>조사 한계: 웹 검색 한도 소진으로 AI PC 출하 전망(IDC·Gartner 2026), AVGO·AMD·MU·ORCL 컨센서스 목표주가, 국내 증권사 "AI 에이전트" 산업 리포트는 미확보. 본문 수치 중 2차 출처 항목(Muse 가격 티어, MSFT CY26 capex 추정, MSFT RPO)은 원문 확인이 필요하다.</p>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>

@@ -26,6 +26,13 @@
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>AI 에이전트 투자 리서치 — 구현 구조·컴퓨팅 수요·수혜주·피해주·월가 뷰 (2026.10)</title>
+      <link>https://bluaura.github.io/posts/2026-10-02-ai-agent-investment-research.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-ai-agent-investment-research.html</guid>
+      <description>Muse·dots 등 상시 가동 에이전트의 두뇌는 전부 클라우드. 토큰 소비 채팅의 4~15배, 5사 capex 약 $825B 전원 상향. 수혜는 GPU·HBM→서버 CPU·전력, 피해는 OTA·배달·좌석 SaaS·BPO.</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.01)</title>
       <link>https://bluaura.github.io/posts/2026-10-01-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-01-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-19-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-us-market.html</guid>
       <description>S&amp;P 500 7,650.50(+0.17%) · NASDAQ 26,522.55(+0.39%) · Dow 51,682.64(-0.18%). Fed의 3년 만의 첫 금리 인상 이후 10년물 5% 진정과 유가 하락에 반도체가 반등하며 지수를 떠받쳤다.</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>트럼프 어카운트, S&amp;P 500에 얼마나 들어오나 — 유입 규모·디폴트 ETF·월가 시각</title>
-      <link>https://bluaura.github.io/posts/2026-09-19-trump-accounts-sp500.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-trump-accounts-sp500.html</guid>
-      <description>2026 하반기 유입 추정 195억 달러(401k 연 납입의 약 3%), 이후 연 120억 달러. 디폴트는 SPYM(보수 0.02%). 지수 방향을 바꿀 규모는 아니고, 18년 인출 제한의 장기 패시브 수급이 핵심.</description>
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
