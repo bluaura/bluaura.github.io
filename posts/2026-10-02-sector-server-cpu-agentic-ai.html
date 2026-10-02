@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 에이전트 시대, 서버 CPU 수혜주는 어디인가 · 블루오라 투자노트</title>
+<meta name="description" content="CPU:GPU 비율 1:4~1:8에서 1:1~1:2로 이동 전망, 2030년 서버 CPU 시장 약 $2,200억. AMD 서버 출하 점유율 34.5%로 가장 직접적 수혜, Intel은 공급 병목, Arm 13.6% 사상 최고.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 에이전트 시대, 서버 CPU 수혜주는 어디인가">
+<meta property="og:description" content="CPU:GPU 비율 1:4~1:8에서 1:1~1:2로 이동 전망, 2030년 서버 CPU 시장 약 $2,200억. AMD 서버 출하 점유율 34.5%로 가장 직접적 수혜, Intel은 공급 병목, Arm 13.6% 사상 최고.">
+<meta property="article:published_time" content="2026-10-02">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 에이전트 시대, 서버 CPU 수혜주는 어디인가</h1>
+    <p class="sub"><span class="tag">섹터</span><span class="tag">투자전략</span><span class="tag">반도체</span><span class="tag">AMD</span><span class="tag">INTC</span><span class="tag">ARM</span> &nbsp;2026-10-02</p>
+  </div>
+
+  <article class="article-body">
+<div class="stats">
+  <div class="stat"><div class="label">CPU:GPU 비율</div><div class="value">1:1~1:2</div><div class="delta up">기존 1:4~1:8에서 이동 전망</div></div>
+  <div class="stat"><div class="label">2030년 서버 CPU 시장</div><div class="value">약 $2,200억</div><div class="delta up">AMD 전망, 연 50% 이상 성장</div></div>
+  <div class="stat"><div class="label">AMD 서버 출하 점유율</div><div class="value">34.5%</div><div class="delta up">1년 전 27.3% (2Q26)</div></div>
+  <div class="stat"><div class="label">Arm 서버 점유율</div><div class="value">13.6%</div><div class="delta up">사상 최고 (2Q26)</div></div>
+</div>
+
+<blockquote>
+  AI 에이전트 확산의 서버 CPU 수혜는 AMD가 가장 직접적이다. Intel은 공급이 풀리면 물량 수혜를 받고, Arm과 NVIDIA는 신규 진입자다. Google Axion은 자사 클라우드 전용이라 직접 투자 대상이 아니다. 다만 AMD·Intel·Arm 모두 올해 190~240% 올라 기대가 상당 부분 주가에 반영돼 있다.
+</blockquote>
+
+<h2>아키텍처: CPU와 GPU 둘 다 늘지만 CPU 비율이 급등한다</h2>
+
+<p>에이전트는 한 번 답하고 끝나는 챗봇과 달리, 작업을 쪼개고 도구를 호출하고 결과를 검증하는 과정을 반복한다. 이 과정에서 GPU와 CPU의 역할이 나뉜다.</p>
+
+<ul>
+  <li><strong>GPU</strong> — 토큰 생성(추론)을 맡는다.</li>
+  <li><strong>CPU</strong> — 오케스트레이션(작업 분해, 툴 호출 라우팅, 서브에이전트 간 데이터 전달)과 툴 실행(코드 실행 샌드박스, 웹 크롤링, DB 검색)을 맡는다.</li>
+</ul>
+
+<p>2025년 11월 연구 기준으로 에이전트 전체 지연의 최대 90.6%가 CPU 쪽 툴 처리에서 발생한다. 그래서 CPU가 병목이 된다.</p>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>구분</th><th class="num">CPU:GPU 비율</th><th class="num">GW당 CPU 코어</th><th>출처</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>기존 AI 서버</td><td class="num">1:4~1:8</td><td class="num">약 3천만 개</td><td><a href="https://www.trendforce.com/insights/agentic-ai-cpu-gpu">TrendForce</a></td></tr>
+    <tr><td>에이전트 시대</td><td class="num up">1:1~1:2</td><td class="num up">약 1.2억 개</td><td><a href="https://www.trendforce.com/insights/agentic-ai-cpu-gpu">TrendForce</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>GPU 수요가 줄어드는 것은 아니다. 젠슨 황은 에이전트가 사람이 직접 쓸 때보다 15~100배의 컴퓨트를 쓴다고 했고, BofA는 CPU와 GPU 수요를 공생 관계로 본다.</p>
+
+<p>AMD는 필요한 서버 CPU를 세 가지로 구분한다. 범용 서버, 에이전트 샌드박스용 고밀도(다코어) 서버, AI 가속기 헤드노드용 고클럭 CPU다. 이 중 샌드박스가 현재는 가장 작지만 2030년에는 최대 세그먼트가 될 것으로 본다.</p>
+
+<h2>점유율: AMD 상승, Intel 하락, Arm 사상 최고</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>항목</th><th class="num">수치</th><th>비고</th><th>출처</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AMD 서버 출하 점유율 (2Q26)</td><td class="num up">34.5%</td><td>1년 전 27.3%</td><td><a href="https://www.theregister.com/systems/2026/08/21/amd-grabs-more-cpu-share-while-pricier-pcs-punish-desktop-demand/5291053">The Register</a></td></tr>
+    <tr><td>AMD 데이터센터급 점유율 (2Q26)</td><td class="num up">46.4%</td><td>EPYC vs Xeon SP 기준</td><td><a href="https://www.theregister.com/systems/2026/08/21/amd-grabs-more-cpu-share-while-pricier-pcs-punish-desktop-demand/5291053">The Register</a></td></tr>
+    <tr><td>AMD x86 서버 매출 점유율 (1Q26)</td><td class="num up">46.2%</td><td>Intel 약 53.8%</td><td><a href="https://www.tomshardware.com/pc-components/cpus/amd-reaches-46-percent-of-server-x86-cpu-revenue-intel-still-controls-70-percent-of-the-consumer-pc-market-share">Tom's Hardware</a></td></tr>
+    <tr><td>Arm 서버 점유율 (2Q26)</td><td class="num up">13.6%</td><td>사상 최고</td><td><a href="https://www.theregister.com/systems/2026/08/21/amd-grabs-more-cpu-share-while-pricier-pcs-punish-desktop-demand/5291053">The Register</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>수치는 Mercury Research 집계다. Arm은 자체 발표에서 상위 하이퍼스케일러 CPU 컴퓨트의 약 50%를 차지한다고 주장하는데, Mercury 수치와 기준이 달라 직접 비교는 어렵다.</p>
+
+<h2>회사별 발표와 포지션</h2>
+
+<h3>AMD</h3>
+<ul>
+  <li>2분기 매출 $115억(+50%), 데이터센터 $67억. 서버 CPU 매출은 5분기 연속 최고치.</li>
+  <li>서버 매출 가이던스: 2026년 하반기 +80% 이상, 2027년 +70% 이상 <span class="tag">가이던스</span></li>
+  <li>2030년 서버 CPU 시장 전망을 $1,200억에서 약 $2,200억으로 상향.</li>
+  <li>차세대 EPYC Venice(TSMC 2nm) 양산 중. 점유율 상승과 시장 확대를 동시에 누리는 위치다.</li>
+</ul>
+<p>출처: <a href="https://www.roic.ai/quote/AMD.TO/transcripts/2026-year/2-quarter">AMD 2분기 트랜스크립트</a>, <a href="https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-inc-amd-050250626.html">Yahoo Finance</a></p>
+
+<h3>Intel</h3>
+<ul>
+  <li>2분기 매출 $161억, 데이터센터 부문 $63억(+59%).</li>
+  <li>립부 탄 CEO가 9월에 고객 CPU 수요의 절반 정도만 공급할 수 있다고 발언. CPU 약 10% 가격 인상 보도.</li>
+  <li>수요는 충분하지만 기판과 메모리가 병목이다. 점유율은 계속 잃고 있다.</li>
+</ul>
+<p>출처: <a href="https://finance.biggo.com/news/US_INTC_2026-07-23">BigGo Finance</a>, <a href="https://hyperframeresearch.com/2026/09/29/can-intel-build-fast-enough-to-catch-the-agentic-cpu-wave/">HyperFrame Research</a></p>
+
+<h3>NVIDIA</h3>
+<ul>
+  <li>회계 2분기 매출 $960억, 데이터센터 $890억.</li>
+  <li>자체 Arm 기반 CPU인 Vera를 단독 제품으로 출하 시작(OCI, AWS 등). CPU 매출이 다음 회계연도에 2배 이상 늘 것이라고 언급.</li>
+  <li>CPU는 추가 성장 요인이지만 전체 매출 대비 비중은 작다.</li>
+</ul>
+<p>출처: <a href="https://stockanalysis.com/stocks/nvda/transcripts/676136-q2-2027/">NVIDIA 2분기 트랜스크립트</a></p>
+
+<h3>Arm</h3>
+<ul>
+  <li>자체 칩 AGI CPU 수요 $20억 이상, 데이터센터 로열티 2배 이상 증가.</li>
+  <li>최근 분기 EPS는 컨센서스에 못 미쳤고 PER은 326배다.</li>
+  <li>성장성은 크지만 밸류에이션 부담이 크고, 4분기 퀄컴 소송이 변수다.</li>
+</ul>
+<p>출처: <a href="https://www.datacenterdynamics.com/en/news/arm-posts-recording-breaking-revenue-for-full-year-and-q4-26-with-its-share-of-hyperscaler-cpu-compute-hitting-50/">DCD</a>, <a href="https://247wallst.com/investing/2026/09/23/arm-vs-amd-who-is-going-to-win-the-agentic-ai-cpu-revival-war/">24/7 Wall St.</a></p>
+
+<h3>Google Axion</h3>
+<ul>
+  <li>구글 클라우드 전용 Arm CPU. x86 인스턴스 대비 가성비가 최대 65% 높다고 주장.</li>
+  <li>칩을 외부에 팔지 않는다. 구글의 원가 절감 수단이고, x86 업체에는 잠식 요인이다.</li>
+</ul>
+<p>출처: <a href="https://www.nextplatform.com/cloud/2026/07/23/partner-content/5272323">The Next Platform</a></p>
+
+<h2>월가 관점</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>기관</th><th>날짜</th><th>2030년 시장 전망</th><th>목표가·의견</th><th>출처</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BofA</td><td>9/25</td><td>$2,106억 (2026년 $614억)</td><td>AMD $720, Intel $145, NVIDIA $350 (모두 매수)</td><td><a href="https://www.benzinga.com/markets/tech/26/09/61998240/amd-price-target-720-bofa-agentic-ai-cpu-market">Benzinga</a></td></tr>
+    <tr><td>Bernstein</td><td>6/17</td><td>$2,230억</td><td>AMD $600·Arm $500 Outperform, Intel $100 중립</td><td><a href="https://blockonomi.com/bernstein-boosts-price-targets-for-arm-arm-amd-amd-and-intel-intc-on-agentic-ai-revolution/">Blockonomi</a></td></tr>
+    <tr><td>UBS</td><td>6/24</td><td>—</td><td>AMD $670, Arm $470 (매수)</td><td><a href="https://www.tipranks.com/news/ubs-raises-amd-and-arm-stock-price-targets-amid-agentic-ai-driven-cpu-demand">TipRanks</a></td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>UBS는 Intel의 신제품 Clearwater Forest가 AMD Venice 하위 모델 수준이라 AMD의 점유율 상승이 이어진다고 본다. BofA는 2030년 AI용 CPU 출하가 가속기 출하의 약 1.5배(현재 0.7배)가 될 것으로 가정한다.</p>
+
+<p>신중론도 있다. Seeking Alpha의 한 기고는 AMD를 Hold로 낮췄다. 선행 PER 42배가 부담이고 하이퍼스케일러 자체 칩과 Arm의 경쟁이 거세진다는 이유다. TD Cowen은 Arm 칩 사업에 대한 기대가 과대평가됐을 수 있다고 지적했다.</p>
+
+<div class="callout warn">
+  <strong>리스크</strong>
+  <ul>
+    <li><strong>주가 선반영</strong> — 연초 대비 Intel +236%, AMD +191%, Arm +205%. 9월 하순 종가는 AMD 약 $629, Intel 약 $127.</li>
+    <li><strong>공급 병목</strong> — 기판과 메모리가 부족해 수요가 있어도 매출로 바로 이어지지 않는다.</li>
+    <li><strong>자체 칩 잠식</strong> — 하이퍼스케일러의 Arm 자체 칩(Graviton, Axion, Cobalt)이 x86 몫을 줄인다.</li>
+    <li><strong>과잉 주문 가능성</strong> — Intel의 "절반만 공급" 발언은 제품과 기간 기준이 불명확하다. 수요가 꺾이면 재고가 쌓일 수 있다.</li>
+  </ul>
+</div>
+
+<h2>정리</h2>
+
+<p><strong>단기 관전 포인트</strong> — 10월 말~11월 초 Intel·AMD 3분기 실적에서 서버 CPU 매출 성장률과 공급 병목 해소 여부. AMD Venice와 Helios 랙의 출하 시작 시점.</p>
+
+<p><strong>중기 관전 포인트</strong> — CPU:GPU 비율이 실제 데이터센터 구축에서 1:1 쪽으로 움직이는지, Arm 점유율이 13.6%에서 얼마나 빨리 오르는지, NVIDIA Vera와 Arm AGI CPU가 x86 몫을 얼마나 가져가는지.</p>
+
+<p>실적 수치는 대부분 트랜스크립트 요약 기사로 확인한 것이라, 원문과 차이가 있을 수 있다.</p>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
