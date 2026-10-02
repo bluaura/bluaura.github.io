@@ -26,6 +26,13 @@
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.10.02)</title>
+      <link>https://bluaura.github.io/posts/2026-10-02-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-kr-market.html</guid>
+      <description>KOSPI 7,003.74(+0.46%) · KOSDAQ 893.29(-0.11%). 기관 막판 매수로 5거래일 만에 7,000 회복, 유가 급등에 정유주 10%대 급등</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>AI 에이전트 투자 리서치 — 구현 구조·컴퓨팅 수요·수혜주·피해주·월가 뷰 (2026.10)</title>
       <link>https://bluaura.github.io/posts/2026-10-02-ai-agent-investment-research.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-ai-agent-investment-research.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-21-kr-market.html</guid>
       <description>KOSPI 7,007.72(+1.65%) · KOSDAQ 836.27(+1.11%). 반도체 수출 +259%에 삼성전자 5% 급등, 코스피 7거래일 만에 7000선 탈환</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.09.19)</title>
-      <link>https://bluaura.github.io/posts/2026-09-19-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-19-us-market.html</guid>
-      <description>S&amp;P 500 7,650.50(+0.17%) · NASDAQ 26,522.55(+0.39%) · Dow 51,682.64(-0.18%). Fed의 3년 만의 첫 금리 인상 이후 10년물 5% 진정과 유가 하락에 반도체가 반등하며 지수를 떠받쳤다.</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
