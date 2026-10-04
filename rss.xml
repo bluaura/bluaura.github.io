@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.05)</title>
+      <link>https://bluaura.github.io/posts/2026-10-05-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-05-macro.html</guid>
+      <description>오늘 밤 美 9월 ISM 서비스업 PMI(컨센서스 55.1~55.7) 발표. 9월 고용 +2.9만명 쇼크로 10월 FOMC 동결 확률 83.7%, 관심은 12월 인상과 10/14 CPI로 이동. 한국 9월 CPI 2.9%로 2%대 복귀</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.03)</title>
       <link>https://bluaura.github.io/posts/2026-10-03-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-03-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-22-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-22-us-market.html</guid>
       <description>S&amp;P 500 7,764.80(+1.49%) · NASDAQ 27,122.09(+2.26%). 유가·금리 하락에 AI 랠리 재점화, NASDAQ 사상 최고 마감·AMD 시총 1조달러 터치</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.09.22)</title>
-      <link>https://bluaura.github.io/posts/2026-09-22-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-22-macro.html</guid>
-      <description>9월 1~20일 수출 714억 달러(+78.3%) 동기간 역대 최대, 반도체 +259.4%로 200%대 유지·일평균 46.1억 달러로 가속. 코스피 7,000 재탈환·나스닥 사상 최고, 그러나 굴스비 매파 발언과 외국인 순매도 전환. 9/24 미중 정상회담이 추석 휴장 중 변수.</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
