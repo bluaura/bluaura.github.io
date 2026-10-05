@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.06)</title>
+      <link>https://bluaura.github.io/posts/2026-10-06-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-06-us-market.html</guid>
+      <description>S&amp;P 500 7,773.99(+0.66%) · NASDAQ 27,477.31(+1.05%, 사상 최고). 10년물 5.3% 돌파에도 NVIDIA 신고가·AI 하드웨어 반등, Schneider의 PTC 인수</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.10.06)</title>
       <link>https://bluaura.github.io/posts/2026-10-06-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-06-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-23-sector-meta-muse-cpu.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-23-sector-meta-muse-cpu.html</guid>
       <description>Muse 12일 280만 설치, AMD 시총 1조 달러(+9.95%)·Arm·Intel +12~17%. 사용자별 클라우드 VM 구조가 CPU:GPU 비율을 1:8에서 1:1로 바꾼다. 메모리·스토리지까지 수혜 확산.</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.23)</title>
-      <link>https://bluaura.github.io/posts/2026-09-23-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-23-kr-market.html</guid>
-      <description>KOSPI 7,080.92(+0.90%) · KOSDAQ 844.48(+1.21%). 반도체 홀로 끌어올린 4연속 상승, 연휴 앞두고 개인·외국인 2조 순매도</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
