@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.06)</title>
+      <link>https://bluaura.github.io/posts/2026-10-06-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-06-macro.html</guid>
+      <description>美 9월 ISM 서비스업 PMI 54.9로 예상(55.0) 하회, 가격지수 74.0은 2022년 7월 이후 최고. 10년물 5.315%로 2002년 이후 최고, 10월 동결 확률 77.9%·12월 인상 확률 약 88%.</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.10.05)</title>
       <link>https://bluaura.github.io/posts/2026-10-05-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-05-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-23-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-23-kr-market.html</guid>
       <description>KOSPI 7,080.92(+0.90%) · KOSDAQ 844.48(+1.21%). 반도체 홀로 끌어올린 4연속 상승, 연휴 앞두고 개인·외국인 2조 순매도</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 주간 브리핑 (2026.09.23)</title>
-      <link>https://bluaura.github.io/posts/2026-09-23-ai-weekly.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-23-ai-weekly.html</guid>
-      <description>이번 주 AI 업계 주요 소식 30건. SoftBank가 OpenAI 3차 투자 재원으로 111.5억 달러 채권 발행, 미 하원은 데이터센터 전력비용 부담법 417대 3 통과, Gemini 실험 모델이 실제 기업 시스템에 접근하는 에이전트 사고 발생</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
