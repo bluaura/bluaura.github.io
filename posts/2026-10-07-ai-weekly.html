@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.10.07) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. Gemini 4 Argon·GPT-6.1 Sol·Claude Sonnet 5.5 프런티어 3파전, OpenAI Dots 에이전트 공개, DeepSeek 최대 15조원대 펀딩">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.10.07)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. Gemini 4 Argon·GPT-6.1 Sol·Claude Sonnet 5.5 프런티어 3파전, OpenAI Dots 에이전트 공개, DeepSeek 최대 15조원대 펀딩">
+<meta property="article:published_time" content="2026-10-07">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.10.07)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-10-07</p>
+  </div>
+
+  <article class="article-body">
+<p><strong>수집 기간: 2026-09-30 ~ 2026-10-07</strong> (주간 경계일인 9/29 발표 중 파급력이 큰 3건 포함) · 총 30건 · 6개 카테고리</p>
+
+<div class="stats">
+<div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+<div class="stat"><div class="label">신규 모델</div><div class="value">10개+</div></div>
+<div class="stat"><div class="label">최대 펀딩</div><div class="value">DeepSeek $12~15B</div></div>
+<div class="stat"><div class="label">주목 이슈</div><div class="value">프런티어 3파전</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+<div class="callout">
+<p><strong>1. 프런티어 모델 동시다발 출시</strong> — Google이 Gemini 4 Argon(입력 $2 / 출력 $10 per 1M tokens, 1M 출력 토큰)을 공개했고, OpenAI는 Astra 대비 1/5 가격의 GPT-6.1 Sol, Anthropic은 가격 동결에 속도 30% 개선한 Claude Sonnet 5.5를 내놨다. 코딩 벤치마크 성능 대비 단가 경쟁이 본격화됐다.</p>
+<p><strong>2. "상시 구동 에이전트" 플랫폼 경쟁</strong> — OpenAI DevDay에서 클라우드 컴퓨터와 4,000개+ 플러그인을 갖춘 Dots가 공개됐고, Anthropic은 Claude Code를 TypeScript로 개조하는 Mods를 출시했다. 에이전트 하네스와 툴 생태계가 플랫폼 락인의 핵심 축이 되고 있다.</p>
+<p><strong>3. AI 학습 데이터 저작권, 항소심 첫 판단</strong> — 미 제3연방항소법원이 Thomson Reuters v. ROSS 사건에서 경쟁 목적의 AI 학습은 fair use가 아니라는 1심을 만장일치로 유지했다.</p>
+</div>
+
+<h2>모델 출시·업데이트</h2>
+
+<h3>Google, 프런티어 모델 Gemini 4 Argon 공개</h3>
+<p>최대 100만 출력 토큰을 지원하는 코딩·엔터프라이즈용 모델로 DeepSWE v1.1에서 77.9%를 기록했다. 가격은 입력 $2 / 출력 $10(1M tokens)이며, 우선 사이버 방어 파트너(Fairwind 프로그램)에 먼저 제공되고 GA 일정은 미정이다. 같은 주 Gemini 앱은 5시간 단위 compute 기반 사용량 제한으로 전환했다.<br>
+<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Google Blog</a> · 2026-09-30</p>
+
+<h3>OpenAI, GPT-6.1 Sol 출시 — Astra급 코딩 성능을 1/5 가격에</h3>
+<p>DeepSWE v1.1 코딩 벤치마크에서 상위 모델 Astra와 동급 성능을 내면서 가격은 5분의 1 수준으로 책정됐다. Astra Standard보다 최대 8배 빠른 Ultrafast 옵션도 함께 공개됐다.<br>
+<a href="https://openai.com/index/introducing-gpt-6-1-sol/">OpenAI</a> · 2026-09-29</p>
+
+<h3>Anthropic, Claude Sonnet 5.5 출시 — 가격 동결, 속도 30%+ 향상</h3>
+<p>Sonnet 5 대비 출력 속도가 30% 이상 빨라지고 작업 완료 비용은 최대 30% 줄었으며, API 토큰 단가는 기존과 동일하다. Terminal-Bench 4.0에서 70.6%를 기록했고 모델 ID는 <code>claude-sonnet-5-5</code>다.<br>
+<a href="https://tech.ifeng.com/c/8wp16Vi4lWz">ifeng Tech</a> · 2026-09-29</p>
+
+<h3>Reflection AI, 501B 오픈소스 모델 Beam 공개</h3>
+<p>총 501B 파라미터 중 23B만 활성화되는 sparse(MoE) 구조로 코딩·추론에 초점을 맞췄다. $25B 밸류에이션 펀딩 직후 나온 미국산 대형 오픈 웨이트 모델이라는 점에서 중국 오픈 모델 독주에 대한 대안으로 주목된다.<br>
+<a href="https://reflection.ai/blog/introducing-beam">Reflection AI</a> · 2026-10-05</p>
+
+<h3>Microsoft, MAI-Transcribe-2-Streaming·MAI-Voice-2.1 출시</h3>
+<p>자체 개발 스트리밍 STT 모델은 60개 언어 연속 감지를 지원하며 오디오 1시간당 $0.54(연말까지 프로모션)로 Artificial Analysis 순위 1위에 올랐다. TTS 모델 MAI-Voice-2.1/Flash는 23개 언어, 감정 제어, zero-shot 음성 프롬프트를 지원하며 1M 문자당 $22/$15다.<br>
+<a href="https://microsoft.ai/news/our-first-streaming-transcription-model/">Microsoft AI</a> · 2026-10-01</p>
+
+<h3>Cloudflare Clef·Amazon Strands Decider — "디시전 모델" 오픈소스 잇따라</h3>
+<p>텍스트를 생성하지 않고 정해진 선택지에 확률을 매기는 decision model이 새 카테고리로 부상했다. Cloudflare Clef(27B/9B, Qwen 기반, Apache 2.0)는 Workers AI에서 제공되고, Strands Decider 2B는 로컬 CPU/GPU에서 중앙값 115ms로 동작한다. 앱 내 라우팅·분류에 LLM 대신 쓸 수 있는 저비용 옵션이다.<br>
+<a href="https://blog.cloudflare.com/clef-decision-models/">Cloudflare Blog</a> · <a href="https://strandsagents.com/blog/introducing-strands-decider/">Strands</a> · 2026-10-01</p>
+
+<h2>정책·규제</h2>
+
+<h3>미 제3순회항소법원, "경쟁 목적 AI 학습은 fair use 아냐"</h3>
+<p>Thomson Reuters v. ROSS Intelligence 항소심에서 Westlaw 헤드노트를 학습에 쓴 행위가 같은 시장에서 경쟁하는 용도이므로 변형성이 낮다며 1심 판결을 만장일치로 확정했다. 생성형 AI 학습 저작권 소송 전반에 인용될 첫 항소심 판단이다.<br>
+<a href="https://courthousenews.com/ai-training-of-copyrighted-material-not-fair-use-third-circuit">Courthouse News</a> · 2026-09-30</p>
+
+<h3>트럼프, AI를 "Super Intelligence"로 개칭하고 전담 조직 신설</h3>
+<p>연방기관에 AI 대신 "Super Intelligence" 용어를 쓰도록 하는 행정명령에 이어, Jay Clayton 국가정보장(DNI)이 이끄는 Super Intelligence Force를 발족하고 120일 내 평가 보고를 지시했다.<br>
+<a href="https://www.theneurondaily.com/p/trump-named-an-ai-czar">The Neuron</a> · 2026-10-04</p>
+
+<h3>캘리포니아, 2026년 AI 법안 약 30건 서명 마무리</h3>
+<p>Newsom 주지사가 마지막 서명 기간에 12건을 추가 서명했다. 고객 응대 챗봇 고지 의무(AB 1609), 장난감 내 컴패니언 챗봇 5년 금지(SB 867), 전국 첫 AI 감사인 등록제(AB 1405) 등이 포함됐다. 2026년 27개 주에서 85건의 AI 법이 제정됐다.<br>
+<a href="https://www.transparencycoalition.ai/news/ai-legislative-update-october2-2026">Transparency Coalition</a> · 2026-10-02</p>
+
+<h3>EU Digital Omnibus, 10월 7일 회원국 합의 시도</h3>
+<p>의장국 아일랜드가 EU AI Act 고위험 의무 연기 등을 담은 Digital Omnibus에 대해 새 타협안을 제시하고 10월 7일 회원국 간 합의를 목표로 하고 있다. 고위험 AI 의무 시점이 2027년 12월로 밀릴지가 관건이다.<br>
+<a href="https://agenceurope.eu/en/bulletin/article/13952/8/ireland-puts-forward-new-compromise-proposals-on-digital-omnibus-in-bid-to-secure-agreement-between-member-states-on-7-october">Agence Europe</a> · 2026-10-06</p>
+
+<h3>OpenAI, EU 내 ChatGPT·Codex 출력에 텍스트 워터마크 적용</h3>
+<p>EU AI Act 투명성 의무에 대응해 textGrain 워터마크를 EU 사용자 대상 ChatGPT와 Codex 출력에 적용하기 시작했다. AI 생성물 표시 의무가 실제 제품 단에 반영된 사례다.<br>
+<a href="https://openai.com/index/eu-text-provenance/">OpenAI</a> · 2026-10-05</p>
+
+<div class="callout warn">
+<p><strong>리스크·논란</strong> — OpenAI가 외부 안전 기관에 기밀을 공유한 혐의로 안전팀 연구원 3명을 해고했고(<a href="https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528">WSJ</a>, 10/1), 전 안전 보고서 책임자는 조직 문화를 비판하며 사임했다(<a href="https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/">The Atlantic</a>, 10/3). 같은 주 Anthropic은 Zhipu AI의 오픈 웨이트 GLM-5.3이 엔드투엔드 사이버 익스플로잇 구축 능력을 갖췄다고 경고했다(<a href="https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities">Anthropic</a>, 9/29). 미 DOJ는 $300M+ 규모 NVIDIA GPU 밀수 조직을 기소했다(<a href="https://www.pcmag.com/news/calif-ceo-charged-in-new-nvidia-gpu-smuggling-case-involving-rtx-4090-5090">PCMag</a>).</p>
+</div>
+
+<h2>산업 동향·기업</h2>
+
+<h3>OpenAI DevDay 2026 — 상시 구동 에이전트 Dots 공개</h3>
+<p>Dots는 전용 클라우드 컴퓨터를 갖고 24시간 돌아가는 에이전트로, 4,000개 이상의 앱 플러그인과 연결해 여러 프로젝트를 동시에 관리한다. 재사용 가능한 원격 환경에서 코딩 작업을 돌리는 Codex Cloud도 함께 발표됐다.<br>
+<a href="https://openai.com/index/introducing-dots/">OpenAI</a> · 2026-09-29~30</p>
+
+<h3>Anthropic, Claude Code Mods 출시</h3>
+<p>TypeScript 함수로 Claude Code의 프롬프트, 도구, 인터페이스, 컨텍스트 동작을 직접 바꿀 수 있는 기능이다. 플러그인으로 패키징해 팀에 배포할 수 있고 엔터프라이즈 보안 통제를 지원한다. Anthropic은 같은 주 1만 명의 Frontier Deployed Engineer를 양성하는 $100M 규모 Claude Frontier Academy도 발표했다.<br>
+<a href="https://claude.com/blog/claude-code-mods">Claude Blog</a> · 2026-10-01</p>
+
+<h3>OpenAI, "Sign in with ChatGPT" 전 세계 정식 출시</h3>
+<p>외부 앱이 ChatGPT 계정을 ID 제공자(IdP)로 쓸 수 있게 됐다. 앱 개발자 입장에서는 Google/Apple 로그인과 나란히 놓을 새 소셜 로그인 옵션이자, 사용자 ChatGPT 컨텍스트와 연동할 입구다.<br>
+<a href="https://help.openai.com/en/articles/20001410-sign-in-with-chatgpt">OpenAI Help</a> · 2026-10-01</p>
+
+<h3>NVIDIA DGX Spark 64GB, 10월 23일 $4,999 출시</h3>
+<p>최대 100B 파라미터 모델을 로컬에서 구동하는 데스크톱 AI 머신으로, 두 대를 묶으면 128GB 메모리 풀을 구성한다. 로컬·온디바이스 추론 수요를 겨냥한 제품이다.<br>
+<a href="https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/">NVIDIA Blog</a> · 2026-10-02</p>
+
+<h3>Apple, macOS Full Disk Access 권한 강화</h3>
+<p>자율 에이전트의 데이터 노출 위험을 이유로, 프라이버시 게이트를 우회하던 Full Disk Access 권한을 제한한다고 개발자들에게 공지했다. macOS용 에이전트·백업 앱은 권한 흐름 점검이 필요하다.<br>
+<a href="https://developer.apple.com/news?id=p6zjojqw">Apple Developer</a> · 2026-10-02</p>
+
+<h2>투자·M&amp;A</h2>
+
+<div class="table-wrap"><table>
+<thead><tr><th>기업</th><th>내용</th><th>규모</th><th>출처</th></tr></thead>
+<tbody>
+<tr><td>DeepSeek</td><td>CATL·Tencent 주도 라운드, 2027년 STAR Market IPO 준비(CITIC 주관)</td><td>$12B~15B, 기업가치 약 $74B</td><td><a href="https://americanbazaaronline.com/2026/10/06/deepseek-targets-12-billion-funding-round-as-it-builds-for-potential-2027-ipo">American Bazaar</a> · 10/06</td></tr>
+<tr><td>Etched</td><td>추론 전용 칩 스타트업, 8월 $21B에서 두 달 만에 몸값 2배 이상 제안 받아</td><td>밸류 $40B~50B 협상</td><td><a href="https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say">TechCrunch</a> · 10/05</td></tr>
+<tr><td>Broadcom ↔ Anthropic</td><td>Anthropic용 TPU 칩 리스($125.2B, 5년) 자금 조달을 위한 은행 신디케이트 구성, Blackstone이 후순위 트랜치 주도</td><td>$60B</td><td><a href="https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic">Bloomberg</a> · 10/02</td></tr>
+<tr><td>Supabase → Turso</td><td>에이전트용 온디맨드 SQLite 계열 DB 확보를 위한 인수</td><td>비공개</td><td><a href="https://supabase.com/blog/supabase-is-acquiring-turso">Supabase</a> · 10/02</td></tr>
+</tbody>
+</table></div>
+
+<h3>DeepSeek, 최대 $15B 조달 추진하며 2027년 IPO 준비</h3>
+<p>V4 Flash 흥행으로 투자 수요가 몰리며 라운드 규모가 $12B 이상, 최대 $15B까지 거론된다. CATL과 Tencent가 최대 규모로 참여했고, 중국 STAR Market 상장을 위해 CITIC Securities를 선정했다.<br>
+<a href="https://americanbazaaronline.com/2026/10/06/deepseek-targets-12-billion-funding-round-as-it-builds-for-potential-2027-ipo">American Bazaar</a> · 2026-10-06</p>
+
+<h3>Etched, $40B~50B 밸류에이션 투자 제안 검토</h3>
+<p>Jane Street 등에서 $1B 규모 주문을 확보했고 TSMC에서 테스트 칩 생산을 마쳤다. 7월 $10.3B → 9월 $21B → 10월 $40B+로 밸류가 급등하며 NVIDIA 대체 추론 칩에 대한 기대를 보여준다.<br>
+<a href="https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say">TechCrunch</a> · 2026-10-05</p>
+
+<h3>Broadcom, Anthropic 칩 공급 위해 $60B 금융 조달</h3>
+<p>$42B 선순위와 $18B 후순위(Blackstone 주도)로 구성되며, Anthropic의 5년 $125.2B 규모 TPU 리스 계약을 뒷받침한다. AI 인프라 투자가 프로젝트 파이낸싱 구조로 진화하고 있음을 보여준다.<br>
+<a href="https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic">Bloomberg</a> · 2026-10-02</p>
+
+<h3>Supabase, Turso 인수</h3>
+<p>에이전트가 필요할 때마다 경량 SQLite급 DB를 즉시 띄우는 수요에 대응하기 위한 인수로, Turso 창업자가 Supabase의 에이전트 인프라를 이끈다.<br>
+<a href="https://supabase.com/blog/supabase-is-acquiring-turso">Supabase Blog</a> · 2026-10-02</p>
+
+<h2>연구·기술</h2>
+
+<h3>Ataraxos, Stratego 세계 챔피언에 15승 1패 4무 (Nature)</h3>
+<p>self-play와 불완전 정보 탐색을 결합한 AI가 가장 많은 우승 경력을 가진 Stratego 선수를 20경기에서 압도했다. 코드와 가중치는 GitHub에 공개됐다.<br>
+<a href="https://www.nature.com/articles/s41586-026-11036-y">Nature</a> · 2026-10-02 보도</p>
+
+<h3>DeepSeek V4.1-Flash 아키텍처 논문</h3>
+<p>global/local attention을 분리하고 짧은 윈도 상태는 필요할 때 재구성하는 방식으로 상주 KV-cache 메모리를 크게 압축했다. 긴 컨텍스트 추론 비용 절감과 직결되는 기법이다.<br>
+<a href="https://arxiv.org/abs/2609.19969">arXiv</a> · 2026-10-02 보도</p>
+
+<h3>Apple LoopCD — 학습 없이 looped transformer 성능 개선</h3>
+<p>looped transformer용 training-free 디코더로, Ouro-2.6B-Thinking의 AIME 2024 점수를 61.88%에서 73.33%로 끌어올렸다. 소형 모델 추론 강화 측면에서 온디바이스 AI에 시사점이 있다.<br>
+<a href="https://arxiv.org/abs/2610.02185">arXiv</a> · 2026-10-02 보도</p>
+
+<h3>Multi-Harness RL — 여러 코딩 에이전트 하네스에서 동시 강화학습</h3>
+<p>동일 모델을 Claude Code, Codex, OpenCode, mini-swe-agent 등 여러 하네스에서 RL로 학습시켜 평균 성공률을 42%에서 54%로 높였다. 특정 툴에 과적합되지 않는 에이전트 학습 방향을 제시한다.<br>
+<a href="https://huggingface.co/spaces/FineEnvs/multi-harness-rl">Hugging Face</a> · 2026-10-02 보도</p>
+
+<h3>Mercor, 프런티어 모델이 주니어 회계사 기준선 추월</h3>
+<p>공인회계사(CPA)를 대상으로 월말 결산 업무 기준선을 측정한 결과, 프런티어 모델은 구조화된 파일·계산 작업에서 거의 100%에 근접해 주니어 인력 수준을 넘어섰다.<br>
+<a href="https://www.mercor.com/blog/human-baselines-for-benchmarks-ai-now-outperforms-junior-accountants/">Mercor</a> · 2026-10-02 보도</p>
+
+<h2>한국 AI 소식</h2>
+
+<h3>배경훈 부총리, 국감서 "AI 3대 강국" 의지…연말 '모두의 AI' 출시</h3>
+<p>과방위 국정감사에서 AI 데이터센터·피지컬 AI·반도체 3대 프로젝트와 7대 차세대 기술(SEED) 육성 계획을 밝혔다. 비용·이용량 제한 없는 국민 AI 서비스 '모두의 AI'를 연말 출시하고, 연내 딥테크 창업팀 500개 이상을 발굴하겠다고 했다.<br>
+<a href="https://seoul.co.kr/news/economy/2026/10/06/20261006500099">서울신문</a> · 2026-10-06</p>
+
+<h3>국감, 4.7조 프론티어 AI 사업·블랙록 20조 투자의향서 '송곳 검증'</h3>
+<p>독자 AI 파운데이션 모델(독파모) 사업과 새로 추진되는 4조 7000억 원 규모 프론티어 AI 사업의 역할 중복이 지적됐다. 블랙록과의 20조 원 투자의향서는 법적 구속력이 없다는 점, 의료 AI의 고영향 AI 판단 기준 불명확도 쟁점이 됐다.<br>
+<a href="https://www.ddaily.co.kr/page/view/2026100613303292809">디지털데일리</a> · 2026-10-06</p>
+
+<h3>KT '모두의 AI' 국산 AI 연합, 10월 클로즈드 베타 → 12월 정식 출시</h3>
+<p>KT가 네이버·다음, 업스테이지, 모티프, NC AI, 솔트룩스, 리벨리온과 컨소시엄을 꾸렸다. 검색·쇼핑·금융·부동산 등 기존 서비스 안에서 예약·신청까지 수행하는 구조로, 업스테이지 Solar가 대화를, 리벨리온 국산 NPU가 인프라를 맡는다.<br>
+<a href="https://www.newspim.com/news/view/20261006001362">뉴스핌</a> · 2026-10-06</p>
+
+<h3>과기정통부 'AI 페스타 26' 코엑스서 개막</h3>
+<p>"AI, 현실이 되다. 모두의 AI"를 주제로 10월 6~8일 열리며 Google DeepMind, OpenAI 전문가가 참여하고 LG AI연구원·SK텔레콤 등이 독자 AI 기술을 전시한다.<br>
+<a href="https://zdnet.co.kr/view/?no=20261005111000">ZDNet Korea</a> · 2026-10-05</p>
+
+<h3>AMD 리사 수 방한, 국내 NPU 기업과 간담회</h3>
+<p>8일 서울에서 국내 NPU 업체들과 간담회를 가질 예정으로, 7개월 만의 방한이다. 국산 AI 반도체 기업과의 협력 확대 여부가 관심사다.<br>
+<a href="https://zdnet.co.kr/view/?no=20261005111000">ZDNet Korea</a> · 2026-10-05</p>
+
+<h2>트렌드 종합</h2>
+<blockquote>
+<p>이번 주는 Google·OpenAI·Anthropic이 일주일 사이에 나란히 신모델을 내놓으며 "같은 코딩 성능을 얼마나 싸고 빠르게 주느냐"로 경쟁 축이 이동했음을 보여줬다. 동시에 경쟁의 중심은 모델 자체에서 Dots, Claude Code Mods, Codex Cloud 같은 상시 구동 에이전트와 그 하네스·플러그인 생태계로 옮겨가고 있다. 자본 측면에서는 DeepSeek($12~15B), Etched($40B+ 밸류), Broadcom의 Anthropic용 $60B 조달 등 인프라·칩에 천문학적 자금이 몰렸다. 규제는 미국 항소심의 fair use 부정 판결, EU Omnibus 협상, 캘리포니아 대량 입법으로 구체화되는 반면, OpenAI 안전팀 잡음과 오픈 모델의 사이버 능력 경고 등 안전 리스크도 함께 커졌다. 국내는 국감을 계기로 '모두의 AI'와 프론티어 AI 사업의 실효성 검증이 본격화됐다.</p>
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+<ul>
+<li><strong>모델 단가 재점검</strong>: GPT-6.1 Sol(Astra 대비 1/5 가격), Claude Sonnet 5.5(가격 동결·속도 30%+), Gemini 4 Argon($2/$10)으로 가격 대비 성능 구도가 바뀌었다. 앱에서 쓰는 모델의 비용·지연시간을 다시 벤치마크할 시점이다.</li>
+<li><strong>디시전 모델로 비용 절감</strong>: 분류·라우팅·의사결정에는 Cloudflare Clef, Strands Decider 2B(Apache 2.0) 같은 디시전 모델을 쓰면 LLM 호출을 줄일 수 있고, 로컬 구동도 가능하다.</li>
+<li><strong>코딩 에이전트 커스터마이징</strong>: Claude Code Mods(TypeScript)와 Codex Cloud/CLI 개편으로 팀 단위 에이전트 워크플로를 코드로 관리할 수 있게 됐다. 사내 규칙을 플러그인으로 패키징해 두는 것이 좋다.</li>
+<li><strong>인증·권한 변화</strong>: Sign in with ChatGPT가 정식 출시됐고, Apple은 macOS Full Disk Access를 제한한다. 로그인 옵션 추가 여부와 macOS 앱 권한 흐름을 점검해야 한다.</li>
+<li><strong>컴플라이언스</strong>: EU 대상 서비스는 AI 생성물 워터마크·표시(EU AI Act 투명성 의무) 대응을, 학습 데이터를 다루는 경우 제3순회항소법원 fair use 판결을 참고해 데이터 라이선스를 재확인해야 한다.</li>
+<li><strong>온디바이스</strong>: DGX Spark 64GB($4,999), Apple LoopCD 같은 소형 모델 추론 기법으로 로컬 추론 선택지가 넓어지고 있다.</li>
+</ul>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>

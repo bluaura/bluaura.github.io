@@ -7,6 +7,17 @@
   },
   "posts": [
     {
+      "slug": "2026-10-07-ai-weekly",
+      "title": "AI 주간 브리핑 (2026.10.07)",
+      "date": "2026-10-07",
+      "tags": [
+        "AI",
+        "주간브리핑",
+        "테크"
+      ],
+      "summary": "이번 주 AI 업계 주요 소식 30건. Gemini 4 Argon·GPT-6.1 Sol·Claude Sonnet 5.5 프런티어 3파전, OpenAI Dots 에이전트 공개, DeepSeek 최대 15조원대 펀딩"
+    },
+    {
       "slug": "2026-10-07-us-market",
       "title": "미국 증시 브리핑 (2026.10.07)",
       "date": "2026-10-07",
