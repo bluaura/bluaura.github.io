@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.09)</title>
+      <link>https://bluaura.github.io/posts/2026-10-09-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-us-market.html</guid>
+      <description>S&amp;P 500 7,765.36(-0.47%) · NASDAQ 27,193.34(-1.25%) · Dow 51,231.64(+0.10%). OpenAI 매출 0B 하회 보도에 반도체 급락(SOX -3.4%), Iran 리스크로 유가 +3.6%</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.08)</title>
       <link>https://bluaura.github.io/posts/2026-10-08-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-08-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-09-29-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-29-macro.html</guid>
       <description>연준 9월 인상(3.75~4.00%) 이후 첫 성적표가 이번 주 몰려 있다. 8월 Core PCE(9/30)·9월 ISM(10/1)·9월 NFP(10/2) 연속 발표. 10년물 5.18%, KOSPI 9/28 -2.70% 급락.</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.09.29)</title>
-      <link>https://bluaura.github.io/posts/2026-09-29-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-29-kr-market.html</guid>
-      <description>KOSPI 6,870.81(-0.27%) · KOSDAQ 849.80(+0.38%). 외국인 2.9조 순매도에도 삼전·닉스 자사주 매입이 하단 방어, 반도체 소부장으로 수급 순환</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
