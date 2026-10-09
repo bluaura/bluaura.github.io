@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.10)</title>
+      <link>https://bluaura.github.io/posts/2026-10-10-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-us-market.html</guid>
+      <description>S&amp;P 500 7,811.54(+0.59%) · NASDAQ 27,366.17(+0.64%) · Dow 51,654.95(+0.83%). OpenAI 매출 쇼크 후 AI주 반등, SpaceX 스펙트럼 인수에 통신주 급락, 다음 주 CPI·TSMC 실적 대기</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>일라이 릴리(LLY) 심층 분석 — 매출 +48%, 목표가는 오르는데 주가는 박스권</title>
       <link>https://bluaura.github.io/posts/2026-10-10-lly-deep-dive.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-lly-deep-dive.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-02-sector-server-cpu-agentic-ai.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-sector-server-cpu-agentic-ai.html</guid>
       <description>CPU:GPU 비율 1:4~1:8에서 1:1~1:2로 이동 전망, 2030년 서버 CPU 시장 약 $2,200억. AMD 서버 출하 점유율 34.5%로 가장 직접적 수혜, Intel은 공급 병목, Arm 13.6% 사상 최고.</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>마이크론(MU) FY2026 Q4 실적 리뷰 — 서프라이즈인데 주가는 왜 제자리인가</title>
-      <link>https://bluaura.github.io/posts/2026-10-02-mu-q4-2026.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-mu-q4-2026.html</guid>
-      <description>매출 $54.2B(컨센 +6.2%), FQ1 가이던스 $61.5B(+7.9%). RPO $150B로 +50%, 2028 수급 전망 상향. 그러나 서프라이즈 폭 1/3 축소·GM 가이던스 첫 하락·HBM 숫자 3개 비공개 전환.</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
