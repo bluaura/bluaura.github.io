@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>일라이 릴리(LLY) 심층 분석 — 매출 +48%, 목표가는 오르는데 주가는 박스권</title>
+      <link>https://bluaura.github.io/posts/2026-10-10-lly-deep-dive.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-lly-deep-dive.html</guid>
+      <description>현재가 $1,172, 컨센서스 목표가 $1,330(+13.5%). Q2 매출 $22.97B(+48%), 선행 PER 28.5배. 업사이드가 기준선 15%에 못 미쳐 Hold, 10/29 3분기 실적이 분기점.</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.09)</title>
       <link>https://bluaura.github.io/posts/2026-10-09-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-02-mu-q4-2026.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-mu-q4-2026.html</guid>
       <description>매출 $54.2B(컨센 +6.2%), FQ1 가이던스 $61.5B(+7.9%). RPO $150B로 +50%, 2028 수급 전망 상향. 그러나 서프라이즈 폭 1/3 축소·GM 가이던스 첫 하락·HBM 숫자 3개 비공개 전환.</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.10.02)</title>
-      <link>https://bluaura.github.io/posts/2026-10-02-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-macro.html</guid>
-      <description>오늘 밤 美 9월 고용(컨센서스 +9만·4.1%) 대기. 韓 9월 수출 1,209억달러(+83.5%)·반도체 603억달러 사상 최대, 美 ISM 제조업 54.5에 가격지수 77.9 급등. 10월 FOMC 인상 확률 약 37%</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
