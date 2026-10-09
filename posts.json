@@ -7,6 +7,19 @@
   },
   "posts": [
     {
+      "slug": "2026-10-09-openai-revenue-gap",
+      "title": "OpenAI 매출 $50B 보도 해부: $70B와의 $20B 격차는 어디서 왔나",
+      "date": "2026-10-09",
+      "tags": [
+        "미국증시",
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "이슈분석"
+      ],
+      "summary": "FT 보도로 NASDAQ -1.25%. 격차의 원인은 수요 부진이 아닌 gross·net 집계 기준 차이. Anthropic은 net 환산 시 $65B가 약 $60B, 양사 모두 런레이트와 실제 매출의 괴리가 더 큰 변수."
+    },
+    {
       "slug": "2026-10-09-us-market",
       "title": "미국 증시 브리핑 (2026.10.09)",
       "date": "2026-10-09",

@@ -12,6 +12,13 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>OpenAI 매출 $50B 보도 해부: $70B와의 $20B 격차는 어디서 왔나</title>
+      <link>https://bluaura.github.io/posts/2026-10-09-openai-revenue-gap.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-openai-revenue-gap.html</guid>
+      <description>FT 보도로 NASDAQ -1.25%. 격차의 원인은 수요 부진이 아닌 gross·net 집계 기준 차이. Anthropic은 net 환산 시 $65B가 약 $60B, 양사 모두 런레이트와 실제 매출의 괴리가 더 큰 변수.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.08)</title>
       <link>https://bluaura.github.io/posts/2026-10-08-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-08-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-29-us-market.html</guid>
       <description>S&amp;P 500 7,683.69(-0.77%) · NASDAQ 26,820.38(-0.92%). 10년물 5.25% 19년래 최고·OpenAI 학습 중단에 반도체 급락, NVIDIA는 $150B 자사주 매입으로 역행</description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.09.29)</title>
-      <link>https://bluaura.github.io/posts/2026-09-29-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-09-29-macro.html</guid>
-      <description>연준 9월 인상(3.75~4.00%) 이후 첫 성적표가 이번 주 몰려 있다. 8월 Core PCE(9/30)·9월 ISM(10/1)·9월 NFP(10/2) 연속 발표. 10년물 5.18%, KOSPI 9/28 -2.70% 급락.</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
