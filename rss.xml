@@ -33,6 +33,13 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>팔로알토 네트웍스(PANW) 심층 분석 — 사업은 강한데 주가가 목표가에 닿았다</title>
+      <link>https://bluaura.github.io/posts/2026-10-09-panw-deep-dive.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-panw-deep-dive.html</guid>
+      <description>주가 $398.50, 컨센서스 목표가 $396.92(-0.4%). 매출 +24.5%, FCF 마진 38%지만 선행 PER 95배. 최종 판단 Watch.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>OpenAI 매출 $50B 보도 해부: $70B와의 $20B 격차는 어디서 왔나</title>
       <link>https://bluaura.github.io/posts/2026-10-09-openai-revenue-gap.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-openai-revenue-gap.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-02-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-kr-market.html</guid>
       <description>KOSPI 7,003.74(+0.46%) · KOSDAQ 893.29(-0.11%). 기관 막판 매수로 5거래일 만에 7,000 회복, 유가 급등에 정유주 10%대 급등</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 에이전트 투자 리서치 — 구현 구조·컴퓨팅 수요·수혜주·피해주·월가 뷰 (2026.10)</title>
-      <link>https://bluaura.github.io/posts/2026-10-02-ai-agent-investment-research.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-02-ai-agent-investment-research.html</guid>
-      <description>Muse·dots 등 상시 가동 에이전트의 두뇌는 전부 클라우드. 토큰 소비 채팅의 4~15배, 5사 capex 약 $825B 전원 상향. 수혜는 GPU·HBM→서버 CPU·전력, 피해는 OTA·배달·좌석 SaaS·BPO.</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
