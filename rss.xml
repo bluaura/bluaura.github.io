@@ -47,6 +47,13 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>엔비디아 순환금융과 GPU 담보화 — 세 층으로 본 자금 구조</title>
+      <link>https://bluaura.github.io/posts/2026-10-09-nvda-circular-financing.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-nvda-circular-financing.html</guid>
+      <description>지분 투자, GPU 담보 대출(SOFR+2.25%, LTV 60~80%), 엔비디아 6년 매출 백스톱의 세 층. $5,000억 플랫폼으로 위험은 우발채무로 이동. CDS 82bp 사상 최고.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.08)</title>
       <link>https://bluaura.github.io/posts/2026-10-08-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-08-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-01-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-01-macro.html</guid>
       <description>美 8월 Core PCE 3.0%로 예상(3.3%) 크게 하회, 10월 FOMC 인상 확률 51.5%→30%대·골드만 12월로 연기. 그러나 GDP 2.2% 상향·유가 103달러에 10년물 5.289% 신고가. 오늘 韓 9월 수출 1,000억달러 돌파 여부·美 ISM 제조업 주목</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.10.01)</title>
-      <link>https://bluaura.github.io/posts/2026-10-01-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-01-kr-market.html</guid>
-      <description>KOSPI 6,971.35(+1.95%) · KOSDAQ 894.29(+4.48%). 마이크론 호실적·9월 반도체 수출 첫 600억달러에 반도체 급반등, 외국인은 5일째 매도</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
