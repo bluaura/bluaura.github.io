@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>일론 머스크가 그리는 2036년 &#x27;초풍요의 시대&#x27;와 AI의 미래 — 인사이트를 얻을 만한 The Economist 인터뷰</title>
+      <link>https://bluaura.github.io/posts/2026-10-11-musk-economist-2036.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-11-musk-economist-2036.html</guid>
+      <description>The Economist 1시간 25분 인터뷰. 약 5년 내 AI가 인류 총합 지능 초월, 2036년 화폐 무의미화, 준무한 경제, 경쟁사 간 출시 전 1~2주 상호 안전 검증, 미국은 전력·중국은 칩이 병목.</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>혁신 경제의 미래: AI, 노동, 공공 정책 — 시사점을 얻을 만한 스탠퍼드 대담</title>
       <link>https://bluaura.github.io/posts/2026-10-11-innovation-economy-stanford.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-11-innovation-economy-stanford.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-05-kr-market.html</guid>
       <description>[휴장·10/2 마감 기준] KOSPI 7,003.74(+0.46%) · KOSDAQ 893.29(-0.11%). 기관 매수로 7천선 회복, 정유주 급등, 외국인 9월 이후 20조 순매도·삼성전자 3Q 실적 대기</description>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.10.03)</title>
-      <link>https://bluaura.github.io/posts/2026-10-03-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-03-us-market.html</guid>
-      <description>S&amp;P 500 7,722.72(+0.74%) · NASDAQ 27,190.86(+1.19%). 9월 NFP +29K 쇼크로 Fed 인상 확률 급락, NVIDIA 1,500억 달러 자사주 매입·신고가</description>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
