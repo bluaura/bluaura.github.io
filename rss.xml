@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>혁신 경제의 미래: AI, 노동, 공공 정책 — 시사점을 얻을 만한 스탠퍼드 대담</title>
+      <link>https://bluaura.github.io/posts/2026-10-11-innovation-economy-stanford.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-11-innovation-economy-stanford.html</guid>
+      <description>페이페이 리·수전 에이시·닐 마호니의 스탠퍼드 대담. 범용 기술의 병목, &#x27;무지의 베일&#x27; 안전망, 대체가 아닌 증강, 현존 직업 약 70%는 70년 전에 없던 직업, HAI 정책 3대 원칙.</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.10)</title>
       <link>https://bluaura.github.io/posts/2026-10-10-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-03-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-03-us-market.html</guid>
       <description>S&amp;P 500 7,722.72(+0.74%) · NASDAQ 27,190.86(+1.19%). 9월 NFP +29K 쇼크로 Fed 인상 확률 급락, NVIDIA 1,500억 달러 자사주 매입·신고가</description>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>카탈리스트 캘린더 (2026.10.03 기준)</title>
-      <link>https://bluaura.github.io/posts/2026-10-03-catalyst-calendar.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-03-catalyst-calendar.html</guid>
-      <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
       <pubDate>Sat, 03 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
