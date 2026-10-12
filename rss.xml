@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>한국 증시 브리핑 (2026.10.12)</title>
+      <link>https://bluaura.github.io/posts/2026-10-12-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-12-kr-market.html</guid>
+      <description>KOSPI 6,384.24(-3.65%) · KOSDAQ 849.19(-4.83%). 오픈AI 매출 논란에 외국인 2조원 반도체 매도, 두 달 만에 6400선 붕괴</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>일론 머스크가 그리는 2036년 &#x27;초풍요의 시대&#x27;와 AI의 미래 — 인사이트를 얻을 만한 The Economist 인터뷰</title>
       <link>https://bluaura.github.io/posts/2026-10-11-musk-economist-2036.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-11-musk-economist-2036.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-06-kr-market.html</guid>
       <description>KOSPI 6,941.39(-0.89%) · KOSDAQ 919.92(+2.98%). 외국인 반도체 1.77조 매도에 7,000선 이탈, HLB·2차전지·보안주 강세로 코스닥 3개월 만에 910선 회복</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.10.05)</title>
-      <link>https://bluaura.github.io/posts/2026-10-05-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-05-macro.html</guid>
-      <description>오늘 밤 美 9월 ISM 서비스업 PMI(컨센서스 55.1~55.7) 발표. 9월 고용 +2.9만명 쇼크로 10월 FOMC 동결 확률 83.7%, 관심은 12월 인상과 10/14 CPI로 이동. 한국 9월 CPI 2.9%로 2%대 복귀</description>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
