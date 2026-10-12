@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.13)</title>
+      <link>https://bluaura.github.io/posts/2026-10-13-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-13-macro.html</guid>
+      <description>10월 1~10일 수출 +102%(일평균 +28.5%)·반도체 122억달러 역대 최대에도 코스피는 외국인 2조 매도로 -3.65%. 10/14 미국 9월 CPI(근원 +0.2% 예상)가 단기 방향 가른다</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.10.12)</title>
       <link>https://bluaura.github.io/posts/2026-10-12-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-12-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-06-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-06-macro.html</guid>
       <description>美 9월 ISM 서비스업 PMI 54.9로 예상(55.0) 하회, 가격지수 74.0은 2022년 7월 이후 최고. 10년물 5.315%로 2002년 이후 최고, 10월 동결 확률 77.9%·12월 인상 확률 약 88%.</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.10.06)</title>
-      <link>https://bluaura.github.io/posts/2026-10-06-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-06-kr-market.html</guid>
-      <description>KOSPI 6,941.39(-0.89%) · KOSDAQ 919.92(+2.98%). 외국인 반도체 1.77조 매도에 7,000선 이탈, HLB·2차전지·보안주 강세로 코스닥 3개월 만에 910선 회복</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
