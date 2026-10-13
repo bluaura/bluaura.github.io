@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.14)</title>
+      <link>https://bluaura.github.io/posts/2026-10-14-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-14-macro.html</guid>
+      <description>오늘 밤 21:30 美 9월 CPI(근원 +0.2% 예상)가 10월 FOMC 인상 여부를 가른다. KOSPI는 CXMT 메모리 추격 우려와 외국인 4.5조 매도에 -5.46% 급락, 국고채는 강세.</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.13)</title>
       <link>https://bluaura.github.io/posts/2026-10-13-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-13-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-07-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-07-kr-market.html</guid>
       <description>KOSPI 6,803.90(-1.98%) · KOSDAQ 898.43(-2.34%). 외국인 2.6조 순매도, 후티 사우디 공습·삼성전자 실적 경계감에 반도체 약세</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 주간 브리핑 (2026.10.07)</title>
-      <link>https://bluaura.github.io/posts/2026-10-07-ai-weekly.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-07-ai-weekly.html</guid>
-      <description>이번 주 AI 업계 주요 소식 30건. Gemini 4 Argon·GPT-6.1 Sol·Claude Sonnet 5.5 프런티어 3파전, OpenAI Dots 에이전트 공개, DeepSeek 최대 $15B 펀딩 추진</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
