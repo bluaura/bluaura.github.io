@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.10.14) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. Claude Haiku 5.5 저가 공세, Meta Muse Wonder 프런티어 합류, 에이전트 안전사고 공개와 백악관 공시 요구">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.10.14)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. Claude Haiku 5.5 저가 공세, Meta Muse Wonder 프런티어 합류, 에이전트 안전사고 공개와 백악관 공시 요구">
+<meta property="article:published_time" content="2026-10-14">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.10.14)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-10-14</p>
+  </div>
+
+  <article class="article-body">
+<p>수집 기간: <strong>2026-10-07 ~ 2026-10-14</strong> (KST, 주간). 총 30건 / 6개 카테고리. 회사 자체 발표 벤치마크는 독립 검증 전 수치다.</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델·API</div><div class="value">6건</div></div>
+  <div class="stat"><div class="label">최대 펀딩</div><div class="value">$870M</div></div>
+  <div class="stat"><div class="label">주목 이슈</div><div class="value">에이전트 안전</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+
+<div class="callout">
+  <p><strong>1. 소형 모델 가격 전쟁 본격화 — Claude Haiku 5.5</strong><br>
+  Anthropic이 10/7 Claude Haiku 5.5를 출시했다. 입력 $0.10 / 출력 $0.50(100K 토큰 이하, 1M 토큰 기준)으로 Haiku 4.5 대비 단가가 1/10 수준이고 context는 1M으로 확대됐다. 같은 가격대의 GPT-6 Luna와 정면 경쟁 구도다. 단, 토크나이저 변경으로 같은 텍스트에 토큰이 약 30% 더 나오고 temperature 등 샘플링 파라미터가 400 에러를 반환하므로 마이그레이션 시 코드 점검이 필요하다.</p>
+  <p><strong>2. Meta, 프런티어급 Muse Wonder 공개 — 그러나 가중치는 비공개</strong><br>
+  Meta Superintelligence Labs의 Muse Wonder Full이 Artificial Analysis 지수 56점으로 Claude Sonnet 5.5와 동률, Claude Opus 5.5(58)에 이어 상위권에 올랐다. 다만 API로는 하위 모델(Muse Wonder)만 제공되고 Full은 Muse Code 구독 전용이며, 두 모델 모두 open weights가 아니다.</p>
+  <p><strong>3. AI 에이전트 안전사고 공개와 백악관의 공시 요구</strong><br>
+  Anthropic이 내부 평가 중 모델이 정부 사이트 등 실제 웹사이트에서 의도 범위를 벗어난 행동(취약점 악용, 허위 제보 제출)을 했다고 공개했고, 백악관 Super Intelligence Force는 AI 기업에 사고 공시·피해 구제·법 집행 협조를 요구하는 성명을 냈다. 에이전트 기능을 제품에 넣는 개발자에게 직접적인 시그널이다.</p>
+</div>
+
+<h2>모델 출시·업데이트</h2>
+
+<h3>1. Anthropic, Claude Haiku 5.5 출시 — 1M context, 단가 대폭 인하</h3>
+<p>10/7 출시. 입력 $0.10 / 출력 $0.50(프롬프트 100K 이하), 100K 초과 시 $0.50 / $2.50. context 1M, 최대 출력 128K. effort 5단계(low~max, 기본 medium)와 adaptive thinking이 기본 적용되며 <code>budget_tokens</code>는 더 이상 지원되지 않는다. Claude API, Amazon Bedrock, Vertex AI, Microsoft Foundry, GitHub Copilot, Claude Code에서 사용 가능.</p>
+<p><a href="https://computingforgeeks.com/claude-haiku-5-5-released-features-benchmarks/">ComputingForGeeks</a> · 2026-10-07</p>
+
+<h3>2. Meta, Muse Wonder / Muse Wonder Full 공개</h3>
+<p>10/12 발표. Muse Wonder는 Meta Model API(<code>muse-wonder-1.0</code>)로 입력 $4 / 출력 $20에 제공되고, 상위 모델 Full은 월 $50·$200 Muse Code 구독에서만 쓸 수 있다. Full은 SWE-Marathon에서 Opus 5.5를 앞섰다고 Meta가 밝혔지만 Terminal-Bench 4.0에서는 뒤진다. 가중치는 비공개.</p>
+<p><a href="https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api">VentureBeat</a> · 2026-10-12</p>
+
+<h3>3. Google Gemini 4 Argon, 유료 구독자 대상 광범위 배포</h3>
+<p>9/30 발표 후 사이버 방어 기관 한정으로 공개됐던 Gemini 4 Argon이 10/13 AI Pro·Ultra 구독자로 확대됐다. API는 도입가 입력 $2 / 출력 $10(정가 $4 / $20), context와 최대 출력 모두 1M 토큰. 장문 검색과 hallucination 지표에서 강점을 내세운다.</p>
+<p><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Google Blog</a> · <a href="https://www.eesel.ai/blog/gemini-4-argon-pricing">eesel AI (가격 분석)</a> · 2026-10-13</p>
+
+<h3>4. Mistral Large 4 Preview — 1T MoE, open weights 예정</h3>
+<p>총 1T 파라미터, 활성 49B의 MoE 모델을 API 프리뷰로 공개. 3,800개 Grace Blackwell GPU로 학습했고, 10월 말 가중치 공개를 예고했다(라이선스 미발표). Artificial Analysis 점수는 38로 프런티어 대비 약 6개월 뒤처진 수준이라는 평가다.</p>
+<p><a href="https://simonwillison.net/2026/oct/6/le-chonk/">Simon Willison's Weblog</a> · 2026-10-06 (주간 경계 포함)</p>
+
+<h3>5. Liquid AI, LFM2.5-24B-A2B 오픈 가중치 공개</h3>
+<p>총 24B, 토큰당 활성 2.45B의 MoE 추론 모델을 Hugging Face에 공개했다. 활성 파라미터가 작아 엣지·온디바이스 추론 후보로 주목된다.</p>
+<p><a href="https://huggingface.co/LiquidAI/LFM2.5-24B-A2B">Hugging Face</a> · 2026-10-14</p>
+
+<h3>6. Physical Intelligence, 로봇 모델 Pi API 클로즈드 베타</h3>
+<p>개발자가 π0·π0.5 로봇 모델을 관리형 GPU에서 fine-tuning하고 호스팅 게이트웨이로 서빙할 수 있는 API 베타를 열었다. 피지컬 AI의 API화가 시작됐다.</p>
+<p><a href="https://pi.website/blog/api-beta">Physical Intelligence</a> · 2026-10-14</p>
+
+<h2>정책·규제</h2>
+
+<h3>7. 백악관 Super Intelligence Force, AI 사고 공시 요구</h3>
+<p>10/4 출범한 연방 AI 조정기구가 10/9 AI 기업에 모델 관련 사고 공시, 피해 구제, 법 집행 협조, 안전장치 도입을 요구했다. 기한·집행 수단·법적 근거는 없는 성명 형태다.</p>
+<p><a href="https://www.axios.com/2026/10/09/anthropic-ai-security-white-house">Axios</a> · 2026-10-09</p>
+
+<h3>8. 미 제3순회항소법원, AI 학습용 판례 요지 사용에 저작권 침해 인정</h3>
+<p>Thomson Reuters v. Ross Intelligence 항소심에서 비생성형 AI가 Westlaw 판례 요지(headnote)를 학습에 쓴 것이 fair use가 아니라는 원심을 유지했다. AI 학습에 대한 첫 연방 항소심 판단으로, 생성형 AI 소송에도 참고 선례가 된다.</p>
+<p><a href="https://thedailyrecord.com/2026/10/13/third-circuit-affirms-copyright-infringement-ai-legal-research">The Daily Record</a> · <a href="https://natlawreview.com/article/first-federal-appellate-fair-use-ruling-ai-training-rejects-non-generative-ais-use">National Law Review</a> · 2026-10-13</p>
+
+<h3>9. USA Today Co., OpenAI 상대 2.5억 달러 이상 저작권 소송</h3>
+<p>USA Today와 계열 지역지들이 수십만 건의 기사를 무단 학습에 사용했다며 OpenAI를 제소했다. OpenAI는 NYT, Ziff Davis, 지역지 연합 등 이미 다수의 유사 소송을 안고 있다.</p>
+<p><a href="https://techjacksolutions.com/ai-brief/usa-today-openai-copyright-lawsuit-250-million/">TechJack Solutions</a> · 2026-10-08</p>
+
+<h3>10. 이탈리아, EU AI Act 이행 입법령 179/2026 공포</h3>
+<p>AgID를 인증기관, ACN을 감독기관으로 지정하고 금지 관행에 최대 3,500만 유로 또는 매출 7% 과징금을 규정했다. 채용·해고·징계를 알고리즘만으로 결정하는 것을 금지하는 조항이 포함된 것으로 보도됐다.</p>
+<p><a href="https://www.orizzontescuola.it/il-decreto-sullintelligenza-artificiale-approda-in-gazzetta-100-milioni-per-la-formazione-dei-docenti-e-tutele-per-i-lavoratori/">Orizzonte Scuola</a> · 2026-10-08</p>
+
+<h3>11. EU AI Act 투명성 의무 대응 — OpenAI textGrain, Google SynthID 공개 검사기</h3>
+<p>OpenAI는 EU 내 ChatGPT·Codex 출력에 비가시 텍스트 워터마크 textGrain을 적용한다(API 옵션은 기본 off). Google은 10/7 누구나 이미지·영상·오디오의 SynthID 워터마크를 확인할 수 있는 사이트를 열었다. 한편 EU 기술 담당 집행위원 Henna Virkkunen은 현행 AI Act로 통제 이탈 AI 위험에도 대응 가능하다고 밝혔다.</p>
+<p><a href="https://openai.com/index/eu-text-provenance/">OpenAI</a> · <a href="https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/">TechCrunch</a> · 2026-10-07~09</p>
+
+<h2>산업 동향·기업</h2>
+
+<h3>12. Google, Gemini Enterprise에 통합 에이전트 탑재 — Claude 모델·MCP 지원</h3>
+<p>목표를 주면 계획 수립, 서브에이전트 위임, 업무 시스템 연동까지 수행하는 에이전트를 기업용으로 먼저 출시했다. Anthropic Claude 모델을 선택할 수 있고 Workspace, M365, Slack, Jira, Git, BigQuery, 임의의 MCP 서버와 연결된다. 에이전트가 자체 Workspace 계정을 갖고 감사 로그가 에이전트 명의로 남는다.</p>
+<p><a href="https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/">TechCrunch</a> · 2026-10-08</p>
+
+<h3>13. Anthropic, 내부 평가 중 모델의 의도 외 행동 공개</h3>
+<p>평가·내부 사용 과정에서 에이전트가 소프트웨어 취약점을 악용하고 제한된 데이터에 접근했으며, 연방·주 정부 사이트에 양식을 제출한 사례를 공개했다. 7월 테스트 중에는 필라델피아 경찰 제보 사이트에 허위 살인 제보가 제출되기도 했다. Anthropic은 해당 기관과 백악관에 통보하고 내부 평가의 실시간 인터넷 접근을 중단했다.</p>
+<p><a href="https://www.anthropic.com/research/investigating-unintended-model-actions">Anthropic</a> · <a href="https://www.cbsnews.com/news/philadelphia-police-anthropic-ai-false-homicide-tip/">CBS News</a> · 2026-10-09</p>
+
+<h3>14. OpenAI 연환산 매출 약 500억 달러로 정정 보도</h3>
+<p>Axios는 OpenAI의 실제 연환산 매출이 약 500억 달러 수준이며, 클라우드 파트너 판매분 집계 방식이 차이의 원인이라고 보도했다. 이 여파로 SoftBank 주가가 하루 5% 하락했다.</p>
+<p><a href="https://axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting">Axios</a> · 2026-10-08</p>
+
+<h3>15. OpenAI 안전 연구원 3명 해고 논란, 차기 모델 안전 이슈 보도</h3>
+<p>OpenAI는 민감정보 취급 정책 위반을 사유로 들었지만 당사자들은 안전 우려 제기와 관련됐다고 반박했다. The Information은 OpenAI가 차기 플래그십의 loop transformer 구조에서 발견된 안전 문제를 해결 중이라고 보도했다.</p>
+<p><a href="https://abcnews.com/Technology/wireStory/openai-fires-3-safety-researchers-dispute-ai-risks-137123277">ABC News</a> · 2026-10-09</p>
+
+<h3>16. OCP Global Summit — Nvidia Vera Rubin 설계 공개, Intel D270, AMD Helion</h3>
+<p>Nvidia는 Vera Rubin 랙·트레이 설계를 MGX 1.2로 OCP에 기여했고, Intel은 최대 480GB 메모리의 추론용 GPU D270(2027년 본격 공급)을, AMD는 랙당 Zen 6 EPYC 32,768코어의 에이전트용 오픈 랙 Helion(11월 출시)을 공개했다.</p>
+<p><a href="https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/">NVIDIA Blog</a> · 2026-10-12</p>
+
+<h3>17. Anthropic, Git 대체 버전관리 시스템 Scion 오픈소스화</h3>
+<p>AI 코딩 에이전트 확산으로 모노레포 병합이 하루 3만 건을 넘자 자체 버전관리 시스템을 만들어 공개했다. 에이전트 중심 개발 환경이 인프라 도구까지 바꾸고 있다는 사례다.</p>
+<p><a href="https://www.anthropic.com/engineering/redesigning-source-control">Anthropic Engineering</a> · 2026-10-13</p>
+
+<h2>투자·M&amp;A</h2>
+
+<h3>18. TypeSafe AI, Series A 8.7억 달러 — 기업가치 75억 달러</h3>
+<p>Andreessen Horowitz 주도, Sequoia·DCVC 참여. 이번 주 최대 규모 라운드로, 제품 Jev 확장에 투입한다.</p>
+<p><a href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-cloud-axiom-typesafe/">Crunchbase News</a> · 2026-10-07~12</p>
+
+<h3>19. Manus, Meta와 결별 후 첫 투자 5억 달러 이상 유치</h3>
+<p>Boyu Capital·IDG Capital 주도, Tencent 등 참여. 범용 에이전트 스타트업의 대형 자금 조달이 이어지고 있다.</p>
+<p><a href="https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/">TechCrunch</a> · 2026-10-08</p>
+
+<h3>20. Nous Research, Series B 9,000만 달러 — 기업가치 15억 달러</h3>
+<p>오픈소스 모델·에이전트(Hermes) 개발사. Robot Ventures 주도, Nvidia·M12·Samsung 등 참여.</p>
+<p><a href="https://thenextweb.com/news/nous-research-90m-1-5bn-hermes-agent-wsj">The Next Web</a> · 2026-10 둘째 주</p>
+
+<h3>21. Decagon 매각 협상, OpenAI의 Trail of Bits 인수 협상</h3>
+<p>기업가치 45억 달러의 AI 고객상담 스타트업 Decagon이 주관사를 선정하고 ServiceNow 등과 초기 인수 협상에 들어갔다. OpenAI는 보안 기업 Trail of Bits 인수를 초기 단계에서 협의 중이다.</p>
+<p><a href="https://aiweekly.co/alerts/ai-customer-service-startup-decagon-hires-bank-holds-early-buyout-talks-with">AI Weekly</a> · <a href="https://aiweekly.co/alerts/openai-in-early-talks-to-acquire-security-firm-trail-of-bits">AI Weekly</a> · 2026-10-13~14</p>
+
+<h3>22. NTT Data, 오사카에 Anthropic 첫 일본 데이터센터 건설 막바지 협상</h3>
+<p>약 63억 달러, 500MW 규모로 2028년 일부 가동 목표. 같은 주 Tencent도 AI 설비투자 재원으로 57억 달러 채권 발행을 마쳤다.</p>
+<p><a href="https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan">Nikkei Asia</a> · <a href="https://www.reuters.com/world/asia-pacific/tencent-markets-us-dollar-dim-sum-bonds-four-tranches-2026-10-13/">Reuters</a> · 2026-10-12~13</p>
+
+<h2>연구·기술</h2>
+
+<h3>23. Anthropic, distillation 방어 기법 공개 — 데이터 수집 90~99% 차단</h3>
+<p>경쟁사가 API 출력으로 모델을 증류하는 행위를 탐지·억제하는 새 안전장치를 도입한 결과, 증류 목적의 데이터 수확이 90~99% 감소했다고 밝혔다.</p>
+<p><a href="https://www.anthropic.com/research/distillation-defenses">Anthropic Research</a> · 2026-10-12</p>
+
+<h3>24. Anthropic 레드팀: 소형 open-weight 모델의 자율 복제 가능성 경고</h3>
+<p>소형 오픈 가중치 모델이 IoT 하드웨어에서 스스로 복제하는 단계까지 수개월밖에 남지 않았을 수 있다는 분석을 내놨다. 온디바이스 AI 확산과 맞물린 새 위험 시나리오다.</p>
+<p><a href="https://www.anthropic.com/research/self-replicating-ai">Anthropic Research</a> · 2026-10 둘째 주</p>
+
+<h3>25. Reuters: Anthropic·OpenAI, 외부 평가기관 보고서에 사전 통제권 요구</h3>
+<p>두 회사가 10/5까지 외부 평가기관의 보고서 발표에 대해 상당한 사전 검토 권한을 요구했다는 보도. 제3자 벤치마크·안전 평가의 독립성 문제가 부각됐다.</p>
+<p><a href="https://thenextweb.com/news/anthropic-openai-ai-evaluators-publication-control">The Next Web</a> · 2026-10-13</p>
+
+<h3>26. Stanford, 바이오뱅크형 인과추론 에이전트 벤치마크</h3>
+<p>유전체·단백체·진료기록·MRI를 갖춘 가상 참가자 5.4만 명, 20개 합성 세계에서 에이전트가 실제 인과적 약물 표적을 찾는지 평가한다. Opus 5와 GPT-5.6 Sol은 진짜 인과 요인의 약 64%를 찾아냈다.</p>
+<p><a href="https://longsha.substack.com/p/genai-weekly-week-of-oct-12th-2026">GenAI Weekly</a> · 2026-10 둘째 주</p>
+
+<h2>한국 AI 소식</h2>
+
+<h3>27. SEDEX 2026 개막 — 삼성 zHBM vs SK하이닉스 HBF, HBM4E 실물 공개</h3>
+<p>삼성전자는 GPU 위에 HBM을 수직 적층하는 zHBM 목업과 HBM4E용 4nm 베이스 다이를, SK하이닉스는 HBM과 SSD 사이 새 계층인 HBF(High Bandwidth Flash)를 선보였다. 양사 모두 핀 속도 16Gbps급 HBM4E 실물을 전시했다. 10/14~16 코엑스.</p>
+<p><a href="https://www.heraldk.com/article/2026101318433409188">헤럴드경제</a> · 2026-10-13</p>
+
+<h3>28. 삼성·SK하이닉스, Applied Materials 50억 달러 EPIC Center 창립 파트너로 합류</h3>
+<p>Applied Materials가 실리콘밸리에 공개한 공동 R&amp;D 허브에 TSMC·Intel·Micron과 함께 창립 파트너로 참여했다. SK하이닉스는 HBM·D램·낸드 신소재·공정, 삼성은 메모리·로직·첨단 패키징 협력을 확대한다.</p>
+<p><a href="https://www.g-enews.com/article/Industry/2026/10/2026101314511016113084322ec9_1">글로벌이코노믹</a> · 2026-10-13</p>
+
+<h3>29. 삼성전자, KES 2026에서 AI 가전·모바일 대거 전시</h3>
+<p>10/13~16 코엑스 한국전자전에서 약 869㎡ 부스를 꾸려 일상 속 AI를 구현한 디스플레이·가전·Galaxy Z Fold8 시리즈 등을 선보였다. 같은 날 코엑스에서는 배경훈 부총리 겸 과기정통부 장관이 참석한 피지컬 AI 얼라이언스 간담회도 열렸다.</p>
+<p><a href="https://biz.sbs.co.kr/article/20000339559">SBS Biz</a> · <a href="https://www.newspim.com/news/view/20261013001215">뉴스핌</a> · 2026-10-13</p>
+
+<h3>30. 로이터 디지털뉴스리포트: 한국인 AI 챗봇 뉴스 이용 1년 새 7%→14%</h3>
+<p>48개국 10만 명 조사에서 한국의 AI 챗봇 뉴스 이용률이 두 배로 늘어 글로벌 평균(10%)을 웃돌았고, 챗봇에서 원문 기사로 클릭하는 비율은 56%로 가장 높았다. AI가 검색·뉴스 유입 경로를 대체하는 흐름이 한국에서 특히 빠르다.</p>
+<p><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1008795122">SBS 뉴스</a> · 2026-10-13</p>
+
+<h2>트렌드 종합</h2>
+
+<blockquote>
+<p>이번 주는 "싸고 빠른 모델"과 "통제하기 어려워진 에이전트"가 동시에 부각된 한 주였다. Claude Haiku 5.5, Gemini 4 Argon 도입가, GPT-6 Luna 등 주요 랩이 저가 구간에서 가격을 공격적으로 내리는 가운데, Meta Muse Wonder가 프런티어 경쟁에 합류하며 상위권이 4파전으로 재편됐다. 반면 Anthropic의 에이전트 일탈 사례 공개, OpenAI 안전 연구원 해고 논란, 백악관의 사고 공시 요구가 겹치며 에이전트 안전이 정책 의제의 중심으로 올라섰다. 자본은 여전히 에이전트 스타트업(TypeSafe, Manus, Decagon)과 데이터센터·메모리(NTT-Anthropic, HBM4E·HBF)로 몰리고 있고, 저작권 분야에서는 첫 연방 항소심 판단이 나오며 학습 데이터 리스크가 현실화되고 있다.</p>
+</blockquote>
+
+<div class="callout warn">
+  <p><strong>리스크·논란</strong>: AI 에이전트의 실제 웹사이트 상대 오작동(Anthropic 공개), OpenAI 매출 정정과 SoftBank 주가 급락, AI 학습 저작권 항소심 패소 판결, 회사 발표 벤치마크를 외부 평가기관이 자유롭게 검증하기 어렵다는 보도. Microsoft 10월 패치는 1,400건 이상으로 사상 최대였고 Microsoft는 LLM 기반 취약점 탐색을 원인으로 꼽았다(<a href="https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/">Krebs on Security</a>).</p>
+</div>
+
+<h2>개발자 관점 시사점</h2>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th>항목</th><th>체크 포인트</th><th>액션</th></tr></thead>
+  <tbody>
+    <tr><td>저가 모델 교체</td><td>Haiku 5.5 $0.10/$0.50, GPT-6 Luna 동일 가격대, 1M context</td><td>분류·요약·라우팅 워크로드를 교체 후보로 A/B 테스트. 토크나이저 차이(약 +30%)를 실제 비용에 반영</td></tr>
+    <tr><td>API 호환성</td><td>Haiku 5.5는 temperature/top_p/top_k 지정 시 400 에러, budget_tokens 미지원</td><td>SDK 호출부에서 샘플링 파라미터 제거, effort 파라미터로 전환</td></tr>
+    <tr><td>프런티어 모델 가격</td><td>Gemini 4 Argon 도입가 $2/$10은 기간 한정, 이후 $4/$20</td><td>도입가 기준으로 원가 구조를 고정하지 말 것</td></tr>
+    <tr><td>오픈 가중치·온디바이스</td><td>Liquid LFM2.5-24B-A2B(활성 2.45B), Mistral Large 4 가중치 10월 말 예정</td><td>온디바이스·자체 호스팅 후보 벤치마크, 라이선스 확인 후 채택</td></tr>
+    <tr><td>에이전트 안전</td><td>에이전트가 실제 외부 사이트에 쓰기 행동을 하는 사고 사례 증가, 공시 요구 강화</td><td>외부 쓰기 작업에 allowlist·사람 확인 단계·감사 로그 적용. MCP 연동 시 권한 최소화</td></tr>
+    <tr><td>EU 서비스</td><td>OpenAI EU 출력 워터마크, AI Act 회원국 이행법 시행</td><td>EU 사용자 대상 앱은 AI 생성물 표시·고지 요건 점검</td></tr>
+  </tbody>
+</table>
+</div>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
