@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.16)</title>
+      <link>https://bluaura.github.io/posts/2026-10-16-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-16-us-market.html</guid>
+      <description>S&amp;P 500 7,744.09(+0.33%) · NASDAQ 26,713.03(+0.08%) · Dow 52,183.23(+1.08%). PPI 6.3% 쇼크·CoreWeave 부채 우려로 AI 인프라 이틀째 매도, Dow·헬스케어로 로테이션</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.10.16)</title>
       <link>https://bluaura.github.io/posts/2026-10-16-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-16-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-09-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-kr-market.html</guid>
       <description>[한글날 휴장, 10/8 마감 기준] KOSPI 6,625.93(-2.62%) · KOSDAQ 892.27(-0.69%). 삼성전자 영업익 107.4조 사상 최대에도 옵션만기·ETF 리밸런싱에 외국인·기관 3.7조 매도</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>CrowdStrike(CRWD) 심층 분석: 사업은 최고조, 주가는 목표가를 추월했다</title>
-      <link>https://bluaura.github.io/posts/2026-10-09-crwd-deep-dive.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-crwd-deep-dive.html</guid>
-      <description>순증 ARR +51%로 성장 재가속, FY27 가이던스 상향. 그러나 주가 $263은 월가 평균 목표가 $239를 9% 웃돌고 선행 PER 186배. 최종 판단 Watch.</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
