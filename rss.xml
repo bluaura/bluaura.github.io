@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.16)</title>
+      <link>https://bluaura.github.io/posts/2026-10-16-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-16-macro.html</guid>
+      <description>美 9월 PPI 전년비 6.3%(예상 5.3%)로 2022년 이후 최대, 소매판매는 휘발유 효과로 +0.8%. 연준 인사 &#x27;서두를 필요 없다&#x27; 발언에 10월 인상 확률은 약 30%로 하락, 코스피는 7.57% 폭락</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.15)</title>
       <link>https://bluaura.github.io/posts/2026-10-15-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-15-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-crwd-deep-dive.html</guid>
       <description>순증 ARR +51%로 성장 재가속, FY27 가이던스 상향. 그러나 주가 $263은 월가 평균 목표가 $239를 9% 웃돌고 선행 PER 186배. 최종 판단 Watch.</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.10.08)</title>
-      <link>https://bluaura.github.io/posts/2026-10-08-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-08-us-market.html</guid>
-      <description>S&amp;P 500 7,801.77(-0.22%) · NASDAQ 27,538.69(-0.22%). 10년물 2002년 이후 최고·매파적 FOMC 의사록에 사상 최고치서 후퇴</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
