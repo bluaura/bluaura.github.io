@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.20)</title>
+      <link>https://bluaura.github.io/posts/2026-10-20-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-20-us-market.html</guid>
+      <description>S&amp;P 500 7,690.73(+0.41%) · NASDAQ 26,430.89(+1.11%) · Dow 51,966.03(-0.07%). AI·메모리주 저가 매수로 기술주 반등, 10년물 5.14% 재상승</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.10.19)</title>
       <link>https://bluaura.github.io/posts/2026-10-19-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-19-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-09-pltr-move.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-pltr-move.html</guid>
       <description>9/10~10/8 +19.85%(65.86→98.78), 나스닥 대비 +15.6%p. Goldman Buy 상향(30)·Barclays 65 개시. 평균 목표가 업사이드는 2%대로 소진, 판정은 추세 지속 우위(단기 과열).</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>팔로알토 네트웍스(PANW) 심층 분석 — 사업은 강한데 주가가 목표가에 닿았다</title>
-      <link>https://bluaura.github.io/posts/2026-10-09-panw-deep-dive.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-panw-deep-dive.html</guid>
-      <description>주가 $398.50, 컨센서스 목표가 $396.92(-0.4%). 매출의 73%가 네트워크 보안, 선행 PER 95배. AI발 해킹 수혜 분야 분석 포함. 최종 판단 Watch.</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
