@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>한국 증시 브리핑 (2026.10.19)</title>
+      <link>https://bluaura.github.io/posts/2026-10-19-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-19-kr-market.html</guid>
+      <description>KOSPI 5,768.01(+1.76%) · KOSDAQ 808.89(+1.78%). 3% 급락 출발 후 2차전지·바이오 주도로 반전, 환율 1,330원 2년래 최저</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.17)</title>
       <link>https://bluaura.github.io/posts/2026-10-17-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-17-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-09-panw-deep-dive.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-panw-deep-dive.html</guid>
       <description>주가 $398.50, 컨센서스 목표가 $396.92(-0.4%). 매출의 73%가 네트워크 보안, 선행 PER 95배. AI발 해킹 수혜 분야 분석 포함. 최종 판단 Watch.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 매출 $50B 보도 해부: $70B와의 $20B 격차는 어디서 왔나</title>
-      <link>https://bluaura.github.io/posts/2026-10-09-openai-revenue-gap.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-09-openai-revenue-gap.html</guid>
-      <description>FT 보도로 NASDAQ -1.25%. 격차의 원인은 수요 부진이 아닌 gross·net 집계 기준 차이. Anthropic은 net 환산 시 $65B가 약 $60B, 양사 모두 런레이트와 실제 매출의 괴리가 더 큰 변수.</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
