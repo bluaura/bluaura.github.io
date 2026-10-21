@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.22)</title>
+      <link>https://bluaura.github.io/posts/2026-10-22-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-22-us-market.html</guid>
+      <description>S&amp;P 500 7,757.17(+0.58%) · NASDAQ 26,702.86(+1.05%). SpaceX 첫 흑자·Super Micro 가이던스 상향에 반도체 8일 연속 하락 끝, 시간외 Meta +5%·Lam Research -6.8%</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.10.22)</title>
       <link>https://bluaura.github.io/posts/2026-10-22-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-22-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-10-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-us-market.html</guid>
       <description>S&amp;P 500 7,811.54(+0.59%) · NASDAQ 27,366.17(+0.64%) · Dow 51,654.95(+0.83%). OpenAI 매출 쇼크 후 AI주 반등, SpaceX 스펙트럼 인수에 통신주 급락, 다음 주 CPI·TSMC 실적 대기</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>일라이 릴리(LLY) 심층 분석 — 매출 +48%, 목표가는 오르는데 주가는 박스권</title>
-      <link>https://bluaura.github.io/posts/2026-10-10-lly-deep-dive.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-lly-deep-dive.html</guid>
-      <description>현재가 $1,172, 컨센서스 목표가 $1,330(+13.5%). Q2 매출 $22.97B(+48%), 선행 PER 28.5배. 업사이드가 기준선 15%에 못 미쳐 Hold, 10/29 3분기 실적이 분기점.</description>
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
