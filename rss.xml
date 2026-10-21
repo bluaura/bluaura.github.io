@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.22)</title>
+      <link>https://bluaura.github.io/posts/2026-10-22-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-22-macro.html</guid>
+      <description>오늘 한은 금통위(3.00% 동결 93% 예상, 소수의견·11월 인상 신호 주목). 10월 1~20일 수출 +105.4%·반도체 +222.5%로 역대 최대, 외국인 복귀에 코스피 +3.29%. 메타 3Q 매출 상회·설비투자 하단 상향.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.21)</title>
       <link>https://bluaura.github.io/posts/2026-10-21-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-21-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-10-lly-deep-dive.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-lly-deep-dive.html</guid>
       <description>현재가 $1,172, 컨센서스 목표가 $1,330(+13.5%). Q2 매출 $22.97B(+48%), 선행 PER 28.5배. 업사이드가 기준선 15%에 못 미쳐 Hold, 10/29 3분기 실적이 분기점.</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>카탈리스트 캘린더 (2026.10.10 기준)</title>
-      <link>https://bluaura.github.io/posts/2026-10-10-catalyst-calendar.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-catalyst-calendar.html</guid>
-      <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
