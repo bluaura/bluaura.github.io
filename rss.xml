@@ -19,6 +19,13 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.10.21)</title>
+      <link>https://bluaura.github.io/posts/2026-10-21-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-21-kr-market.html</guid>
+      <description>KOSPI 5,735.66(+3.29%) · KOSDAQ 792.76(+1.38%). 전일 급락 하루 만에 반도체 주도 급반등, 외국인 6,600억 순매수·매수 사이드카 발동</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>AI 주간 브리핑 (2026.10.21)</title>
       <link>https://bluaura.github.io/posts/2026-10-21-ai-weekly.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-21-ai-weekly.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-10-catalyst-calendar.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-catalyst-calendar.html</guid>
       <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 데이터센터 병목 점검: 칩 꽂을 곳이 없다는 주장, 어디까지 사실인가</title>
-      <link>https://bluaura.github.io/posts/2026-10-10-ai-datacenter-bottleneck.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-10-ai-datacenter-bottleneck.html</guid>
-      <description>2026년 가동 예정 16GW 중 공사 중인 것은 5GW뿐. 병목은 사실이지만 GPU·메모리 주문 감소 증거는 아직 없다. 마이크론 2027년 물량 75% 이상 계약, 엔비디아 3분기 가이던스 1,080억 달러.</description>
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
