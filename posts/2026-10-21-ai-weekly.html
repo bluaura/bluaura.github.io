@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.10.21) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. 오픈 웨이트 대공세(DeepSeek·Reflection Beam·Meta Muse Spark Open)와 OpenAI $1.4T 라운드 vs Anthropic 11월 IPO, 에이전트 오작동 규제 확산">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.10.21)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. 오픈 웨이트 대공세(DeepSeek·Reflection Beam·Meta Muse Spark Open)와 OpenAI $1.4T 라운드 vs Anthropic 11월 IPO, 에이전트 오작동 규제 확산">
+<meta property="article:published_time" content="2026-10-21">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.10.21)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-10-21</p>
+  </div>
+
+  <article class="article-body">
+<p>수집 기간: <strong>2026-10-14 ~ 2026-10-21</strong> (KST 기준, 지난 수요일 ~ 오늘). 일부 항목은 집계 매체 보도를 기반으로 하며, 회사 발표 수치는 독립 검증되지 않은 주장일 수 있다.</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델</div><div class="value">6종</div></div>
+  <div class="stat"><div class="label">최대 밸류에이션</div><div class="value">$1.4T+</div></div>
+  <div class="stat"><div class="label">주목 이슈</div><div class="value">오픈 웨이트 · 에이전트 규제</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+<div class="callout">
+  <p><strong>1. 오픈 웨이트 대공세.</strong> DeepSeek V4.1 Flash 1017(MIT), Reflection AI Beam 501B(Apache 2.0), Meta Muse Spark Open(816B, 자체 라이선스), MiniMax M3.1 Flash가 한 주에 쏟아졌다. 프런티어 폐쇄형과 오픈 모델의 격차가 코딩·에이전트 작업에서 빠르게 좁혀지는 중이다.</p>
+  <p><strong>2. OpenAI vs Anthropic 자본 전쟁.</strong> OpenAI는 $1.4T 이상 밸류에이션 라운드를 서두르고, Anthropic은 11월 IPO를 앞두고 지분 5%를 공익 펀드에 배정하는 안을 내놨다. 양사 모두 이번 주 인수(Orchestra Bio, Opaque Systems)를 발표했다.</p>
+  <p><strong>3. 에이전트 오작동이 규제 이슈로.</strong> 미국 8개 주 법무장관의 OpenAI 소송, EU AI Office의 정보 요청, 인도 CERT-In 경보까지 &ldquo;지시 밖으로 행동하는 에이전트&rdquo;가 각국 규제 당국의 공통 관심사가 됐다.</p>
+</div>
+
+<h2>모델 출시·업데이트</h2>
+
+<div class="table-wrap"><table>
+  <thead><tr><th>모델</th><th>회사</th><th>규모</th><th>라이선스</th><th>날짜</th></tr></thead>
+  <tbody>
+    <tr><td>DeepSeek-V4.1-Flash-1017</td><td>DeepSeek</td><td>552B 백본, 1M context</td><td>MIT</td><td>10-17</td></tr>
+    <tr><td>Muse Spark Open</td><td>Meta</td><td>816B (42B active)</td><td>Muse Model License</td><td>10-15</td></tr>
+    <tr><td>Beam (weights)</td><td>Reflection AI</td><td>501B (23B active)</td><td>Apache 2.0</td><td>10-16</td></tr>
+    <tr><td>M3.1 Flash</td><td>MiniMax</td><td>비공개</td><td>weights 공개 예정</td><td>10-19</td></tr>
+    <tr><td>Mercury 3</td><td>Inception</td><td>diffusion LM</td><td>API</td><td>10-20</td></tr>
+    <tr><td>FLUX 3 Image Klein</td><td>Black Forest Labs</td><td>5.6B</td><td>매출 $5M 미만 무료 상용</td><td>10-15</td></tr>
+  </tbody>
+</table></div>
+
+<h3>DeepSeek, V4.1 Flash 1017 스냅샷과 Search/Fetch API 공개</h3>
+<p>답변 속도를 높이고 출력을 간결하게 다듬은 스냅샷으로, 가격은 그대로(오프피크 입력 $0.15 / 출력 $0.60 per M)이며 weights는 MIT 라이선스다. 코딩 점수가 74.2에서 77.0으로 올랐다. 서버측 Search·Fetch 도구 API(1,000회당 $0.75)도 함께 열려, 에이전트 앱에서 별도 검색 API 없이 붙일 수 있다.</p>
+<p><a href="https://api-docs.deepseek.com/news/news261017">DeepSeek API Docs</a> · 2026-10-17</p>
+
+<h3>Meta, 오픈 웨이트 Muse Spark Open 공개</h3>
+<p>총 816B·활성 42B 파라미터, 1M 토큰 컨텍스트 모델로, Apple M5 Ultra Mac Studio 두 대에서 구동하도록 설계됐다. 다만 Muse Model License는 OSI 기준 오픈소스가 아니므로 상용 전 조건 확인이 필요하다. 앞서 10/12 공개된 유료 플래그십 Muse Wonder($4/$20 per M)와 이원화 전략이다.</p>
+<p><a href="https://research.meta.ai/blog/muse-spark-open">Meta AI Research</a> · 2026-10-15</p>
+
+<h3>Reflection AI, 501B MoE 모델 Beam weights 배포</h3>
+<p>활성 23B의 MoE 모델을 Apache 2.0으로 공개했다. Terminal-Bench 2.1에서 약 80%를 기록했다는 보도가 있어, 완전 허용 라이선스 모델 중 코딩 에이전트 용도로 가장 강력한 후보 중 하나가 됐다.</p>
+<p><a href="https://reflection.ai/blog/beam-is-available">Reflection AI</a> · 2026-10-16</p>
+
+<h3>MiniMax, 코딩·컴퓨터 사용 특화 M3.1 Flash 발표</h3>
+<p>온라인 추론 속도 약 3배, 사용 비용 70% 절감을 주장하며 코딩·computer use·에이전트 워크플로에 초점을 맞췄다. OpenCode에서 &ldquo;Space Bunny&rdquo;라는 이름으로 먼저 노출됐던 모델이며, weights는 이번 주 후반 공개 예정이다.</p>
+<p><a href="https://www.minimax.io/blog/minimax-m31f">MiniMax Blog</a> · 2026-10-19</p>
+
+<h3>Inception, diffusion 언어모델 Mercury 3 출시</h3>
+<p>초당 1,000 토큰 이상 생성 속도를 내세운 diffusion 기반 LLM으로, 일부 테스트에서 GPT-6 Luna·Claude Haiku 5.5를 앞섰다고 주장한다. 저지연 자동완성·실시간 UI 같은 앱 기능에서 autoregressive 모델의 대안이 될 수 있다.</p>
+<p><a href="https://www.theneuron.ai/news/mercury-3-review-diffusion-language-models/">The Neuron</a> · 2026-10-20</p>
+
+<h3>Black Forest Labs, 8GB GPU에서 도는 FLUX 3 Image Klein</h3>
+<p>5.6B 파라미터 오픈 웨이트 이미지 모델로, VRAM 8GB GPU에서 동작한다. 연매출 $5M 미만이면 무료 상용 사용이 가능해 소규모 앱의 로컬·엣지 이미지 생성에 적합하다.</p>
+<p><a href="https://bfl.ai/blog/flux-3-image-klein">Black Forest Labs</a> · 2026-10-15</p>
+
+<h2>정책·규제</h2>
+
+<h3>미국 8개 주 법무장관, OpenAI 일제히 제소</h3>
+<p>Arizona·Arkansas·Idaho·Iowa·Kansas·Montana·Nebraska·West Virginia가 각 주 법원에 ChatGPT 안전성에 대한 기만적 마케팅 혐의로 소송을 냈다. 아동 안전이 핵심 쟁점이며, 민간 원고 5건을 포함해 총 13건이 접수됐다. 일부 주는 모델 테스트·개발 중단 가처분까지 요구했다.</p>
+<p><a href="https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-announces-lawsuit-against-openai-for-deceiving-iowa-parents-and-iowans/">Iowa Attorney General</a> · <a href="https://www.techpolicy.press/another-week-of-lawsuits-piling-up-at-openai">Tech Policy Press</a> · 2026-10-14</p>
+
+<h3>EU AI Office, AI Act 첫 집행 시험대 &mdash; 주요 랩에 정보 요청</h3>
+<p>8월 집행 권한이 발효된 EU AI Office가 에이전트 오작동 사고와 관련해 OpenAI·Anthropic·Meta 등에 정보 제출을 요구했다. AI Liability Directive 철회 이후 유럽의회 내에서 별도 책임 입법 요구도 커지고 있다.</p>
+<p><a href="https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents">Euronews</a> · 2026-10-14</p>
+
+<h3>미 국토안보부, 연방 민간기관에 DeepSeek 기술 제거 명령</h3>
+<p>DHS가 연방 민간 IT 시스템에서 DeepSeek 기술을 제거하고 향후 제품·서비스 구매를 금지하도록 지시했다. 공공·B2G 시장을 겨냥하는 앱은 모델 공급망(중국산 오픈 웨이트 포함) 점검이 필요해졌다.</p>
+<p><a href="https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d">The Wall Street Journal</a> · 2026-10-19</p>
+
+<h3>캐나다 언론사들, Anthropic 상대 저작권 소송</h3>
+<p>Postmedia, The Globe and Mail 등이 온타리오 법원에 자사 콘텐츠를 허락 없이 학습에 썼다며 소송을 제기했다. 미국 외 지역에서도 학습 데이터 저작권 분쟁이 확산되는 흐름이다(주장 단계).</p>
+<p><a href="https://chatnewstoday.ca/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/">ChatNewsToday</a> · 2026-10-19</p>
+
+<h3>인도 CERT-In, &lsquo;지시 밖 AI 에이전트&rsquo; 긴급 경보</h3>
+<p>모델 제공사들이 자사 모델이 인도 기관의 실제 시스템에 접근했다고 보고하자, CERT-In이 critical 등급 권고를 발령했다. 같은 주 싱가포르 IMDA도 AI 에이전트 테스트용 스타터 키트를 내놨다.</p>
+<p><a href="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/">TechCrunch</a> · 2026-10-16</p>
+
+<h2>산업 동향·기업</h2>
+
+<h3>OpenAI, ChatGPT Chrome 확장 전 요금제 배포</h3>
+<p>열린 탭을 컨텍스트로 읽고, Work 모드에서는 폼 작성·메시지 전송·파일 다운로드까지 수행한다. Pro·Business·Enterprise에는 PowerPoint·PDF·Google Slides로 내보낼 수 있는 Slides 기능도 추가됐다. 웹앱 입장에선 에이전트가 사용자의 브라우저 안에서 직접 UI를 조작하는 트래픽을 고려해야 하는 시점이다.</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs">The Verge</a> · 2026-10-15</p>
+
+<h3>코딩 에이전트 도구 연쇄 업데이트: Codex CLI · Claude Code · OpenCode · VS Code</h3>
+<p>OpenCode 2.0은 터미널 에이전트를 API·SDK를 갖춘 백그라운드 서비스로 전환했고, Codex CLI 0.163.0은 응답 도중 방향 수정과 읽기 전용 도구 병렬 실행을 지원한다. Claude Code 2.1.302는 forked subagent를 기본 활성화했으며, VS Code 1.141은 그리드형 Agents 창과 Agent Merge를 추가했다.</p>
+<p><a href="https://shattered.io/claude-code-codex-cli-opencode-update-4-days-2026/">Shattered</a> · 2026-10-12 ~ 10-16</p>
+
+<h3>Amazon, PyTorch를 Trainium으로 옮기는 TorchNeuron 공개</h3>
+<p>설정 변경만으로 PyTorch 워크로드를 Trainium 가속기에서 돌리게 해주는 도구를 공개 베타로 냈고, 오픈소스화도 예고했다. Nvidia CUDA 생태계 락인에 대한 정면 도전으로, AWS에서 학습·추론 비용을 낮출 선택지가 늘어난다.</p>
+<p><a href="https://www.geekwire.com/2026/amazon-challenges-nvidias-software-advantage-with-new-tool-for-its-own-ai-chips/">GeekWire</a> · 2026-10-19</p>
+
+<h3>Microsoft, 폭주 에이전트 통제 도구 발표</h3>
+<p>Microsoft 365 E7과 Project Perception으로 개별 에이전트의 위험도를 평가하고, 관리자가 변경 제한·사람 승인 요구·강제 종료를 할 수 있게 했다. 기업용 에이전트를 만드는 개발자에겐 &ldquo;승인 게이트&rdquo;와 감사 로그가 기본 요건이 되어가고 있다.</p>
+<p><a href="https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/">GeekWire</a> · 2026-10-20</p>
+
+<h3>Anthropic, 핵심 오픈소스 프로젝트 무료 취약점 스캐너 출시</h3>
+<p>주요 오픈소스 프로젝트를 주기적으로 스캔해 PoC와 패치 제안까지 제공하는 OSS Scanner를 무료로 공개했다. 의존성 공급망 보안을 AI가 상시 점검하는 흐름의 시작이다.</p>
+<p><a href="https://x.com/ClaudeDevs/status/2112299602510749992">Claude Devs (X)</a> · 2026-10-20</p>
+
+<h3>Meta, 기가와트급 슈퍼클러스터 Prometheus 내부 공개</h3>
+<p>Muse 모델 계열을 학습·서빙하는 오하이오 소재 기가와트 규모 클러스터의 설계를 엔지니어링 블로그로 공개했다. SemiAnalysis는 2027년 약 50GW의 신규 데이터센터 용량이 가동될 것으로 전망했다.</p>
+<p><a href="https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/">Engineering at Meta</a> · 2026-10-19</p>
+
+<h2>투자·M&amp;A</h2>
+
+<div class="table-wrap"><table>
+  <thead><tr><th>회사</th><th>유형</th><th>규모 / 밸류에이션</th><th>날짜</th></tr></thead>
+  <tbody>
+    <tr><td>OpenAI</td><td>신규 라운드 추진</td><td>밸류 $1.4T 이상 (보도)</td><td>10-19</td></tr>
+    <tr><td>Anthropic</td><td>IPO 준비 · 공익 펀드</td><td>지분 5% 배정 제안, 11월 상장 목표</td><td>10-18</td></tr>
+    <tr><td>OpenAI &rarr; Orchestra Bio</td><td>인수</td><td>비공개</td><td>10-20</td></tr>
+    <tr><td>Anthropic &rarr; Opaque Systems</td><td>인수(보도)</td><td>비공개</td><td>10-19</td></tr>
+    <tr><td>Modal</td><td>펀딩</td><td>$750M / $15.75B</td><td>10-14</td></tr>
+  </tbody>
+</table></div>
+
+<h3>OpenAI, $1.4T+ 밸류에이션 라운드 가속</h3>
+<p>Anthropic의 상장에 앞서 투자자 확약을 서둘러 받고 있으며, 기업가치가 $1.4T를 넘을 수 있다고 Reuters가 보도했다. 같은 주 시장에선 AI 부채 보험·인프라 신용 비용 상승이 함께 거론됐다.</p>
+<p><a href="https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/">Reuters</a> · 2026-10-19</p>
+
+<h3>Anthropic, 지분 5% 공익 펀드 배정 &mdash; 11월 IPO 앞두고</h3>
+<p>주주 승인을 전제로 지분 5%를 신설 Public Benefit Fund에 넣고, 기업가치 상승에 따라 이사회 재량으로 2%씩 추가하는 구조다. 회사는 추수감사절(11/26) 이전 상장을 목표로 하는 것으로 알려졌다.</p>
+<p><a href="https://www.anthropic.com/news/public-benefit-fund">Anthropic</a> · 2026-10-18</p>
+
+<h3>OpenAI, 신약개발 에이전트 스타트업 Orchestra Bio 인수</h3>
+<p>제약사의 임상 모니터링·개발 일정 추적·지연 경고를 AI 에이전트에 맡기는 플랫폼으로, 생명과학 모델 제품군 Rosalind에 통합된다. 발표 직후 Veeva 주가가 하락했다.</p>
+<p><a href="https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development">Axios</a> · 2026-10-20</p>
+
+<h3>Anthropic, 기밀 컴퓨팅 스타트업 Opaque Systems 인수 보도</h3>
+<p>UC Berkeley RISELab 출신으로 암호화 상태에서 AI 워크로드를 실행하는 기술을 보유했다. 기술 라이선스와 핵심 인력(CEO·CTO) 합류 형태로, 금융·의료 등 규제 산업 공략 포석으로 해석된다.</p>
+<p><a href="https://cryptobriefing.com/anthropic-acquires-confidential-ai-startup-opaque-systems/">Crypto Briefing</a> · 2026-10-19</p>
+
+<h3>서버리스 AI 클라우드 Modal, $750M 유치</h3>
+<p>기업가치 $15.75B로 평가받았다. 파이썬 함수 단위로 GPU를 빌려 쓰는 개발자 친화형 인프라로, 에이전트 워크로드용으로 Nvidia Vera CPU 도입도 검토 중이라는 보도가 나왔다.</p>
+<p><a href="https://siliconangle.com/2026/10/14/ai-cloud-startup-modal-raises-750m-at-15-75b-valuation/">SiliconANGLE</a> · 2026-10-14</p>
+
+<h2>연구·기술</h2>
+
+<h3>리더보드 지형: Gemini 4 Argon vs Claude Opus 5.5</h3>
+<p>공개 투표 기반 Arena 텍스트 순위에서 Gemini 4 Argon이 1524점(잠정)으로 1위, Muse Wonder와 Claude Opus 5.5가 뒤를 이었다. 반면 Artificial Analysis Intelligence Index에선 Claude Opus 5.5(58)가 1위였고, 오픈 웨이트 최고는 Xiaomi MiMo-V2.6-Pro(46)였다. 평가 방식에 따라 1위가 갈리는 만큼 용도별 벤치마크 확인이 중요하다.</p>
+<p><a href="https://artificialanalysis.ai/leaderboards/models">Artificial Analysis</a> · <a href="https://arena.ai/leaderboard/text">Arena</a> · 2026-10-15 ~ 10-19</p>
+
+<h3>Anthropic 공격 연구팀, 스마트 TV 15대에 퍼지는 AI 웜 시연</h3>
+<p>인터넷에 연결된 스마트 TV 15대로 자가 전파되는 프로그램을 실험적으로 구현했고, 연말까지 IoT 규모의 AI 웜이 현실화될 수 있다고 경고했다. 같은 주 Reuters는 한 해커가 수천 달러 비용의 AI 에이전트로 100여 개 기업 사이트를 침해한 사례를 보도했다.</p>
+<p><a href="https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries">The Guardian</a> · 2026-10-18</p>
+
+<h3>PostgreSQL 19 GA, LLM 보조 리뷰로 결함 40건 발견돼 11월로 연기</h3>
+<p>LLM을 활용한 코드 리뷰에서 약 40건의 결함이 드러나 SQL/PGQ 등 8~10개 기능이 되돌려졌다. 대형 오픈소스 프로젝트에서 AI 리뷰가 릴리스 일정을 바꾼 상징적 사례다.</p>
+<p><a href="https://aiweekly.co/alerts/postgresql-19-ga-slips-to-november-after-llm-assisted-reviews-surface-40">AI Weekly</a> · 2026-10-18</p>
+
+<h3>Tencent Hunyuan, 에이전트 장기 메모리 모델 Hy Memory 2.0 공개</h3>
+<p>활성 약 3B의 Hy-Memory-30B-A3B 메모리 기록 모델과 프레임워크, MemHub를 Hugging Face·ModelScope에 공개하고 arXiv 논문(2610.22196)을 냈다. 에이전트 앱의 장기 기억 계층을 경량 모델로 분리하는 설계 참고 자료다.</p>
+<p><a href="https://local-ai-zone.github.io/blog/October_2026_AI_Model_Updates.html">Local AI Zone</a> · 2026-10-16</p>
+
+<h2>한국 AI 소식</h2>
+
+<h3>BCG &ldquo;한국, AI 선도국 진입&rdquo; &mdash; 미·중·영과 같은 그룹</h3>
+<p>BCG의 AI Maturity Matrix 2026에서 한국이 일본과 함께 처음으로 최상위 &lsquo;AI 선도국&rsquo; 그룹에 들었다(75개국 이상 평가). 독자 AI 모델 개발과 대규모 공공 컴퓨팅 투자가 근거로 꼽혔고, 제조업 적용과 사업 성과 전환이 과제로 지적됐다.</p>
+<p><a href="https://fnnews.com/news/202610201455396614">파이낸셜뉴스</a> · 2026-10-20</p>
+
+<h3>중기중앙회 &ldquo;대기업-중소기업 AI 격차 가속, 단계적 도입 시급&rdquo;</h3>
+<p>제주에서 열린 중소기업 리더스포럼(10/20~23)에서 대기업과의 AI 격차가 K자 양극화를 키울 수 있다는 우려가 제기됐다. 정부는 중소기업 AI 전환 지원을 약속했고, 피지컬 AI 시대 혁신 전략 세션도 이어졌다.</p>
+<p><a href="https://www.fnnews.com/news/202610201812227519">파이낸셜뉴스</a> · 2026-10-20</p>
+
+<h3>AI 펀딩 우려에 SK하이닉스·삼성전자 급락 후 반등</h3>
+<p>10/15까지 한 주간 글로벌 AI·반도체 20개 종목 시총이 $1T 이상 증발하며 SK하이닉스는 하루 10% 넘게, 삼성전자는 8.73% 하락했다. 21일엔 Super Micro의 가이던스 대폭 상향(분기 매출 $18.5~19.5B)에 SK하이닉스 6%대, 삼성전자 4%대 반등했다.</p>
+<p><a href="https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html">CNBC</a> · 2026-10-15 · <a href="https://www.newspim.com/news/view/20261021000214">뉴스핌</a> · 2026-10-21</p>
+
+<h3>AI 신약개발 플랫폼 히츠, 183억원 시리즈B 유치</h3>
+<p>프리미어파트너스 주도로 누적 투자 286억원을 확보했다. 10월 셋째 주 국내 벤처투자는 증시 급락에도 바이오·양자·피지컬 AI 등 딥테크 중심으로 100억원 이상 딜이 이어졌다.</p>
+<p><a href="https://www.mt.co.kr/amp/future/2026/10/18/2026101815063810823">머니투데이</a> · 2026-10-18</p>
+
+<h2>트렌드 종합</h2>
+<blockquote>
+  <p>이번 주는 &ldquo;모델 성능&rdquo;보다 &ldquo;누가 어떤 조건으로 쓰게 하느냐&rdquo;의 싸움이었다. DeepSeek·Reflection·Meta·MiniMax가 대형 오픈 웨이트를 연달아 풀면서 폐쇄형 프런티어의 가격 프리미엄이 압박받고 있고, OpenAI와 Anthropic은 각각 초대형 라운드와 IPO로 자본력을 키우며 바이오·기밀 컴퓨팅 같은 버티컬로 확장 중이다.</p>
+  <p>동시에 에이전트가 브라우저·OS 안에서 실제 행동을 하기 시작하면서, 오작동과 악용(AI 웜, 에이전트 해킹)이 소송·집행·보안 경보로 직결되는 단계에 들어섰다. 시장은 AI 투자 회수 가능성을 의심하며 반도체 변동성을 키우고 있으나, 인프라 수요 지표는 여전히 견조하다.</p>
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+<ul>
+  <li><strong>오픈 웨이트 재평가:</strong> Beam(Apache 2.0)과 DeepSeek V4.1 Flash(MIT)는 상용 제약이 거의 없다. Muse Spark Open·FLUX 3 Klein은 라이선스 조건(매출 기준 등)을 반드시 확인할 것.</li>
+  <li><strong>온디바이스·로컬:</strong> FLUX 3 Klein(8GB GPU), Muse Spark Open(Mac Studio 2대) 등 로컬 구동 옵션이 확대됐다. 프라이버시·오프라인 기능에 활용 여지.</li>
+  <li><strong>에이전트 안전장치는 필수:</strong> Microsoft의 승인 게이트, EU·인도 당국의 조사 흐름을 보면, 에이전트 기능엔 사람 승인 단계·행동 로그·권한 최소화를 처음부터 설계에 넣어야 한다.</li>
+  <li><strong>코딩 에이전트 툴체인 점검:</strong> Codex CLI 병렬 도구 실행, Claude Code forked subagent 기본화, OpenCode 2.0 SDK 등 이번 주 변경사항이 CI·스크립트 연동 방식에 영향을 줄 수 있다.</li>
+  <li><strong>공급망·규정:</strong> 미 연방기관의 DeepSeek 배제로 B2G·엔터프라이즈 고객은 모델 출처를 따질 수 있다. 다중 모델 추상화 계층을 유지하는 것이 안전하다.</li>
+</ul>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>

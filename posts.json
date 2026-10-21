@@ -7,6 +7,17 @@
   },
   "posts": [
     {
+      "slug": "2026-10-21-ai-weekly",
+      "title": "AI 주간 브리핑 (2026.10.21)",
+      "date": "2026-10-21",
+      "tags": [
+        "AI",
+        "주간브리핑",
+        "테크"
+      ],
+      "summary": "이번 주 AI 업계 주요 소식 30건. 오픈 웨이트 대공세(DeepSeek·Reflection Beam·Meta Muse Spark Open)와 OpenAI $1.4T 라운드 vs Anthropic 11월 IPO, 에이전트 오작동 규제 확산"
+    },
+    {
       "slug": "2026-10-21-us-market",
       "title": "미국 증시 브리핑 (2026.10.21)",
       "date": "2026-10-21",
