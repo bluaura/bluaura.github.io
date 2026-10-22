@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.23)</title>
+      <link>https://bluaura.github.io/posts/2026-10-23-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-23-us-market.html</guid>
+      <description>S&amp;P 500 7,663(-1.21%) · NASDAQ 26,009(-2.60%) · Dow 52,868(+0.02%). Meta FCF 적자·Lam 공급제약·Huang 자본부족 발언에 AI·반도체 급락, WTI $100 재돌파</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.10.23)</title>
       <link>https://bluaura.github.io/posts/2026-10-23-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-23-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-11-musk-economist-2036.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-11-musk-economist-2036.html</guid>
       <description>The Economist 1시간 25분 인터뷰. 약 5년 내 AI가 인류 총합 지능 초월, 2036년 화폐 무의미화, 준무한 경제, 경쟁사 간 출시 전 1~2주 상호 안전 검증, 미국은 전력·중국은 칩이 병목.</description>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>혁신 경제의 미래: AI, 노동, 공공 정책 — 시사점을 얻을 만한 스탠퍼드 대담</title>
-      <link>https://bluaura.github.io/posts/2026-10-11-innovation-economy-stanford.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-11-innovation-economy-stanford.html</guid>
-      <description>페이페이 리·수전 에이시·닐 마호니의 스탠퍼드 대담. 범용 기술의 병목, &#x27;무지의 베일&#x27; 안전망, 대체가 아닌 증강, 현존 직업 약 70%는 70년 전에 없던 직업, HAI 정책 3대 원칙.</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
