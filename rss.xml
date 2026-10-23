@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.24)</title>
+      <link>https://bluaura.github.io/posts/2026-10-24-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-24-us-market.html</guid>
+      <description>S&amp;P 500 7,623.68(-0.52%) · NASDAQ 25,955.34(-0.21%) · Dow 52,215.16(-1.23%). Meta capex발 AI 투자 우려와 WTI $103 돌파로 기술·경기주 동반 약세</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.23)</title>
       <link>https://bluaura.github.io/posts/2026-10-23-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-23-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-13-kr-market.html</guid>
       <description>KOSPI 6,035.35(-5.46%) · KOSDAQ 837.03(-1.43%). 中 CXMT 차세대 D램 충격에 외국인 4.5조 매도, 매도 사이드카 발동·삼성전자 -7%·SK하이닉스 -10%</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.10.12)</title>
-      <link>https://bluaura.github.io/posts/2026-10-12-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-12-kr-market.html</guid>
-      <description>KOSPI 6,384.24(-3.65%) · KOSDAQ 849.19(-4.83%). 오픈AI 매출 논란에 외국인 2조원 반도체 매도, 두 달 만에 6400선 붕괴</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
