@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.27)</title>
+      <link>https://bluaura.github.io/posts/2026-10-27-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-macro.html</guid>
+      <description>오늘 08시 한국 3분기 GDP 속보(한은 전망 0.3% vs 시장 0%대 후반)와 FOMC·美 GDP·PCE 슈퍼위크. 코스피 7개월 최저, 골드만 코스피 목표 9,000 하향</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.10.26)</title>
       <link>https://bluaura.github.io/posts/2026-10-26-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-26-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-14-ai-weekly.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-14-ai-weekly.html</guid>
       <description>이번 주 AI 업계 주요 소식 30건. Claude Haiku 5.5 저가 공세, Meta Muse Wonder 프런티어 합류, 에이전트 안전사고 공개와 백악관 공시 요구</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.10.13)</title>
-      <link>https://bluaura.github.io/posts/2026-10-13-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-13-us-market.html</guid>
-      <description>S&amp;P 500 7,807(-0.06%) · NASDAQ 27,246(-0.44%) · Dow 51,851(+0.38%). 中 CXMT 차세대 DRAM 발표에 메모리주 급락, 유가·달러 강세 속 가치주 로테이션</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
