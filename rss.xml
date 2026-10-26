@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>한국 증시 브리핑 (2026.10.26)</title>
+      <link>https://bluaura.github.io/posts/2026-10-26-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-26-kr-market.html</guid>
+      <description>KOSPI 5,469.47(-1.46%) · KOSDAQ 727.21(-3.26%). 외국인 7천억 매도·유가 116달러에 KOSPI 5,500 붕괴, 7개월 만에 최저</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.24)</title>
       <link>https://bluaura.github.io/posts/2026-10-24-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-24-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-13-us-market.html</guid>
       <description>S&amp;P 500 7,807(-0.06%) · NASDAQ 27,246(-0.44%) · Dow 51,851(+0.38%). 中 CXMT 차세대 DRAM 발표에 메모리주 급락, 유가·달러 강세 속 가치주 로테이션</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.10.13)</title>
-      <link>https://bluaura.github.io/posts/2026-10-13-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-13-macro.html</guid>
-      <description>10월 1~10일 수출 +102%(일평균 +28.5%)·반도체 122억달러 역대 최대에도 코스피는 외국인 2조 매도로 -3.65%. 10/14 미국 9월 CPI(근원 +0.2% 예상)가 단기 방향 가른다</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
