@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.28)</title>
+      <link>https://bluaura.github.io/posts/2026-10-28-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-28-us-market.html</guid>
+      <description>S&amp;P 500 7,722.60(+0.60%) · NASDAQ 26,477.81(+1.18%). Anthropic IPO 효과로 반도체 랠리(SOX +3.6%), Boeing 급락에 Dow 보합, FOMC 대기</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.10.28)</title>
       <link>https://bluaura.github.io/posts/2026-10-28-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-28-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-17-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-17-us-market.html</guid>
       <description>S&amp;P 500 7,659.44(-1.09%) · NASDAQ 26,140.03(-2.14%). AI 인프라·부채 우려로 반도체 8일 연속 하락, NASDAQ 6월 이후 최악의 주간. Brent $110 근접</description>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>카탈리스트 캘린더 (2026.10.17 기준)</title>
-      <link>https://bluaura.github.io/posts/2026-10-17-catalyst-calendar.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-17-catalyst-calendar.html</guid>
-      <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
