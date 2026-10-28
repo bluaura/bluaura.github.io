@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.29)</title>
+      <link>https://bluaura.github.io/posts/2026-10-29-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-macro.html</guid>
+      <description>연준 10월 FOMC 3.75~4.00% 동결(10대 2, 인상 소수의견 2명), 12월 인상 확률 약 85% 유지. 오늘 밤 美 3분기 GDP(예상 3.0%)·9월 근원 PCE(예상 3.1%)가 다음 분수령</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.28)</title>
       <link>https://bluaura.github.io/posts/2026-10-28-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-28-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-21-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-21-macro.html</guid>
       <description>오늘 10월 1~20일 수출, 내일 한은 금통위(3.00% 동결 93~95% 예상, 11월 인상 신호 주목). 워시 의장 IMF 대담 후 10월 FOMC 동결 확률 80%대로 상승했지만 코스피는 AI 자금조달 우려로 10/20 -3.73%.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.10.21)</title>
-      <link>https://bluaura.github.io/posts/2026-10-21-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-21-kr-market.html</guid>
-      <description>KOSPI 5,735.66(+3.29%) · KOSDAQ 792.76(+1.38%). 전일 급락 하루 만에 반도체 주도 급반등, 외국인 6,600억 순매수·매수 사이드카 발동</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
