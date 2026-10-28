@@ -7,6 +7,17 @@
   },
   "posts": [
     {
+      "slug": "2026-10-28-ai-weekly",
+      "title": "AI 주간 브리핑 (2026.10.28)",
+      "date": "2026-10-28",
+      "tags": [
+        "AI",
+        "주간브리핑",
+        "테크"
+      ],
+      "summary": "이번 주 AI 업계 주요 소식 30건. Anthropic Nasdaq IPO 신청, OpenAI $1.25T 밸류 $30B 조달 임박과 GPT-6.1 Terra 출시, SK하이닉스 HBM 2029년까지 완판"
+    },
+    {
       "slug": "2026-10-28-gpu-rental-depreciation",
       "title": "GPU 렌탈가 역주행: 버리의 감가상각 공격은 아직 유효한가",
       "date": "2026-10-28",
