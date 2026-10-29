@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.10.30)</title>
+      <link>https://bluaura.github.io/posts/2026-10-30-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-30-macro.html</guid>
+      <description>美 3분기 GDP 3.4%로 예상(3.1~3.2%) 상회, 9월 근원 PCE 3.1% 부합. 12월 인상 확률 79.6%로 소폭 하락, 10년물 4.99%. 오늘 오전 한국 9월 산업활동동향이 11/26 금통위 인상 판단 변수</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.29)</title>
       <link>https://bluaura.github.io/posts/2026-10-29-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-23-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-23-macro.html</guid>
       <description>한은 3.00% 만장일치 동결했지만 성장·물가 전망 상향으로 &#x27;매파적 동결&#x27;. 증권가는 11월 인상·최종 3.50% 유지. 같은 날 메타 현금흐름 적자발 AI 우려로 나스닥 -2.6%·반도체지수 -6.5%, 美 10년물은 5.02%로 12bp 하락.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.10.23)</title>
-      <link>https://bluaura.github.io/posts/2026-10-23-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-23-kr-market.html</guid>
-      <description>KOSPI 5,550.30(+0.30%) · KOSDAQ 751.69(-1.62%). 美 AI 반도체 쇼크로 장중 -4% 급락 후 SK하이닉스 솔리다임 상장 철회에 반등, 외국인 1조원 순매도</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
