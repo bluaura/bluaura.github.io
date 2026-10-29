@@ -19,6 +19,13 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.10.29)</title>
+      <link>https://bluaura.github.io/posts/2026-10-29-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-kr-market.html</guid>
+      <description>KOSPI 5,937.66(-1.24%) · KOSDAQ 753.21(-2.34%). 삼성전자 주주환원 실망·LG엔솔 지분매각·체코 원전 결렬로 하루 만에 6000선 반납</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.28)</title>
       <link>https://bluaura.github.io/posts/2026-10-28-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-28-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-22-kr-market.html</guid>
       <description>KOSPI 5,533.77(-3.52%) · KOSDAQ 764.10(-3.62%). 삼성전자·SK하이닉스 자사주 매입 종료 속 외국인·기관 동반 매도, 한은 매파적 동결</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.10.21)</title>
-      <link>https://bluaura.github.io/posts/2026-10-21-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-21-us-market.html</guid>
-      <description>S&amp;P 500 7,712.57(+0.28%) · NASDAQ 26,424.82(-0.02%) · Dow 52,495.88(+1.02%). AI 기술주→헬스케어·소형주 로테이션, 장후 Netflix 급락·SpaceX 급등</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
