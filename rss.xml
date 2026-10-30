@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.10.31)</title>
+      <link>https://bluaura.github.io/posts/2026-10-31-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-31-us-market.html</guid>
+      <description>S&amp;P 500 7,580.07(-1.82%) · NASDAQ 25,437.00(-2.86%) · Dow 51,770.31(-1.09%). Intel -28% 쇼크에 반도체 시총 1조달러 증발, Amazon FCF 우려까지 겹치며 나스닥 10월 약 -5% 마감</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.30)</title>
       <link>https://bluaura.github.io/posts/2026-10-30-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-30-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-24-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-24-us-market.html</guid>
       <description>S&amp;P 500 7,623.68(-0.52%) · NASDAQ 25,955.34(-0.21%) · Dow 52,215.16(-1.23%). Meta capex발 AI 투자 우려와 WTI $103 돌파로 기술·경기주 동반 약세</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>카탈리스트 캘린더 (2026.10.24 기준)</title>
-      <link>https://bluaura.github.io/posts/2026-10-24-catalyst-calendar.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-24-catalyst-calendar.html</guid>
-      <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
