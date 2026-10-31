@@ -26,6 +26,13 @@
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>바이낸스 3억 해킹 — 무엇이 뚫렸고, 비트코인은 왜 같이 빠졌나</title>
+      <link>https://bluaura.github.io/posts/2026-10-31-binance-hack.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-31-binance-hack.html</guid>
+      <description>역대 최대 3억 탈취, 0억 동결. 블록체인이 아닌 핫월렛 서명 인프라가 뚫렸다. BTC 6K대 하락은 해킹+인텔 25% 폭락·나스닥 −3.4%·청산 5.7억 복합 요인.</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.30)</title>
       <link>https://bluaura.github.io/posts/2026-10-30-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-30-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-27-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-kr-market.html</guid>
       <description>KOSPI 5,638.34(+3.09%) · KOSDAQ 743.83(+2.29%). 앤트로픽 S-1 공개에 반도체 급반등·매수 사이드카, 외국인 4거래일 만에 순매수</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>Anthropic S-1 해부와 AI 투자 단계별 중요도 점검 (HW → 하이퍼스케일러 → AI 랩)</title>
-      <link>https://bluaura.github.io/posts/2026-10-27-anthropic-s1-ai-stages.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-anthropic-s1-ai-stages.html</guid>
-      <description>ANT 1H26 매출 $16.3B(+1,300%), Q2 영업이익 $974M 첫 흑자, 순손실 $80.7B의 90%는 비현금. 컴퓨트 약정 ~$637B. 메모리·CPU → 하이퍼스케일러 → ANT·OpenAI 단계별 데이터와 전환 신호 정리</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
