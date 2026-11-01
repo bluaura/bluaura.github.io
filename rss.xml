@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.02)</title>
+      <link>https://bluaura.github.io/posts/2026-11-02-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-02-macro.html</guid>
+      <description>韓 10월 수출 +93.7%(예상 +93.2%), 반도체 +259.4%, 9월 생산 +3.0%. 지표는 강한데 AI 쇼크로 코스피 -3.48%. 오늘 자정 美 ISM(54.6~54.7), 11/3 韓 CPI(2.8%), 12월 Fed 인상 확률 약 76%</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.10.31)</title>
       <link>https://bluaura.github.io/posts/2026-10-31-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-31-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-27-tsla-roadster-reaction.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-tsla-roadster-reaction.html</guid>
       <description>0-60mph 0.81초, 2g+ 코너링 주장. 바이럴은 대성공, 월가는 실적 영향 미미한 헤일로카로 판단. 장전 +5% 후 −2.13% 마감.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>테슬라 FY2026 Q3 실적 리뷰 — EPS 비트, 매출 정체, 약속은 2027년으로</title>
-      <link>https://bluaura.github.io/posts/2026-10-27-tsla-q3-2026.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-tsla-q3-2026.html</guid>
-      <description>조정 EPS $0.48(컨센 +6.7%), 매출 $28.05B 정체, 영업이익률 2.6%. FCF 흑자는 운전자본 덕, 로보택시 지표 교체 경고. Hold.</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
