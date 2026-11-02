@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.03)</title>
+      <link>https://bluaura.github.io/posts/2026-11-03-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-macro.html</guid>
+      <description>美 ISM 제조업 55.5(예상 54.6) 상회, 가격지수 75.2로 둔화. WTI 약 8% 급락에도 나스닥 -0.41%. 오늘 오전 韓 10월 CPI(예상 2.8%)가 11/26 금통위 인상 판단 변수, 12월 Fed 인상 확률 약 77%</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.02)</title>
       <link>https://bluaura.github.io/posts/2026-11-02-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-02-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-27-tsla-spacex-merger-scenarios.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-tsla-spacex-merger-scenarios.html</guid>
       <description>TSLA 1주당 가치 80(복합기업 할인)~00+(아이브스). RBC 80·30% 프리미엄. 변수는 교환비율, SPCX 주가, 중국 리스크.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>Tesla +5%, Barclays 상향과 SpaceX 합병 시나리오 점검</title>
-      <link>https://bluaura.github.io/posts/2026-10-27-tsla-spacex-merger.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-tsla-spacex-merger.html</guid>
-      <description>Barclays 목표가 $370→$450, Overweight 상향. 머스크 합병위원회 확인이 촉매지만 발행주식 과반 찬성 허들과 2026년 성사 확률 15%가 남는다.</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
