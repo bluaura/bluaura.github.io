@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.03)</title>
+      <link>https://bluaura.github.io/posts/2026-11-03-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-us-market.html</guid>
+      <description>S&amp;P 500 7,541.40(-0.51%) · NASDAQ 25,164.32(-1.07%). 유가 7%대 급락에도 AI 매도 재개, Oracle 증자·Marvell 인수 충격</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.03)</title>
       <link>https://bluaura.github.io/posts/2026-11-03-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-27-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-us-market.html</guid>
       <description>S&amp;P 500 7,676.80(+0.70%) · NASDAQ 26,169.38(+0.82%). Anthropic Nasdaq IPO S-1 공개로 AI 심리 회복, Meta $95B 증자·FOMC 대기</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>테슬라-스페이스X 합병 시나리오별 밸류에이션</title>
-      <link>https://bluaura.github.io/posts/2026-10-27-tsla-spacex-merger-scenarios.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-tsla-spacex-merger-scenarios.html</guid>
-      <description>TSLA 1주당 가치 80(복합기업 할인)~00+(아이브스). RBC 80·30% 프리미엄. 변수는 교환비율, SPCX 주가, 중국 리스크.</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
