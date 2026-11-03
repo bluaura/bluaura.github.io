@@ -19,6 +19,13 @@
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.11.03)</title>
+      <link>https://bluaura.github.io/posts/2026-11-03-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-kr-market.html</guid>
+      <description>KOSPI 5,648.79(-3.59%) · KOSDAQ 704.39(-4.08%). 오라클 200억달러 조달 등 빅테크 자금 부담에 AI 수익성 우려 재부각, 반도체 중심 급락</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.02)</title>
       <link>https://bluaura.github.io/posts/2026-11-02-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-02-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-28-000660-q3-2026.html</guid>
       <description>영업이익 83.3조(컨센 +8.3%, 마진 79.7%), 4Q D램 출하 +20% 중반 가이던스, FY26 주주환원 100조. 4Q 자체 추정 영업이익 99~117조로 컨센 81.5조 상향 불가피. HBM4E 시점은 후퇴.</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.10.27)</title>
-      <link>https://bluaura.github.io/posts/2026-10-27-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-27-us-market.html</guid>
-      <description>S&amp;P 500 7,676.80(+0.70%) · NASDAQ 26,169.38(+0.82%). Anthropic Nasdaq IPO S-1 공개로 AI 심리 회복, Meta $95B 증자·FOMC 대기</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
