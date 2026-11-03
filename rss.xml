@@ -19,6 +19,13 @@
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>Marvell·Lumentum 급락 진단: $115B 딜에 왜 양쪽 다 빠졌나</title>
+      <link>https://bluaura.github.io/posts/2026-11-03-mrvl-lite-deal-selloff.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-mrvl-lite-deal-selloff.html</guid>
+      <description>3거래일 MRVL −31.9%, LITE −25.1%. LITE의 11/2 낙폭 중 72%는 고정 교환비 연동분이고, 희석·사이클 정점·고객 이탈·규제 우려가 MRVL을 눌렀다. 실적은 원인이 아니다.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.03)</title>
       <link>https://bluaura.github.io/posts/2026-11-03-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-28-gpu-rental-depreciation.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-28-gpu-rental-depreciation.html</guid>
       <description>A100까지 렌탈가 상승, 6년 상각선 대비 +9~143%. 버리의 2~3년 수명 가정은 약화됐지만 capex 연 1,390억 달러 상각 부담과 FCF 압박은 여전.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 주간 브리핑 (2026.10.28)</title>
-      <link>https://bluaura.github.io/posts/2026-10-28-ai-weekly.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-28-ai-weekly.html</guid>
-      <description>이번 주 AI 업계 주요 소식 30건. Anthropic Nasdaq IPO 신청, OpenAI $1.25T 밸류 $30B 조달 임박과 GPT-6.1 Terra 출시, SK하이닉스 HBM 2029년까지 완판</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>

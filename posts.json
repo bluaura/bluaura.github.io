@@ -7,6 +7,18 @@
   },
   "posts": [
     {
+      "slug": "2026-11-03-mrvl-lite-deal-selloff",
+      "title": "Marvell·Lumentum 급락 진단: $115B 딜에 왜 양쪽 다 빠졌나",
+      "date": "2026-11-03",
+      "tags": [
+        "미국증시",
+        "종목분석",
+        "MRVL",
+        "LITE"
+      ],
+      "summary": "3거래일 MRVL −31.9%, LITE −25.1%. LITE의 11/2 낙폭 중 72%는 고정 교환비 연동분이고, 희석·사이클 정점·고객 이탈·규제 우려가 MRVL을 눌렀다. 실적은 원인이 아니다."
+    },
+    {
       "slug": "2026-11-03-palantir-q3-2026",
       "title": "[리뷰] Palantir — FY2026 Q3 실적 해부",
       "date": "2026-11-03",
