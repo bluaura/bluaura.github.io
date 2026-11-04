@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.05)</title>
+      <link>https://bluaura.github.io/posts/2026-11-05-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-us-market.html</guid>
+      <description>S&amp;P 500 7,688.62(+1.58%) · NASDAQ 25,736.51(+1.44%). Democrats 의회 석권과 oil 급락에 Dow 1,569pt 급등, AI 인프라주는 규제 우려로 약세</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.05)</title>
       <link>https://bluaura.github.io/posts/2026-11-05-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-29-msft-q1-2027.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-msft-q1-2027.html</guid>
       <description>매출 $92.3B(+19%)·EPS $4.89로 컨센 상회, Azure 48%에 Q2 가이던스 49~50%(컨센 45~47.6%). 가속 원천은 효율·토큰 단가, Copilot 유료 좌석 수는 사라졌다. 시간외 +3~6%.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.10.29)</title>
-      <link>https://bluaura.github.io/posts/2026-10-29-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-macro.html</guid>
-      <description>연준 10월 FOMC 3.75~4.00% 동결(10대 2, 인상 소수의견 2명), 12월 인상 확률 약 85% 유지. 오늘 밤 美 3분기 GDP(예상 3.0%)·9월 근원 PCE(예상 3.1%)가 다음 분수령</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
