@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.05)</title>
+      <link>https://bluaura.github.io/posts/2026-11-05-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-macro.html</guid>
+      <description>美 10월 ADP +8.6만(예상 +6.7~6.9만) 상회, ISM 서비스 54.5(예상 54.8) 하회·가격 73.0. 민주당 양원 장악에 WTI 8.3% 급락·다우 3%대 상승. 12월 Fed 인상 확률 약 80%, 다음은 11/6 NFP</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.04)</title>
       <link>https://bluaura.github.io/posts/2026-11-04-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-04-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-29-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-macro.html</guid>
       <description>연준 10월 FOMC 3.75~4.00% 동결(10대 2, 인상 소수의견 2명), 12월 인상 확률 약 85% 유지. 오늘 밤 美 3분기 GDP(예상 3.0%)·9월 근원 PCE(예상 3.1%)가 다음 분수령</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.10.29)</title>
-      <link>https://bluaura.github.io/posts/2026-10-29-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-kr-market.html</guid>
-      <description>KOSPI 5,937.66(-1.24%) · KOSDAQ 753.21(-2.34%). 삼성전자 주주환원 실망·LG엔솔 지분매각·체코 원전 결렬로 하루 만에 6000선 반납</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
