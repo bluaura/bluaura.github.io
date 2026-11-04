@@ -19,6 +19,13 @@
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>AI 주간 브리핑 (2026.11.04)</title>
+      <link>https://bluaura.github.io/posts/2026-11-04-ai-weekly.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-04-ai-weekly.html</guid>
+      <description>이번 주 AI 업계 주요 소식 30건. Anthropic 정정 S-1과 Oracle 자금 조달로 AI 수익성 논란 확대, Mistral Large 4 가중치 공개</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.03)</title>
       <link>https://bluaura.github.io/posts/2026-11-03-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-googl-q3-2026.html</guid>
       <description>매출 $127.6B(+25%) 인라인, GAAP EPS $2.12로 컨센 대비 -30%. Cloud +103%·백로그 $561B에도 Search +12% 감속·FCF -$9.1B로 시간외 -10%. 사라진 지표 6개, TPU 마진 비공개.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.10.28)</title>
-      <link>https://bluaura.github.io/posts/2026-10-28-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-28-us-market.html</guid>
-      <description>S&amp;P 500 7,722.60(+0.60%) · NASDAQ 26,477.81(+1.18%). Anthropic IPO 효과로 반도체 랠리(SOX +3.6%), Boeing 급락에 Dow 보합, FOMC 대기</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>

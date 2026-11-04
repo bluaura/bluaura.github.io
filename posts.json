@@ -7,6 +7,17 @@
   },
   "posts": [
     {
+      "slug": "2026-11-04-ai-weekly",
+      "title": "AI 주간 브리핑 (2026.11.04)",
+      "date": "2026-11-04",
+      "tags": [
+        "AI",
+        "주간브리핑",
+        "테크"
+      ],
+      "summary": "이번 주 AI 업계 주요 소식 30건. Anthropic 정정 S-1과 Oracle 자금 조달로 AI 수익성 논란 확대, Mistral Large 4 가중치 공개"
+    },
+    {
       "slug": "2026-11-04-us-market",
       "title": "미국 증시 브리핑 (2026.11.04)",
       "date": "2026-11-04",

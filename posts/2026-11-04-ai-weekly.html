@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.11.04) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. Anthropic 정정 S-1과 Oracle 자금 조달로 AI 수익성 논란 확대, Mistral Large 4 가중치 공개">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.11.04)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. Anthropic 정정 S-1과 Oracle 자금 조달로 AI 수익성 논란 확대, Mistral Large 4 가중치 공개">
+<meta property="article:published_time" content="2026-11-04">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.11.04)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-11-04</p>
+  </div>
+
+  <article class="article-body">
+<p>수집 기간: 2026-10-28 ~ 2026-11-04. 한 주간 발표된 기사 중 파급력과 개발자 영향을 기준으로 30건을 골랐습니다. 공식 발표로 확인되지 않은 내용은 본문에 미확인으로 표시했습니다.</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델</div><div class="value">4종 (유출 2건 별도)</div></div>
+  <div class="stat"><div class="label">최대 펀딩</div><div class="value">Cohere 최대 C$7bn</div></div>
+  <div class="stat"><div class="label">주목 이슈</div><div class="value">AI 수익성 논란</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+<div class="callout">
+  <p><strong>1. AI 청구서가 시장의 중심 의제로 올라왔습니다.</strong> Anthropic의 정정 S-1에는 약 $895.4B 규모의 지출 약정이, Oracle 자금 조달 계획에는 $20B가 담겼습니다. 11월 3일 삼성전자와 SK하이닉스는 장 초반 5%대 하락했습니다. 반면 AMD와 Super Micro 실적은 인프라 수요가 여전히 강하다는 점을 보여줬습니다.</p>
+  <p><strong>2. Self-hosting이 현실적인 비용 선택지가 됐습니다.</strong> Mistral은 Large 4 전체 가중치를 공개했고, Revolut은 GLM-5.3 자체 호스팅으로 AI 코딩 비용을 약 90% 줄였다고 밝혔습니다.</p>
+  <p><strong>3. 에이전트가 개발 흐름과 앱 진입점을 바꾸고 있습니다.</strong> GitHub 집계에서 에이전트 초안 PR 비중은 3월 17%에서 9월 40% 이상으로 늘었습니다. Apple은 App Intents 기반 Siri AI 개발자 프리뷰를 열었습니다.</p>
+</div>
+
+<h2>모델 출시·업데이트</h2>
+
+<h3>1. Google, 사이버 방어용 Gemini 4 Carbon 공개</h3>
+<p>Gemini 4 Argon 2주 뒤 나온 모델로 사이버 보안과 장시간 작업을 내세웁니다. Artificial Analysis 지수는 59점으로 보도됐지만, 공개된 점수 대부분은 Google 자체 테스트입니다. 소규모 사이버 방어 팀에 먼저 제공되며 일반 공개 일정은 없습니다. <a href="https://androidauthority.com/google-announces-gemini-4-carbon-3729367">Android Authority</a> (2026-10-28)</p>
+
+<h3>2. Mistral, Large 4 가중치 공개</h3>
+<p>총 약 1T, 활성 52B 파라미터의 MoE 모델입니다. Mistral Ecosystem Open-Weight License를 적용하며, 보도에 따르면 MaaS 사업자는 별도 상용 라이선스가 필요합니다. 자체 API 가격은 100만 토큰당 입력 $0.70, 캐시 입력 $0.07, 출력 $2.10입니다. Mistral은 오픈 모델 중 코딩 최고 수준을 주장하지만 Vals AI 종합 지수에서는 30개 중 17위입니다. <a href="https://mistral.ai/news/mistral-large-4-oss/">Mistral</a>, <a href="https://www.developersdigest.tech/blog/mistral-large-4-weights-huggingface-vllm-license-2026">Developers Digest</a> (2026-10-29)</p>
+
+<h3>3. OpenAI, 생명과학 특화 GPT-6 Rosalind 출시</h3>
+<p>생명과학 연구용 모델로, trusted-access 프로그램을 통해서만 제공됩니다. 일반 API 개발자가 바로 쓸 수 있는 모델은 아닙니다. <a href="https://www.teamday.ai/blog/best-ai-models-2026">Teamday</a> (2026-10-30, 2차 출처)</p>
+
+<h3>4. Meituan, 에이전트용 LongCat-2.5 Preview 공개</h3>
+<p>총 1.6T, 활성 약 48B 파라미터에 1M 토큰 context를 지원합니다. 장시간 agentic coding과 GUI 작업을 겨냥했고 중국산 가속기로 학습했다고 합니다. <a href="https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/">TechNode</a> (2026-11-02)</p>
+
+<h3>5. [미확인] GPT-6.2 Astra, Codex 사용량 지표에서 포착</h3>
+<p><code>gpt-6.2-astra</code> 식별자가 일부 Codex 계정 지표에 나타났지만 OpenAI의 공식 발표, 벤치마크, 공개 API는 아직 없습니다. 커뮤니티에 도는 가격도 검증되지 않았습니다. <a href="https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks">Decrypt</a>, <a href="https://www.cometapi.com/gpt-6-2-astra-codex-sightings/">CometAPI</a> (2026-11-02~03)</p>
+
+<h3>6. [미확인] Claude Fable 5.5·Mythos 5.5 유출설</h3>
+<p>Anthropic 페이지 숨은 코드의 라벨과 LiteLLM 항목이 근거로 거론되지만 해당 라벨과 항목은 이후 사라졌습니다. 11월 3일 기준 공식 발표는 확인되지 않았고, 최신 확인 버전은 Fable 5.1입니다. 출시를 전제로 한 스펙과 가격은 믿기 어렵습니다. <a href="https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks">Decrypt</a>, <a href="https://kingy.ai/blog/claude-fable-5-5/">Kingy AI</a> (2026-11-02~03)</p>
+
+<h2>정책·규제</h2>
+
+<h3>7. 뉴욕주, 미성년자 챗봇 제한법 서명</h3>
+<p>18세 미만에게 사람인 척하는 기능, 자해 권장, 성적 대화 같은 companion 기능을 금지합니다. 연령 확인을 요구하되 신분증 외 수단도 제공해야 하고, 확인 정보는 사용 후 삭제해야 합니다. 위반 시 건당 최대 $25,000이며 2027년 1월 1일 시행 예정입니다. <a href="https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby">New York State</a> (2026-10-28)</p>
+
+<h3>8. 유럽위원회, AI 에이전트의 AI Act 적용 관련 예비 견해</h3>
+<p>AI 에이전트를 통상 AI Act Article 3(1)의 AI 시스템 정의에 포함되는 것으로 본다는 내용입니다. 최종 해석이 아닌 예비 견해입니다. <a href="https://cubbbix.com/blog/ai-regulation-november-2026-global-update">Cubbbix</a> (2026-10-28, 2차 출처)</p>
+
+<h3>9. EU AI Act 12월 2일 기한 임박, xAI는 워터마크 기본 적용</h3>
+<p>12월 2일부터 성적 이미지와 CSAM 생성 시스템 금지가 적용되고, Article 50(2) 표시 의무의 유예도 끝납니다. 과징금은 각각 최대 3,500만 유로 또는 매출 7%, 1,500만 유로 또는 3%입니다. xAI는 11월 7일부터 Grok 7개 모델에 비가시 텍스트 워터마크를 기본 적용한다고 보도됐습니다. <a href="https://cubbbix.com/blog/ai-regulation-november-2026-global-update">Cubbbix</a>, <a href="https://www.boutlet.io/posts/cmw0auzv600gs10s2n8qviupa">Boutlet</a> (2026-11-03, 2차 출처)</p>
+
+<h3>10. 폴란드, AI Act 집행 조항 발효</h3>
+<p>폴란드의 AI Act 집행 관련 조항이 발효됐습니다. 회원국 단위 집행 체계가 실제로 갖춰지는 흐름입니다. <a href="https://cubbbix.com/blog/ai-regulation-november-2026-global-update">Cubbbix</a> (2026-10-28, 2차 출처)</p>
+
+<h3>11. NYT 소송, OpenAI가 fair use 지지 의견 공개</h3>
+<p>OpenAI는 미국 정부 등이 낸 20개 문서를 발췌해 학습의 fair use를 주장했습니다. 다만 이는 소송 당사자의 입장이지 법원 판단이 아닙니다. Wikimedia Foundation은 학습은 fair use일 가능성이 높지만 웹페이지 retrieval은 다를 수 있다는 의견서 제출을 요청했습니다. 9월 4일 제기된 cross-motion에 대한 판결은 아직 보고되지 않았습니다. <a href="https://ppc.land/openai-quotes-20-briefs-us-government-included-against-new-york-times">PPC Land</a> (2026-10-29~30)</p>
+
+<h2>산업 동향·기업</h2>
+
+<h3>12. GitHub Octoverse: 에이전트 초안 PR 40% 돌파</h3>
+<p>9월 PR 중 40% 이상의 첫 초안을 에이전트가 작성했으며 3월에는 17%였습니다. 9월 PR은 1억 1천만 건, 지난 1년 푸시는 179억 회입니다. GitHub 자체 집계이고 탐지 가능한 에이전트만 세었다는 한계가 있습니다. <a href="https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/">GitHub</a> (2026-10-28)</p>
+
+<h3>13. Apple, App Intents 기반 Siri AI 개발자 프리뷰</h3>
+<p>iOS, iPadOS, macOS, visionOS 27.3 베타에서 제공되고 지원 언어에 한국어가 포함됩니다. App Store 제출은 2027년 봄에 열립니다. iOS 앱 개발자라면 Siri AI 연동을 준비할 시점입니다. <a href="https://developer.apple.com/news/?id=gdk2umrf">Apple Developer</a> (2026-11-03~04)</p>
+
+<h3>14. Revolut, Claude Code·Gemini를 GLM-5.3 self-hosting으로 대체</h3>
+<p>Nvidia B200 56대로 엔지니어 약 2,000명을 지원하며 추론 비용은 100만 토큰당 약 $0.30이라고 합니다. AI 코딩 비용 약 90% 절감, 코딩 시간 60% 단축은 회사 측 수치입니다. <a href="https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345">The Register</a> (2026-11-03)</p>
+
+<h3>15. Postman 데스크톱, 코딩 에이전트 설정 무단 변경 논란</h3>
+<p>12.33.4 버전이 Claude Code와 Codex 설정에 플러그인과 startup hook을 추가한다는 이슈가 제기됐습니다. 사용자 보고 단계이므로 hook 설정 점검이 권장됩니다. <a href="https://github.com/postmanlabs/postman-app-support/issues/14370">GitHub Issue #14370</a> (2026-11-03~04)</p>
+
+<h3>16. AMD·Super Micro, AI 인프라 실적 호조</h3>
+<p>AMD 3분기 매출은 $13.4B(+45%), 데이터센터는 $8.5B(+97%)이고 4분기 가이던스는 약 $17B입니다. Super Micro 분기 매출은 $19.95B(+298%)이며 FY27 가이던스를 $72~82B로 올렸습니다. <a href="https://www.globenewswire.com/news-release/2026/11/03/3394824/0/en/amd-reports-third-quarter-2026-financial-results.html">AMD</a>, <a href="https://www.reuters.com/business/super-micro-forecasts-quarterly-revenue-above-estimates-strong-ai-server-demand-2026-11-03/">Reuters</a> (2026-11-03)</p>
+
+<h3>17. 빅테크 부외 AI 약정 약 $3.2T로 급증</h3>
+<p>Amazon, Alphabet, Microsoft, Meta, Oracle의 부외 AI 약정이 6개월 사이 90% 늘어 약 $3.2T가 됐다는 Nikkei 보도입니다. Amazon 분기 capex는 $77B에 달했고 Google은 $9B 규모의 마이너스 현금흐름이 부각돼 주가가 약세를 보였습니다. <a href="https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months">Nikkei Asia</a> (2026-11-04), <a href="https://www.datacenterdynamics.com/en/news/aws-earnings-jump-but-investors-grow-weary-of-ai-spend-as-quarterly-capex-hits-77bn/">DCD</a>, <a href="https://www.datacenterdynamics.com/en/news/google-share-price-slumps-as-ai-data-center-build-out-drives-9bn-negative-cashflow/">DCD</a></p>
+
+<h2>투자·M&amp;A</h2>
+
+<h3>18. Anthropic 정정 S-1: 3분기 매출 약 $17B, 순손실 $23.29B</h3>
+<p>9개월 누적 매출은 $33.24B, 구매 약정은 약 $895.4B입니다. 나스닥 티커는 ANT이며, 보도에 따르면 SEC 일정상 로드쇼는 빨라야 11월 10일입니다. 주식 수와 공모가 범위는 비어 있습니다. <a href="https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html">CNBC</a> (2026-11-02), <a href="https://decrypt.co/382390/claude-mythos-fable-5-5-gpt-6-2-astra-leaks">Decrypt</a></p>
+
+<h3>19. Cohere, 최대 C$7bn Series E 1차 마감</h3>
+<p>회사 측 밸류에이션은 C$35.7bn입니다. Schwarz Group이 리드하고 캐나다 정부, Nvidia 등이 참여합니다. 목표액 중 실제 납입 규모는 공개되지 않았습니다. <a href="https://thenextweb.com/news/cohere-series-e-c7bn-canada-nvidia">TNW</a> (2026-10-29)</p>
+
+<h3>20. Inference API 업체 Fal, 기업가치 $16B</h3>
+<p>Bessemer 주도로 $1.3B Series F를 유치했습니다. Nvidia, T. Rowe Price 등이 참여했고 기업가치는 4월의 2배입니다. <a href="https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/">TechCrunch</a> (2026-11-03)</p>
+
+<h3>21. Applied Compute, $3.25B 가치로 $350M 유치</h3>
+<p>Elad Gil이 주도하고 Nvidia, Shopify Ventures, HubSpot Ventures가 참여했습니다. 회사 측은 창업 18개월 미만에 ARR $100M을 넘겼다고 밝혔습니다. <a href="https://siliconangle.com/2026/11/03/ai-cloud-startup-applied-compute-raises-350m-after-reaching-key-revenue-milestone/">SiliconANGLE</a> (2026-11-03)</p>
+
+<h3>22. CrowdStrike, Fiddler AI·Dreadnode 인수 보도</h3>
+<p>두 회사 합산 약 $495M(Fiddler 약 $400M, Dreadnode 약 $95M)이라는 보도입니다. AI 관측성과 보안을 강화하는 거래이며, 2027년 1월 31일까지 마무리될 전망입니다. <a href="https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/">SecurityWeek</a> (2026-11-03~04)</p>
+
+<h2>연구·기술</h2>
+
+<h3>23. SemiAnalysis, GDPx 벤치마크 공개</h3>
+<p>11개 분야 전문 과제 206개로 frontier 모델을 평가하며 최고 종합 점수는 12%로 보고됐습니다. 도구, harness, 채점 방식에 따라 결과가 달라질 수 있습니다. <a href="https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities">SemiAnalysis</a> (2026-11-03 소개)</p>
+
+<h3>24. Anthropic, 모델 출처를 증명하는 FlashProve 공개</h3>
+<p>EPFL, MIT와 만든 오픈소스 zkSNARK 시스템으로, 응답이 특정 가중치에서 나왔음을 증명합니다. 일반 추론 대비 GPU 비용이 약 70~95배여서 아직 프로토타입 단계입니다. <a href="https://www.anthropic.com/research/provable-inference">Anthropic</a> (2026-11-02)</p>
+
+<h3>25. Latent Sparse Attention 프리프린트</h3>
+<p>Key를 계층적으로 군집화해 query가 이전 토큰 전체를 계산하지 않도록 하는 방식입니다. 1천만 토큰에서 큰 속도 향상을 보고했지만 특정 모델과 하드웨어 기준이고, 일부 long-context 정확도는 떨어졌습니다. <a href="https://arxiv.org/abs/2610.42147">arXiv</a> (2026-11-03 소개)</p>
+
+<h3>26. GPT-6 Astra로 모델 가중치를 직접 수정한 연구</h3>
+<p>Qwen3.5-0.8B 파라미터의 0.016%를 수정해 MATH-500을 7.9%에서 48.1%로 높였다는 MIT 연구진의 보고입니다. 다만 기준 모델이 토큰 제한에 자주 걸리던 상태여서 일반화에는 신중해야 합니다. <a href="https://rikiyat.github.io/blog/weight-space-programming/">Weight-Space Programming</a> (2026-11-03 소개)</p>
+
+<h2>한국 AI 소식</h2>
+
+<h3>27. FuriosaAI, $620M Series D 유치</h3>
+<p>post-money 기업가치는 $2.9B이며 국민성장펀드가 3,700억 원을 약정했습니다. RNGD는 올해 2만 장 생산을 예상하고, 3세대 칩은 Broadcom 등과 2nm 멀티다이, HBM4/4E 기반으로 개발합니다. <a href="https://furiosa.ai/blog/furiosaai-620-million-series-d">FuriosaAI</a> (2026-10-28)</p>
+
+<h3>28. AI 수익성 우려에 삼성전자·SK하이닉스 5%대 하락</h3>
+<p>장 초반 삼성전자는 5.02% 내린 217,500원, SK하이닉스는 5.5% 내린 1,391,000원을 기록했습니다. Oracle의 $20B 조달 계획과 Anthropic의 지출 약정이 투자 부담 우려를 키웠습니다. <a href="https://www.mt.co.kr/stock/2026/11/03/2026110309112639760">머니투데이</a> (2026-11-03)</p>
+
+<h3>29. 산업통상부, AI 팩토리 확산 전략 발표</h3>
+<p>한 공장에서 검증한 AI를 유사 공정, 공급망, 산업단지로 넓히는 4단계 구상입니다. 기존 AI 모델 541개를 분석해 재사용 기술을 찾습니다. 우수사례 38건의 평균 생산성은 30.1% 향상, 불량률은 15.5% 감소했습니다. <a href="https://fnnews.com/news/202611031228459938">파이낸셜뉴스</a> (2026-11-03)</p>
+
+<h3>30. SK텔레콤 3분기 영업이익 5,523억 원, 네이버·카카오 실적 대기</h3>
+<p>SKT의 AIDC 매출은 1,261억 원(전년비 +6.2%, 전분기비 -7.4%), AI 기업·소비자 매출은 700억 원(+27.3%)입니다. 영업이익 +1,040%는 전년 기저효과의 영향이 큽니다. 실적 발표는 카카오 11월 5일, 네이버 11월 12일입니다. <a href="https://zdnet.co.kr/view/?no=20261104110431">ZDNet Korea</a> (2026-11-04), <a href="https://www.fnnews.com/news/202611021502551535">파이낸셜뉴스</a> (2026-11-02)</p>
+
+<div class="callout warn">
+  <p><strong>리스크와 논란.</strong> 부외 약정과 대규모 자금 조달로 AI 수익성 검증 압력이 커지고 있습니다. 개발 환경에서는 Postman 건처럼 에이전트 설정과 hook이 새로운 공급망 공격면이 될 수 있습니다. GPT-6.2와 Fable 5.5는 공식 발표 전까지 계획에 넣지 않는 편이 안전합니다.</p>
+</div>
+
+<h2>트렌드 종합</h2>
+<blockquote>
+  <p>이번 주의 축은 성능 경쟁에서 비용 검증으로 옮겨갔습니다. 칩과 서버 매출은 급증했지만 시장은 약정, 부채, 현금흐름을 묻기 시작했습니다. 기업 사용자도 비슷합니다. 오픈 가중치 모델과 저가형 API가 강해지면서 작업별로 모델을 나눠 쓰는 전략이 설득력을 얻고 있습니다. 규제는 EU 12월 기한과 미국 주법을 중심으로 구체적인 제품 요구사항이 되어가고 있습니다.</p>
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr><th>모델</th><th>입력 / 출력 (100만 토큰)</th><th>확인 사항</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>GPT-6.1 Terra</td><td>$1 / $5</td><td>10월 26일 출시(수집 기간 외, 참고용). 272K 입력 초과 시 할증 (<a href="https://aicybr.com/blog/openai-gpt-6-1-terra-api-pricing-computer-use-benchmarks">AICybr</a>)</td></tr>
+      <tr><td>Gemini 4 Argon</td><td>$2 / $10</td><td>12월 1일부터 $4 / $20으로 인상 예정 (<a href="https://www.teamday.ai/blog/best-ai-models-2026">Teamday</a>)</td></tr>
+      <tr><td>Mistral Large 4</td><td>$0.70 / $2.10</td><td>MaaS는 별도 상용 라이선스 필요 (<a href="https://www.developersdigest.tech/blog/mistral-large-4-weights-huggingface-vllm-license-2026">Developers Digest</a>)</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul>
+  <li><strong>비용 재점검:</strong> Gemini 4 Argon을 쓴다면 12월 인상분을 예산에 반영하고, 작업 난이도별 모델 라우팅을 검토하세요. 가격은 적용 전 공식 문서로 다시 확인이 필요합니다.</li>
+  <li><strong>Self-hosting 판단:</strong> Large 4는 4-bit 빌드도 멀티 GPU 노드가 필요하다고 합니다. Revolut 수준의 사용량이 아니라면 API 비용과 먼저 비교하세요.</li>
+  <li><strong>iOS 앱:</strong> Siri AI 프리뷰에 맞춰 핵심 기능의 App Intents 노출을 정리해 두면 2027년 봄 제출 준비가 수월합니다.</li>
+  <li><strong>컴플라이언스:</strong> 챗봇 기능이 있고 뉴욕 또는 EU 사용자가 있다면 미성년자 보호, 연령 확인, AI 생성물 표시 요건을 점검하세요.</li>
+  <li><strong>보안:</strong> Claude Code와 Codex의 설정 파일과 startup hook을 점검하고, 가능하면 변경 내역을 추적하세요.</li>
+</ul>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
