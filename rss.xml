@@ -19,6 +19,13 @@
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>한국 증시 브리핑 (2026.11.05)</title>
+      <link>https://bluaura.github.io/posts/2026-11-05-kr-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-kr-market.html</guid>
+      <description>KOSPI 5,383.80(-5.28%) · KOSDAQ 678.41(-5.11%). 미 민주당 상·하원 장악에 AI 규제 우려, 외국인 3.4조 매도로 반도체 급락</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.04)</title>
       <link>https://bluaura.github.io/posts/2026-11-04-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-04-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-29-orcl-investor-day.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-orcl-investor-day.html</guid>
       <description>ORCL +10.7%. 매출 목표(25B)가 아니라 FCF 흑자 전환 시점(FY28 하반기)과 추가 조달 상한(0B)이 핵심. 같은 날 GOOGL -10%, MSFT +3% — 평가 기준이 &#x27;성장&#x27;에서 &#x27;자금 자립&#x27;으로 이동.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>마이크로소프트(MSFT) FY2027 Q1 실적 리뷰 — Azure 48% 재가속, Copilot 좌석은 비공개</title>
-      <link>https://bluaura.github.io/posts/2026-10-29-msft-q1-2027.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-msft-q1-2027.html</guid>
-      <description>매출 $92.3B(+19%)·EPS $4.89로 컨센 상회, Azure 48%에 Q2 가이던스 49~50%(컨센 45~47.6%). 가속 원천은 효율·토큰 단가, Copilot 유료 좌석 수는 사라졌다. 시간외 +3~6%.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
