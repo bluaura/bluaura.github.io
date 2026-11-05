@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.06)</title>
+      <link>https://bluaura.github.io/posts/2026-11-06-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-06-macro.html</guid>
+      <description>오늘 밤 美 10월 NFP(예상 +6.5만, 실업률 4.2%) 대기. 신규실업수당 18.9만·3Q 생산성 3.6%로 지표는 양호했으나 AI 규제 공포에 나스닥 -5.42% 조정 진입, 코스피 -5.28%·외국인 3.39조 순매도. 12월 Fed 인상 확률 약 82%</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.05)</title>
       <link>https://bluaura.github.io/posts/2026-11-05-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-30-kr-market.html</guid>
       <description>KOSPI 5,730.74(-3.48%) · KOSDAQ 724.38(-3.83%). 美 빅테크 AI 현금흐름 쇼크에 외국인 1.6조 매도·사이드카 발동, 기아·한화에어로 어닝쇼크</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.10.29)</title>
-      <link>https://bluaura.github.io/posts/2026-10-29-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-29-us-market.html</guid>
-      <description>S&amp;P 500 7,743.98(+0.28%) · NASDAQ 26,549.85(+0.27%). Fed 10-2 동결(인상 반대 2명), 10년물 5% 재돌파, 시간외 Alphabet -9% vs Microsoft +4%</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
