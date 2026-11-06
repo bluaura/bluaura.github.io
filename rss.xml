@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.07)</title>
+      <link>https://bluaura.github.io/posts/2026-11-07-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-07-us-market.html</guid>
+      <description>S&amp;P 500 7,376.86(+0.31%) · NASDAQ 24,579.42(+1.09%). 중간선거 후 SOX -12% 폭락 뒤 반도체 반등, 10월 고용 +165K로 12월 금리인상 확률 80%</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.06)</title>
       <link>https://bluaura.github.io/posts/2026-11-06-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-06-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-31-catalyst-calendar.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-31-catalyst-calendar.html</guid>
       <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>바이낸스 $63억 해킹 — 무엇이 뚫렸고, 비트코인은 왜 같이 빠졌나</title>
-      <link>https://bluaura.github.io/posts/2026-10-31-binance-hack.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-31-binance-hack.html</guid>
-      <description>역대 최대 $63억 탈취, $30억 동결. 블록체인이 아닌 핫월렛 서명 인프라가 뚫렸다. BTC $76K대 하락은 해킹+인텔 25% 폭락·나스닥 −3.4%·청산 $15.7억 복합 요인.</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
