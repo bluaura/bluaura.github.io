@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.11)</title>
+      <link>https://bluaura.github.io/posts/2026-11-11-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-11-us-market.html</guid>
+      <description>S&amp;P 500 7,520.93(-0.38%) · NASDAQ 25,065.88(-0.74%). 10월 CPI 예상 상회로 12월 금리 인상 확률 84%, 10년물 5%선 · NVIDIA CEO 스파이 의혹에 -5.47%</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.11)</title>
       <link>https://bluaura.github.io/posts/2026-11-11-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-11-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-02-kr-market.html</guid>
       <description>KOSPI 5,859.08(+2.24%) · KOSDAQ 734.36(+1.38%). 인텔 쇼크로 급락 출발한 뒤 기관 1.2조원 순매수와 반도체 수출 호조로 반등, 조선·전력기기 강세</description>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.10.31)</title>
-      <link>https://bluaura.github.io/posts/2026-10-31-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-31-us-market.html</guid>
-      <description>S&amp;P 500 7,580.07(-1.82%) · NASDAQ 25,437.00(-2.86%) · Dow 51,770.31(-1.09%). Intel -28% 쇼크에 반도체 시총 1조달러 증발, Amazon FCF 우려까지 겹치며 나스닥 10월 약 -5% 마감</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
