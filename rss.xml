@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.11)</title>
+      <link>https://bluaura.github.io/posts/2026-11-11-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-11-macro.html</guid>
+      <description>美 10월 CPI +0.4%·근원 +0.3%로 둘 다 예상 상회, 근원 3개월 연속 0.3%. 12월 인상 확률 약 100%, 50bp 확률 10~15% 등장에 2년물 급등·10년물 5% 재접근. 단기 방향 소폭 부정으로 하향</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.10)</title>
       <link>https://bluaura.github.io/posts/2026-11-10-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-10-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-10-31-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-31-us-market.html</guid>
       <description>S&amp;P 500 7,580.07(-1.82%) · NASDAQ 25,437.00(-2.86%) · Dow 51,770.31(-1.09%). Intel -28% 쇼크에 반도체 시총 1조달러 증발, Amazon FCF 우려까지 겹치며 나스닥 10월 약 -5% 마감</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>Sandisk FY27 Q1 실적 분석: 숫자는 서프라이즈, 주가는 −13.5%</title>
-      <link>https://bluaura.github.io/posts/2026-10-31-sndk-q1-2027.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-10-31-sndk-q1-2027.html</guid>
-      <description>매출 $11.03B(컨센 +3.1%), EPS $49.51(+5.0%), 가이던스 상향에도 주가 −13.5%. QoQ 성장률 +51%→+23%→+12% 감속, NBM 계약 금액 지표 사라짐, 매출채권 +40%.</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
