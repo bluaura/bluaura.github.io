@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.11.11) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. Anthropic Claude Fable 5.2 출시·가격 인하와 Nasdaq 상장 로드쇼, Google Gemini 4 Carbon 공개, 엔비디아의 국내 AI 스타트업 투자">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.11.11)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. Anthropic Claude Fable 5.2 출시·가격 인하와 Nasdaq 상장 로드쇼, Google Gemini 4 Carbon 공개, 엔비디아의 국내 AI 스타트업 투자">
+<meta property="article:published_time" content="2026-11-11">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.11.11)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-11-11</p>
+  </div>
+
+  <article class="article-body">
+<p>수집 기간: <strong>2026-11-04 ~ 2026-11-11</strong> (KST 기준, 주간 집계)</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">신규 모델</div><div class="value">6종</div></div>
+  <div class="stat"><div class="label">최대 딜</div><div class="value">Anthropic IPO</div></div>
+  <div class="stat"><div class="label">주목 이슈</div><div class="value">프런티어 모델 가격 인하</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+<div class="callout">
+  <p><strong>1. Anthropic Claude Fable 5.2 / Mythos 5.2 출시와 가격 인하.</strong> 단일 모델을 두 가지 접근 등급으로 나눠 배포하고, 입출력 단가를 $10/$50에서 $8/$40로 낮췄다. 같은 주 Google도 Gemini 4 Carbon을 내놓으며 최상위 모델 경쟁이 가격 경쟁으로 번졌다.</p>
+  <p><strong>2. 초대형 자본 이벤트 동시 진행.</strong> Anthropic이 Nasdaq 상장(티커 ANT) 로드쇼에 들어갔고, OpenAI는 $1.25T 밸류에이션으로 $11B 1차 클로징을 마쳤다. 다만 두 회사 모두 목표 대비 낮아진 밸류에이션이 보도되며 AI 투자 심리 둔화 신호도 함께 나왔다.</p>
+  <p><strong>3. 엔비디아의 한국 AI 생태계 직접 투자.</strong> AI 데이 서울에서 업스테이지·모티프·리얼월드 투자 계획과 SK텔레콤·리벨리온과의 NVLink Fusion 협력이 발표됐다.</p>
+</div>
+
+<h2>모델 출시·업데이트</h2>
+
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>모델</th><th>회사</th><th>발표일</th><th>가격 (입력/출력, 1M 토큰)</th><th>접근</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Claude Fable 5.2</td><td>Anthropic</td><td>11/09</td><td>$8 / $40 (fast mode $16 / $80)</td><td>전체 사용자</td></tr>
+    <tr><td>Claude Mythos 5.2</td><td>Anthropic</td><td>11/09</td><td>$8 / $40</td><td>검증된 기관 한정</td></tr>
+    <tr><td>Gemini 4 Carbon</td><td>Google</td><td>11/10</td><td>$2 / $10 (11/30 이후 $4 / $20)</td><td>유료 API, Ultra 구독</td></tr>
+    <tr><td>Muse Ember</td><td>Meta</td><td>11/09</td><td>$0.10 / $0.50</td><td>Meta Model API</td></tr>
+    <tr><td>GPT-6 Cyber</td><td>OpenAI</td><td>11/05</td><td>미공개</td><td>Daybreak Red 일부 고객</td></tr>
+    <tr><td>Inkling 2 Small</td><td>Thinking Machines Lab</td><td>11/05</td><td>Tinker 샘플링 $1.00</td><td>Tinker (가중치 공개 예정)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Anthropic, Claude Fable 5.2와 Claude Mythos 5.2 동시 출시</h3>
+<p>동일한 기반 모델을 두 가지 구성으로 내놓았다. Fable 5.2는 사이버보안·생물학 분야 안전장치를 강화해 모든 사용자에게 제공되고, Mythos 5.2는 그 안전장치를 완화한 버전으로 Life Sciences·Cyber 검증 프로그램을 통과한 기관만 쓸 수 있다. 가격은 이전 5.1 대비 내려갔고 고속 응답용 fast mode가 별도 요금으로 추가됐다. Anthropic은 FrontierCode 2.0 초기 테스트에서 Fable 5.2 High effort가 Opus 5.5 Max effort와 비슷한 점수를 절반가량의 작업당 비용으로 냈다고 밝혔다. Claude 앱과 Claude Code의 기본 effort는 Medium이다.</p>
+<p><a href="https://felloai.com/best-ai-models/">Fello AI</a> · <a href="https://etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884">ETV Bharat</a> · 2026-11-09</p>
+
+<h3>Google DeepMind, 최상위 모델 Gemini 4 Carbon 공개</h3>
+<p>Gemini 4 세대의 최상위 모델로, 장시간 에이전트 작업·사이버보안·복잡한 다단계 코딩을 겨냥했다. 출시 초기 가격은 Gemini 4 Argon과 같지만 11월 30일 이후 두 배로 오른다. Google은 일반적인 소프트웨어 개발·지식 업무에는 여전히 Argon을 권장하고, Carbon은 설계·감사처럼 가장 어려운 역할에 배치하라고 안내했다. 발표된 벤치마크 대부분이 Google 자체 측정이라는 점은 감안해야 한다.</p>
+<p><a href="https://startupfortune.com/gemini-4-carbon-is-here-and-this-is-everything-you-need-to-know-about-googles-strongest-frontier-model/">Startup Fortune</a> · 2026-11-10</p>
+
+<h3>Meta, 경량 에이전트 모델 Muse Ember 출시</h3>
+<p>Meta 라인업 중 가장 작고 효율적인 모델로, 도구 연속 호출·테스트 실행·국소 코드 수정 같은 반복적 에이전트 작업에 맞췄다. 1M 토큰 컨텍스트와 텍스트·이미지·오디오·비디오 네이티브 입력을 지원하며 Meta Model API에서 Claude Haiku 5.5와 같은 가격대로 제공된다. 같은 날 Muse 에이전트 앱이 Apple Watch와 Wear OS로도 확장됐다.</p>
+<p><a href="https://etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884">ETV Bharat</a> · 2026-11-09</p>
+
+<h3>OpenAI, 보안 특화 모델 GPT-6 Cyber 공개</h3>
+<p>GPT-6 Astra 기반의 보안 연구 특화 변형으로, 승인된 범위 내 취약점 탐색·익스플로잇 검증용이다. OpenAI Preparedness Framework에서 사이버보안 역량이 처음으로 Critical 등급을 받았고, ExploitGym 점수는 전작 GPT-5.6 Cyber 대비 크게 올랐다. 허가 범위 이탈률은 1% 미만으로 낮아졌다고 회사는 밝혔다. API와 Codex를 통해 Daybreak Red 일부 고객에게만 먼저 제공되며 IP allowlist가 기본 적용된다.</p>
+<p><a href="https://www.testingcatalog.com/openai-launches-gpt-6-cyber-for-daybreak-red-customers/">TestingCatalog</a> · <a href="https://www.implicator.ai/openai-gpt-6-cyber-stays-in-scope/">Implicator</a> · 2026-11-05</p>
+
+<h3>Thinking Machines Lab, Inkling 2 Small 출시 (Apache 2.0 가중치 공개 예정)</h3>
+<p>594B 파라미터 MoE(활성 17B) 구조에 이미지 입력과 추론 강도 조절을 지원하는 2세대 모델이다. 현재는 Tinker 플랫폼에서 클로즈드 가중치로만 쓸 수 있고, 외부 안전성 테스트·레드팀을 마친 뒤 Apache 2.0으로 가중치를 공개할 계획이다. 공개 시점은 확정되지 않았으므로 셀프 호스팅을 계획한다면 실제 공개를 확인한 뒤 진행하는 것이 안전하다.</p>
+<p><a href="https://letsdatascience.com/news/thinking-machines-lab-releases-inkling-2-small-a-594b-moe-mo-2b2a96ce">Let's Data Science</a> · 2026-11-05</p>
+
+<h3>Google, 영상 생성 모델 Gemini Omni 1.2 Flash 정식 출시</h3>
+<p>3~15초 길이 클립을 네이티브 오디오와 함께 생성하는 저가형 영상 모델로, 출시 당일 Gemini API에서 GA로 풀렸다. 720p 기준 초당 약 7센트 수준이며 Gemini 앱·Flow·Vids에도 함께 적용됐다. 공개된 벤치마크는 없다.</p>
+<p><a href="https://llm-stats.com/ai-news">LLM Stats</a> · 2026-11-05</p>
+
+<h2>정책·규제</h2>
+
+<h3>호주, 프런티어 AI 전담 안전 규제기관 신설 발표</h3>
+<p>Albanese 총리가 최대 규모 모델을 개발하는 프런티어 AI 기업을 대상으로 벌칙 권한을 가진 새 AI 안전 규제기관을 만들겠다고 밝혔다. 정부는 중대한 위반에 대한 형사처벌 도입도 검토 중이며, 개발·배포 전 단계의 보안 통제 유지, 정렬 이탈 행동과 사이버 사고의 의무 보고 등이 AI 프레임워크 법안에 담길 예정이다.</p>
+<p><a href="https://theconversation.com/new-ai-regulator-announced-as-government-considers-criminal-law-change-to-keep-erring-frontier-companies-in-line-296274">The Conversation</a> · 2026-11-10</p>
+
+<h3>미국 중간선거 결과, 연방 AI 정책 지형 변화 예고</h3>
+<p>11월 3일 중간선거에서 민주당이 하원과 상원을 모두 확보하면서, 주(州) AI 규제 선점(pre-emption) 논쟁을 포함한 연방 AI 의제가 재편될 것이라는 분석이 나왔다. 같은 날 투표에서 데이터센터 건설에 반대하는 주민투표 안건 41건 중 40건이 통과된 점도 주목받았다.</p>
+<p><a href="https://insideaipolicy.com/">Inside AI Policy</a> · <a href="https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/">MIT Technology Review</a> · 2026-11-04 ~ 11-09</p>
+
+<h3>AI 규제론자 Scott Wiener, Pelosi 지역구에서 하원 입성</h3>
+<p>캘리포니아 주 상원의원 시절 프런티어 AI 위험 대응 법안을 주도했던 Wiener가 접전 끝에 샌프란시스코 지역구에서 당선됐다. 그는 AI 통제력 상실 위험을 공개적으로 강조해 왔으며, 연방 차원의 AI 정책 논의에서 핵심 역할을 할 가능성이 거론된다. 선거 기간 AI 규제 찬성 단체의 대규모 지원을 받은 점도 함께 보도됐다.</p>
+<p><a href="https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/">MIT Technology Review</a> · 2026-11-09</p>
+
+<h3>미국 콜로라도 새 AI 법(SB 26-189) 등록 절차 11월 개시</h3>
+<p>2024년 고위험 AI 법을 대체한 콜로라도 SB 26-189의 등록 절차가 11월부터 시작되는 것으로 알려졌다. 보고된 사고 신고 기한은 72시간이며, 첫 위반 시 최대 $1M, 반복 위반 시 최대 $3M의 벌금이 거론된다. 같은 시점 EU AI Act의 금지 조항·GPAI 의무·Article 50 투명성 요건은 이미 시행 중이다.</p>
+<p><a href="https://www.itechguides.com/ai-regulation-in-what-applies-now-and-what-consumers-and-businesses-should-do/">iTechGuides</a> · 2026-11-10</p>
+
+<h3>영국 ICO, 에이전틱 AI 개인정보 위험 의견수렴 11월 20일 마감</h3>
+<p>영국 개인정보 감독기관 ICO가 10월 시작한 에이전틱 AI의 데이터 보호 위험 관련 의견수렴이 11월 20일 마감된다. 사용자 대신 앱·데이터에 접근하는 에이전트 기능을 만드는 개발사라면 향후 가이드라인 방향을 가늠할 수 있는 절차다.</p>
+<p><a href="https://kempitlaw.com/insights/tech-law-developments-november-2026/">Kemp IT Law</a> · 2026-11-10</p>
+
+<h2>산업 동향·기업</h2>
+
+<h3>OpenAI dots, 여러 대의 로컬 컴퓨터 연결 지원</h3>
+<p>ChatGPT의 상시 에이전트인 dot 하나에 여러 대의 개인 컴퓨터를 연결하고, 작업마다 어느 기기에서 실행할지 고를 수 있게 됐다. OpenAI는 두 번째 Mac에서 Xcode로 iOS 앱 변경사항을 빌드·테스트하거나, 구버전 SDK가 깔린 머신에서 버그를 재현하는 사례를 예로 들었다.</p>
+<p><a href="https://etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884">ETV Bharat</a> · 2026-11-09</p>
+
+<h3>Google AI Studio에서 Google Maps Platform 앱 바로 생성</h3>
+<p>아이디어를 설명하면 Gemini가 지도 타일·장소·경로·날씨·3D 건물·스트리트뷰 등을 활용한 앱을 만들어 주고, 설정과 API 키 관리도 AI Studio가 처리한다. 프롬프트 입력창에서 공간 정보 도구를 직접 선택할 수 있다.</p>
+<p><a href="https://etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884">ETV Bharat</a> · 2026-11-09</p>
+
+<h3>Apple, Siri를 자율 에이전트로 전환 추진 보도</h3>
+<p>Bloomberg Power On 뉴스레터에 따르면 John Ternus CEO가 소프트웨어 총괄 Craig Federighi에게 더 공격적인 AI 전략을 요구했고, 이르면 내년 Siri가 사용자 대신 작업을 수행하는 에이전트 형태로 바뀔 수 있다. iOS 28 개발 첫 마일스톤은 코딩 6주·통합 2주로 일정이 재편됐다. 개발자용 API나 구체 기능은 아직 공개되지 않았다.</p>
+<p><a href="https://9to5mac.com/2026/11/08/apple-working-on-agentic-siri-ai-next-year-report">9to5Mac</a> · 2026-11-08</p>
+
+<h3>엔비디아 Jensen Huang CEO 관련 FBI 조사 착수</h3>
+<p>FBI가 Huang CEO의 사생활 관련 의혹을 조사 중이라는 보도가 나왔고, 엔비디아 이사회도 자체 검토에 나섰다. 대중국 로비 활동과 맞물려 추가 칩 수출 통제로 이어질 수 있다는 관측이 제기되면서, 엔비디아 의존도가 높은 AI 업계 전반의 리스크로 거론되고 있다.</p>
+<p><a href="https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/">MIT Technology Review</a> · 2026-11-10</p>
+
+<h3>Runpod, 코딩 에이전트용 인프라 도구 확장</h3>
+<p>AI 개발자 클라우드 Runpod가 코딩 에이전트에 인프라 작업을 맡길 수 있는 Runpod for Agents를 확장했다. MCP 서버, Terraform provider 2.0, Go SDK v2, TypeScript SDK가 모두 REST v2 API로 통일돼 에이전트·스크립트·IaC 워크플로가 같은 인터페이스를 쓴다.</p>
+<p><a href="https://www.prnewswire.com/news-releases/runpod-for-agents-lets-developers-hand-infrastructure-work-to-their-coding-agents-302934084.html">PR Newswire</a> · 2026-11-10</p>
+
+<h2>투자·M&amp;A</h2>
+
+<h3>Anthropic, Nasdaq 상장 로드쇼 돌입 (티커 ANT)</h3>
+<p>10월 26일 S-1을 제출한 Anthropic이 11월 9일 투자자 마케팅을 시작했으며, 상장은 11월 16일 주간이 목표로 보도됐다. 공모와 사모 배정을 합쳐 최대 $90.4B 조달, 최대 $1.4T 밸류에이션을 노린다는 보도가 있으나 공모가 범위는 아직 비어 있다. S-1 기준 2026년 상반기 매출은 약 $16.3B다.</p>
+<p><a href="https://techstartups.com/2026/11/10/top-tech-news-roundup-for-today-november-10-2026-anthropic-1-4-trillion-ipo-google-nvidia-investigation-microsoft-open-spacex-more">Tech Startups</a> · <a href="https://tech-insider.org/?p=55578">Tech Insider</a> · 2026-11-08 ~ 11-10</p>
+
+<h3>OpenAI, $1.25T 밸류에이션으로 $11B 1차 클로징</h3>
+<p>Reuters 보도에 따르면 OpenAI가 새 라운드에서 $11B를 확보했다. 당초 목표였던 $30B, $1.5T 밸류에이션에는 못 미쳤으며 최종적으로 $20B까지 늘어날 수 있다. 최근 한 달간 AI 기업에 대한 투자 열기가 식었다는 평가도 함께 전해졌다.</p>
+<p><a href="https://pymnts.com/news/artificial-intelligence/2026/openai-valuation-hits-1-25-trillion-in-new-funding-round">PYMNTS</a> · 2026-11-06</p>
+
+<h3>Shield AI, $2.5B 조달과 동시에 Echodyne $5.3B 인수</h3>
+<p>군용 항공기 자율비행 AI 기업 Shield AI가 $28.8B 밸류에이션으로 $2.5B를 조달했다. 3월 대비 기업가치가 두 배 이상 뛰었고, 레이더 제조사 Echodyne 인수에도 합의했다.</p>
+<p><a href="https://aifundingtracker.com/">AI Funding Tracker</a> · 2026-11-05</p>
+
+<h3>Mercor, $20B 밸류에이션으로 $750M 시리즈 D</h3>
+<p>엔터프라이즈 AI 에이전트 학습·평가 기업 Mercor가 $750M을 유치했다. 2025년 10월 대비 기업가치가 두 배로 올랐다.</p>
+<p><a href="https://techstartups.com/2026/11/10/top-tech-news-roundup-for-today-november-10-2026-anthropic-1-4-trillion-ipo-google-nvidia-investigation-microsoft-open-spacex-more">Tech Startups</a> · 2026-11-10</p>
+
+<h3>Oura, AI 1차 진료 스타트업 Counsel Health $625M 인수</h3>
+<p>스마트링 기업 Oura가 채팅형 의료 AI와 의사 상담을 결합한 Counsel Health를 인수한다. Counsel은 6월부터 Oura 앱에 통합돼 있었으며, CEO와 직원 70명이 Oura에 합류한다. Oura는 최근 IPO를 무기한 연기한 상태다.</p>
+<p><a href="https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/">TechCrunch</a> · 2026-11-10</p>
+
+<h2>연구·기술</h2>
+
+<h3>병렬 에이전트 팀이 단독 에이전트 다수보다 효율적 (arXiv 2611.09798)</h3>
+<p>Duke·Modal Labs·Princeton·NYU 연구진은 같은 컴퓨팅 예산에서 10명씩 묶은 에이전트 팀 10개가 단독 에이전트 100개보다 약 27% 높은 성과를 냈다고 보고했다. 수학 형식화 과제에서는 최고 팀 점수가 최고 단독 에이전트의 약 2.9배였다. 코드 저장소도 공개됐다.</p>
+<p><a href="https://fourweekmba.com/ai-ten-ai-agent-teams-of-10-score-27-above-100-solo-agents/">FourWeekMBA</a> · 2026-11-06 (논문 제출일)</p>
+
+<h3>CoRA-Bench: 토큰 예산 하 컨텍스트 선택기의 증거 보존 평가 (arXiv 2611.10238)</h3>
+<p>긴 입력을 줄이는 컨텍스트 선택 기법이 답변에 필요한 근거까지 잘라내는지 측정하는 벤치마크다. head/tail 절단, BM25, dense retrieval, reranking, LLMLingua-2, Provence 등을 BABILong·LongMemEval 등에서 같은 토큰 예산으로 비교했다. NeurIPS 2026 Long-Context 워크숍 채택작으로, RAG 파이프라인을 설계하는 개발자에게 실용적이다.</p>
+<p><a href="https://arxiv.org/list/cs.AI/new">arXiv cs.AI</a> · 2026-11-10</p>
+
+<h3>WorldFoundry: 생성형 월드 모델 통합 평가 인프라 공개</h3>
+<p>비디오·3D/4D·embodied action·인터랙티브 시스템 등 다양한 월드 모델의 추론과 평가를 재현 가능하게 수행하는 오픈소스 인프라다. 추적 가능한 증거와 벤치마크를 함께 제공한다.</p>
+<p><a href="https://huggingface.co/papers/trending">Hugging Face Papers</a> · 2026-11-07</p>
+
+<h3>과학 연구 에이전트 벤치마크 잇따라 공개: FrontierPhysics, BEAKER</h3>
+<p>FrontierPhysics는 물리 연구 전 과정을 수행하는 에이전트를 정답 여부뿐 아니라 연구 품질까지 평가하고, BEAKER는 자율 화학 실험실의 embodied AI를 전문가 검수 과제로 측정한다. 능력 시연 중심에서 근거 기반 평가로 흐름이 옮겨가고 있다는 분석이 나왔다.</p>
+<p><a href="https://github.com/HuggerHustle/ai-radar/issues/162">ArXiv AI Research Digest</a> · 2026-11-06</p>
+
+<h2>한국 AI 소식</h2>
+
+<h3>엔비디아, 국내 AI 스타트업 4곳 투자 발표</h3>
+<p>엔비디아가 과기정통부와 연 AI 스타트업 파트너십 포럼에서 AI 인프라 기업 포인트투테크놀로지 투자를 공개하고, 업스테이지·모티프테크놀로지스·리얼월드에도 투자할 계획이라고 밝혔다. 업스테이지는 시리즈C 2차, 모티프는 브릿지 라운드에서 투자를 받으며, 모티프는 차기 모델 모티프4를 내년 1분기 오픈웨이트로 공개할 예정이다. 투자 금액은 공개되지 않았다.</p>
+<p><a href="https://www.etoday.co.kr/news/view/2645985">이투데이</a> · <a href="https://www.thelec.kr/news/articleView.html?idxno=65139">디일렉</a> · 2026-11-09</p>
+
+<h3>엔비디아·SK텔레콤·리벨리온, NVLink Fusion 협력 MOU</h3>
+<p>세 회사가 GPU 간 고속 연결 기술을 외부 AI 반도체로 확장하는 NVLink Fusion 협력 협약을 맺었다. 리벨리온은 개발 중인 차세대 NPU R200을 엔비디아 연결 기술에 붙여 GPU·NPU 이기종 시스템을 구성할 계획이다. 국산 AI 반도체가 엔비디아 생태계에 편입되는 사례로 평가된다.</p>
+<p><a href="https://m.sedaily.com/article/20112286">서울경제</a> · 2026-11-09</p>
+
+<h3>Anthropic, 기업용 Claude 계정 정보 노출 가능성 국내 기관에 신고</h3>
+<p>Anthropic이 외부 보안 연구업체가 승인 없이 테스트하던 중 일부 내부 시스템에 접근했다고 이용자에게 알렸다. 이름·이메일과 기업 계정의 조직 ID·요금제·사용량 지표가 노출됐을 수 있으나 프롬프트·응답, 비밀번호, 결제 정보는 포함되지 않았다고 밝혔다. 한국 관계 기관에도 신고됐으며, 회사는 사칭 피싱에 주의하라고 당부했다.</p>
+<p><a href="https://byline.network/2026/11/7-521/">바이라인네트워크</a> · 2026-11-07</p>
+
+<h3>LG유플러스, 서울대·KAIST·연세대와 한국형 음성 AI 공동 개발</h3>
+<p>LG유플러스가 세 대학과 함께 말투와 대화 맥락을 이해하는 한국어 음성 AI를 공동 개발한다고 밝혔다. 통화 에이전트 익시오(ixi-O)를 중심으로 보이스 AI를 차별화 축으로 삼아 온 전략의 연장선이다.</p>
+<p><a href="https://www.newspim.com/news/view/20261109000782">뉴스핌</a> · 2026-11-09</p>
+
+<h3>과기정통부·IITP, 2027 AI·ICT R&amp;D 기술전망 콘퍼런스 개최</h3>
+<p>11월 11일부터 13일까지 대한상공회의소에서 열리며, 12일에는 AI 반도체·사이버보안·양자·차세대통신 분야 기술 전망과 2027년도 정부 R&amp;D 투자 방향이 공개된다.</p>
+<p><a href="https://dazabi.com/insurance_magazine/article.php?id=47086">과학기술정보통신부 보도 (dazabi 게재)</a> · 2026-11-11</p>
+
+<h2>트렌드 종합</h2>
+<blockquote>
+  <p>이번 주는 프런티어 모델 경쟁이 성능에서 가격·접근 등급 설계로 옮겨간 한 주였다. Anthropic은 같은 모델을 안전장치 수준에 따라 Fable과 Mythos로 나눴고, OpenAI도 GPT-6 Cyber를 Daybreak Red 회원에게만 열어 "위험 역량은 검증된 사용자에게만"이라는 배포 방식이 업계 표준으로 굳어지고 있다. 동시에 Meta Muse Ember, Inkling 2 Small처럼 저가·경량·오픈웨이트 모델이 에이전트 하위 작업 시장을 파고들고 있다. 자본시장에서는 Anthropic 상장과 OpenAI 증자가 진행됐지만 목표 대비 낮아진 밸류에이션이 보도돼 AI 투자 심리의 온도 변화가 감지된다. 정책 면에서는 호주의 형사처벌 검토, 미국 의회 구도 변화로 규제 강화 쪽 신호가 늘었다.</p>
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+<ul>
+  <li><strong>모델 라우팅 재점검.</strong> Fable 5.2 가격 인하, Gemini 4 Carbon의 11월 30일 이후 가격 인상 예고, $0.10/$0.50 구간의 Muse Ember 등장으로 단가 구조가 바뀌었다. 어려운 설계·리뷰는 상위 모델, 반복 도구 호출·추출은 경량 모델로 나누는 라우팅을 다시 계산할 시점이다.</li>
+  <li><strong>에이전트 원격 실행 환경.</strong> OpenAI dots의 다중 컴퓨터 연결은 iOS·Android 빌드 머신을 분리 운영하는 모바일 개발 흐름과 직접 맞닿아 있다. Runpod도 MCP·SDK·Terraform을 하나의 API로 통일해, 에이전트에게 인프라 조작을 맡기는 구성이 표준화되고 있다.</li>
+  <li><strong>오픈웨이트 라이선스는 실제 공개 후 확인.</strong> Inkling 2 Small(Apache 2.0 예정), 모티프4(내년 1분기 오픈웨이트 예정) 모두 아직 가중치가 없다. 온디바이스·셀프 호스팅 계획은 공개 시점과 라이선스 원문을 확인한 뒤 확정하는 것이 안전하다.</li>
+  <li><strong>Apple 에이전트 Siri 대비.</strong> 보도대로라면 App Intents가 에이전트 Siri의 연결 고리가 될 가능성이 크다. 자체 앱의 핵심 기능을 App Intents로 노출해 두면 향후 전환 시 유리하다.</li>
+  <li><strong>RAG 컨텍스트 압축 검증.</strong> CoRA-Bench 결과처럼 컨텍스트 선택기가 근거를 잘라낼 수 있으므로, 토큰 비용 절감용 압축을 도입할 때는 답변 근거 보존율을 별도로 측정하는 것이 좋다.</li>
+  <li><strong>계정 보안.</strong> Anthropic 계정 정보 노출 공지 이후 사칭 피싱이 늘 수 있다. 조직 API 키 회전과 결제·로그인 관련 메일 확인 절차를 점검하자.</li>
+</ul>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
