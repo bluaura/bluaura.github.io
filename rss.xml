@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.13)</title>
+      <link>https://bluaura.github.io/posts/2026-11-13-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-13-macro.html</guid>
+      <description>오늘 밤 美 10월 PPI(헤드라인 +0.4%·근원 +0.3% 예상) 대기. 엔비디아 젠슨 황 사임, 美 10년물 5.1%대·30년물 입찰 부진, 기존주택판매 375만 건으로 15년여 만의 최저. 외국인 코스피 3일 순매수. 단기 소폭 부정 유지</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.12)</title>
       <link>https://bluaura.github.io/posts/2026-11-12-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-12-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-03-mrvl-lite-deal-selloff.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-mrvl-lite-deal-selloff.html</guid>
       <description>3거래일 MRVL −31.9%, LITE −25.1%. LITE의 11/2 낙폭 중 72%는 고정 교환비 연동분이고, 희석·사이클 정점·고객 이탈·규제 우려가 MRVL을 눌렀다. 실적은 원인이 아니다.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.11.03)</title>
-      <link>https://bluaura.github.io/posts/2026-11-03-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-macro.html</guid>
-      <description>美 ISM 제조업 55.5(예상 54.6) 상회, 가격지수 75.2로 둔화. WTI 약 8% 급락에도 나스닥 -0.41%. 오늘 오전 韓 10월 CPI(예상 2.8%)가 11/26 금통위 인상 판단 변수, 12월 Fed 인상 확률 약 77%</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
