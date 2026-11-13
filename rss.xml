@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.14)</title>
+      <link>https://bluaura.github.io/posts/2026-11-14-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-14-us-market.html</guid>
+      <description>S&amp;P 500 7,561.67(-0.40%) · NASDAQ 25,136.27(-0.91%). Huang 사임 여파로 Nvidia 주간 -12%·AI 반도체 급락, 그래도 주간 +2.5%로 10월 이후 첫 상승. 10월 PPI 6.5%, 12월 Fed 인상 확률 89%</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.13)</title>
       <link>https://bluaura.github.io/posts/2026-11-13-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-13-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-04-ai-weekly.html</guid>
       <description>이번 주 AI 업계 주요 소식 30건. Anthropic 정정 S-1과 Oracle 자금 조달로 AI 수익성 논란 확대, Mistral Large 4 가중치 공개</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.11.03)</title>
-      <link>https://bluaura.github.io/posts/2026-11-03-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-03-us-market.html</guid>
-      <description>S&amp;P 500 7,541.40(-0.51%) · NASDAQ 25,164.32(-1.07%). 유가 7%대 급락에도 AI 매도 재개, Oracle 증자·Marvell 인수 충격</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
