@@ -12,6 +12,13 @@
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>카탈리스트 캘린더 (2026.11.14 기준)</title>
+      <link>https://bluaura.github.io/posts/2026-11-14-catalyst-calendar.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-14-catalyst-calendar.html</guid>
+      <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.13)</title>
       <link>https://bluaura.github.io/posts/2026-11-13-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-13-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-04-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-04-kr-market.html</guid>
       <description>KOSPI 5,683.80(+0.62%) · KOSDAQ 714.95(+1.50%). 미 중간선거 블루웨이브에 장중 진폭 6.97%, 외국인 2.5조 순매도 속 2차전지·태양광 급등</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 주간 브리핑 (2026.11.04)</title>
-      <link>https://bluaura.github.io/posts/2026-11-04-ai-weekly.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-04-ai-weekly.html</guid>
-      <description>이번 주 AI 업계 주요 소식 30건. Anthropic 정정 S-1과 Oracle 자금 조달로 AI 수익성 논란 확대, Mistral Large 4 가중치 공개</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
