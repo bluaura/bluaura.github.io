@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.17)</title>
+      <link>https://bluaura.github.io/posts/2026-11-17-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-17-us-market.html</guid>
+      <description>S&amp;P 500 7,416.59(-1.92%) · NASDAQ 24,509.76(-2.49%). Nvidia 실적 하루 앞두고 반도체 지수 -5.3%, NASDAQ 조정 국면 진입</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.17)</title>
       <link>https://bluaura.github.io/posts/2026-11-17-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-17-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-05-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-macro.html</guid>
       <description>美 10월 ADP +8.6만(예상 +6.7~6.9만) 상회, ISM 서비스 54.5(예상 54.8) 하회·가격 73.0. 민주당 양원 장악에 WTI 8.3% 급락·다우 3%대 상승. 12월 Fed 인상 확률 약 80%, 다음은 11/6 NFP</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.11.05)</title>
-      <link>https://bluaura.github.io/posts/2026-11-05-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-kr-market.html</guid>
-      <description>KOSPI 5,383.80(-5.28%) · KOSDAQ 678.41(-5.11%). 미 민주당 상·하원 장악에 AI 규제 우려, 외국인 3.4조 매도로 반도체 급락</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
