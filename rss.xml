@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.17)</title>
+      <link>https://bluaura.github.io/posts/2026-11-17-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-17-macro.html</guid>
+      <description>오늘 밤 22:30 美 10월 소매판매(헤드라인 +0.2%·통제그룹 +0.4% 예상) 발표. 10월 PPI는 +0.3%로 예상 하회했지만 엔비디아 리더십 공백과 반도체 규제에 코스피 -3.59%, 외국인 1.38조 순매도. 美 10년물 5.12% 유지</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.11.16)</title>
       <link>https://bluaura.github.io/posts/2026-11-16-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-16-kr-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-05-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-kr-market.html</guid>
       <description>KOSPI 5,383.80(-5.28%) · KOSDAQ 678.41(-5.11%). 미 민주당 상·하원 장악에 AI 규제 우려, 외국인 3.4조 매도로 반도체 급락</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AMD FY2026 Q3 실적 분석: 목표가 줄상향의 실제 내용과 NVDA 비교</title>
-      <link>https://bluaura.github.io/posts/2026-11-05-amd-q3-2026.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-05-amd-q3-2026.html</guid>
-      <description>매출 $13.38B(+45%), Q4 가이던스 $17B, 2027 매출 80% 초과 성장 제시. 목표가는 상향 5·하향 4·유지 4로 엇갈렸고 2027 P/E는 AMD 29배, NVDA 13배.</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
