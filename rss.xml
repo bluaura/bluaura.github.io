@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.18)</title>
+      <link>https://bluaura.github.io/posts/2026-11-18-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-18-us-market.html</guid>
+      <description>S&amp;P 500 7,341.23(-1.02%) · NASDAQ 24,329.34(-0.74%). 4일 연속 하락·12월 금리 인상 확률 95% 속 Nvidia 매출 $115.8B·가이던스 $130B로 시간외 반등</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.18)</title>
       <link>https://bluaura.github.io/posts/2026-11-18-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-18-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-06-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-06-kr-market.html</guid>
       <description>KOSPI 5,059.69(-6.02%) · KOSDAQ 644.27(-5.03%). AI 데이터센터 규제 우려에 서킷브레이커, 외국인 6거래일 순매도, SK하이닉스 -10.44%</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>비트코인 $76,000 하회: AI 주식 폭락과 $10억 청산, 원인과 전망</title>
-      <link>https://bluaura.github.io/posts/2026-11-06-bitcoin-76k-selloff.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-06-bitcoin-76k-selloff.html</guid>
-      <description>BTC 약 $75,600(−5~6%), 청산 $10.8~12.4억. AI 주식 폭락이 방아쇠, 레버리지가 증폭. Wintermute 하방 $73,000·$68,000, 회복 조건 $80,000.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
