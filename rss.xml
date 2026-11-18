@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.19)</title>
+      <link>https://bluaura.github.io/posts/2026-11-19-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-19-us-market.html</guid>
+      <description>S&amp;P 500 7,323.63(-0.23%) · NASDAQ 24,429.89(+0.42%) · Dow -1.11%. NVIDIA 호실적에도 -2.9%, Fed 12월 인상 전망 강화, Anthropic IPO 3 확정</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.19)</title>
       <link>https://bluaura.github.io/posts/2026-11-19-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-19-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-07-catalyst-calendar.html</guid>
       <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.11.06)</title>
-      <link>https://bluaura.github.io/posts/2026-11-06-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-06-us-market.html</guid>
-      <description>S&amp;P 500 7,353.73(-4.36%) · NASDAQ 24,315.00(-5.52%). 민주당 압승 뒤 AI 데이터센터 우려로 반도체 투매, SOX -12.25%, NASDAQ 조정 진입</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
