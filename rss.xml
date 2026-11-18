@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.19)</title>
+      <link>https://bluaura.github.io/posts/2026-11-19-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-19-macro.html</guid>
+      <description>FOMC 10월 의사록: 거의 모든 위원이 추가 인상 지지, 2명은 12월 25bp 초과 검토. 엔비디아 3Q 매출 1,158억$ 상회에도 주가 반락, 코스피 5,067로 5,000선 회복</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.18)</title>
       <link>https://bluaura.github.io/posts/2026-11-18-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-18-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-06-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-06-us-market.html</guid>
       <description>S&amp;P 500 7,353.73(-4.36%) · NASDAQ 24,315.00(-5.52%). 민주당 압승 뒤 AI 데이터센터 우려로 반도체 투매, SOX -12.25%, NASDAQ 조정 진입</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>중간선거가 AI 인프라 리스크로: 데이터센터 규제 투표와 월가의 시각</title>
-      <link>https://bluaura.github.io/posts/2026-11-06-sector-datacenter-regulation.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-06-sector-datacenter-regulation.html</guid>
-      <description>11/3 지역 투표 41건 중 40건이 개발 제한 쪽 결과. UBS는 2028년 증설분 약 30% 위험 추정, 나스닥은 고점 대비 약 12% 하락. 선거 후 목표주가 하향은 아직 미확인.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
