@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.20)</title>
+      <link>https://bluaura.github.io/posts/2026-11-20-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-20-us-market.html</guid>
+      <description>S&amp;P 500 7,175.83(-2.02%) · NASDAQ 23,879.20(-2.25%) · Dow -1,101pt(-2.19%). Fed 추가 인상 발언에 6일 연속 하락, Anthropic 상장 첫날 +17%, AMD -7.7%</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.19)</title>
       <link>https://bluaura.github.io/posts/2026-11-19-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-19-us-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-09-kr-market.html</guid>
       <description>KOSPI 5,018.85(-0.81%) · KOSDAQ 638.97(-0.82%). 외국인 7일째 순매도(누적 13.5조)에 장중 2% 반등 반납, 알테오젠 -16%·2차전지 약세</description>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.11.07)</title>
-      <link>https://bluaura.github.io/posts/2026-11-07-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-07-us-market.html</guid>
-      <description>S&amp;P 500 7,376.86(+0.31%) · NASDAQ 24,579.42(+1.09%). 중간선거 후 SOX -12% 폭락 뒤 반도체 반등, 10월 고용 +165K로 12월 금리인상 확률 80%</description>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
