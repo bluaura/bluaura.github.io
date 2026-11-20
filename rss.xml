@@ -12,6 +12,13 @@
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
+      <title>NVIDIA FY2027 Q3 실적 리뷰: 서프라이즈인데 주가는 왜 내렸나</title>
+      <link>https://bluaura.github.io/posts/2026-11-20-nvda-q3-2027.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-20-nvda-q3-2027.html</guid>
+      <description>매출 $115.8B(+103%)로 컨센서스 6.2% 상회, FY2028 성장 전망 70%→75% 상향. 그런데 발표 후 2거래일 -6.1%. 어닝콜 질문의 절반은 금융지원이었고 사라진 지표 5개가 남는다.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>한국 증시 브리핑 (2026.11.20)</title>
       <link>https://bluaura.github.io/posts/2026-11-20-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-20-kr-market.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-11-ai-weekly.html</guid>
       <description>이번 주 AI 업계 주요 소식 30건. Anthropic Claude Fable 5.2 출시·가격 인하와 Nasdaq 상장 로드쇼, Google Gemini 4 Carbon 공개, 엔비디아의 국내 AI 스타트업 투자</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미국 증시 브리핑 (2026.11.10)</title>
-      <link>https://bluaura.github.io/posts/2026-11-10-us-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-10-us-market.html</guid>
-      <description>S&amp;P 500 7,549.94(+2.35%) · NASDAQ 25,253.14(+2.74%). 11/5 AI 투매 이후 첫 전방위 반등. AMD +13% 등 반도체 주도, Nvidia는 CEO 관련 이사회 조사로 -4.3%, 유가는 미·이란 협상 기대에 4%대 급락</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
