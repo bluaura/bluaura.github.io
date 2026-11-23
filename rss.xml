@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.24)</title>
+      <link>https://bluaura.github.io/posts/2026-11-24-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-24-us-market.html</guid>
+      <description>S&amp;P 500 7,237.17(+4.73%) · NASDAQ 24,089.56(+6.51%). Jensen Huang CEO 복귀로 Nvidia +31.5%, 2025년 4월 이후 최대 상승</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.23)</title>
       <link>https://bluaura.github.io/posts/2026-11-23-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-23-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-12-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-12-macro.html</guid>
       <description>韓 11월 1~10일 수출 +111.9%(반도체 +331.2%, 비중 49.7%)로 같은 기간 역대 최대. 코스피 +2.60%·외국인 2일 순매수, 국고채 10년물 +10bp. Goldman 2027년 3월 인상 추가. 단기 소폭 부정 유지, 다음은 11/13 PPI</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.11.12)</title>
-      <link>https://bluaura.github.io/posts/2026-11-12-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-12-kr-market.html</guid>
-      <description>KOSPI 5,342.73(-0.61%) · KOSDAQ 696.53(-1.22%). Nvidia 젠슨 황 해임 준비 보도와 옵션만기 기관 매도에 사흘 만에 반락, 외국인은 삼성전자 사고 SK하이닉스 팔아</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
