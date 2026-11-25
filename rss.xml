@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.26)</title>
+      <link>https://bluaura.github.io/posts/2026-11-26-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-26-us-market.html</guid>
+      <description>S&amp;P 500 7,182.78(-0.25%) · NASDAQ 23,585.80(-0.62%) · Dow 50,182.95(+0.33%). AI 투매로 장중 Nasdaq 100 약세장 문턱 후 회복, Core PCE 3.3% 상회·Section 301 신규 관세안</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.26)</title>
       <link>https://bluaura.github.io/posts/2026-11-26-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-26-macro.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-14-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-14-us-market.html</guid>
       <description>S&amp;P 500 7,561.67(-0.40%) · NASDAQ 25,136.27(-0.91%). Huang 사임 여파로 Nvidia 주간 -12%·AI 반도체 급락, 그래도 주간 +2.5%로 10월 이후 첫 상승. 10월 PPI 6.5%, 12월 Fed 인상 확률 89%</description>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>엔비디아 젠슨 황 사임: 발단부터 월가 반응, AI 캐팩스 영향까지</title>
-      <link>https://bluaura.github.io/posts/2026-11-14-nvda-huang-resignation.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-14-nvda-huang-resignation.html</guid>
-      <description>황 즉시 사임, Kress 임시 CEO. 주가 $162.85(전주 대비 시총 약 $5,000억 증발), 6곳 이상 투자의견 하향(Baird $500→$200 등). 캐팩스 총량보다 네오클라우드 금융·점유율 이동이 리스크.</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
