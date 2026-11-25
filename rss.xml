@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.26)</title>
+      <link>https://bluaura.github.io/posts/2026-11-26-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-26-macro.html</guid>
+      <description>오늘 한은 금통위 3.25% 인상·점도표 공개. 美 10월 근원 PCE 3.3%로 예상(3.2%) 상회, 3Q GDP 4.3%로 상향 — 12월 연준 인상 확률 98%, 1월 연속 인상 60% 반영. 코스피는 -6.13%로 4,700 붕괴, 외국인 1.9조 순매도</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.25)</title>
       <link>https://bluaura.github.io/posts/2026-11-25-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-25-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-14-nvda-huang-resignation.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-14-nvda-huang-resignation.html</guid>
       <description>황 즉시 사임, Kress 임시 CEO. 주가 $162.85(전주 대비 시총 약 $5,000억 증발), 6곳 이상 투자의견 하향(Baird $500→$200 등). 캐팩스 총량보다 네오클라우드 금융·점유율 이동이 리스크.</description>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>카탈리스트 캘린더 (2026.11.14 기준)</title>
-      <link>https://bluaura.github.io/posts/2026-11-14-catalyst-calendar.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-14-catalyst-calendar.html</guid>
-      <description>향후 30/60/90일 시장 주요 이벤트와 영향도 정리</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
