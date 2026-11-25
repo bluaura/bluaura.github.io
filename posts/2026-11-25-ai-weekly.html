@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 주간 브리핑 (2026.11.25) · 블루오라 투자노트</title>
+<meta name="description" content="이번 주 AI 업계 주요 소식 30건. Anthropic 사상 최대 IPO 상장, GPT-6.2·Gemini 4 Neon 출시로 미드티어 가격 경쟁, Nvidia 젠슨 황 복귀">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 주간 브리핑 (2026.11.25)">
+<meta property="og:description" content="이번 주 AI 업계 주요 소식 30건. Anthropic 사상 최대 IPO 상장, GPT-6.2·Gemini 4 Neon 출시로 미드티어 가격 경쟁, Nvidia 젠슨 황 복귀">
+<meta property="article:published_time" content="2026-11-25">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){var t=localStorage.getItem('theme');
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+document.documentElement.setAttribute('data-theme',t);})();
+</script>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><span class="brand-mark">B</span>블루오라 투자노트</a>
+  <nav class="nav">
+    <a href="/">홈</a>
+    <a href="/rss.xml">RSS</a>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap article">
+  <div class="article-head">
+    <a class="back" href="/">← 목록으로</a>
+    <h1>AI 주간 브리핑 (2026.11.25)</h1>
+    <p class="sub"><span class="tag">AI</span><span class="tag">주간브리핑</span><span class="tag">테크</span> &nbsp;2026-11-25</p>
+  </div>
+
+  <article class="article-body">
+<p><strong>수집 기간: 2026-11-18 ~ 2026-11-25</strong> (KST 기준 주간) · 총 30건 · 6개 카테고리</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">수집 기사</div><div class="value">30건</div></div>
+  <div class="stat"><div class="label">주요 신규 모델</div><div class="value">6종</div></div>
+  <div class="stat"><div class="label">최대 거래</div><div class="value">$81.3B</div></div>
+  <div class="stat"><div class="label">주목 이슈</div><div class="value">Anthropic 상장</div></div>
+</div>
+
+<h2>이번 주 핵심 3가지</h2>
+<div class="callout">
+  <p><strong>1. Anthropic, 사상 최대 IPO로 나스닥 상장</strong> — 공모가 $83, 조달액 약 $81.3B. 첫날 $111.50에 출발해 $97.17로 마감했지만 상장 당일 AI 반도체주는 동반 약세.</p>
+  <p><strong>2. 미드티어 모델 가격 경쟁 본격화</strong> — OpenAI GPT-6.2 Astra/Sol(11/17), Google Gemini 4 Neon(11/18)이 연달아 출시. Astra는 전작 대비 API 단가 20% 인하, Neon은 $3/$15로 상위 모델에 근접한 성능을 표방.</p>
+  <p><strong>3. Nvidia, Jensen Huang CEO 복귀</strong> — 사임 12일 만인 11/23 이사회가 만장일치로 복귀 결정. 아시아 반도체주 급반등, 동시에 미 상무부의 해외 데이터센터 수출 라이선스 규제가 11/19 발효.</p>
+</div>
+
+<h2>모델 출시·업데이트</h2>
+
+<h3>OpenAI, GPT-6.2 Astra·Sol 동시 출시</h3>
+<p>프런티어급 Astra와 일상 업무용 Sol을 ChatGPT Work, Codex, API에 동시 배포했다. Astra API 가격은 GPT-6 Astra 대비 20% 내린 $8/$40(1M 토큰), 캐시 입력 $0.40이며 Sol은 기존 $2/$10을 유지한다. 두 모델 모두 사이버보안 위험 기준을 충족해 고위험 보안 요청에 대한 safeguard가 강화됐고, API에 Ultrafast 옵션이 제공된다.</p>
+<p><a href="https://openai.com/index/introducing-gpt-6-2-astra-sol">OpenAI</a> · <a href="https://gcn.com/?p=23366">GCN</a> · 2026-11-17</p>
+
+<h3>Google, Gemini 4 Neon 정식 출시</h3>
+<p>Carbon(최상위)과 Hydrogen(경량) 사이에 위치하는 모델로, 대규모 저장소의 멀티파일 디버깅·리팩터링 등 에이전트형 코딩을 겨냥했다. 가격은 $3/$15, 1M 토큰 컨텍스트, 4단계 thinking level(Low~XHigh)을 지원한다. Gemini API(유료 티어), AI Studio, Android Studio, Antigravity에서 사용 가능하며 무료 티어는 없다.</p>
+<p><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/">Google Blog</a> · <a href="https://techgenyz.com/?p=351496">TechGenyz</a> · 2026-11-18</p>
+
+<h3>Antigravity, Neon(플래너)+Hydrogen(실행기) 조합 지원</h3>
+<p>Google Antigravity의 Orchestrator가 한 세션 안에서 Neon을 계획 담당, Hydrogen을 실행 담당으로 묶는 구성을 지원하기 시작했다. 상위 모델로 계획하고 저가 모델로 실행하는 비용 최적화 패턴이 IDE 기본 기능으로 들어온 사례다.</p>
+<p><a href="https://antigravity.google/blog/gemini-4-neon-in-google-antigravity/">Google Antigravity Blog</a> · 2026-11-18</p>
+
+<h3>Moonshot AI, Kimi K3.1 Pro Prime 공개</h3>
+<p>중국 Moonshot AI가 Kimi K3.1 Pro 계열의 상위 변형을 출시했다. Kimi K3.1 Pro는 $2/$10 가격에 Terminal-Bench 4.1에서 59.7%를 기록한 바 있어, 저가 코딩 에이전트 백엔드 후보로 거론된다.</p>
+<p><a href="https://llmgateway.io/timeline">LLM Gateway</a> · <a href="https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/">MightyBot</a> · 2026-11-20</p>
+
+<h3>Z.ai GLM-5.4 출시</h3>
+<p>중국 Z.ai가 GLM-5.4를 내놨다. 전작 GLM-5.3은 open weight로 공개됐지만 MIT 대신 대형 사업자 호스팅에 보안 심사를 요구하는 자체 라이선스로 바뀌었기 때문에, 5.4의 라이선스 조건도 상용 서비스 도입 전 확인이 필요하다.</p>
+<p><a href="https://benchlm.ai/model-updates">BenchLM</a> · <a href="https://thenewstack.io/zai-glm-weights-license/">The New Stack</a> · 2026-11-23</p>
+
+<h3>AWS, open-weight 의사결정 모델 Strands Decider v2 공개</h3>
+<p>Google Gemma 4 아키텍처 기반의 open-weight 모델 5종으로, 엣지용 경량 버전부터 31B 파라미터까지 구성된다. 신뢰도 보정(calibrated confidence)과 긴 실행 trace 입력에 특화돼 에이전트의 라우팅·판단 단계에 쓰도록 설계됐다.</p>
+<p><a href="https://aiweekly.co/ai-news-today">AI Weekly</a> · 2026-11-23</p>
+
+<div class="table-wrap"><table>
+<thead><tr><th>모델</th><th>출시일</th><th>API 가격 (입력/출력, 1M 토큰)</th><th>비고</th></tr></thead>
+<tbody>
+<tr><td>GPT-6.2 Astra</td><td>11/17</td><td>$8 / $40</td><td>전작 대비 20% 인하</td></tr>
+<tr><td>GPT-6.2 Sol</td><td>11/17</td><td>$2 / $10</td><td>가격 동결, 성능 향상</td></tr>
+<tr><td>Gemini 4 Neon</td><td>11/18</td><td>$3 / $15</td><td>유료 티어 전용, 1M 컨텍스트</td></tr>
+<tr><td>Gemini 4 Hydrogen</td><td>11/12</td><td>$1.50 / $7.50</td><td>무료 티어 있음</td></tr>
+<tr><td>Claude Fable 5.2</td><td>11/09</td><td>$8 / $40</td><td>Fable 5.1($10/$50) 대비 인하</td></tr>
+</tbody>
+</table></div>
+<p>출처: <a href="https://applescoop.org/story/every-ai-model-in-order-gpt-claude-gemini-llama-release-dates">Apple Scoop</a>, <a href="https://mer.vin/news/gemini-4-neon-benchmarks-pricing-api-guide/">mer.vin</a></p>
+
+<h2>정책·규제</h2>
+
+<h3>미 상무부, 해외 데이터센터까지 AI 칩 수출 라이선스 확대</h3>
+<p>11/16 발표, 11/19 발효된 규칙으로 중국·러시아 등 우려국에 상당한 연산력을 제공할 수 있는 해외 데이터센터로의 첨단 칩 수출에 라이선스가 필요해졌다. 브라질·인도네시아·말레이시아·싱가포르·태국은 우회 위험이 높은 지역으로 별도 지정됐고, 의회에서도 우회 경로를 막는 법안 4건이 추진 중이다.</p>
+<p><a href="https://energypolicy.columbia.edu/congress-asserts-itself-in-closing-ai-chip-loopholes">Columbia SIPA CGEP</a> · 2026-11-23</p>
+
+<h3>하원 외교위, 대중 AI 칩 수출 승인 데이터 공개</h3>
+<p>Brian Mast 위원장이 수출통제개혁법 권한으로 BIS 라이선스 자료를 공개했다. 2025년 12월~2026년 5월 약 340만 개 요청 중 약 88만 개가 승인됐고, Alibaba·Tencent 등 국방부 지정 중국 군사기업 대상 승인도 포함돼 논란이 커졌다.</p>
+<p><a href="https://calebknapp.substack.com/p/weekly-ai-digest-week-of-november-330">Weekly AI Digest</a> · 2026-11-19</p>
+
+<h3>미 주지사협의회, 연방 AI 규제 원칙 제시…뉴욕은 전담 집행조직 신설</h3>
+<p>NGA가 새 의회 출범을 앞두고 주 정부 권한을 유지하는 "공동 국가 접근" 원칙을 발표했다. 뉴욕 법무장관은 1/1 시행되는 프런티어 AI 안전법 RAISE Act 집행을 위해 ASSET Unit을 만들었다.</p>
+<p><a href="https://www.pymnts.com/news/artificial-intelligence/2026/governors-want-states-to-have-a-voice-in-regulating-ai/">PYMNTS</a> · 2026-11-22</p>
+
+<h3>EU, AI Act 기본권 영향평가(FRIA) 템플릿 초안 공개</h3>
+<p>EU 집행위가 AI Act Article 27에 따른 기본권 영향평가 템플릿 초안을 내놨고, AI Act Advisory Forum(11/16)과 AI Board(11/18)가 회의를 열었다. 고위험 AI 시스템을 배포하는 기업의 준비 문서 양식이 구체화되는 단계다.</p>
+<p><a href="https://www.originbrief.app/en/reports/ai-regulation-policy/2026-11-23/weekly">OriginBrief</a> · 2026-11-23</p>
+
+<h3>OpenAI 수석과학자, 업계 공통 개발 상한선 제안</h3>
+<p>OpenAI 수석과학자가 AI 지능을 측정하는 공통 척도와 이에 연동된 업계 공동 개발 상한을 제안했다. 모니터링 기술이 따라잡기 전까지 개발 속도를 조절하자는 취지로, Sam Altman은 이를 회사의 중요한 발표로 평가했다.</p>
+<p><a href="https://killtheai.com/news/top-10-ai-news-today-november-23-2026/">KillTheAI</a> · <a href="https://kellyabbott1.substack.com/p/ai-frontier-daily-2026-11-23">AI Frontier Daily</a> · 2026-11-22</p>
+
+<h2>산업 동향·기업</h2>
+
+<h3>Nvidia, Jensen Huang CEO 복귀 결정</h3>
+<p>11/11 사임했던 Huang을 이사회가 11/23 만장일치로 CEO·이사로 복귀시켰다. 이사회는 미 정부 고위급 의견을 반영해 국가안보 위험이 없다고 판단했으며, 독립위원회 조사는 계속된다. 다음 날 대만 증시가 약 9% 급등하고 SK하이닉스가 장중 최대 12% 오르는 등 아시아 AI 관련주가 반등했다.</p>
+<p><a href="https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm">NVIDIA 8-K (SEC)</a> · <a href="https://bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade">Bloomberg</a> · 2026-11-23</p>
+
+<h3>AMD·사우디 HUMAIN, 최대 $10B AI 인프라 파트너십</h3>
+<p>5년간 사우디와 미국에 AMD 기반 AI 컴퓨팅 500MW를 구축하는 계약이다. 같은 날 Anthropic이 Google 설계·Broadcom 공급 칩을 2027년부터 임차하는 $63B 금융의 신디케이션도 시작됐다.</p>
+<p><a href="https://kellyabbott1.substack.com/p/ai-frontier-daily-2026-11-23">AI Frontier Daily</a> · 2026-11-23</p>
+
+<h3>TSMC, 첨단 공정 공급 부족 2027년까지 지속</h3>
+<p>TSMC가 AI 수요로 첨단 노드 캐파 부족이 2027년까지 이어진다고 확인했다. Blackwell·Rubin 등 최신 칩을 기다리는 고객의 내년 계획에 제약이 되고, TSMC의 가격 협상력은 강화된다.</p>
+<p><a href="https://aiweekly.co/ai-news-today">AI Weekly</a> · 2026-11-23</p>
+
+<h3>OpenAI, Le Figaro 콘텐츠 제휴·칠레 정부와 'OpenAI for Chile'</h3>
+<p>Le Figaro 그룹의 최신·아카이브 기사를 ChatGPT에서 요약과 원문 링크로 제공하는 제휴를 맺었고, 칠레 정부와 국가 단위 파트너십도 발표했다. 같은 주에 모델을 칩 설계에 활용한 결과도 공유했다.</p>
+<p><a href="https://dev.to/gksu_demirci_56f752953e7/weekly-ai-digest-november-23-2026-2e2h">DEV Community</a> · 2026-11-23</p>
+
+<h3>은행권, 제3자 AI 에이전트 사용 책임을 고객에게</h3>
+<p>Wells Fargo는 11/24부터 적용되는 온라인 이용약관에서 고객이 제3자 AI 에이전트를 쓸 경우 그 위험을 고객이 부담한다고 명시했다. 금융 서비스에 접근하는 에이전트형 앱의 설계·약관 검토가 필요해지는 흐름이다.</p>
+<p><a href="https://killtheai.com/news/top-10-ai-news-today-november-23-2026/">KillTheAI</a> · 2026-11-23</p>
+
+<h3>코딩 에이전트 도구 가격·버전 변동</h3>
+<p>Claude Code는 11/23 2.1.331까지 거의 매일 업데이트되고 있다. Cursor는 Free·Plus($8, Grok 모델 전용)·Premium($30)·Super($100)·Ultra($200)로 요금제를 재편했고, Claude·GPT 등 외부 모델은 Premium부터 API 정가로 과금된다. GitHub Copilot은 11/16 Opus 4.8, Opus 5, GPT-5.6 Terra를 지원 중단 예고했다.</p>
+<p><a href="https://repowise.dev/blog/comparisons/best-ai-coding-agents">Repowise</a> · <a href="https://beevr.ai/blog/ai-coding-agents-november-2026">BeevR</a> · 2026-11-24</p>
+
+<h2>투자·M&amp;A</h2>
+
+<h3>Anthropic, 사상 최대 규모 IPO로 나스닥 상장(ANT)</h3>
+<p>공모가를 희망 범위($70~78)보다 높은 $83로 확정하고 9억 8천만 주를 발행해 약 $81.3B를 조달했다. 첫 거래가는 $111.50, 첫날 종가는 $97.17(공모가 대비 +17%)였다. 투자설명서상 2026년 1~9월 매출은 약 $33.2B이며, 상장 당일 Nvidia·Broadcom·Micron 등 AI 공급망 주식은 하락했다.</p>
+<p><a href="https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price">Decrypt</a> · <a href="https://www.tokenpost.kr/news/market/441153">토큰포스트</a> · 2026-11-19</p>
+
+<h3>Amazon, Decart 기술·인력 약 $7.5B에 인수</h3>
+<p>Decart의 최적화 스택은 AI 모델을 Nvidia 이외의 칩에서 효율적으로 돌리도록 돕는 기술로, Amazon은 2025년부터 Trainium 최적화에 이를 활용해 왔다. 탈(脫)Nvidia 추론 인프라 경쟁이 M&amp;A로 이어진 사례다.</p>
+<p><a href="https://piqmarkets.com/story/amazon-acquires-decart-s-ai-optimization-tech-and-team-for-reported-7-5b">PiQ Markets</a> · 2026-11-23</p>
+
+<h3>AMD, AI 추론 칩 스타트업 Taalas 약 $2.9B 인수</h3>
+<p>추론 특화 하드웨어 역량을 강화하기 위한 인수다. Amazon-Decart와 함께 이번 주 M&amp;A의 키워드는 추론 효율이었다.</p>
+<p><a href="https://tech.eu/2026/11/23/european-tech-weekly-recap-more-than-65-tech-funding-deals-worth-over-eur18b">Tech.eu</a> · 2026-11-23</p>
+
+<h3>DeepSeek, 약 1,000억 위안(약 $15B) 두 번째 외부 투자 유치</h3>
+<p>Tencent, CATL 등이 참여했고 신규 투자자 31곳 중 상당수가 국유자본 계열이다. 같은 주 Cognition은 $75B 밸류에이션 투자, Databricks는 약 $225B 밸류에이션 투자 협상이 보도됐다.</p>
+<p><a href="https://aifundingtracker.com/ai-funding-news-november-20-2026/">AI Funding Tracker</a> · <a href="https://aifundingtracker.com/ai-funding-news-november-21-2026/">AI Funding Tracker</a> · 2026-11-20</p>
+
+<h3>Isomorphic Labs, $5B 시리즈 C</h3>
+<p>Google DeepMind 계열 AI 신약 설계 기업이 a16z, CapitalG, Sequoia, Thrive 등으로부터 $5B를 유치해 이번 주 단일 최대 비상장 라운드를 기록했다. 에이전트 CRM Dreamteam($53M), LangChain($300M, 지난주) 등 에이전트 인프라 투자도 이어졌다.</p>
+<p><a href="https://theaiinsider.tech/2026/11/23/the-ai-insider-funding-pulse-3">The AI Insider</a> · 2026-11-23</p>
+
+<h2>연구·기술</h2>
+
+<h3>METR TH2: 자율 작업 지속시간 약 110일마다 2배</h3>
+<p>METR의 Time Horizon 2 평가에 따르면 프런티어 모델이 검증 가능한 프로그래밍 과제를 자율 수행하는 시간 범위가 약 110일마다 두 배로 늘고 있다. 반면 정답이 열려 있는 연구 판단 능력은 뚜렷하게 뒤처진다고 분석했다.</p>
+<p><a href="https://casrai.org/news/metr-th2-ai-time-horizons-research-judgment-evaluation-2026">CASRAI</a> · 2026-11-20</p>
+
+<h3>코딩 에이전트 독립 리더보드(Terminal-Bench 4.1, CAI v2.1)</h3>
+<p>11/19 기준 독립 리더보드가 갱신되며 에이전트·모델 조합별 점수와 과제당 비용·시간이 함께 공개됐다. 벤더 자체 발표가 아닌 공통 조건 비교라는 점에서 모델 선택 시 참고할 만하다.</p>
+<p><a href="https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/">MightyBot</a> · 2026-11-19</p>
+
+<h3>arXiv: 에이전트 평가 벤치마크 잇따라 공개</h3>
+<p>11/24 cs.AI 신규 목록에 지구시스템 모델 코드 이해를 평가하는 ESM-Bench, 누적 경험 경로에 따른 평생학습 에이전트 성능을 보는 PATH-Bench, 실제 ICU 조건의 RealICU 등이 올라왔다. 에이전트의 메모리·스킬 축적을 평가하는 방향이 두드러진다.</p>
+<p><a href="https://arxiv.org/list/cs.AI/new">arXiv cs.AI</a> · 2026-11-24</p>
+
+<h3>저가 AI 중계 서비스에서 프롬프트·AWS 키 유출 조사</h3>
+<p>보안기업 Dragos가 저가 AI API 중계(intermediary) 서비스를 통해 프롬프트와 AWS 키가 유출된 사례를 조사했고, OpenRouter가 이에 대응했다는 내용이 보도됐다. 비공식 프록시·리셀러 경유 API 사용의 위험을 보여준다.</p>
+<p><a href="https://note.com/hirokimiyano/n/n6a32c0aa1f59?hl=en">note (AI News of the Day)</a> · 2026-11-23</p>
+
+<div class="callout warn">
+  <p><strong>리스크 체크</strong> — 저가 API 중계 서비스 경유 시 키·프롬프트 유출 위험, 미국의 해외 데이터센터 수출 규제로 동남아 리전 기반 GPU 클라우드 가용성 변동 가능성, Anthropic 상장 직후 AI 반도체주 약세 등 AI 거품론 재점화에 유의.</p>
+</div>
+
+<h2>한국 AI 소식</h2>
+
+<h3>정부 내년 AI 예산 1.6배 확대…풀스택 AX 수출 추진</h3>
+<p>정부가 2027년 AI 예산을 올해 대비 약 1.6배로 늘리고 모델·인프라·서비스를 묶은 풀스택 AX 수출을 추진한다고 밝혔다.</p>
+<p><a href="https://www.aitimes.com/">AI타임스</a> · 2026-11-24</p>
+
+<h3>과기정통부, AI 반도체 기업 24개사 간담회</h3>
+<p>글로벌 빅테크 협력, 부품·소재 수급 불안, 미 중간선거·Nvidia 관련 불확실성 대응을 논의했다. Nvidia는 SK텔레콤·리벨리온과 NVLink Fusion 기반 인프라 MOU를, Intel은 국내 23개사와 K-AI 풀스택 얼라이언스를 출범했다.</p>
+<p><a href="https://dazabi.com/insurance_magazine/article.php?id=48028">다자비</a> · 2026-11-23</p>
+
+<h3>수능 'AI 커닝' 파문…교육부 장관 사퇴 보도</h3>
+<p>세무사 시험 수석 합격자가 초소형 카메라와 생성형 AI로 부정행위를 했다고 시인한 뒤 수능 감독 체계 논란이 확산됐고, 교육부는 응시 제한 3년 이상 확대 등을 추진했다. 해외 매체는 수능 이후 혼란 끝에 교육부 장관이 사퇴했다고 전했다.</p>
+<p><a href="https://news.mtn.co.kr/article/2026111615160393824">머니투데이방송</a> · <a href="https://killtheai.com/news/top-10-ai-news-today-november-23-2026/">KillTheAI</a> · 2026-11-16~23</p>
+
+<h3>HP, RTX Spark 탑재 AI 노트북 '옴니북 울트라 16' 국내 출시</h3>
+<p>NVIDIA RTX Spark N1X를 탑재한 노트북으로, 국내 판매분 무상 보증을 3년으로 늘렸다. PC가 로컬 AI 워크플로를 실행·개발하는 플랫폼으로 확장되는 흐름을 보여준다.</p>
+<p><a href="https://ainews-nexon.vercel.app/">AI NEWS Daily Brief</a> · 2026-11-24</p>
+
+<h2>트렌드 종합</h2>
+<blockquote>
+<p>이번 주는 자본시장과 공급망이 AI 뉴스의 중심이었다. Anthropic이 역대 최대 IPO를 마쳤지만 상장 직후 AI 반도체주가 밀리며 거품론과 성장론이 정면으로 부딪혔고, Nvidia CEO 복귀 소식 하나에 아시아 증시가 급반등할 만큼 시장은 여전히 소수 기업에 민감하다.</p>
+<p>모델 측면에서는 최상위 성능보다 '상위권 성능을 더 싸게'가 화두였다. GPT-6.2 Sol과 Gemini 4 Neon이 중간 가격대에서 맞붙었고, AWS·Z.ai 등은 open-weight로 에이전트용 특화 모델을 내놨다. 투자·M&amp;A는 Decart·Taalas처럼 비Nvidia 칩에서의 추론 효율에 집중됐다.</p>
+<p>규제는 칩 수출 통제가 해외 데이터센터로까지 넓어지고, 미국 주 정부와 연방 간 주도권 경쟁이 본격화되는 양상이다.</p>
+</blockquote>
+
+<h2>개발자 관점 시사점</h2>
+<ul>
+<li><strong>모델 라우팅 재점검:</strong> 일상 작업은 GPT-6.2 Sol($2/$10)·Gemini 4 Hydrogen($1.50/$7.50), 복잡 작업만 Neon·Astra로 보내는 2단 구성이 비용 효율적이다. Antigravity의 플래너/실행기 분리 패턴을 자체 에이전트에도 적용할 만하다.</li>
+<li><strong>Gemini 4 Neon은 무료 티어 없음:</strong> 프로토타입 단계에서 무료 할당에 의존하던 앱은 Hydrogen으로 시작하거나 과금 계획을 세워야 한다. Android Studio에서도 바로 쓸 수 있다.</li>
+<li><strong>open-weight 라이선스 확인:</strong> GLM 계열은 MIT에서 자체 라이선스로 바뀐 전례가 있다. 상용 앱에 내장하거나 호스팅하기 전 버전별 라이선스를 반드시 확인할 것.</li>
+<li><strong>API 키 경로 보안:</strong> 비공식 저가 중계 서비스 사용을 피하고, 키는 서버 측에 두고 최소 권한·주기적 교체를 적용한다.</li>
+<li><strong>온디바이스·로컬 AI:</strong> RTX Spark 노트북 국내 출시와 엣지용 open-weight 모델(Strands Decider v2 경량 버전) 등장으로 PC 로컬 추론을 전제로 한 앱 기능 설계 여지가 커지고 있다.</li>
+<li><strong>에이전트 책임 범위:</strong> 금융사가 제3자 에이전트 사용 책임을 고객에게 넘기기 시작했다. 사용자 계정을 대신 조작하는 기능은 약관·동의 흐름을 함께 설계해야 한다.</li>
+</ul>
+
+
+    <div class="disclaimer">
+      이 글은 개인적인 학습과 기록을 위한 것이며, 특정 종목의 매수·매도를 권유하지 않습니다.
+      일정과 수치는 발표 시점에 변경될 수 있으므로 반드시 원문을 확인하시기 바랍니다.
+      투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 bluaura</span>
+  <span>본 블로그의 모든 글은 정보 제공 목적이며 투자 권유가 아닙니다.</span>
+</div></footer>
+
+<script>
+var btn=document.getElementById('themeBtn');
+btn&&btn.addEventListener('click',function(){
+  var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';
+  r.setAttribute('data-theme',n);localStorage.setItem('theme',n);
+});
+</script>
+</body>
+</html>
