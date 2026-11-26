@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>매크로 브리핑 (2026.11.27)</title>
+      <link>https://bluaura.github.io/posts/2026-11-27-macro.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-27-macro.html</guid>
+      <description>한은 11월 금통위 기준금리 3.25%로 인상(5:2), 점도표 3.75% 점 7개로 예상보다 매파적. 2027 성장 전망 4.1%로 상향, 국고채 3년 +3.9bp, 코스피 +0.29%로 반등폭 반납</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.26)</title>
       <link>https://bluaura.github.io/posts/2026-11-26-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-26-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-16-kr-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-16-kr-market.html</guid>
       <description>KOSPI 5,100.50(-3.59%) · KOSDAQ 665.65(-4.86%). 젠슨 황 사임 여파·AI 순환금융 우려에 외국인 반도체 대형주 투매, SK하이닉스 -7.89%</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>앤트로픽(ANT) IPO 정리: 11월 19일 나스닥 상장, 공모가 70~78달러</title>
-      <link>https://bluaura.github.io/posts/2026-11-16-ant-ipo.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-16-ant-ipo.html</guid>
-      <description>11/18 공모가 확정, 11/19 나스닥 상장 예정. 희망가 $70~78, 목표 시총 약 $1.4조, 청약 수요 약 7배. 9개월 매출 $332억, 지출 약정 $8,954억에 월가 경계론.</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
