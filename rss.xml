@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.27)</title>
+      <link>https://bluaura.github.io/posts/2026-11-27-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-27-us-market.html</guid>
+      <description>S&amp;P 500 7,182.78(-0.25%) · NASDAQ 23,585.80(-0.62%). 장중 AI·반도체 투매 후 V자 회복, PCE 3.8%·관세안에 12월 Fed 인상 확률 97%</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>매크로 브리핑 (2026.11.27)</title>
       <link>https://bluaura.github.io/posts/2026-11-27-macro.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-27-macro.html</guid>
@@ -206,12 +213,5 @@
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-17-kr-market.html</guid>
       <description>KOSPI 4,968.48(-2.59%) · KOSDAQ 650.06(-2.34%). 외국인 1.4조 매도에 9개월 만에 5000선 붕괴 — 엔비디아 경영 공백·대중 AI 규제·앤트로픽 IPO 수급 부담</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 증시 브리핑 (2026.11.16)</title>
-      <link>https://bluaura.github.io/posts/2026-11-16-kr-market.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-16-kr-market.html</guid>
-      <description>KOSPI 5,100.50(-3.59%) · KOSDAQ 665.65(-4.86%). 젠슨 황 사임 여파·AI 순환금융 우려에 외국인 반도체 대형주 투매, SK하이닉스 -7.89%</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
