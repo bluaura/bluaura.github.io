@@ -5,6 +5,13 @@
   <description>국내외 증시·섹터·개별 종목을 데이터로 뜯어보는 기록</description>
   <language>ko</language>
     <item>
+      <title>미국 증시 브리핑 (2026.11.28)</title>
+      <link>https://bluaura.github.io/posts/2026-11-28-us-market.html</link>
+      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-28-us-market.html</guid>
+      <description>S&amp;P 500 7,297.49(+1.60%) · NASDAQ 24,129.50(+2.31%). Huang 복귀 후 AI·반도체 반등으로 주간 +5.6% 급반등, 12월 Fed 인상은 사실상 확정</description>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
       <title>미국 증시 브리핑 (2026.11.27)</title>
       <link>https://bluaura.github.io/posts/2026-11-27-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-27-us-market.html</guid>
@@ -205,13 +212,6 @@
       <link>https://bluaura.github.io/posts/2026-11-17-us-market.html</link>
       <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-17-us-market.html</guid>
       <description>S&amp;P 500 7,416.59(-1.92%) · NASDAQ 24,509.76(-2.49%). Nvidia 실적 하루 앞두고 반도체 지수 -5.3%, NASDAQ 조정 국면 진입</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>매크로 브리핑 (2026.11.17)</title>
-      <link>https://bluaura.github.io/posts/2026-11-17-macro.html</link>
-      <guid isPermaLink="true">https://bluaura.github.io/posts/2026-11-17-macro.html</guid>
-      <description>오늘 밤 22:30 美 10월 소매판매(헤드라인 +0.2%·통제그룹 +0.4% 예상) 발표. 10월 PPI는 +0.3%로 예상 하회했지만 엔비디아 리더십 공백과 반도체 규제에 코스피 -3.59%, 외국인 1.38조 순매도. 美 10년물 5.12% 유지</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
     </item>
 </channel></rss>
